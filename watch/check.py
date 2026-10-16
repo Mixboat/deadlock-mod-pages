@@ -1,0 +1,226 @@
+"""Patch watch for the Wide FOV Slider, Hide Investments, Old Damage Portraits and Shop Notes Deadlock mods.
+
+Reads SteamDB's GameTracking-Deadlock copy of the game files and checks everything the mod depends on.
+Writes report.json / report.md; the workflow opens a GitHub issue (which emails the repo owner) when a check fails.
+"""
+import json, os, re, sys, urllib.request
+
+RAW = 'https://raw.githubusercontent.com/SteamTracking/GameTracking-Deadlock/master/'
+API = 'https://api.github.com/repos/SteamTracking/GameTracking-Deadlock/commits?per_page=1'
+P = 'game/citadel/pak01_dir/panorama/'
+HERE = os.path.dirname(os.path.abspath(__file__))
+
+
+def get(path):
+    with urllib.request.urlopen(RAW + path, timeout=60) as r:
+        return r.read().decode('utf-8', 'replace')
+
+
+def norm(xml):
+    # drop the decompiler's header comment and whitespace differences
+    xml = re.sub(r'<!--.*?-->', '', xml, flags=re.S)
+    xml = re.sub(r'\.vcss_c"', '.vcss"', xml)
+    return re.sub(r'\s+', ' ', xml).strip()
+
+
+checks = []
+
+
+MODS = {
+    'wfov': {'name': 'Wide FOV Slider', 'page': 'https://gamebanana.com/mods/724244'},
+    'hinv': {'name': 'Hide Investments', 'page': 'https://gamebanana.com/mods/724744'},
+    'odp': {'name': 'Old Damage Portraits', 'page': 'https://gamebanana.com/mods/724869'},
+    'sn': {'name': 'Shop Notes', 'page': 'https://gamebanana.com/mods/725094'},
+}
+
+
+def check(key, severity, ok, title, detail, mod='wfov'):
+    checks.append({'key': key, 'severity': severity, 'ok': bool(ok), 'title': title, 'detail': detail,
+                   'mod': MODS[mod]['name'], 'page': MODS[mod]['page']})
+
+
+try:
+    req = urllib.request.Request(API, headers={'User-Agent': 'wide-fov-watch'})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        c = json.load(r)[0]
+    build = {'sha': c['sha'], 'date': c['commit']['author']['date'], 'message': c['commit']['message'].split('\n')[0][:120]}
+except Exception as e:
+    build = {'sha': '', 'date': '', 'message': 'could not read latest tracking commit: %s' % e}
+
+# 1) the two layouts the mod replaces: if Valve changes them, the mod's old copy can crash the game
+for name in ('base_hud', 'base_dashboard'):
+    live = norm(get(P + 'layout/%s.xml' % name))
+    expected = norm(open(os.path.join(HERE, 'expected', name + '.xml'), encoding='utf-8').read())
+    check('layout_' + name, 'critical', live == expected,
+          'Valve changed %s.xml' % name,
+          'The mod ships its own copy of panorama/layout/%s. Rebuild it from the new game files before players crash '
+          '(build_wide_fov_v21.py reads the current file from pak01).' % name)
+
+# 2) where the slider goes in Settings
+ps = get(P + 'layout/popups/popup_settings.xml')
+check('camera_fov', 'warning', re.search(r'id="CameraFOV"', ps),
+      'Camera FOV slider is gone from Settings',
+      'The Wide FOV row now falls back to the top of Camera Settings and players see the Escape-menu backup box. '
+      'Update the anchor in widefov_v21.js (findSpot).')
+check('camera_group', 'warning', re.search(r'id="citadel_settings_camera"', ps),
+      'Camera Settings group is gone from Settings',
+      'The Wide FOV row falls back to the first settings list it finds. Update findSpot in widefov_v21.js.')
+check('settings_row', 'critical', 'PopupSettingsSettingsRow' in ps,
+      'Settings rows changed type (PopupSettingsSettingsRow missing)',
+      'The mod builds its row as a PopupSettingsSettingsRow; the Settings slider will not appear.')
+
+# 3) the Escape-menu backup box
+hud = get(P + 'layout/hud.xml')
+esc = get(P + 'layout/hud_escape_menu.xml')
+css = get(P + 'styles/hud_escape_menu.css')
+check('escape_menu', 'warning', 'id="EscapeMenu"' in hud and 'id="SubOptions"' in esc and 'ShowEscapeMenu' in css,
+      'Escape menu structure changed',
+      'The backup box looks for #EscapeMenu with class ShowEscapeMenu and #SubOptions; it may never show or never hide.')
+
+# 4) the setting itself
+cv = get('DumpSource2/convars.txt')
+line = next((l.strip() for l in cv.splitlines() if re.match(r'\s*r_aspectratio\s', l)), '')
+check('r_aspectratio_exists', 'critical', line,
+      'r_aspectratio no longer exists',
+      'The slider has nothing to control. The mod needs a new approach.')
+check('r_aspectratio_flags', 'warning', (not line) or line == 'r_aspectratio 0 (developmentonly defensive)',
+      'r_aspectratio flags changed',
+      'Now: `%s` (was `r_aspectratio 0 (developmentonly defensive)`). If it became a cheat convar, the slider stops working.' % line)
+
+# 5) Hide Investments: the tiny layouts it ships with one script line added (v1.2 adds hud_screen_effects_muted as a spare hook), and the badges it hides
+for name in ('team_status', 'hud_data_feed', 'hud_screen_effects_muted'):
+    live = norm(get(P + 'layout/%s.xml' % name))
+    expected = norm(open(os.path.join(HERE, 'expected', name + '.xml'), encoding='utf-8').read())
+    check('hinv_layout_' + name, 'critical', live == expected,
+          'Valve changed %s.xml' % name,
+          'Hide Investments ships its own copy of panorama/layout/%s with one script line added; the old copy now '
+          'overrides the new one. Rebuild with build_hide_investments.py (it reads the current file from pak01) and '
+          're-upload, then refresh watch/expected/%s.xml.' % (name, name), mod='hinv')
+st = get(P + 'layout/citadel_hud_active_player_stats.xml')
+check('hinv_badge_ids', 'warning', all(('id="%s"' % i) in st for i in ('HudStatBlock', 'CoreStats', 'CoreStatFXLayer')),
+      'Investment badge ids changed',
+      'One of #HudStatBlock / #CoreStats / #CoreStatFXLayer is gone from citadel_hud_active_player_stats.xml. '
+      'The class backup (core_stat / stat_fx parents) should still hide them; check in game and update IDS in hide_investments.js.', mod='hinv')
+check('hinv_badge_classes', 'critical', 'class="core_stat"' in st and 'stat_fx' in st,
+      'Investment badge classes changed',
+      'The backup classes core_stat / stat_fx are gone. If the badge ids changed too, the badges show again. '
+      'Update hide_investments.js.', mod='hinv')
+check('hinv_stats_panel', 'warning', 'id="hudActivePlayerStats"' in hud,
+      'Active player stats panel renamed',
+      '#hudActivePlayerStats is gone from hud.xml; the class backup falls back to a slower search by panel type.', mod='hinv')
+
+# 6) Old Damage Portraits: it ships its own copies of two stylesheets (Valve's current css + the old rules)
+for name in ('hud_damage_impact', 'hero_badge'):
+    live = get(P + 'styles/%s.css' % name)
+    expected = open(os.path.join(HERE, 'expected', name + '.css'), encoding='utf-8').read()
+    check('odp_css_' + name, 'warning', norm(live) == norm(expected),
+          'Valve changed %s.css' % name,
+          'Old Damage Portraits overrides this stylesheet, so players miss whatever Valve changed (looks only, cannot crash). '
+          'Rebuild with build_old_damage_portraits.py (it re-reads the current css from pak01) and re-upload; then refresh expected/%s.css.' % name, mod='odp')
+di_css = get(P + 'styles/hud_damage_impact.css'); hb_css = get(P + 'styles/hero_badge.css')
+check('odp_css_hooks', 'critical',
+      all(x in di_css for x in ('.healthBarContainer', 'active_damage_wiggle', 'healthbar_backer_horiz_mask', 'healthbar_backer_horiz_border', 'healthBar_backer', '.playerName', 'KillAssistContainer'))
+      and all(x in hb_css for x in ('HeroImageBackground', 'CitadelHeroBadge #HeroImage')),
+      'A stylesheet lost a rule the mod rewrites',
+      'build_old_damage_portraits.py will refuse to build until its old-look rules are updated for the new css.', mod='odp')
+di_xml = get(P + 'layout/hud_damage_impact.xml')
+check('odp_layout', 'warning', norm(di_xml) == norm(open(os.path.join(HERE, 'expected', 'hud_damage_impact.xml'), encoding='utf-8').read()),
+      'Damage-portrait layout changed',
+      'The mod only ships css, so this cannot crash, but panel names may have changed: check the old look in game and update the rules.', mod='odp')
+
+# 7) Shop Notes: two tiny HUD layouts with one script line added, and the shop panels it adds the Notes tab to
+for name in ('hud_modifiers', 'hud_ability_panels_container'):
+    live = norm(get(P + 'layout/%s.xml' % name))
+    expected = norm(open(os.path.join(HERE, 'expected', name + '.xml'), encoding='utf-8').read())
+    check('sn_layout_' + name, 'critical', live == expected,
+          'Valve changed %s.xml' % name,
+          'Shop Notes ships its own copy of panorama/layout/%s with one script line added; the old copy now overrides the new one. '
+          'Rebuild with build_shop_notes.py (it reads the current file from pak01) and re-upload, then refresh watch/expected/%s.xml.' % (name, name), mod='sn')
+shop = get(P + 'layout/citadel_hud_hero_shop.xml')
+check('sn_shop_ids', 'critical', all(('id="%s"' % i) in shop for i in ('ShopNavigation', 'ShopModListsContainer')) and 'CitadelHudHeroShop' in shop,
+      'Shop panel ids changed',
+      'One of CitadelHudHeroShop / #ShopNavigation / #ShopModListsContainer is gone from citadel_hud_hero_shop.xml, so the Notes tab is not added. Update shop_notes.js.', mod='sn')
+shop_css = get(P + 'styles/citadel_hud_hero_shop.css')
+check('sn_shop_tabs', 'warning', all(c in shop_css for c in ('showingFavorites', 'showingRecommendations', 'showingAllItems', 'showingWeapon', 'showingTech', 'showingArmor')),
+      'Shop tab classes changed',
+      'A showing* class is gone from citadel_hud_hero_shop.css: Notes may not close when a shop tab is clicked. Update SHOW in shop_notes.js.', mod='sn')
+
+# Shop Notes: the hero pages come from a fixed table (built from heroes.vdata); a new, renamed or re-iconed hero needs a rebuild
+def sn_hero_table(vdata, names):
+    nm = {}
+    for k, v in re.findall(r'"(hero_[a-z0-9_]+):n"\s+"([^"]+)"', names): nm.setdefault(k, v)
+    blocks = re.split(r'\n\t(hero_[a-z0-9_]+) = \n', vdata); out = []
+    for i in range(1, len(blocks), 2):
+        k = blocks[i]; b = blocks[i + 1]
+        g = lambda f: (re.search(r'\n\t\t' + f + r' = (.+)', b) or [None, None])[1]
+        icon = g('m_strIconImageSmall')
+        if g('m_bDisabled') != 'false' or not icon or k in ('hero_base', 'hero_targetdummy'): continue
+        out.append('%s\t%s\t%s\t%s' % (k, nm.get(k, '?'), re.search(r'\{images\}/(.+)"', icon).group(1), g('m_bInDevelopment')))
+    return '\n'.join(sorted(out)) + '\n'
+try:
+    live_heroes = sn_hero_table(get('game/citadel/pak01_dir/scripts/heroes.vdata'), get('game/citadel/resource/localization/citadel_gc_hero_names/citadel_gc_hero_names_english.txt'))
+    exp_heroes = open(os.path.join(HERE, 'expected', 'heroes.tsv'), encoding='utf-8').read()
+    diff = sorted(set(live_heroes.splitlines()) ^ set(exp_heroes.splitlines()))
+    check('sn_heroes', 'warning', not diff, 'Hero list changed',
+          'heroes.vdata / hero names changed (new hero, rename, portrait path or dev flag): ' + '; '.join(diff)[:600] +
+          '. Regenerate HEROES in shop_notes.js (from heroes.vdata + citadel_gc_hero_names), rebuild, re-upload, then refresh watch/expected/heroes.tsv.', mod='sn')
+except Exception as e:
+    check('sn_heroes', 'warning', False, 'Hero list check failed', str(e), mod='sn')
+
+# Hide Investments v1.2: no stylesheet override any more; everything below is done by the script at runtime, so a change only
+# switches that one feature off (nothing can go stale or crash). Each check names the piece that stops working.
+aps_css = get(P + 'styles/citadel_hud_active_player_stats.css')
+check('hinv_statlist', 'warning', all(x in aps_css for x in ('#StatList', '.column_stats', '.miniModifier', '#casterList', '.isPositive', '.shouldShow', '.secondaryStat', '.isBaseValue', '.isZero'))
+      and all(('id="%s"' % i) in st for i in ('StatList', 'WeaponColumn', 'SpiritColumn', 'VitalityColumn')),
+      'Stat list names changed',
+      'The one-column stat list (statLook in hide_investments.js) styles #StatList / .column_stats / .miniModifier rows by the classes '
+      'shouldShow, isPositive, secondaryStat, isBaseValue, isZero and the #WeaponColumn / #SpiritColumn / #VitalityColumn ids. One is gone, '
+      'so that part of the look stops applying. Update statLook.', mod='hinv')
+check('hinv_bars_row', 'warning', all(('id="%s"' % i) in hud for i in ('LowerLeft', 'ModsContainer', 'CitadelHudQuickbuy')),
+      'Item row ids changed (old bars)',
+      'The old investment bars go first in #LowerLeft > #ModsContainer and keep #CitadelHudQuickbuy clear. One id is gone from hud.xml, '
+      'so the bars (Old bars mode) do not appear or quick buy is not moved. Update restoreBars / quickbuyShift.', mod='hinv')
+ibg = get(P + 'layout/citadel_hud_item_bar_graph.xml'); sibg = get(P + 'layout/citadel_hud_single_item_bar_graph.xml')
+cs = get('game/citadel/bin/win64/client_strings.txt')
+check('hinv_bars_panel', 'critical', 'CitadelHudItemBarGraph' in ibg and 'CitadelHudSingleItemBarGraph' in cs and 'CenterProgressBar' in cs,
+      'Old investment bar panel removed',
+      'Old bars mode re-creates Valve\'s CitadelHudItemBarGraph (still in the game since the 2026-09-29 rework). Its layout or code is gone, '
+      'so the bars and their hover preview no longer appear. The other modes are unaffected; say so on the mod page.', mod='hinv')
+check('hinv_bars_parts', 'warning', all(x in (ibg + sibg + cs) for x in ('WeaponBarContainer', 'TechBarContainer', 'ArmorBarContainer', 'BarPercentContainer')),
+      'Old bar part names changed',
+      'fixBars / wireHover find the bars as #WeaponBarContainer / #TechBarContainer / #ArmorBarContainer and hide #BarPercentContainer '
+      '(tier dots). A name changed: hover windows or the dot hiding stop working. Update BAR_SLOTS / fixBars.', mod='hinv')
+check('hinv_hover_events', 'warning', 'CitadelShowStatsPanelTooltip' in cs and 'CitadelHideStatsPanelTooltip' in cs,
+      'Stats panel tooltip events renamed',
+      'Hovering an old bar opens the investment window with CitadelShowStatsPanelTooltip / CitadelHideStatsPanelTooltip. '
+      'They are gone, so hovering shows nothing until the first purchase. Update wireHover.', mod='hinv')
+qcss = get(P + 'styles/hud_quickbuy.css')
+check('hinv_quickbuy', 'warning', '.HudQuickbuyElement' in qcss and '#KeyboardHints' in qcss,
+      'Quick buy element names changed',
+      'With the old bars on, the quick buy item (.HudQuickbuyElement) and its key hint (#KeyboardHints) are moved right by the bars\' '
+      'width (measured, no fixed numbers). A name changed, so they may overlap the item slots. Update quickbuyTargets.', mod='hinv')
+check('hinv_settings', 'warning', 'id="citadel_settings_shop"' in ps and 'CitadelSettingsEnum' in ps and 'RadioButton' in ps,
+      'Shop settings section changed',
+      'The "Investment display" row goes at the end of Settings > Game > Shop (#citadel_settings_shop) as a CitadelSettingsEnum with '
+      'RadioButtons. Something is gone, so the row does not appear (the saved mode still applies). Update injectRow.', mod='hinv')
+check('hinv_store', 'critical', re.search(r'(?m)^\s*joy_axisy_deadzone\s.*per_user', cv),
+      'Saved mode setting changed',
+      'The display mode is saved in joy_axisy_deadzone (unused legacy joystick setting, per user). It is gone or no longer per user, '
+      'so the choice resets every launch. Pick another unused per-user setting in hide_investments.js (STORE).', mod='hinv')
+failed = [c for c in checks if not c['ok']]
+report = {'build': build, 'failed': failed, 'checks': checks}
+json.dump(report, open('report.json', 'w'), indent=2)
+
+lines = ['Latest tracked Deadlock update: `%s` (%s, %s)' % (build['message'], build['date'][:10], build['sha'][:10]), '']
+for c in checks:
+    lines.append('- %s **%s** (%s) %s' % ('OK' if c['ok'] else ('CRITICAL' if c['severity'] == 'critical' else 'WARNING'), c['key'], c['mod'], '' if c['ok'] else '- ' + c['title']))
+if failed:
+    lines += ['', '### What broke', '']
+    for c in failed:
+        lines += ['**%s: %s** (%s): %s' % (c['mod'], c['title'], c['severity'], c['detail']), '']
+open('report.md', 'w').write('\n'.join(lines) + '\n')
+print('\n'.join(lines))
+if os.environ.get('SIMULATE_FAILURE') == 'true' and not failed:
+    report['failed'] = [{'key': 'test', 'severity': 'warning', 'ok': False, 'title': 'Test alert (simulated)', 'detail': 'Manual test run; nothing is broken.', 'mod': 'Wide FOV Slider + Hide Investments', 'page': 'https://gamebanana.com/members/5889014'}]
+    json.dump(report, open('report.json', 'w'), indent=2)
+sys.exit(0)
