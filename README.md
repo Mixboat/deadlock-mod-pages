@@ -13,7 +13,7 @@ which stays online so those installs keep working. Both addresses are the same s
 | [`shop-notes/`](shop-notes/) | **Shop Notes storage page.** Keeps your notes, templates, snapshots and pasted screenshots in the page's own browser storage (localStorage) on your PC. It also shows the box you paste screenshots into, in the notes' light or dark look. | [Shop Notes](https://gamebanana.com/mods/725094) and the notes in Seamless QoL |
 | [`index.html`](index.html) | **Settings storage page.** Remembers small mod settings. | [Hide Investments](https://gamebanana.com/mods/724744) and the original [Wide FOV Slider](https://gamebanana.com/mods/724244) |
 | [`violet-slide-song/`](violet-slide-song/) | **Violet Slide Song maker.** Open it in a normal browser, pick any song, choose the part that plays, and it builds a ready-to-install mod (`.vpk` in a zip) right in the page. Your song never leaves your computer. | Violet Slide Song (Flow State Soundtrack) |
-| [`watch/`](watch/) + [`.github/workflows/`](.github/workflows/) | **Patch watch.** Every 6 hours, checks the latest Deadlock game files ([SteamTracking/GameTracking-Deadlock](https://github.com/SteamTracking/GameTracking-Deadlock)) for changes that would break a mod, and opens an issue when something changed. | Wide FOV Slider, Hide Investments, Old Damage Portraits, Shop Notes |
+| [`watch/`](watch/) + [`.github/workflows/`](.github/workflows/) | **Patch watch.** Every 6 hours, checks the latest Deadlock game files ([SteamTracking/GameTracking-Deadlock](https://github.com/SteamTracking/GameTracking-Deadlock)) for changes that would break a mod, and opens an issue when something changed. | Wide FOV Slider, Hide Investments, Old Damage Portraits, Shop Notes, Flow State Soundtrack |
 
 ## Privacy
 
