@@ -1,4 +1,4 @@
-"""Patch watch for the Wide FOV Slider, Hide Investments, Old Damage Portraits and Shop Notes Deadlock mods.
+"""Patch watch for the Wide FOV Slider, Hide Investments, Old Damage Portraits, Shop Notes and Flow State Soundtrack Deadlock mods.
 
 Reads SteamDB's GameTracking-Deadlock copy of the game files and checks everything the mod depends on.
 Writes report.json / report.md; the workflow opens a GitHub issue (which emails the repo owner) when a check fails.
@@ -31,6 +31,7 @@ MODS = {
     'hinv': {'name': 'Hide Investments', 'page': 'https://gamebanana.com/mods/724744'},
     'odp': {'name': 'Old Damage Portraits', 'page': 'https://gamebanana.com/mods/724869'},
     'sn': {'name': 'Shop Notes', 'page': 'https://gamebanana.com/mods/725094'},
+    'fss': {'name': 'Flow State Soundtrack', 'page': 'https://mixboat.github.io/deadlock-mod-pages/violet-slide-song/'},
 }
 
 
@@ -207,6 +208,38 @@ check('hinv_store', 'critical', re.search(r'(?m)^\s*joy_axisy_deadzone\s.*per_us
       'Saved mode setting changed',
       'The display mode is saved in joy_axisy_deadzone (unused legacy joystick setting, per user). It is gone or no longer per user, '
       'so the choice resets every launch. Pick another unused per-user setting in hide_investments.js (STORE).', mod='hinv')
+
+# ---------------------------------------------------------------- Flow State Soundtrack (Violet slide song)
+# The mod adds its own sound files and ships copies of only two small Valve files: the top sound-event manifest
+# (soundevents_manifest.vrman, gains one line) and the hud_screen_effects_low_health layout (volume slider hook).
+try:
+    pdir = get('game/citadel/pak01_dir.txt')
+    def crc_line(path):
+        m = re.search(r'(?m)^' + re.escape(path) + r' CRC:(\w+) size:(\d+)', pdir); return m and (m.group(1), int(m.group(2)))
+    check('fss_manifest', 'critical', crc_line('soundevents/soundevents_manifest.vrman_c') == ('00819bc25a', 971),
+          'Valve changed the sound-event manifest',
+          "Flow State Soundtrack ships its own copy of soundevents/soundevents_manifest.vrman (Valve's list + one line). "
+          'Rebuild the mod and the song maker page (EXPORT=converter ... python build.py) from the new game files.', mod='fss')
+    check('fss_layout', 'critical', crc_line('panorama/layout/hud_screen_effects_low_health.vxml_c') == ('00918c432c', 1404),
+          'Valve changed hud_screen_effects_low_health',
+          'The mod ships its own copy of this layout (one SCRIPTS line for the volume slider). Rebuild it from the new game files.', mod='fss')
+    check('fss_names_free', 'warning', not any(n in pdir for n in ('soundevents_manifest_violet_slide', 'soundevents/mods/violet_slide', 'soundstacks/mods/violet_slide')),
+          "Valve now ships a file with one of the mod's own file names", "Rename the mod's own sound files.", mod='fss')
+    ab = get('game/citadel/pak01_dir/scripts/abilities.vdata')
+    check('fss_slide_event', 'critical', 'm_strSlidingLoopingSound = soundevent:"Artist.Ink.Wash.Slide.Lp"' in ab,
+          "Flow State's trail-slide sound changed",
+          'The song plays from the event Artist.Ink.Wash.Slide.Lp (ability_artist_rollingprojectile ground aura). Point the mod at the new event.', mod='fss')
+    b3 = get('game/citadel/pak01_dir/soundstacks/soundstacks_citadel_base_3d.vsndstck')
+    fp = get('game/citadel/pak01_dir/soundstacks/soundstack_citadel_find_perspective.vsndstck')
+    d2 = get('game/citadel/pak01_dir/soundstacks/soundstacks_citadel_default_2d.vsndstck')
+    check('fss_stacks', 'warning', all(x in b3 for x in ('volume_mult', 'get_event_info', 'volume_fade_out')) and 'perspective_is_player' in fp
+          and 'vmix_voice_start' in d2 and 'input_start' in d2,
+          'Sound-logic pieces the mod uses changed', 'The song stack imports citadel_base_3d / citadel_find_perspective and copies citadel_default_2d. Re-test in game.', mod='fss')
+    check('fss_volume_store', 'warning', re.search(r'(?m)^joy_side_sensitivity\s.*per_user', cv),
+          'joy_side_sensitivity changed or is gone', 'The volume slider stores its value in joy_side_sensitivity; pick another spare setting.', mod='fss')
+except Exception as e:
+    check('fss_watch', 'warning', False, 'Flow State Soundtrack checks failed to run', str(e), mod='fss')
+
 failed = [c for c in checks if not c['ok']]
 report = {'build': build, 'failed': failed, 'checks': checks}
 json.dump(report, open('report.json', 'w'), indent=2)
