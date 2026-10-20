@@ -1,0 +1,37 @@
+name: Private build trigger
+
+# Every 5 minutes (GitHub's fastest schedule; free here because this repo is public): when GameTracking-Deadlock has a
+# new abilities.vdata and the private repo has no build for it yet, start that repo's rebuild workflow.
+# Needs secret PRIVATE_VDATA_TOKEN: fine-grained token for Mixboat/deadlock-private-vdata with Actions + Contents read/write.
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: private-vdata-trigger
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Start the private rebuild if a new game file is out
+        env:
+          GH_TOKEN: ${{ secrets.PRIVATE_VDATA_TOKEN }}
+          OWN_TOKEN: ${{ github.token }}
+          REPO: Mixboat/deadlock-private-vdata
+          SRC: game/citadel/pak01_dir/scripts/abilities.vdata
+        run: |
+          if [ -z "$GH_TOKEN" ]; then echo "PRIVATE_VDATA_TOKEN not set, nothing to do"; exit 0; fi
+          sha=$(GH_TOKEN="$OWN_TOKEN" gh api "repos/SteamDatabase/GameTracking-Deadlock/commits?path=$SRC&per_page=1" --jq '.[0].sha')
+          test -n "$sha"
+          tag="gt-${sha:0:10}"
+          if gh release view "$tag" -R "$REPO" >/dev/null 2>&1; then echo "already built"; exit 0; fi
+          busy=$(gh api "repos/$REPO/actions/runs?per_page=10" --jq '[.workflow_runs[] | select(.status != "completed")] | length')
+          if [ "$busy" != "0" ]; then echo "build already running"; exit 0; fi
+          gh workflow run rebuild.yml -R "$REPO" --ref main
+          echo "started rebuild for $tag"
