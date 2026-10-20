@@ -1,0 +1,7962 @@
+{
+"gren": {
+"materials/particle/abilities/yamato/yamato_grapple_rope_cable.vmat_c": [
+"001741e043",
+2739
+],
+"materials/particle/abilities/yamato/yamato_infinity_slash_buff_symbol.vtex_c": [
+"00604994a1",
+89616
+],
+"models/heroes_staging/yamato_v2/yamato.vmdl_c": [
+"00fcb9cfe0",
+4627682
+],
+"models/heroes_wip/yamato/clips/ability_flyingstrike_fly_intro.vnmclip_c": [
+"004a6749c8",
+4983
+],
+"models/heroes_wip/yamato/clips/ability_flyingstrike_fly_loop.vnmclip_c": [
+"00b81a2b05",
+5439
+],
+"models/heroes_wip/yamato/clips/ability_flyingstrike_shoot.vnmclip_c": [
+"00657a1bf9",
+8427
+],
+"models/heroes_wip/yamato/clips/ability_flyingstrike_shoot_loop.vnmclip_c": [
+"008a43ebbb",
+5033
+],
+"models/heroes_wip/yamato/clips/ability_healingslash_cast.vnmclip_c": [
+"00a008b1b3",
+14869
+],
+"models/heroes_wip/yamato/clips/ability_powerslash_cast.vnmclip_c": [
+"00f92a6446",
+9724
+],
+"models/heroes_wip/yamato/clips/ability_powerslash_charge.vnmclip_c": [
+"005d1157ac",
+11151
+],
+"models/heroes_wip/yamato/clips/ability_powerslash_in_air_cast.vnmclip_c": [
+"00b0911c68",
+9741
+],
+"models/heroes_wip/yamato/clips/ability_powerslash_in_air_charge.vnmclip_c": [
+"0088ac4493",
+10935
+],
+"models/heroes_wip/yamato/clips/ability_shadowtransform_intro.vnmclip_c": [
+"0038a1c269",
+11653
+],
+"models/heroes_wip/yamato/clips/aim_weapon_crouch.vnmclip+non_additive.vnmclip_c": [
+"00feea1896",
+12927
+],
+"models/heroes_wip/yamato/clips/aim_weapon_crouch_down.vnmclip+non_additive.vnmclip_c": [
+"00feea1896",
+12927
+],
+"models/heroes_wip/yamato/clips/aim_weapon_crouch_run.vnmclip+non_additive.vnmclip_c": [
+"00feea1896",
+12927
+],
+"models/heroes_wip/yamato/clips/aim_weapon_crouch_up.vnmclip+non_additive.vnmclip_c": [
+"00feea1896",
+12927
+],
+"models/heroes_wip/yamato/clips/aim_weapon_idle.vnmclip+non_additive.vnmclip_c": [
+"00feea1896",
+12927
+],
+"models/heroes_wip/yamato/clips/aim_weapon_idle_down.vnmclip+non_additive.vnmclip_c": [
+"007971b261",
+13281
+],
+"models/heroes_wip/yamato/clips/aim_weapon_idle_up.vnmclip+non_additive.vnmclip_c": [
+"007c6e63ff",
+13320
+],
+"models/heroes_wip/yamato/clips/aim_weapon_run.vnmclip+non_additive.vnmclip_c": [
+"00feea1896",
+12927
+],
+"models/heroes_wip/yamato/clips/aim_weapon_run_down.vnmclip+non_additive.vnmclip_c": [
+"00feea1896",
+12927
+],
+"models/heroes_wip/yamato/clips/aim_weapon_run_up.vnmclip+non_additive.vnmclip_c": [
+"00feea1896",
+12927
+],
+"models/heroes_wip/yamato/clips/aim_weapon_slide.vnmclip+non_additive.vnmclip_c": [
+"00feea1896",
+12927
+],
+"models/heroes_wip/yamato/clips/aim_weapon_slide_down.vnmclip+non_additive.vnmclip_c": [
+"00feea1896",
+12927
+],
+"models/heroes_wip/yamato/clips/aim_weapon_slide_up.vnmclip+non_additive.vnmclip_c": [
+"00feea1896",
+12927
+],
+"models/heroes_wip/yamato/clips/cast_channeling_end.vnmclip_c": [
+"00d1b86bdd",
+6935
+],
+"models/heroes_wip/yamato/clips/cast_channeling_loop.vnmclip_c": [
+"004350e459",
+4742
+],
+"models/heroes_wip/yamato/clips/cast_channeling_start.vnmclip_c": [
+"007dce5850",
+6829
+],
+"models/heroes_wip/yamato/clips/cast_end.vnmclip_c": [
+"0034cb9e5f",
+8983
+],
+"models/heroes_wip/yamato/clips/cast_loop.vnmclip_c": [
+"0095e524a9",
+4723
+],
+"models/heroes_wip/yamato/clips/cast_start.vnmclip_c": [
+"000f91d253",
+7677
+],
+"models/heroes_wip/yamato/clips/corner_lean_crouch.vnmclip+non_additive.vnmclip_c": [
+"00b24fef0a",
+4939
+],
+"models/heroes_wip/yamato/clips/corner_lean_crouch_run.vnmclip+non_additive.vnmclip_c": [
+"00b24fef0a",
+4939
+],
+"models/heroes_wip/yamato/clips/corner_lean_run.vnmclip+non_additive.vnmclip_c": [
+"00b24fef0a",
+4939
+],
+"models/heroes_wip/yamato/clips/corner_lean_stand.vnmclip+non_additive.vnmclip_c": [
+"00b24fef0a",
+4939
+],
+"models/heroes_wip/yamato/clips/dash_air_back.vnmclip_c": [
+"00ef81f3e4",
+11356
+],
+"models/heroes_wip/yamato/clips/dash_air_forward.vnmclip_c": [
+"00c0ca8660",
+11356
+],
+"models/heroes_wip/yamato/clips/flinch_back.vnmclip+non_additive.vnmclip_c": [
+"0043bfd5fb",
+7240
+],
+"models/heroes_wip/yamato/clips/flinch_left.vnmclip+non_additive.vnmclip_c": [
+"001dc56b0c",
+7455
+],
+"models/heroes_wip/yamato/clips/flinch_right.vnmclip+non_additive.vnmclip_c": [
+"0028ae790f",
+7261
+],
+"models/heroes_wip/yamato/clips/hideout_stand_idle.vnmclip_c": [
+"006481fbba",
+5013
+],
+"models/heroes_wip/yamato/clips/in_air_apex.vnmclip_c": [
+"00dc50962c",
+5002
+],
+"models/heroes_wip/yamato/clips/in_air_loop_down.vnmclip_c": [
+"00280406c0",
+4992
+],
+"models/heroes_wip/yamato/clips/item_crouch_idle.vnmclip_c": [
+"00f33138bf",
+5001
+],
+"models/heroes_wip/yamato/clips/item_crouch_run_center.vnmclip_c": [
+"0089832a08",
+10318
+],
+"models/heroes_wip/yamato/clips/item_crouch_run_e.vnmclip_c": [
+"0020491ccf",
+10829
+],
+"models/heroes_wip/yamato/clips/item_crouch_run_n.vnmclip_c": [
+"007d60418f",
+10671
+],
+"models/heroes_wip/yamato/clips/item_crouch_run_ne.vnmclip_c": [
+"00f66c0b90",
+10653
+],
+"models/heroes_wip/yamato/clips/item_crouch_run_nw.vnmclip_c": [
+"00f4ab8588",
+10671
+],
+"models/heroes_wip/yamato/clips/item_crouch_run_s.vnmclip_c": [
+"00bb19a365",
+10736
+],
+"models/heroes_wip/yamato/clips/item_crouch_run_se.vnmclip_c": [
+"00a1c908a3",
+10634
+],
+"models/heroes_wip/yamato/clips/item_crouch_run_sw.vnmclip_c": [
+"0089774e93",
+10728
+],
+"models/heroes_wip/yamato/clips/item_crouch_run_w.vnmclip_c": [
+"005e266820",
+10533
+],
+"models/heroes_wip/yamato/clips/item_run_center.vnmclip_c": [
+"00ee817ba4",
+8462
+],
+"models/heroes_wip/yamato/clips/item_run_e.vnmclip_c": [
+"00bcd18443",
+8765
+],
+"models/heroes_wip/yamato/clips/item_run_n.vnmclip_c": [
+"0090ef5a9e",
+8626
+],
+"models/heroes_wip/yamato/clips/item_run_ne.vnmclip_c": [
+"0066c7298f",
+8734
+],
+"models/heroes_wip/yamato/clips/item_run_nw.vnmclip_c": [
+"003b5893cd",
+8860
+],
+"models/heroes_wip/yamato/clips/item_run_s.vnmclip_c": [
+"00b32a535f",
+8721
+],
+"models/heroes_wip/yamato/clips/item_run_se.vnmclip_c": [
+"0025d26225",
+8791
+],
+"models/heroes_wip/yamato/clips/item_run_sw.vnmclip_c": [
+"0003fbd814",
+8901
+],
+"models/heroes_wip/yamato/clips/item_run_w.vnmclip_c": [
+"00fc79bd60",
+8674
+],
+"models/heroes_wip/yamato/clips/item_stand_idle.vnmclip_c": [
+"00d8779f6c",
+5004
+],
+"models/heroes_wip/yamato/clips/jump_forced.vnmclip_c": [
+"00ccdc3134",
+11340
+],
+"models/heroes_wip/yamato/clips/jump_ground.vnmclip_c": [
+"009c148383",
+11340
+],
+"models/heroes_wip/yamato/clips/jump_zipline.vnmclip_c": [
+"00474f0448",
+11356
+],
+"models/heroes_wip/yamato/clips/landing_impact_idle.vnmclip+non_additive.vnmclip_c": [
+"0016943801",
+10155
+],
+"models/heroes_wip/yamato/clips/melee_dash.vnmclip_c": [
+"0066246c6d",
+7818
+],
+"models/heroes_wip/yamato/clips/melee_hit.vnmclip_c": [
+"00667fde08",
+9299
+],
+"models/heroes_wip/yamato/clips/melee_hit_down.vnmclip_c": [
+"00f9c99393",
+9250
+],
+"models/heroes_wip/yamato/clips/melee_hit_up.vnmclip_c": [
+"0069e65f3c",
+9135
+],
+"models/heroes_wip/yamato/clips/melee_in_air_dash.vnmclip_c": [
+"00f9cb6570",
+7862
+],
+"models/heroes_wip/yamato/clips/melee_in_air_hit.vnmclip_c": [
+"00d7bd793d",
+9409
+],
+"models/heroes_wip/yamato/clips/melee_in_air_start.vnmclip_c": [
+"0096fa688c",
+8778
+],
+"models/heroes_wip/yamato/clips/melee_start.vnmclip_c": [
+"00f58c1024",
+8438
+],
+"models/heroes_wip/yamato/clips/out_of_combat_crouch_idle.vnmclip_c": [
+"003ff26baa",
+4990
+],
+"models/heroes_wip/yamato/clips/out_of_combat_crouch_run_center.vnmclip_c": [
+"00b2c7c7b6",
+10322
+],
+"models/heroes_wip/yamato/clips/out_of_combat_crouch_run_e.vnmclip_c": [
+"00aece438c",
+10871
+],
+"models/heroes_wip/yamato/clips/out_of_combat_crouch_run_n.vnmclip_c": [
+"00adef38f7",
+10583
+],
+"models/heroes_wip/yamato/clips/out_of_combat_crouch_run_ne.vnmclip_c": [
+"002063d223",
+10756
+],
+"models/heroes_wip/yamato/clips/out_of_combat_crouch_run_nw.vnmclip_c": [
+"00d57175ac",
+10552
+],
+"models/heroes_wip/yamato/clips/out_of_combat_crouch_run_s.vnmclip_c": [
+"00af9929b6",
+10742
+],
+"models/heroes_wip/yamato/clips/out_of_combat_crouch_run_se.vnmclip_c": [
+"006554ee94",
+10655
+],
+"models/heroes_wip/yamato/clips/out_of_combat_crouch_run_sw.vnmclip_c": [
+"009923449c",
+10741
+],
+"models/heroes_wip/yamato/clips/out_of_combat_crouch_run_w.vnmclip_c": [
+"0057157c22",
+10688
+],
+"models/heroes_wip/yamato/clips/out_of_combat_idle.vnmclip_c": [
+"0096ac5677",
+5006
+],
+"models/heroes_wip/yamato/clips/out_of_combat_run_center.vnmclip_c": [
+"00fd5df535",
+8440
+],
+"models/heroes_wip/yamato/clips/out_of_combat_run_e.vnmclip_c": [
+"008aadac6a",
+8782
+],
+"models/heroes_wip/yamato/clips/out_of_combat_run_n.vnmclip_c": [
+"00966e9bc4",
+8587
+],
+"models/heroes_wip/yamato/clips/out_of_combat_run_ne.vnmclip_c": [
+"002be8877d",
+8735
+],
+"models/heroes_wip/yamato/clips/out_of_combat_run_nw.vnmclip_c": [
+"006735e0b2",
+8848
+],
+"models/heroes_wip/yamato/clips/out_of_combat_run_s.vnmclip_c": [
+"0061b9f574",
+8727
+],
+"models/heroes_wip/yamato/clips/out_of_combat_run_se.vnmclip_c": [
+"00374abd19",
+8893
+],
+"models/heroes_wip/yamato/clips/out_of_combat_run_sw.vnmclip_c": [
+"0082af50ed",
+8910
+],
+"models/heroes_wip/yamato/clips/out_of_combat_run_w.vnmclip_c": [
+"00ca1cd059",
+8666
+],
+"models/heroes_wip/yamato/clips/out_of_combat_stand_idle.vnmclip_c": [
+"007362abe1",
+5006
+],
+"models/heroes_wip/yamato/clips/parry.vnmclip_c": [
+"00c92354e4",
+10260
+],
+"models/heroes_wip/yamato/clips/parry_success.vnmclip_c": [
+"00155ec949",
+9463
+],
+"models/heroes_wip/yamato/clips/reload_crouch_idle_quick.vnmclip_c": [
+"0079f1562a",
+9282
+],
+"models/heroes_wip/yamato/clips/reload_crouch_run_quick.vnmclip_c": [
+"00fb51d9b0",
+9282
+],
+"models/heroes_wip/yamato/clips/reload_idle.vnmclip_c": [
+"00a18d6aec",
+17315
+],
+"models/heroes_wip/yamato/clips/reload_idle_quick.vnmclip_c": [
+"00235bdc7a",
+9282
+],
+"models/heroes_wip/yamato/clips/reload_in_air_quick.vnmclip_c": [
+"00fcb17a59",
+9282
+],
+"models/heroes_wip/yamato/clips/reload_run_quick.vnmclip_c": [
+"008b5f6bae",
+9266
+],
+"models/heroes_wip/yamato/clips/reload_slide_quick.vnmclip_c": [
+"00fcd26d7c",
+9282
+],
+"models/heroes_wip/yamato/clips/shoot_idle.vnmclip_c": [
+"00bfb63691",
+9614
+],
+"models/heroes_wip/yamato/clips/shoot_idle_swipe_right.vnmclip_c": [
+"006ed43851",
+9456
+],
+"models/heroes_wip/yamato/clips/shoot_run.vnmclip_c": [
+"00a354ed00",
+8932
+],
+"models/heroes_wip/yamato/clips/shoot_run_swipe_right.vnmclip_c": [
+"007ed9faec",
+8995
+],
+"models/heroes_wip/yamato/clips/sleep_idle.vnmclip_c": [
+"0014897aff",
+4958
+],
+"models/heroes_wip/yamato/clips/slide_loop.vnmclip_c": [
+"00629d3822",
+9348
+],
+"models/heroes_wip/yamato/clips/slide_start.vnmclip_c": [
+"008e1de9a0",
+8952
+],
+"models/heroes_wip/yamato/clips/sword_bodygroup_off.vnmclip_c": [
+"008259d76f",
+5215
+],
+"models/heroes_wip/yamato/clips/sword_bodygroup_on.vnmclip_c": [
+"001bd15f18",
+5156
+],
+"models/heroes_wip/yamato/clips/throw.vnmclip_c": [
+"0021e0b0a7",
+10151
+],
+"models/heroes_wip/yamato/clips/turn_crouch_left.vnmclip_c": [
+"00bb6fdf22",
+7688
+],
+"models/heroes_wip/yamato/clips/turn_crouch_right.vnmclip_c": [
+"00036e5071",
+7512
+],
+"models/heroes_wip/yamato/clips/turn_left.vnmclip_c": [
+"00c556642d",
+7740
+],
+"models/heroes_wip/yamato/clips/turn_right.vnmclip_c": [
+"008f530114",
+7646
+],
+"models/heroes_wip/yamato/clips/ui_hero_select.vnmclip_c": [
+"0017f71392",
+5020
+],
+"models/heroes_wip/yamato/clips/wall_attach_forward.vnmclip_c": [
+"008be10df3",
+4971
+],
+"models/heroes_wip/yamato/clips/wall_attach_left.vnmclip_c": [
+"00c15c920b",
+4987
+],
+"models/heroes_wip/yamato/clips/wall_attach_right.vnmclip_c": [
+"000055a4cc",
+4987
+],
+"models/heroes_wip/yamato/clips/wall_impact_add.vnmclip+non_additive.vnmclip_c": [
+"00fd119d06",
+10009
+],
+"models/heroes_wip/yamato/clips/weapon_crouch_idle.vnmclip_c": [
+"00803ec47f",
+4974
+],
+"models/heroes_wip/yamato/clips/weapon_crouch_run_center.vnmclip_c": [
+"004013c027",
+10322
+],
+"models/heroes_wip/yamato/clips/weapon_crouch_run_e.vnmclip_c": [
+"00fc412063",
+10855
+],
+"models/heroes_wip/yamato/clips/weapon_crouch_run_n.vnmclip_c": [
+"00816298e3",
+10567
+],
+"models/heroes_wip/yamato/clips/weapon_crouch_run_ne.vnmclip_c": [
+"000722db03",
+10740
+],
+"models/heroes_wip/yamato/clips/weapon_crouch_run_nw.vnmclip_c": [
+"00c4fe1caf",
+10672
+],
+"models/heroes_wip/yamato/clips/weapon_crouch_run_s.vnmclip_c": [
+"0054dfc473",
+10726
+],
+"models/heroes_wip/yamato/clips/weapon_crouch_run_se.vnmclip_c": [
+"0043946e3d",
+10639
+],
+"models/heroes_wip/yamato/clips/weapon_crouch_run_sw.vnmclip_c": [
+"0088e242cf",
+10725
+],
+"models/heroes_wip/yamato/clips/weapon_crouch_run_w.vnmclip_c": [
+"00432d00f1",
+10536
+],
+"models/heroes_wip/yamato/clips/weapon_run_center.vnmclip_c": [
+"005c0d8fce",
+8424
+],
+"models/heroes_wip/yamato/clips/weapon_run_e.vnmclip_c": [
+"002dc230ad",
+8782
+],
+"models/heroes_wip/yamato/clips/weapon_run_n.vnmclip_c": [
+"0076113fcc",
+8587
+],
+"models/heroes_wip/yamato/clips/weapon_run_ne.vnmclip_c": [
+"003d9329cb",
+8735
+],
+"models/heroes_wip/yamato/clips/weapon_run_nw.vnmclip_c": [
+"00efea9afd",
+8848
+],
+"models/heroes_wip/yamato/clips/weapon_run_s.vnmclip_c": [
+"001b268aba",
+8727
+],
+"models/heroes_wip/yamato/clips/weapon_run_se.vnmclip_c": [
+"00c522eae6",
+8893
+],
+"models/heroes_wip/yamato/clips/weapon_run_sw.vnmclip_c": [
+"003f5a37d1",
+8910
+],
+"models/heroes_wip/yamato/clips/weapon_run_w.vnmclip_c": [
+"00e19979fc",
+8666
+],
+"models/heroes_wip/yamato/clips/weapon_stand_idle.vnmclip_c": [
+"00a7daa1de",
+4990
+],
+"models/heroes_wip/yamato/clips/yamato_weapon_swap.vnmclip_c": [
+"00f544c31c",
+8238
+],
+"models/heroes_wip/yamato/clips/zipline_attached_loop.vnmclip_c": [
+"0042eee366",
+19150
+],
+"models/heroes_wip/yamato/clips/zipline_attached_start.vnmclip_c": [
+"0098da8abf",
+24356
+],
+"models/heroes_wip/yamato/clips/zipline_awaiting_tether.vnmclip_c": [
+"00c1999077",
+31114
+],
+"models/heroes_wip/yamato/clips/zipline_tethered_reeling_loop.vnmclip_c": [
+"007e0e4766",
+31130
+],
+"models/heroes_wip/yamato/clips/zoomed_crouch_run_center.vnmclip_c": [
+"005f8a18be",
+10322
+],
+"models/heroes_wip/yamato/clips/zoomed_crouch_run_e.vnmclip_c": [
+"0082045396",
+10855
+],
+"models/heroes_wip/yamato/clips/zoomed_crouch_run_n.vnmclip_c": [
+"004ab2028b",
+10567
+],
+"models/heroes_wip/yamato/clips/zoomed_crouch_run_ne.vnmclip_c": [
+"0027d3f6b8",
+10740
+],
+"models/heroes_wip/yamato/clips/zoomed_crouch_run_nw.vnmclip_c": [
+"00f848f125",
+10536
+],
+"models/heroes_wip/yamato/clips/zoomed_crouch_run_s.vnmclip_c": [
+"0098e94fea",
+10726
+],
+"models/heroes_wip/yamato/clips/zoomed_crouch_run_se.vnmclip_c": [
+"00a978c07e",
+10639
+],
+"models/heroes_wip/yamato/clips/zoomed_crouch_run_sw.vnmclip_c": [
+"00c1bf38ae",
+10725
+],
+"models/heroes_wip/yamato/clips/zoomed_crouch_run_w.vnmclip_c": [
+"008ec56d25",
+10672
+],
+"panorama/images/heroes/backgrounds/yamato_bg_psd.vtex_c": [
+"008eac8fd4",
+37881924
+],
+"panorama/images/heroes/hero_names/yamato.vsvg_c": [
+"00dc99a2a3",
+4994
+],
+"panorama/images/heroes/hero_names/yamato_localized.vsvg_c": [
+"005ed4a1e8",
+5026
+],
+"panorama/images/heroes/yamato_card_critical_psd.vtex_c": [
+"00bd576fd5",
+569328
+],
+"panorama/images/heroes/yamato_card_gloat_psd.vtex_c": [
+"003cd40690",
+569328
+],
+"panorama/images/heroes/yamato_card_psd.vtex_c": [
+"00a9606542",
+569312
+],
+"panorama/images/heroes/yamato_mm_psd.vtex_c": [
+"00ba07fac6",
+12100
+],
+"panorama/images/heroes/yamato_sm_psd.vtex_c": [
+"0022c52ffb",
+67636
+],
+"panorama/images/heroes/yamato_sm_psd_9fe8a987.vtex_c": [
+"006d8edbf7",
+23956
+],
+"panorama/images/heroes/yamato_vertical_psd.vtex_c": [
+"0035a055b6",
+98116
+],
+"panorama/images/hud/abilities/yamato/yamato_blinding_steel_psd.vtex_c": [
+"002407c4ae",
+77208
+],
+"panorama/images/hud/abilities/yamato/yamato_crimson_slash_psd.vtex_c": [
+"00adf6be40",
+77208
+],
+"panorama/images/hud/abilities/yamato/yamato_flying_strike_psd.vtex_c": [
+"004ffa14dd",
+77208
+],
+"panorama/images/hud/abilities/yamato/yamato_power_slash_psd.vtex_c": [
+"00910a591d",
+77208
+],
+"panorama/styles/ability_hud_elements/abilities_yamato.vcss_c": [
+"00a9054a47",
+3997
+],
+"panorama/styles/citadel_hero_abilities.vcss_c": [
+"0059195dd2",
+5808
+],
+"panorama/styles/citadel_hero_tags.vcss_c": [
+"00d7bd831a",
+17930
+],
+"particles/abilities/yamato/flash_bomb_explode_flash.vpcf_c": [
+"00580effbb",
+3444
+],
+"particles/abilities/yamato/flash_bomb_explode_glow.vpcf_c": [
+"0018dfd8fa",
+2966
+],
+"particles/abilities/yamato/flash_bomb_projectile_trail_core.vpcf_c": [
+"00be4bf0f2",
+2823
+],
+"particles/abilities/yamato/shadow_form_success_flash.vpcf_c": [
+"00d18b88a2",
+3351
+],
+"particles/abilities/yamato/shadow_form_success_glow.vpcf_c": [
+"00234b63f6",
+3002
+],
+"particles/abilities/yamato/yamato_blade_dash_arc.vpcf_c": [
+"0009271504",
+4959
+],
+"particles/abilities/yamato/yamato_blade_dash_blade_model.vpcf_c": [
+"002b2c5665",
+6139
+],
+"particles/abilities/yamato/yamato_blade_dash_dust.vpcf_c": [
+"007b992684",
+6251
+],
+"particles/abilities/yamato/yamato_blade_dash_end_flash.vpcf_c": [
+"0000467472",
+3697
+],
+"particles/abilities/yamato/yamato_blade_dash_full_light.vpcf_c": [
+"00e8b32447",
+3730
+],
+"particles/abilities/yamato/yamato_blade_dash_light.vpcf_c": [
+"0090730a14",
+3941
+],
+"particles/abilities/yamato/yamato_blade_dash_magic.vpcf_c": [
+"00b7f5939c",
+5371
+],
+"particles/abilities/yamato/yamato_blade_dash_model.vpcf_c": [
+"00fc354b18",
+4659
+],
+"particles/abilities/yamato/yamato_blade_dash_model_glow.vpcf_c": [
+"0017e523bf",
+4541
+],
+"particles/abilities/yamato/yamato_blade_dash_proj_ground_full.vpcf_c": [
+"001419d16f",
+3241
+],
+"particles/abilities/yamato/yamato_blade_dash_source_rays.vpcf_c": [
+"0050cafd16",
+4902
+],
+"particles/abilities/yamato/yamato_blade_dash_sphere.vpcf_c": [
+"00b61429a7",
+5074
+],
+"particles/abilities/yamato/yamato_blade_dash_streak_burst.vpcf_c": [
+"00448db6d3",
+5171
+],
+"particles/abilities/yamato/yamato_blade_dash_trail.vpcf_c": [
+"003a85e181",
+6382
+],
+"particles/abilities/yamato/yamato_blade_dash_trail_core.vpcf_c": [
+"007fb4b3f2",
+4919
+],
+"particles/abilities/yamato/yamato_blade_dash_trail_flat.vpcf_c": [
+"00460c8d31",
+4887
+],
+"particles/abilities/yamato/yamato_blade_dash_trail_l.vpcf_c": [
+"0075e3df53",
+4819
+],
+"particles/abilities/yamato/yamato_blade_dash_tube.vpcf_c": [
+"0069229981",
+4263
+],
+"particles/abilities/yamato/yamato_blade_sweep_line.vpcf_c": [
+"00c1aeb334",
+4349
+],
+"particles/abilities/yamato/yamato_blink_travel.vpcf_c": [
+"00e0c1fbc9",
+4712
+],
+"particles/abilities/yamato/yamato_blink_travel_depart.vpcf_c": [
+"00c0f3f8b0",
+3535
+],
+"particles/abilities/yamato/yamato_blink_travel_depart_flash.vpcf_c": [
+"00c20fc929",
+2147
+],
+"particles/abilities/yamato/yamato_blink_travel_heal.vpcf_c": [
+"008c3f344f",
+2783
+],
+"particles/abilities/yamato/yamato_blink_travel_impact.vpcf_c": [
+"004badbf6f",
+2941
+],
+"particles/abilities/yamato/yamato_blink_travel_model.vpcf_c": [
+"0034c33c5c",
+3181
+],
+"particles/abilities/yamato/yamato_blood_impact.vpcf_c": [
+"00b3ee5e18",
+2987
+],
+"particles/abilities/yamato/yamato_blood_impact_droplets.vpcf_c": [
+"00750cf171",
+2889
+],
+"particles/abilities/yamato/yamato_counter_successt.vpcf_c": [
+"002f398f44",
+3462
+],
+"particles/abilities/yamato/yamato_crimson_slash_proj_bright.vpcf_c": [
+"002ef316ce",
+3750
+],
+"particles/abilities/yamato/yamato_decimate_attack_core.vpcf_c": [
+"00b1b8329a",
+3783
+],
+"particles/abilities/yamato/yamato_decimate_attack_line.vpcf_c": [
+"001d164744",
+3964
+],
+"particles/abilities/yamato/yamato_decimate_attack_line_light.vpcf_c": [
+"006d67c670",
+2712
+],
+"particles/abilities/yamato/yamato_decimate_eye_flash.vpcf_c": [
+"001b8952d0",
+2998
+],
+"particles/abilities/yamato/yamato_decimate_impact.vpcf_c": [
+"003984fc71",
+3289
+],
+"particles/abilities/yamato/yamato_decimate_target_beam.vpcf_c": [
+"005e6507c6",
+3360
+],
+"particles/abilities/yamato/yamato_decimate_target_glow.vpcf_c": [
+"008c85a1a1",
+3174
+],
+"particles/abilities/yamato/yamato_decimate_target_ring.vpcf_c": [
+"007ef6fff2",
+2939
+],
+"particles/abilities/yamato/yamato_decimate_target_ring_flash.vpcf_c": [
+"0010b3ae93",
+3224
+],
+"particles/abilities/yamato/yamato_decimate_target_symbol.vpcf_c": [
+"00316e227b",
+3034
+],
+"particles/abilities/yamato/yamato_decimate_targeting_light.vpcf_c": [
+"008cc85a5e",
+2853
+],
+"particles/abilities/yamato/yamato_decimate_travel.vpcf_c": [
+"00d0e28c93",
+4790
+],
+"particles/abilities/yamato/yamato_decimate_travel_depart.vpcf_c": [
+"0043bc7790",
+3538
+],
+"particles/abilities/yamato/yamato_decimate_travel_depart_flash.vpcf_c": [
+"00d8393519",
+2147
+],
+"particles/abilities/yamato/yamato_decimate_travel_heal.vpcf_c": [
+"0084494e81",
+2780
+],
+"particles/abilities/yamato/yamato_decimate_travel_impact.vpcf_c": [
+"00710ffd53",
+2934
+],
+"particles/abilities/yamato/yamato_explosive_dart_explode_bits.vpcf_c": [
+"006eae279f",
+3905
+],
+"particles/abilities/yamato/yamato_explosive_dart_explode_core.vpcf_c": [
+"008a6af94e",
+4521
+],
+"particles/abilities/yamato/yamato_explosive_dart_explode_light.vpcf_c": [
+"00f7b1af54",
+2985
+],
+"particles/abilities/yamato/yamato_explosive_dart_explode_proj.vpcf_c": [
+"001b23d57e",
+3635
+],
+"particles/abilities/yamato/yamato_explosive_dart_explode_sparks.vpcf_c": [
+"0098334430",
+3808
+],
+"particles/abilities/yamato/yamato_explosive_dart_explode_sphere.vpcf_c": [
+"005683d26c",
+4065
+],
+"particles/abilities/yamato/yamato_explosive_dart_explode_streaks.vpcf_c": [
+"002b6dcd7a",
+3915
+],
+"particles/abilities/yamato/yamato_explosive_dart_projectile_pnt.vpcf_c": [
+"006bb19bce",
+3777
+],
+"particles/abilities/yamato/yamato_explosive_dart_projectile_trail.vpcf_c": [
+"00b91bff84",
+3305
+],
+"particles/abilities/yamato/yamato_explosive_dart_projectile_trail_small.vpcf_c": [
+"0053339417",
+3964
+],
+"particles/abilities/yamato/yamato_flying_strike_grapple_return.vpcf_c": [
+"00916a9c27",
+4195
+],
+"particles/abilities/yamato/yamato_flying_strike_grapple_return_hit.vpcf_c": [
+"00bcf791eb",
+3443
+],
+"particles/abilities/yamato/yamato_flying_strike_grapple_return_shock.vpcf_c": [
+"00dc7a1f15",
+3367
+],
+"particles/abilities/yamato/yamato_flying_strike_grapple_rope.vpcf_c": [
+"00289c7f65",
+4338
+],
+"particles/abilities/yamato/yamato_flying_strike_hit_sweep.vpcf_c": [
+"008b90b009",
+5409
+],
+"particles/abilities/yamato/yamato_flying_strike_impact_flash.vpcf_c": [
+"009ab885de",
+4103
+],
+"particles/abilities/yamato/yamato_flying_strike_preview_base.vpcf_c": [
+"00031bd629",
+3980
+],
+"particles/abilities/yamato/yamato_flying_strike_preview_edge.vpcf_c": [
+"0056ab2985",
+2993
+],
+"particles/abilities/yamato/yamato_flying_strike_preview_model.vpcf_c": [
+"0094aec072",
+3198
+],
+"particles/abilities/yamato/yamato_flying_strike_preview_rope.vpcf_c": [
+"00c45ed11d",
+4694
+],
+"particles/abilities/yamato/yamato_flying_strike_rope_tracer_endcap.vpcf_c": [
+"0035bface8",
+3745
+],
+"particles/abilities/yamato/yamato_flying_strike_rope_tracer_glow.vpcf_c": [
+"00d06322be",
+3617
+],
+"particles/abilities/yamato/yamato_flying_strike_rope_tracer_model.vpcf_c": [
+"00d51ef294",
+3152
+],
+"particles/abilities/yamato/yamato_flying_strike_rope_tracer_rope.vpcf_c": [
+"00c53a99eb",
+4338
+],
+"particles/abilities/yamato/yamato_flying_strike_rope_tracer_trail.vpcf_c": [
+"00a9995b8d",
+3763
+],
+"particles/abilities/yamato/yamato_flying_strike_start_rings.vpcf_c": [
+"00ea1d42dc",
+3476
+],
+"particles/abilities/yamato/yamato_impact_blood_flash.vpcf_c": [
+"00f0690d44",
+2770
+],
+"particles/abilities/yamato/yamato_infinity_slash_debuff_overhead.vpcf_c": [
+"00c1eaefca",
+3566
+],
+"particles/abilities/yamato/yamato_infinity_slash_end_aoe.vpcf_c": [
+"00f39e6534",
+4450
+],
+"particles/abilities/yamato/yamato_infinity_slash_end_flash.vpcf_c": [
+"0075f55da4",
+3900
+],
+"particles/abilities/yamato/yamato_infinity_slash_end_overhead.vpcf_c": [
+"00be4d0974",
+3612
+],
+"particles/abilities/yamato/yamato_infinity_slash_grow_ring.vpcf_c": [
+"009ec85df7",
+4802
+],
+"particles/abilities/yamato/yamato_infinity_slash_hit_core.vpcf_c": [
+"00b9fd2445",
+4296
+],
+"particles/abilities/yamato/yamato_infinity_slash_hit_sparks.vpcf_c": [
+"00b347dd08",
+3784
+],
+"particles/abilities/yamato/yamato_infinity_slash_invincible_buff_timer.vpcf_c": [
+"00f86122ea",
+3890
+],
+"particles/abilities/yamato/yamato_infinity_slash_invincible_buff_timer_endcap.vpcf_c": [
+"00db389ffd",
+4511
+],
+"particles/abilities/yamato/yamato_infinity_slash_invincible_buff_timer_energy.vpcf_c": [
+"000ca296c6",
+4539
+],
+"particles/abilities/yamato/yamato_infinity_slash_seppuku_explode_model.vpcf_c": [
+"00ec93a35c",
+4251
+],
+"particles/abilities/yamato/yamato_infinity_slash_seppuku_ring_symbol.vpcf_c": [
+"00135ca295",
+3973
+],
+"particles/abilities/yamato/yamato_infinity_slash_seppuku_smoke.vpcf_c": [
+"006e328bc6",
+4034
+],
+"particles/abilities/yamato/yamato_infinity_slash_start.vpcf_c": [
+"0012dbf888",
+3533
+],
+"particles/abilities/yamato/yamato_infinity_slash_start_aoe.vpcf_c": [
+"0027395f3a",
+5390
+],
+"particles/abilities/yamato/yamato_infinity_slash_start_ground_proj_edge.vpcf_c": [
+"0056447b29",
+3759
+],
+"particles/abilities/yamato/yamato_infinity_slash_start_light.vpcf_c": [
+"00c5d76360",
+3135
+],
+"particles/abilities/yamato/yamato_infinity_slash_start_model.vpcf_c": [
+"00a806b616",
+3984
+],
+"particles/abilities/yamato/yamato_infinity_slash_start_ring.vpcf_c": [
+"00c7126300",
+3759
+],
+"particles/abilities/yamato/yamato_infinity_slash_start_smoke.vpcf_c": [
+"00cabaf4d7",
+4303
+],
+"particles/abilities/yamato/yamato_infinity_slash_start_vacuum_rope.vpcf_c": [
+"009df2c3c7",
+4455
+],
+"particles/abilities/yamato/yamato_nightmare_cast_blast_a.vpcf_c": [
+"0056f46876",
+3085
+],
+"particles/abilities/yamato/yamato_nightmare_cast_blast_b.vpcf_c": [
+"000a5f98f5",
+3606
+],
+"particles/abilities/yamato/yamato_nightmare_sleep_debuff_c.vpcf_c": [
+"001eb8d7a0",
+3587
+],
+"particles/abilities/yamato/yamato_power_slash_charge_body_glow.vpcf_c": [
+"0072b066bd",
+6241
+],
+"particles/abilities/yamato/yamato_power_slash_charge_endcap_ring.vpcf_c": [
+"00b20ac32f",
+5611
+],
+"particles/abilities/yamato/yamato_power_slash_charge_magic.vpcf_c": [
+"00b0f48238",
+4809
+],
+"particles/abilities/yamato/yamato_power_slash_charge_streaks.vpcf_c": [
+"00625d3b90",
+4234
+],
+"particles/abilities/yamato/yamato_power_slash_impact_flash.vpcf_c": [
+"00e03f3ada",
+4609
+],
+"particles/abilities/yamato/yamato_power_slash_impact_rope.vpcf_c": [
+"004361a09e",
+6272
+],
+"particles/abilities/yamato/yamato_power_slash_impact_rope_bg.vpcf_c": [
+"007f3f4107",
+5364
+],
+"particles/abilities/yamato/yamato_power_stance_enter.vpcf_c": [
+"00517a36be",
+3547
+],
+"particles/abilities/yamato/yamato_shadow_explosion_buff_base.vpcf_c": [
+"00bd69463f",
+4474
+],
+"particles/abilities/yamato/yamato_shadow_form_aura_model.vpcf_c": [
+"009d36a02e",
+3709
+],
+"particles/abilities/yamato/yamato_shadow_form_buff_timer_beam.vpcf_c": [
+"00dc2575fe",
+5390
+],
+"particles/abilities/yamato/yamato_shadow_form_buff_timer_symbol.vpcf_c": [
+"0088e0dc8a",
+4584
+],
+"particles/abilities/yamato/yamato_shadow_form_cast_smoke.vpcf_c": [
+"00cc1c9673",
+3266
+],
+"particles/abilities/yamato/yamato_shadow_form_energy.vpcf_c": [
+"00fa234b00",
+3536
+],
+"particles/abilities/yamato/yamato_shadow_form_glow.vpcf_c": [
+"002e4bd72a",
+3788
+],
+"particles/abilities/yamato/yamato_shadow_form_nokills_modifier_ring_bot.vpcf_c": [
+"005a7d8f20",
+3511
+],
+"particles/abilities/yamato/yamato_shadow_form_nokills_modifier_ring_flash.vpcf_c": [
+"000616b002",
+3706
+],
+"particles/abilities/yamato/yamato_shadow_form_nokills_modifier_ring_top.vpcf_c": [
+"004066ff3e",
+3620
+],
+"particles/abilities/yamato/yamato_shadow_form_source_rings.vpcf_c": [
+"0077af3411",
+3515
+],
+"particles/abilities/yamato/yamato_shadow_form_start_smoke.vpcf_c": [
+"007073abdc",
+3702
+],
+"particles/abilities/yamato/yamato_shadow_redemption_success_end_bot_ring.vpcf_c": [
+"005eec27d4",
+3798
+],
+"particles/abilities/yamato/yamato_shadow_redemption_tgt_kill.vpcf_c": [
+"009d530cf4",
+3568
+],
+"particles/abilities/yamato/yamato_shadow_redemption_tgt_kill_ovr_glow.vpcf_c": [
+"0096619956",
+3405
+],
+"particles/abilities/yamato/yamato_shadow_redemption_tgt_kill_ring.vpcf_c": [
+"00b0b7d39e",
+3375
+],
+"particles/abilities/yamato/yamato_strike_beam.vpcf_c": [
+"001cb209db",
+3089
+],
+"particles/abilities/yamato/yamato_tracer_line.vpcf_c": [
+"004f8a2f0e",
+2599
+],
+"particles/status_fx/status_fx_yamato_shadow_form.vpcf_c": [
+"000e45b728",
+3355
+],
+"particles/weapon_fx/yamato/yamato_tracer_bullet_model_exhaust.vpcf_c": [
+"00f14b6703",
+3482
+],
+"particles/weapon_fx/yamato/yamato_tracer_impact.vpcf_c": [
+"00b723bc02",
+3947
+],
+"particles/weapon_fx/yamato/yamato_tracer_track.vpcf_c": [
+"00bbf7e7e2",
+3543
+],
+"sounds/abilities/yamato/a1_power_slash/new/yamato_power_slash_cast.vsnd_c": [
+"00e5b16eb7",
+69178
+],
+"sounds/abilities/yamato/a1_power_slash/new/yamato_power_slash_cast_max.vsnd_c": [
+"0027563c29",
+69074
+],
+"sounds/abilities/yamato/a1_power_slash/new/yamato_power_slash_start.vsnd_c": [
+"008a507b16",
+107775
+],
+"sounds/abilities/yamato/a2_flying_strike/yamato_flying_strike_attack.vsnd_c": [
+"004a16414d",
+84044
+],
+"sounds/abilities/yamato/a2_flying_strike/yamato_flying_strike_cast.vsnd_c": [
+"00934dfbaa",
+35469
+],
+"sounds/vo/yamato/emote/yamato_effort_dash_01.vsnd_c": [
+"0038c64988",
+9729
+],
+"sounds/vo/yamato/emote/yamato_effort_dash_02.vsnd_c": [
+"00e0dc8c39",
+10377
+],
+"sounds/vo/yamato/emote/yamato_effort_dash_03.vsnd_c": [
+"008c8d873e",
+8981
+],
+"sounds/vo/yamato/emote/yamato_effort_dash_04.vsnd_c": [
+"0049073a88",
+9106
+],
+"sounds/vo/yamato/emote/yamato_effort_dash_05.vsnd_c": [
+"009ddb4982",
+8878
+],
+"sounds/vo/yamato/emote/yamato_effort_dash_06.vsnd_c": [
+"00553a8b19",
+9522
+],
+"sounds/vo/yamato/emote/yamato_effort_dash_07.vsnd_c": [
+"00f1f13317",
+9095
+],
+"sounds/vo/yamato/emote/yamato_effort_dash_08.vsnd_c": [
+"00bddd515c",
+8886
+],
+"sounds/vo/yamato/emote/yamato_effort_general_01.vsnd_c": [
+"0090be5104",
+9948
+],
+"sounds/vo/yamato/emote/yamato_effort_general_02.vsnd_c": [
+"00b8f00402",
+8335
+],
+"sounds/vo/yamato/emote/yamato_effort_general_03.vsnd_c": [
+"00d4079f20",
+10689
+],
+"sounds/vo/yamato/emote/yamato_effort_general_04.vsnd_c": [
+"003c793662",
+10796
+],
+"sounds/vo/yamato/emote/yamato_effort_general_05.vsnd_c": [
+"001d24d558",
+10379
+],
+"sounds/vo/yamato/emote/yamato_effort_general_06.vsnd_c": [
+"00dbee0877",
+10483
+],
+"sounds/vo/yamato/emote/yamato_effort_general_07.vsnd_c": [
+"002e952597",
+10379
+],
+"sounds/vo/yamato/emote/yamato_effort_melee_big_01.vsnd_c": [
+"00637ed01f",
+10033
+],
+"sounds/vo/yamato/emote/yamato_effort_melee_big_02.vsnd_c": [
+"004609c5ae",
+12795
+],
+"sounds/vo/yamato/emote/yamato_effort_melee_big_03.vsnd_c": [
+"003bea1d59",
+11832
+],
+"sounds/vo/yamato/emote/yamato_effort_melee_big_04.vsnd_c": [
+"00ef728a0f",
+11407
+],
+"sounds/vo/yamato/emote/yamato_effort_melee_big_05.vsnd_c": [
+"0006ea87bc",
+11952
+],
+"sounds/vo/yamato/emote/yamato_effort_melee_big_06.vsnd_c": [
+"0078c7b957",
+11525
+],
+"sounds/vo/yamato/emote/yamato_effort_melee_big_07.vsnd_c": [
+"0036bef9b0",
+12590
+],
+"sounds/vo/yamato/emote/yamato_effort_melee_big_08.vsnd_c": [
+"0090d8a36b",
+11307
+],
+"sounds/vo/yamato/emote/yamato_effort_melee_small_01.vsnd_c": [
+"00bed884da",
+10285
+],
+"sounds/vo/yamato/emote/yamato_effort_melee_small_02.vsnd_c": [
+"008ff53d24",
+9868
+],
+"sounds/vo/yamato/emote/yamato_effort_melee_small_03.vsnd_c": [
+"00abede9f5",
+8250
+],
+"sounds/vo/yamato/emote/yamato_effort_melee_small_04.vsnd_c": [
+"00af7ed719",
+9960
+],
+"sounds/vo/yamato/emote/yamato_effort_melee_small_05.vsnd_c": [
+"0061a050f7",
+9000
+],
+"sounds/vo/yamato/emote/yamato_pain_big_01.vsnd_c": [
+"00ea721b75",
+8562
+],
+"sounds/vo/yamato/emote/yamato_pain_big_02.vsnd_c": [
+"00ddf2f8a1",
+8565
+],
+"sounds/vo/yamato/emote/yamato_pain_big_03.vsnd_c": [
+"003696926b",
+8132
+],
+"sounds/vo/yamato/emote/yamato_pain_big_04.vsnd_c": [
+"00dfd36943",
+10152
+],
+"sounds/vo/yamato/emote/yamato_pain_big_05.vsnd_c": [
+"0052f1206d",
+11546
+],
+"sounds/vo/yamato/emote/yamato_pain_big_06.vsnd_c": [
+"00ae3c52cd",
+10382
+],
+"sounds/vo/yamato/emote/yamato_pain_big_07.vsnd_c": [
+"0002535d21",
+9301
+],
+"sounds/vo/yamato/emote/yamato_pain_big_08.vsnd_c": [
+"00117164df",
+11016
+],
+"sounds/vo/yamato/emote/yamato_pain_death_01.vsnd_c": [
+"00fb7cf902",
+13139
+],
+"sounds/vo/yamato/emote/yamato_pain_death_02.vsnd_c": [
+"0004904ae9",
+13684
+],
+"sounds/vo/yamato/emote/yamato_pain_death_03.vsnd_c": [
+"0062eaf0c8",
+11451
+],
+"sounds/vo/yamato/emote/yamato_pain_death_04.vsnd_c": [
+"00735807d4",
+16778
+],
+"sounds/vo/yamato/emote/yamato_pain_death_05.vsnd_c": [
+"00862d8009",
+16979
+],
+"sounds/vo/yamato/emote/yamato_pain_small_01.vsnd_c": [
+"0069b59fcf",
+8568
+],
+"sounds/vo/yamato/emote/yamato_pain_small_02.vsnd_c": [
+"004dae025a",
+10167
+],
+"sounds/vo/yamato/emote/yamato_pain_small_03.vsnd_c": [
+"00ced69fd5",
+10251
+],
+"sounds/vo/yamato/emote/yamato_pain_small_04.vsnd_c": [
+"004309ee38",
+7596
+],
+"sounds/vo/yamato/emote/yamato_pain_small_05.vsnd_c": [
+"0053a8127a",
+9744
+],
+"sounds/vo/yamato/ping/yamato_enemy_ghost_ping_with_swap_01.vsnd_c": [
+"0059907504",
+29049
+],
+"sounds/vo/yamato/ping/yamato_enemy_ghost_ping_with_swap_02.vsnd_c": [
+"003231ff31",
+34804
+],
+"sounds/vo/yamato/ping/yamato_enemy_ghost_ping_with_swap_03.vsnd_c": [
+"0015ad593f",
+39716
+],
+"sounds/vo/yamato/ping/yamato_ping_ability1_almost_ready.vsnd_c": [
+"000cf86c4d",
+30221
+],
+"sounds/vo/yamato/ping/yamato_ping_ability1_not_ready.vsnd_c": [
+"0044af0955",
+27988
+],
+"sounds/vo/yamato/ping/yamato_ping_ability2_almost_ready.vsnd_c": [
+"0060f9eca0",
+33642
+],
+"sounds/vo/yamato/ping/yamato_ping_ability2_not_ready.vsnd_c": [
+"00d380be51",
+27564
+],
+"sounds/vo/yamato/ping/yamato_ping_ability3_almost_ready.vsnd_c": [
+"003ef75dda",
+35009
+],
+"sounds/vo/yamato/ping/yamato_ping_ability3_not_ready.vsnd_c": [
+"007bf504e7",
+31268
+],
+"sounds/vo/yamato/ping/yamato_ping_ability4_almost_ready.vsnd_c": [
+"002682ea91",
+33206
+],
+"sounds/vo/yamato/ping/yamato_ping_ability4_not_ready.vsnd_c": [
+"00f05497dd",
+30112
+],
+"sounds/vo/yamato/ping/yamato_ping_affermative_01.vsnd_c": [
+"00c2e9cde2",
+12784
+],
+"sounds/vo/yamato/ping/yamato_ping_affermative_03.vsnd_c": [
+"00fd71ed4d",
+10472
+],
+"sounds/vo/yamato/ping/yamato_ping_astro_above.vsnd_c": [
+"0003472c10",
+23454
+],
+"sounds/vo/yamato/ping/yamato_ping_astro_almost_respawn.vsnd_c": [
+"00194081b1",
+25945
+],
+"sounds/vo/yamato/ping/yamato_ping_astro_below.vsnd_c": [
+"004aba2536",
+20784
+],
+"sounds/vo/yamato/ping/yamato_ping_astro_check_items.vsnd_c": [
+"00e4660a31",
+26684
+],
+"sounds/vo/yamato/ping/yamato_ping_astro_dead.vsnd_c": [
+"00efc7e00c",
+19116
+],
+"sounds/vo/yamato/ping/yamato_ping_astro_low_health.vsnd_c": [
+"00deea3427",
+24731
+],
+"sounds/vo/yamato/ping/yamato_ping_astro_missing_01.vsnd_c": [
+"002dd90cdb",
+19878
+],
+"sounds/vo/yamato/ping/yamato_ping_atlas_above.vsnd_c": [
+"0041c99bf8",
+24398
+],
+"sounds/vo/yamato/ping/yamato_ping_atlas_almost_respawn.vsnd_c": [
+"000bacc2da",
+26558
+],
+"sounds/vo/yamato/ping/yamato_ping_atlas_below.vsnd_c": [
+"006abe058a",
+19398
+],
+"sounds/vo/yamato/ping/yamato_ping_atlas_check_items.vsnd_c": [
+"008519b58b",
+27539
+],
+"sounds/vo/yamato/ping/yamato_ping_atlas_dead.vsnd_c": [
+"0032eb4448",
+20707
+],
+"sounds/vo/yamato/ping/yamato_ping_atlas_low_health.vsnd_c": [
+"00c6a4eb60",
+22908
+],
+"sounds/vo/yamato/ping/yamato_ping_atlas_missing_01.vsnd_c": [
+"006c62c2ce",
+21553
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_astro.vsnd_c": [
+"00af39c0e4",
+23057
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_atlas.vsnd_c": [
+"005b63c8b3",
+25191
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_bebop.vsnd_c": [
+"000c11c3ec",
+22955
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_bookworm.vsnd_c": [
+"00e3e0c20e",
+22868
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_chrono.vsnd_c": [
+"008b1d1ec3",
+24128
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_doorman.vsnd_c": [
+"00e2338e0c",
+24680
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_drifter.vsnd_c": [
+"00d1b19c98",
+25519
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_dynamo.vsnd_c": [
+"003f051576",
+23713
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_enemy.vsnd_c": [
+"00f25aaad6",
+24117
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_enemy_avatar.vsnd_c": [
+"00375698ad",
+23074
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_familiar.vsnd_c": [
+"0034b3d631",
+25193
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_fencer.vsnd_c": [
+"005fdb2349",
+22701
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_forge.vsnd_c": [
+"00a8a42369",
+25504
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_frank.vsnd_c": [
+"002df17bc6",
+24987
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_ghost.vsnd_c": [
+"00824ddf9c",
+21680
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_gigawatt.vsnd_c": [
+"00add1c23e",
+21367
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_haze.vsnd_c": [
+"0055e6f41a",
+21879
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_here.vsnd_c": [
+"00e1b2dc59",
+14074
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_hornet.vsnd_c": [
+"00ba9a1798",
+24886
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_inferno.vsnd_c": [
+"00309ab31a",
+24451
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_kelvin.vsnd_c": [
+"00c82bbfd2",
+22755
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_krill.vsnd_c": [
+"001ccd2f1c",
+20812
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_lash.vsnd_c": [
+"005dd52fbe",
+21979
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_magician.vsnd_c": [
+"00f1d72737",
+25085
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_mirage.vsnd_c": [
+"00afb5abed",
+22216
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_nano.vsnd_c": [
+"004be22a90",
+22636
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_necro.vsnd_c": [
+"00221762f8",
+25632
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_orion.vsnd_c": [
+"0020f423eb",
+24553
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_priest.vsnd_c": [
+"0095230020",
+26480
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_punkgoat.vsnd_c": [
+"005c86d285",
+23818
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_shiv.vsnd_c": [
+"00c2f876df",
+20811
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_synth.vsnd_c": [
+"002e7c5983",
+21770
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_tengu.vsnd_c": [
+"00d1a10f81",
+21684
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_unicorn.vsnd_c": [
+"00d7b9ed32",
+23876
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_vampirebat.vsnd_c": [
+"00059b8f68",
+21455
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_viper.vsnd_c": [
+"00de173d6f",
+25409
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_viscous.vsnd_c": [
+"00f63db0d9",
+23498
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_warden.vsnd_c": [
+"0098f2e623",
+22761
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_werewolf.vsnd_c": [
+"0083e11456",
+25214
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_wraith.vsnd_c": [
+"00595a70c8",
+23496
+],
+"sounds/vo/yamato/ping/yamato_ping_attack_wrecker.vsnd_c": [
+"0088992c5b",
+23281
+],
+"sounds/vo/yamato/ping/yamato_ping_avatar_under_attack.vsnd_c": [
+"00534f6f43",
+27645
+],
+"sounds/vo/yamato/ping/yamato_ping_be_back_soon.vsnd_c": [
+"00905582c3",
+17404
+],
+"sounds/vo/yamato/ping/yamato_ping_bebop_above.vsnd_c": [
+"00e56c26b4",
+22491
+],
+"sounds/vo/yamato/ping/yamato_ping_bebop_almost_respawn.vsnd_c": [
+"0070660686",
+26787
+],
+"sounds/vo/yamato/ping/yamato_ping_bebop_below.vsnd_c": [
+"0010149753",
+18961
+],
+"sounds/vo/yamato/ping/yamato_ping_bebop_check_items.vsnd_c": [
+"0086c716bb",
+28078
+],
+"sounds/vo/yamato/ping/yamato_ping_bebop_dead.vsnd_c": [
+"001c4ea06b",
+18698
+],
+"sounds/vo/yamato/ping/yamato_ping_bebop_low_health.vsnd_c": [
+"00b7c9f50b",
+23971
+],
+"sounds/vo/yamato/ping/yamato_ping_bebop_missing_01.vsnd_c": [
+"00723ccd55",
+20307
+],
+"sounds/vo/yamato/ping/yamato_ping_behind_us.vsnd_c": [
+"000b66d0c4",
+21189
+],
+"sounds/vo/yamato/ping/yamato_ping_blue_help_01.vsnd_c": [
+"00f47f2eb3",
+19216
+],
+"sounds/vo/yamato/ping/yamato_ping_blue_help_02.vsnd_c": [
+"00816c9c34",
+23776
+],
+"sounds/vo/yamato/ping/yamato_ping_bookworm_above.vsnd_c": [
+"0078162b3b",
+19705
+],
+"sounds/vo/yamato/ping/yamato_ping_bookworm_almost_respawn.vsnd_c": [
+"00f955a51f",
+24552
+],
+"sounds/vo/yamato/ping/yamato_ping_bookworm_below.vsnd_c": [
+"0039b6addc",
+17909
+],
+"sounds/vo/yamato/ping/yamato_ping_bookworm_check_items.vsnd_c": [
+"0037cafdfd",
+27343
+],
+"sounds/vo/yamato/ping/yamato_ping_bookworm_dead.vsnd_c": [
+"008a68c0f3",
+18480
+],
+"sounds/vo/yamato/ping/yamato_ping_bookworm_low_health.vsnd_c": [
+"00b178e9e6",
+21102
+],
+"sounds/vo/yamato/ping/yamato_ping_bookworm_missing_01.vsnd_c": [
+"00609a0596",
+18481
+],
+"sounds/vo/yamato/ping/yamato_ping_bridge_buff.vsnd_c": [
+"004f5cfebd",
+20254
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_astro.vsnd_c": [
+"00e8f393c5",
+24572
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_atlas.vsnd_c": [
+"00bd83f28d",
+26474
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_bebop.vsnd_c": [
+"003bdb4d65",
+24255
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_bookworm.vsnd_c": [
+"002d875cc0",
+24238
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_chrono.vsnd_c": [
+"0092e40b87",
+27225
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_doorman.vsnd_c": [
+"00c62bed85",
+25833
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_drifter.vsnd_c": [
+"00931533f7",
+27332
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_dynamo.vsnd_c": [
+"005a7befcc",
+25314
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_familiar.vsnd_c": [
+"007933c9f9",
+23922
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_fencer.vsnd_c": [
+"0092728b67",
+23991
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_forge.vsnd_c": [
+"0085341faa",
+27647
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_frank.vsnd_c": [
+"002f19c4b1",
+25835
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_ghost.vsnd_c": [
+"0050764759",
+22758
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_gigawatt.vsnd_c": [
+"0007bac686",
+24356
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_haze.vsnd_c": [
+"0048a32073",
+22326
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_hornet.vsnd_c": [
+"0069ec1343",
+28919
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_inferno.vsnd_c": [
+"006fd89dde",
+26907
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_kelvin.vsnd_c": [
+"00ff348551",
+25629
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_krill.vsnd_c": [
+"00976a52d1",
+25414
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_lash.vsnd_c": [
+"00a319a5cc",
+25091
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_magician.vsnd_c": [
+"000288687c",
+27002
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_mirage.vsnd_c": [
+"005dc02938",
+24773
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_nano.vsnd_c": [
+"00022cd5fb",
+23814
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_necro.vsnd_c": [
+"002783b73d",
+26145
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_orion.vsnd_c": [
+"00a6884f12",
+27542
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_priest.vsnd_c": [
+"0024e18770",
+27108
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_punkgoat.vsnd_c": [
+"00603c4db8",
+24338
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_shiv.vsnd_c": [
+"00812be9ef",
+26665
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_synth.vsnd_c": [
+"00a46e8c73",
+24344
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_tengu.vsnd_c": [
+"007b9b434e",
+24134
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_unicorn.vsnd_c": [
+"008ad97b89",
+25153
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_vampirebat.vsnd_c": [
+"000aba03aa",
+23942
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_viper.vsnd_c": [
+"0047931fed",
+25194
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_viscous.vsnd_c": [
+"0025c2cfc4",
+25522
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_warden.vsnd_c": [
+"00ea5c225f",
+25842
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_werewolf.vsnd_c": [
+"00763255b7",
+26268
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_wraith.vsnd_c": [
+"008d4cf15a",
+25205
+],
+"sounds/vo/yamato/ping/yamato_ping_can_heal_wrecker.vsnd_c": [
+"00531a325b",
+25196
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_astro_01.vsnd_c": [
+"0046ca1fff",
+16575
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_astro_02.vsnd_c": [
+"0068b74ed6",
+17858
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_astro_03.vsnd_c": [
+"001c846206",
+19227
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_atlas_01.vsnd_c": [
+"009b6797a1",
+21154
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_atlas_02.vsnd_c": [
+"0021642c10",
+20195
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_atlas_03.vsnd_c": [
+"0067a0ee9b",
+21163
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_bebop_01.vsnd_c": [
+"00a4a4527b",
+16142
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_bebop_02.vsnd_c": [
+"00c15826d0",
+18049
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_bebop_03.vsnd_c": [
+"004d1a283c",
+19755
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_bookworm_01.vsnd_c": [
+"00e3a4440d",
+16787
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_bookworm_02.vsnd_c": [
+"00051ff683",
+18493
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_bookworm_03.vsnd_c": [
+"00b2332532",
+20099
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_chrono_01.vsnd_c": [
+"00245fc465",
+20304
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_chrono_02.vsnd_c": [
+"008fe9c15e",
+19773
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_chrono_03.vsnd_c": [
+"005f94409b",
+21572
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_doorman_01.vsnd_c": [
+"00072adfee",
+17869
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_doorman_02.vsnd_c": [
+"00e8e47765",
+20100
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_doorman_03.vsnd_c": [
+"002a11caaf",
+20838
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_drifter_01.vsnd_c": [
+"00c057c0c9",
+19231
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_drifter_02.vsnd_c": [
+"00767f1d61",
+20948
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_drifter_03.vsnd_c": [
+"0014079e44",
+21158
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_dynamo_01.vsnd_c": [
+"00cbdbbc32",
+18057
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_dynamo_02.vsnd_c": [
+"00b8fe98c2",
+18586
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_dynamo_03.vsnd_c": [
+"00280524a3",
+19541
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_familiar_01.vsnd_c": [
+"00d24c167d",
+16257
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_familiar_02.vsnd_c": [
+"006a95c9c6",
+17106
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_familiar_03.vsnd_c": [
+"0069e9d3f3",
+17853
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_fencer_01.vsnd_c": [
+"0097e03351",
+18328
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_fencer_02.vsnd_c": [
+"0013cefadb",
+19501
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_fencer_03.vsnd_c": [
+"0047f07793",
+19937
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_forge_01.vsnd_c": [
+"003680fefe",
+20611
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_forge_02.vsnd_c": [
+"00f322419c",
+20830
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_forge_03.vsnd_c": [
+"00e8020b45",
+22436
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_frank_01.vsnd_c": [
+"002d4a3e20",
+17742
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_frank_02.vsnd_c": [
+"00f66226f3",
+19220
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_frank_03.vsnd_c": [
+"0032a4a38b",
+19643
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_ghost_01.vsnd_c": [
+"006c4924f2",
+16362
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_ghost_02.vsnd_c": [
+"005fe8bf99",
+16255
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_ghost_03.vsnd_c": [
+"00503dd9ea",
+17110
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_gigawatt_01.vsnd_c": [
+"00f8efe9dd",
+16258
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_gigawatt_02.vsnd_c": [
+"00451b6a5d",
+17633
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_gigawatt_03.vsnd_c": [
+"0008ed6c1c",
+19547
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_haze_01.vsnd_c": [
+"00527cc647",
+16453
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_haze_02.vsnd_c": [
+"0069a95b8f",
+16778
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_haze_03.vsnd_c": [
+"0042446012",
+18482
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_hornet_01.vsnd_c": [
+"00ebde42d2",
+19335
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_hornet_02.vsnd_c": [
+"001151c307",
+19770
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_hornet_03.vsnd_c": [
+"004a0ea85e",
+22104
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_inferno_01.vsnd_c": [
+"008a3a4db4",
+19771
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_inferno_02.vsnd_c": [
+"0088171b18",
+20615
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_inferno_03.vsnd_c": [
+"00da528f45",
+23514
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_kelvin_01.vsnd_c": [
+"003a7e0990",
+17111
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_kelvin_02.vsnd_c": [
+"0063838c7b",
+18589
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_kelvin_03.vsnd_c": [
+"0022903d6c",
+20193
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_krill_01.vsnd_c": [
+"00e7d4752e",
+15501
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_krill_02.vsnd_c": [
+"00f95b3baa",
+16770
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_krill_03.vsnd_c": [
+"00159751c0",
+18593
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_lash_01.vsnd_c": [
+"0095bf4a03",
+15927
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_lash_02.vsnd_c": [
+"0030cb4379",
+17211
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_lash_03.vsnd_c": [
+"00f93772ca",
+18063
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_magician_01.vsnd_c": [
+"0093ffd16a",
+19351
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_magician_02.vsnd_c": [
+"00592fce68",
+20508
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_magician_03.vsnd_c": [
+"006a0f9b7b",
+20423
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_mirage_01.vsnd_c": [
+"00e658119b",
+17524
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_mirage_02.vsnd_c": [
+"007bbd255b",
+19028
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_mirage_03.vsnd_c": [
+"00da5be9d8",
+19232
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_nano_01.vsnd_c": [
+"002174b25d",
+18057
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_nano_02.vsnd_c": [
+"00da89b9bd",
+17200
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_nano_03.vsnd_c": [
+"00fc5f0add",
+19217
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_necro_01.vsnd_c": [
+"00b9084671",
+18583
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_necro_02.vsnd_c": [
+"00cb56635c",
+19346
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_necro_03.vsnd_c": [
+"00c27e3a52",
+21027
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_orion_01.vsnd_c": [
+"00bf027c2d",
+18489
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_orion_02.vsnd_c": [
+"0019348fbb",
+18388
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_orion_03.vsnd_c": [
+"0026c8ff41",
+19875
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_priest_01.vsnd_c": [
+"002a1befbf",
+18807
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_priest_02.vsnd_c": [
+"00610a94f9",
+19431
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_priest_03.vsnd_c": [
+"000b8f86ea",
+21133
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_punkgoat_01.vsnd_c": [
+"00758c964a",
+16588
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_punkgoat_02.vsnd_c": [
+"004bcce338",
+18812
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_punkgoat_03.vsnd_c": [
+"0019b0dfb3",
+19554
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_shiv_01.vsnd_c": [
+"0060a40af0",
+16662
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_shiv_02.vsnd_c": [
+"00ccc24541",
+16351
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_shiv_03.vsnd_c": [
+"002f764b8e",
+18817
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_synth_01.vsnd_c": [
+"0097b28020",
+16259
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_synth_02.vsnd_c": [
+"003132bfdd",
+17218
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_synth_03.vsnd_c": [
+"000cee6f76",
+19234
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_tengu_01.vsnd_c": [
+"00693b26a2",
+16780
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_tengu_02.vsnd_c": [
+"0089042901",
+18067
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_tengu_03.vsnd_c": [
+"006e62174c",
+18707
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_unicorn_01.vsnd_c": [
+"00ebdef1c2",
+17485
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_unicorn_02.vsnd_c": [
+"0071476f41",
+18443
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_unicorn_03.vsnd_c": [
+"00e2a69f5f",
+19928
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_vampirebat_01.vsnd_c": [
+"00d84e11e8",
+15934
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_vampirebat_02.vsnd_c": [
+"00259fd68e",
+17109
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_vampirebat_03.vsnd_c": [
+"003b62f6b8",
+18281
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_viper_01.vsnd_c": [
+"005ed63cf4",
+16343
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_viper_02.vsnd_c": [
+"0020c89346",
+17524
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_viper_03.vsnd_c": [
+"0050dd93e5",
+18267
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_viscous_01.vsnd_c": [
+"00d388f3b5",
+18499
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_viscous_02.vsnd_c": [
+"005e990e00",
+20206
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_viscous_03.vsnd_c": [
+"00a84e8913",
+20934
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_warden_01.vsnd_c": [
+"0012f13e8e",
+17109
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_warden_02.vsnd_c": [
+"00b7cc3966",
+19021
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_warden_03.vsnd_c": [
+"008d73a5b3",
+20606
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_werewolf_01.vsnd_c": [
+"009ec54222",
+18167
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_werewolf_02.vsnd_c": [
+"00a1879ea2",
+20726
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_werewolf_03.vsnd_c": [
+"00e3de3335",
+20941
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_wraith_01.vsnd_c": [
+"0021f36108",
+16363
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_wraith_02.vsnd_c": [
+"0084c416a5",
+17213
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_wraith_03.vsnd_c": [
+"00ddfef715",
+19022
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_wrecker_01.vsnd_c": [
+"0062a18543",
+17965
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_wrecker_02.vsnd_c": [
+"00b6c80bea",
+19016
+],
+"sounds/vo/yamato/ping/yamato_ping_careful_wrecker_03.vsnd_c": [
+"009721201a",
+20083
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_astro.vsnd_c": [
+"00fd6cad67",
+20033
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_atlas.vsnd_c": [
+"00f65261aa",
+21842
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_bebop.vsnd_c": [
+"002666a33f",
+19086
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_bookworm.vsnd_c": [
+"004287c8b1",
+18755
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_chrono.vsnd_c": [
+"00d66f9b59",
+21851
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_doorman.vsnd_c": [
+"00ad049a88",
+20473
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_drifter.vsnd_c": [
+"0026d6a44d",
+18968
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_dynamo.vsnd_c": [
+"00a52dee97",
+19605
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_familiar.vsnd_c": [
+"00e34390f6",
+18983
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_fencer.vsnd_c": [
+"004c887836",
+20031
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_forge.vsnd_c": [
+"00feefca5a",
+23025
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_frank.vsnd_c": [
+"00e27fe6e2",
+19193
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_ghost.vsnd_c": [
+"009a12b05b",
+18342
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_gigawatt.vsnd_c": [
+"0003ff4712",
+18772
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_haze.vsnd_c": [
+"00e0f83e75",
+18867
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_hornet.vsnd_c": [
+"0035f7766b",
+22272
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_inferno.vsnd_c": [
+"0068d72b08",
+23453
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_kelvin.vsnd_c": [
+"008b162acf",
+18755
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_krill.vsnd_c": [
+"0014b0f2a4",
+18343
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_lash.vsnd_c": [
+"00e4437a46",
+17915
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_magician.vsnd_c": [
+"00233f3be8",
+19624
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_mirage.vsnd_c": [
+"00bd070745",
+19184
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_nano.vsnd_c": [
+"0024d40efd",
+19722
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_necro.vsnd_c": [
+"00418f260a",
+18444
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_orion.vsnd_c": [
+"0018e09980",
+22701
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_priest.vsnd_c": [
+"00148f6cae",
+19617
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_punkgoat.vsnd_c": [
+"00b347a6e8",
+18542
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_shiv.vsnd_c": [
+"00bbd4356f",
+19391
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_synth.vsnd_c": [
+"00ec962844",
+18759
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_tengu.vsnd_c": [
+"004b77b1ae",
+17689
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_unicorn.vsnd_c": [
+"00b0239aa5",
+19188
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_vampirebat.vsnd_c": [
+"007178e306",
+17596
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_viper.vsnd_c": [
+"007b9d5919",
+18336
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_viscous.vsnd_c": [
+"00cc1190bf",
+19931
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_warden.vsnd_c": [
+"00b0a28308",
+18769
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_werewolf.vsnd_c": [
+"0030c05451",
+19294
+],
+"sounds/vo/yamato/ping/yamato_ping_check_on_wraith.vsnd_c": [
+"00237d50f3",
+18329
+],
+"sounds/vo/yamato/ping/yamato_ping_chrono_above.vsnd_c": [
+"00b71f08a4",
+21431
+],
+"sounds/vo/yamato/ping/yamato_ping_chrono_almost_respawn.vsnd_c": [
+"00cf3b9896",
+27543
+],
+"sounds/vo/yamato/ping/yamato_ping_chrono_below.vsnd_c": [
+"00f28f6e47",
+19193
+],
+"sounds/vo/yamato/ping/yamato_ping_chrono_check_items.vsnd_c": [
+"0062662e27",
+28618
+],
+"sounds/vo/yamato/ping/yamato_ping_chrono_dead.vsnd_c": [
+"0007208558",
+20177
+],
+"sounds/vo/yamato/ping/yamato_ping_chrono_low_health.vsnd_c": [
+"00a4392e74",
+24834
+],
+"sounds/vo/yamato/ping/yamato_ping_chrono_missing_01.vsnd_c": [
+"00e51f65ef",
+20932
+],
+"sounds/vo/yamato/ping/yamato_ping_clear_troopers.vsnd_c": [
+"00c1be3a79",
+27758
+],
+"sounds/vo/yamato/ping/yamato_ping_danger_area.vsnd_c": [
+"00c5e89b5c",
+21019
+],
+"sounds/vo/yamato/ping/yamato_ping_defend_base_01.vsnd_c": [
+"00e18f67c3",
+18692
+],
+"sounds/vo/yamato/ping/yamato_ping_defend_blue_01.vsnd_c": [
+"0070e05d03",
+16238
+],
+"sounds/vo/yamato/ping/yamato_ping_defend_blue_02.vsnd_c": [
+"00f4d15cee",
+19331
+],
+"sounds/vo/yamato/ping/yamato_ping_defend_green_01.vsnd_c": [
+"00aae1f57f",
+17741
+],
+"sounds/vo/yamato/ping/yamato_ping_defend_green_02.vsnd_c": [
+"00ece3665c",
+19124
+],
+"sounds/vo/yamato/ping/yamato_ping_defend_here.vsnd_c": [
+"000aa3abab",
+15352
+],
+"sounds/vo/yamato/ping/yamato_ping_defend_yellow_01.vsnd_c": [
+"00468090ca",
+17520
+],
+"sounds/vo/yamato/ping/yamato_ping_defend_yellow_02.vsnd_c": [
+"000743e801",
+17314
+],
+"sounds/vo/yamato/ping/yamato_ping_disarm_hex_almost_ready.vsnd_c": [
+"00bbf582a8",
+31134
+],
+"sounds/vo/yamato/ping/yamato_ping_disarm_hex_not_ready.vsnd_c": [
+"00ab0f02b7",
+32297
+],
+"sounds/vo/yamato/ping/yamato_ping_door.vsnd_c": [
+"00ef1adfcb",
+14377
+],
+"sounds/vo/yamato/ping/yamato_ping_doorman_above.vsnd_c": [
+"00b4e8b6a3",
+20994
+],
+"sounds/vo/yamato/ping/yamato_ping_doorman_almost_respawn.vsnd_c": [
+"00064499ec",
+29791
+],
+"sounds/vo/yamato/ping/yamato_ping_doorman_below.vsnd_c": [
+"00c496c025",
+19928
+],
+"sounds/vo/yamato/ping/yamato_ping_doorman_check_items.vsnd_c": [
+"00697d1f60",
+28624
+],
+"sounds/vo/yamato/ping/yamato_ping_doorman_dead.vsnd_c": [
+"0035f45751",
+23591
+],
+"sounds/vo/yamato/ping/yamato_ping_doorman_low_health.vsnd_c": [
+"004a1177d2",
+22599
+],
+"sounds/vo/yamato/ping/yamato_ping_doorman_missing_01.vsnd_c": [
+"00dc5f8553",
+23592
+],
+"sounds/vo/yamato/ping/yamato_ping_drifter_above.vsnd_c": [
+"00bd2d6614",
+21867
+],
+"sounds/vo/yamato/ping/yamato_ping_drifter_almost_respawn.vsnd_c": [
+"00e1f9fbdf",
+26913
+],
+"sounds/vo/yamato/ping/yamato_ping_drifter_below.vsnd_c": [
+"002e365c0b",
+20580
+],
+"sounds/vo/yamato/ping/yamato_ping_drifter_check_items.vsnd_c": [
+"000c68387f",
+29047
+],
+"sounds/vo/yamato/ping/yamato_ping_drifter_dead.vsnd_c": [
+"00bb65a8c7",
+21476
+],
+"sounds/vo/yamato/ping/yamato_ping_drifter_low_health.vsnd_c": [
+"00faaeb6f1",
+22690
+],
+"sounds/vo/yamato/ping/yamato_ping_drifter_missing_01.vsnd_c": [
+"0099952d37",
+21894
+],
+"sounds/vo/yamato/ping/yamato_ping_dynamo_above.vsnd_c": [
+"00d532cb3b",
+24084
+],
+"sounds/vo/yamato/ping/yamato_ping_dynamo_almost_respawn.vsnd_c": [
+"00ef2ede02",
+27218
+],
+"sounds/vo/yamato/ping/yamato_ping_dynamo_below.vsnd_c": [
+"005912c3de",
+19493
+],
+"sounds/vo/yamato/ping/yamato_ping_dynamo_check_items.vsnd_c": [
+"00a5fd3ebc",
+27870
+],
+"sounds/vo/yamato/ping/yamato_ping_dynamo_dead.vsnd_c": [
+"00f0794783",
+19108
+],
+"sounds/vo/yamato/ping/yamato_ping_dynamo_low_health.vsnd_c": [
+"0076454af2",
+26530
+],
+"sounds/vo/yamato/ping/yamato_ping_dynamo_missing_01.vsnd_c": [
+"00b055db97",
+20202
+],
+"sounds/vo/yamato/ping/yamato_ping_enemy_count_all.vsnd_c": [
+"00aac1ae5d",
+17901
+],
+"sounds/vo/yamato/ping/yamato_ping_enemy_count_big.vsnd_c": [
+"006e6db7b8",
+18647
+],
+"sounds/vo/yamato/ping/yamato_ping_enemy_count_small.vsnd_c": [
+"001cb4f735",
+21433
+],
+"sounds/vo/yamato/ping/yamato_ping_enemy_steals_farm.vsnd_c": [
+"0080860bb2",
+24840
+],
+"sounds/vo/yamato/ping/yamato_ping_enemy_take_mid.vsnd_c": [
+"008c930a3f",
+19769
+],
+"sounds/vo/yamato/ping/yamato_ping_familiar_above.vsnd_c": [
+"00c703b82b",
+21427
+],
+"sounds/vo/yamato/ping/yamato_ping_familiar_almost_respawn.vsnd_c": [
+"00c55a8f3e",
+24370
+],
+"sounds/vo/yamato/ping/yamato_ping_familiar_below.vsnd_c": [
+"003d402f59",
+18230
+],
+"sounds/vo/yamato/ping/yamato_ping_familiar_check_items.vsnd_c": [
+"00c6d0e295",
+28410
+],
+"sounds/vo/yamato/ping/yamato_ping_familiar_dead.vsnd_c": [
+"00c421e484",
+18270
+],
+"sounds/vo/yamato/ping/yamato_ping_familiar_low_health.vsnd_c": [
+"00852145df",
+22386
+],
+"sounds/vo/yamato/ping/yamato_ping_familiar_missing_01.vsnd_c": [
+"00249383e1",
+19757
+],
+"sounds/vo/yamato/ping/yamato_ping_farm.vsnd_c": [
+"007b826553",
+21299
+],
+"sounds/vo/yamato/ping/yamato_ping_fencer_above.vsnd_c": [
+"00c846333e",
+22598
+],
+"sounds/vo/yamato/ping/yamato_ping_fencer_almost_respawn.vsnd_c": [
+"00da61e24d",
+24419
+],
+"sounds/vo/yamato/ping/yamato_ping_fencer_below.vsnd_c": [
+"00ca8bd432",
+18235
+],
+"sounds/vo/yamato/ping/yamato_ping_fencer_check_items.vsnd_c": [
+"002e02d521",
+27928
+],
+"sounds/vo/yamato/ping/yamato_ping_fencer_dead.vsnd_c": [
+"00f6d76e57",
+18967
+],
+"sounds/vo/yamato/ping/yamato_ping_fencer_low_health.vsnd_c": [
+"00d259460a",
+23027
+],
+"sounds/vo/yamato/ping/yamato_ping_fencer_missing_01.vsnd_c": [
+"00a1c0e074",
+21958
+],
+"sounds/vo/yamato/ping/yamato_ping_flank.vsnd_c": [
+"00e0ba2ac5",
+18049
+],
+"sounds/vo/yamato/ping/yamato_ping_flying_hornet.vsnd_c": [
+"005b483691",
+22076
+],
+"sounds/vo/yamato/ping/yamato_ping_flying_orion.vsnd_c": [
+"009b3d3be5",
+22907
+],
+"sounds/vo/yamato/ping/yamato_ping_flying_tengu.vsnd_c": [
+"00ce3b66be",
+18115
+],
+"sounds/vo/yamato/ping/yamato_ping_focus_lens_almost_ready.vsnd_c": [
+"00bb68f2ee",
+28993
+],
+"sounds/vo/yamato/ping/yamato_ping_focus_lens_not_ready.vsnd_c": [
+"00da634c1a",
+32188
+],
+"sounds/vo/yamato/ping/yamato_ping_forge_above.vsnd_c": [
+"00819d6f8e",
+24386
+],
+"sounds/vo/yamato/ping/yamato_ping_forge_almost_respawn.vsnd_c": [
+"0068b5bde6",
+28611
+],
+"sounds/vo/yamato/ping/yamato_ping_forge_below.vsnd_c": [
+"00b306bd6a",
+21746
+],
+"sounds/vo/yamato/ping/yamato_ping_forge_check_items.vsnd_c": [
+"00e47da99a",
+30739
+],
+"sounds/vo/yamato/ping/yamato_ping_forge_dead.vsnd_c": [
+"00df13049c",
+21659
+],
+"sounds/vo/yamato/ping/yamato_ping_forge_low_health.vsnd_c": [
+"00c7b0322b",
+26129
+],
+"sounds/vo/yamato/ping/yamato_ping_forge_missing_01.vsnd_c": [
+"00e2431274",
+22970
+],
+"sounds/vo/yamato/ping/yamato_ping_frank_above.vsnd_c": [
+"0072d9d004",
+22493
+],
+"sounds/vo/yamato/ping/yamato_ping_frank_almost_respawn.vsnd_c": [
+"0049d54cc0",
+26373
+],
+"sounds/vo/yamato/ping/yamato_ping_frank_below.vsnd_c": [
+"00d0841e78",
+19190
+],
+"sounds/vo/yamato/ping/yamato_ping_frank_check_items.vsnd_c": [
+"004d1e36b1",
+28284
+],
+"sounds/vo/yamato/ping/yamato_ping_frank_dead.vsnd_c": [
+"009b7ba0e0",
+20619
+],
+"sounds/vo/yamato/ping/yamato_ping_frank_low_health.vsnd_c": [
+"00e0e24ab1",
+21747
+],
+"sounds/vo/yamato/ping/yamato_ping_frank_missing_01.vsnd_c": [
+"0020401207",
+20614
+],
+"sounds/vo/yamato/ping/yamato_ping_gank.vsnd_c": [
+"00c3d0da71",
+19633
+],
+"sounds/vo/yamato/ping/yamato_ping_general_check_items.vsnd_c": [
+"006e70f2de",
+21747
+],
+"sounds/vo/yamato/ping/yamato_ping_ghost_above.vsnd_c": [
+"00788615ea",
+20145
+],
+"sounds/vo/yamato/ping/yamato_ping_ghost_almost_respawn.vsnd_c": [
+"00835c70b8",
+25829
+],
+"sounds/vo/yamato/ping/yamato_ping_ghost_below.vsnd_c": [
+"000610d3e6",
+19499
+],
+"sounds/vo/yamato/ping/yamato_ping_ghost_check_items.vsnd_c": [
+"009807f91c",
+26587
+],
+"sounds/vo/yamato/ping/yamato_ping_ghost_dead.vsnd_c": [
+"00627ac991",
+18258
+],
+"sounds/vo/yamato/ping/yamato_ping_ghost_low_health.vsnd_c": [
+"008f5c3cee",
+23030
+],
+"sounds/vo/yamato/ping/yamato_ping_ghost_missing_01.vsnd_c": [
+"00e0869d03",
+19667
+],
+"sounds/vo/yamato/ping/yamato_ping_gigawatt_above.vsnd_c": [
+"0071a86e0c",
+22697
+],
+"sounds/vo/yamato/ping/yamato_ping_gigawatt_almost_respawn.vsnd_c": [
+"0044d944fb",
+26467
+],
+"sounds/vo/yamato/ping/yamato_ping_gigawatt_below.vsnd_c": [
+"00dd8c1c47",
+20684
+],
+"sounds/vo/yamato/ping/yamato_ping_gigawatt_check_items.vsnd_c": [
+"0081dc310f",
+25411
+],
+"sounds/vo/yamato/ping/yamato_ping_gigawatt_dead.vsnd_c": [
+"00d452bfd7",
+20640
+],
+"sounds/vo/yamato/ping/yamato_ping_gigawatt_low_health.vsnd_c": [
+"00d124cc35",
+24715
+],
+"sounds/vo/yamato/ping/yamato_ping_gigawatt_missing_01.vsnd_c": [
+"003fdd0141",
+19555
+],
+"sounds/vo/yamato/ping/yamato_ping_glitch_almost_ready.vsnd_c": [
+"00746c4c26",
+30690
+],
+"sounds/vo/yamato/ping/yamato_ping_glitch_not_ready.vsnd_c": [
+"00be8695eb",
+32291
+],
+"sounds/vo/yamato/ping/yamato_ping_going_in.vsnd_c": [
+"004506bb63",
+13581
+],
+"sounds/vo/yamato/ping/yamato_ping_going_in_01.vsnd_c": [
+"008f8eb4a5",
+16015
+],
+"sounds/vo/yamato/ping/yamato_ping_going_shop_01.vsnd_c": [
+"00efc78f10",
+17065
+],
+"sounds/vo/yamato/ping/yamato_ping_going_to_base.vsnd_c": [
+"0023706eb8",
+19170
+],
+"sounds/vo/yamato/ping/yamato_ping_going_to_bridge_buff.vsnd_c": [
+"00d944b025",
+22165
+],
+"sounds/vo/yamato/ping/yamato_ping_going_to_defend.vsnd_c": [
+"00e5c73c6e",
+18008
+],
+"sounds/vo/yamato/ping/yamato_ping_going_to_farm.vsnd_c": [
+"003a2e169e",
+16509
+],
+"sounds/vo/yamato/ping/yamato_ping_going_to_push.vsnd_c": [
+"00ec4aaa0b",
+17783
+],
+"sounds/vo/yamato/ping/yamato_ping_going_to_urn.vsnd_c": [
+"001f42935b",
+16092
+],
+"sounds/vo/yamato/ping/yamato_ping_good_game_03.vsnd_c": [
+"0071bdb615",
+14205
+],
+"sounds/vo/yamato/ping/yamato_ping_good_job_01.vsnd_c": [
+"0075f8bab3",
+15057
+],
+"sounds/vo/yamato/ping/yamato_ping_green_help_01.vsnd_c": [
+"00a03e0971",
+21154
+],
+"sounds/vo/yamato/ping/yamato_ping_green_help_02.vsnd_c": [
+"00cbbf0265",
+21471
+],
+"sounds/vo/yamato/ping/yamato_ping_haze_above.vsnd_c": [
+"00136ff637",
+19616
+],
+"sounds/vo/yamato/ping/yamato_ping_haze_almost_respawn.vsnd_c": [
+"000887190a",
+24252
+],
+"sounds/vo/yamato/ping/yamato_ping_haze_below.vsnd_c": [
+"00f466afa5",
+17467
+],
+"sounds/vo/yamato/ping/yamato_ping_haze_check_items.vsnd_c": [
+"009740ea08",
+25300
+],
+"sounds/vo/yamato/ping/yamato_ping_haze_dead.vsnd_c": [
+"003464dc2c",
+16680
+],
+"sounds/vo/yamato/ping/yamato_ping_haze_low_health.vsnd_c": [
+"00c2b36dfe",
+20900
+],
+"sounds/vo/yamato/ping/yamato_ping_haze_missing_01.vsnd_c": [
+"00e1bd9232",
+17303
+],
+"sounds/vo/yamato/ping/yamato_ping_headed_blue_01.vsnd_c": [
+"004799ea4f",
+19125
+],
+"sounds/vo/yamato/ping/yamato_ping_headed_blue_02.vsnd_c": [
+"0071b7463f",
+21267
+],
+"sounds/vo/yamato/ping/yamato_ping_headed_green_01.vsnd_c": [
+"0089fdebf3",
+19438
+],
+"sounds/vo/yamato/ping/yamato_ping_headed_green_02.vsnd_c": [
+"0055e3459a",
+20304
+],
+"sounds/vo/yamato/ping/yamato_ping_headed_yellow_01.vsnd_c": [
+"00bf2a94f7",
+19446
+],
+"sounds/vo/yamato/ping/yamato_ping_headed_yellow_02.vsnd_c": [
+"008f909090",
+19452
+],
+"sounds/vo/yamato/ping/yamato_ping_heading_here.vsnd_c": [
+"00560c44bb",
+14063
+],
+"sounds/vo/yamato/ping/yamato_ping_heal_ready.vsnd_c": [
+"0081ea6833",
+18426
+],
+"sounds/vo/yamato/ping/yamato_ping_health_nova_almost_ready.vsnd_c": [
+"006f2b8a0b",
+28983
+],
+"sounds/vo/yamato/ping/yamato_ping_health_nova_not_ready.vsnd_c": [
+"00911ec1e7",
+27183
+],
+"sounds/vo/yamato/ping/yamato_ping_help_with_idol.vsnd_c": [
+"005b1b6649",
+28080
+],
+"sounds/vo/yamato/ping/yamato_ping_hornet_above.vsnd_c": [
+"007603178f",
+23759
+],
+"sounds/vo/yamato/ping/yamato_ping_hornet_almost_respawn.vsnd_c": [
+"0017c9159f",
+27423
+],
+"sounds/vo/yamato/ping/yamato_ping_hornet_below.vsnd_c": [
+"00d05d9473",
+21421
+],
+"sounds/vo/yamato/ping/yamato_ping_hornet_check_items.vsnd_c": [
+"00b8ba881e",
+27639
+],
+"sounds/vo/yamato/ping/yamato_ping_hornet_dead.vsnd_c": [
+"00474f6346",
+22303
+],
+"sounds/vo/yamato/ping/yamato_ping_hornet_low_health.vsnd_c": [
+"00792b403a",
+24409
+],
+"sounds/vo/yamato/ping/yamato_ping_hornet_missing_01.vsnd_c": [
+"005f8e4ff4",
+21472
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_astro.vsnd_c": [
+"001add2f97",
+18991
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_atlas.vsnd_c": [
+"001b2b2aa4",
+19959
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_bebop.vsnd_c": [
+"008f5d69eb",
+18572
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_bookworm.vsnd_c": [
+"002c6d127c",
+19244
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_chrono.vsnd_c": [
+"007b192ef3",
+20508
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_doorman.vsnd_c": [
+"00f9e2efbc",
+19227
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_drifter.vsnd_c": [
+"00b8d521c4",
+19656
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_dynamo.vsnd_c": [
+"00fe8d1668",
+18478
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_familiar.vsnd_c": [
+"0090f49870",
+16987
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_fencer.vsnd_c": [
+"007b19728c",
+19077
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_forge.vsnd_c": [
+"00c8d20640",
+23260
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_frank.vsnd_c": [
+"00f66ef402",
+19545
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_ghost.vsnd_c": [
+"004a369971",
+18046
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_gigawatt.vsnd_c": [
+"000fc764bc",
+17422
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_haze.vsnd_c": [
+"0097d6a5cd",
+17499
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_hornet.vsnd_c": [
+"00e3e49142",
+20084
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_inferno.vsnd_c": [
+"00dcb0f60a",
+21478
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_kelvin.vsnd_c": [
+"008b7eae43",
+18375
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_krill.vsnd_c": [
+"00262e76d4",
+15702
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_lash.vsnd_c": [
+"00eec0205e",
+17084
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_magician.vsnd_c": [
+"00fc8b03fd",
+19005
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_mirage.vsnd_c": [
+"005c00913d",
+18698
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_nano.vsnd_c": [
+"000faa5480",
+18469
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_necro.vsnd_c": [
+"00507027cf",
+20077
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_orion.vsnd_c": [
+"00ff744f68",
+20169
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_priest.vsnd_c": [
+"00a8decfb4",
+20493
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_punkgoat.vsnd_c": [
+"00019a678c",
+18061
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_shiv.vsnd_c": [
+"00d9d3457c",
+17404
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_synth.vsnd_c": [
+"00f708fa02",
+18258
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_tengu.vsnd_c": [
+"00f2d0771c",
+18034
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_unicorn.vsnd_c": [
+"000cc82690",
+18003
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_vampirebat.vsnd_c": [
+"00cbf95af4",
+17943
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_viper.vsnd_c": [
+"00e00598d0",
+18795
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_viscous.vsnd_c": [
+"00d9376aa4",
+19452
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_warden.vsnd_c": [
+"0032fb2ad1",
+18480
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_werewolf.vsnd_c": [
+"0094010126",
+19850
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_wraith.vsnd_c": [
+"0071361787",
+17961
+],
+"sounds/vo/yamato/ping/yamato_ping_ignore_wrecker.vsnd_c": [
+"009f8a1f1a",
+17959
+],
+"sounds/vo/yamato/ping/yamato_ping_inferno_above.vsnd_c": [
+"00d345ec58",
+23455
+],
+"sounds/vo/yamato/ping/yamato_ping_inferno_almost_respawn.vsnd_c": [
+"00e41c73b6",
+27962
+],
+"sounds/vo/yamato/ping/yamato_ping_inferno_below.vsnd_c": [
+"00294071b9",
+20046
+],
+"sounds/vo/yamato/ping/yamato_ping_inferno_check_items.vsnd_c": [
+"006fe79fd5",
+28725
+],
+"sounds/vo/yamato/ping/yamato_ping_inferno_dead.vsnd_c": [
+"008e3b8242",
+21024
+],
+"sounds/vo/yamato/ping/yamato_ping_inferno_low_health.vsnd_c": [
+"00cdbd305f",
+25802
+],
+"sounds/vo/yamato/ping/yamato_ping_inferno_missing_01.vsnd_c": [
+"00d50f0423",
+21036
+],
+"sounds/vo/yamato/ping/yamato_ping_item_almost_ready.vsnd_c": [
+"005c5193bf",
+23611
+],
+"sounds/vo/yamato/ping/yamato_ping_item_not_ready.vsnd_c": [
+"00d71ac0fb",
+22215
+],
+"sounds/vo/yamato/ping/yamato_ping_item_purchase.vsnd_c": [
+"00fdfd1e4c",
+17797
+],
+"sounds/vo/yamato/ping/yamato_ping_item_suggestion.vsnd_c": [
+"005c7bf20e",
+20038
+],
+"sounds/vo/yamato/ping/yamato_ping_jar_call_01.vsnd_c": [
+"00d2e016ad",
+15558
+],
+"sounds/vo/yamato/ping/yamato_ping_jar_call_02.vsnd_c": [
+"00cb10eb95",
+22513
+],
+"sounds/vo/yamato/ping/yamato_ping_jar_call_03.vsnd_c": [
+"008ddf1385",
+23274
+],
+"sounds/vo/yamato/ping/yamato_ping_kelvin_above.vsnd_c": [
+"002a3fc746",
+20686
+],
+"sounds/vo/yamato/ping/yamato_ping_kelvin_almost_respawn.vsnd_c": [
+"000d13c276",
+25729
+],
+"sounds/vo/yamato/ping/yamato_ping_kelvin_below.vsnd_c": [
+"00b4dfa335",
+18114
+],
+"sounds/vo/yamato/ping/yamato_ping_kelvin_check_items.vsnd_c": [
+"00d2cc89e5",
+27018
+],
+"sounds/vo/yamato/ping/yamato_ping_kelvin_dead.vsnd_c": [
+"000fe8e827",
+20068
+],
+"sounds/vo/yamato/ping/yamato_ping_kelvin_low_health.vsnd_c": [
+"008ec22404",
+24084
+],
+"sounds/vo/yamato/ping/yamato_ping_kelvin_missing_01.vsnd_c": [
+"00961e3506",
+19334
+],
+"sounds/vo/yamato/ping/yamato_ping_kncokdown_almost_ready.vsnd_c": [
+"005fc63fe4",
+26706
+],
+"sounds/vo/yamato/ping/yamato_ping_kncokdown_not_ready.vsnd_c": [
+"00b5e3d291",
+26267
+],
+"sounds/vo/yamato/ping/yamato_ping_krill_above.vsnd_c": [
+"002c22cc4d",
+19713
+],
+"sounds/vo/yamato/ping/yamato_ping_krill_almost_respawn.vsnd_c": [
+"000127e30b",
+24359
+],
+"sounds/vo/yamato/ping/yamato_ping_krill_below.vsnd_c": [
+"00fdb349cc",
+18539
+],
+"sounds/vo/yamato/ping/yamato_ping_krill_check_items.vsnd_c": [
+"00d4a6931d",
+25834
+],
+"sounds/vo/yamato/ping/yamato_ping_krill_dead.vsnd_c": [
+"007de00808",
+18460
+],
+"sounds/vo/yamato/ping/yamato_ping_krill_low_health.vsnd_c": [
+"00e2a55fa1",
+21529
+],
+"sounds/vo/yamato/ping/yamato_ping_krill_missing_01.vsnd_c": [
+"00d849205b",
+18479
+],
+"sounds/vo/yamato/ping/yamato_ping_lash_above.vsnd_c": [
+"00a2213ed8",
+20987
+],
+"sounds/vo/yamato/ping/yamato_ping_lash_almost_respawn.vsnd_c": [
+"0072a0fe8a",
+23173
+],
+"sounds/vo/yamato/ping/yamato_ping_lash_below.vsnd_c": [
+"00e2b0e31a",
+18738
+],
+"sounds/vo/yamato/ping/yamato_ping_lash_check_items.vsnd_c": [
+"008f193d6b",
+25947
+],
+"sounds/vo/yamato/ping/yamato_ping_lash_dead.vsnd_c": [
+"009238c8b7",
+17733
+],
+"sounds/vo/yamato/ping/yamato_ping_lash_low_health.vsnd_c": [
+"0026a20f23",
+21427
+],
+"sounds/vo/yamato/ping/yamato_ping_lash_missing_01.vsnd_c": [
+"00b6df8847",
+18468
+],
+"sounds/vo/yamato/ping/yamato_ping_leaving.vsnd_c": [
+"008b3e7e4c",
+15641
+],
+"sounds/vo/yamato/ping/yamato_ping_lets_go_blue.vsnd_c": [
+"0063184f08",
+16326
+],
+"sounds/vo/yamato/ping/yamato_ping_lets_go_blue_alt.vsnd_c": [
+"0044eb8b9c",
+19982
+],
+"sounds/vo/yamato/ping/yamato_ping_lets_go_green.vsnd_c": [
+"00b08d2519",
+16993
+],
+"sounds/vo/yamato/ping/yamato_ping_lets_go_green_alt.vsnd_c": [
+"0019b3a683",
+19246
+],
+"sounds/vo/yamato/ping/yamato_ping_lets_go_yellow.vsnd_c": [
+"00527005e6",
+17960
+],
+"sounds/vo/yamato/ping/yamato_ping_lets_go_yellow_alt.vsnd_c": [
+"0030690f5f",
+17625
+],
+"sounds/vo/yamato/ping/yamato_ping_look_here.vsnd_c": [
+"00ef1563b5",
+12777
+],
+"sounds/vo/yamato/ping/yamato_ping_loose_souls.vsnd_c": [
+"0082a677e0",
+18759
+],
+"sounds/vo/yamato/ping/yamato_ping_magician_above.vsnd_c": [
+"00bbfdbd2b",
+24839
+],
+"sounds/vo/yamato/ping/yamato_ping_magician_almost_respawn.vsnd_c": [
+"0093a6c955",
+28501
+],
+"sounds/vo/yamato/ping/yamato_ping_magician_below.vsnd_c": [
+"00945037fc",
+24082
+],
+"sounds/vo/yamato/ping/yamato_ping_magician_check_items.vsnd_c": [
+"0040accaea",
+29150
+],
+"sounds/vo/yamato/ping/yamato_ping_magician_dead.vsnd_c": [
+"001dcba403",
+20401
+],
+"sounds/vo/yamato/ping/yamato_ping_magician_low_health.vsnd_c": [
+"00e5e848b8",
+24830
+],
+"sounds/vo/yamato/ping/yamato_ping_magician_missing_01.vsnd_c": [
+"007ac5eba2",
+22863
+],
+"sounds/vo/yamato/ping/yamato_ping_meet_here.vsnd_c": [
+"0005f03fae",
+18040
+],
+"sounds/vo/yamato/ping/yamato_ping_mirage_above.vsnd_c": [
+"0093d55ed5",
+22499
+],
+"sounds/vo/yamato/ping/yamato_ping_mirage_almost_respawn.vsnd_c": [
+"0027bdad8c",
+25513
+],
+"sounds/vo/yamato/ping/yamato_ping_mirage_below.vsnd_c": [
+"009ad5fbf8",
+20038
+],
+"sounds/vo/yamato/ping/yamato_ping_mirage_check_items.vsnd_c": [
+"00fcfb51a4",
+27329
+],
+"sounds/vo/yamato/ping/yamato_ping_mirage_dead.vsnd_c": [
+"00aee9c37a",
+19117
+],
+"sounds/vo/yamato/ping/yamato_ping_mirage_low_health.vsnd_c": [
+"0092ba09a7",
+23557
+],
+"sounds/vo/yamato/ping/yamato_ping_mirage_missing_01.vsnd_c": [
+"00ab727457",
+19885
+],
+"sounds/vo/yamato/ping/yamato_ping_missing_blue_01.vsnd_c": [
+"005f6e2f45",
+15802
+],
+"sounds/vo/yamato/ping/yamato_ping_missing_blue_02.vsnd_c": [
+"004b9a2988",
+20384
+],
+"sounds/vo/yamato/ping/yamato_ping_missing_green_01.vsnd_c": [
+"00b5ff2631",
+17091
+],
+"sounds/vo/yamato/ping/yamato_ping_missing_green_02.vsnd_c": [
+"0043d32620",
+19773
+],
+"sounds/vo/yamato/ping/yamato_ping_missing_yellow_01.vsnd_c": [
+"00e8900500",
+16778
+],
+"sounds/vo/yamato/ping/yamato_ping_missing_yellow_02.vsnd_c": [
+"00978be560",
+17418
+],
+"sounds/vo/yamato/ping/yamato_ping_nano_above.vsnd_c": [
+"00b7578683",
+21832
+],
+"sounds/vo/yamato/ping/yamato_ping_nano_almost_respawn.vsnd_c": [
+"0001abef60",
+24983
+],
+"sounds/vo/yamato/ping/yamato_ping_nano_below.vsnd_c": [
+"0019c1080e",
+19276
+],
+"sounds/vo/yamato/ping/yamato_ping_nano_check_items.vsnd_c": [
+"00131b81f7",
+25189
+],
+"sounds/vo/yamato/ping/yamato_ping_nano_dead.vsnd_c": [
+"00943a6c09",
+19541
+],
+"sounds/vo/yamato/ping/yamato_ping_nano_low_health.vsnd_c": [
+"002a87a61e",
+24085
+],
+"sounds/vo/yamato/ping/yamato_ping_nano_missing_01.vsnd_c": [
+"00e356f456",
+19332
+],
+"sounds/vo/yamato/ping/yamato_ping_necro_above.vsnd_c": [
+"008de1f1ad",
+21095
+],
+"sounds/vo/yamato/ping/yamato_ping_necro_almost_respawn.vsnd_c": [
+"0055bd6d7f",
+25518
+],
+"sounds/vo/yamato/ping/yamato_ping_necro_below.vsnd_c": [
+"00aef2da73",
+17802
+],
+"sounds/vo/yamato/ping/yamato_ping_necro_check_items.vsnd_c": [
+"002655ad2d",
+28177
+],
+"sounds/vo/yamato/ping/yamato_ping_necro_dead.vsnd_c": [
+"005824554b",
+19111
+],
+"sounds/vo/yamato/ping/yamato_ping_necro_low_health.vsnd_c": [
+"000dd2baf7",
+22065
+],
+"sounds/vo/yamato/ping/yamato_ping_necro_missing_01.vsnd_c": [
+"00752a7ce0",
+22091
+],
+"sounds/vo/yamato/ping/yamato_ping_need_cover.vsnd_c": [
+"0060c739a0",
+13245
+],
+"sounds/vo/yamato/ping/yamato_ping_need_heal.vsnd_c": [
+"0046837aed",
+19171
+],
+"sounds/vo/yamato/ping/yamato_ping_need_help_blue.vsnd_c": [
+"00cb0ca6b7",
+22544
+],
+"sounds/vo/yamato/ping/yamato_ping_need_help_blue_alt.vsnd_c": [
+"002a63147c",
+25945
+],
+"sounds/vo/yamato/ping/yamato_ping_need_help_green.vsnd_c": [
+"00f9e1dd58",
+24132
+],
+"sounds/vo/yamato/ping/yamato_ping_need_help_green_alt.vsnd_c": [
+"00bbb7e101",
+24994
+],
+"sounds/vo/yamato/ping/yamato_ping_need_help_yellow.vsnd_c": [
+"009ee11616",
+24129
+],
+"sounds/vo/yamato/ping/yamato_ping_need_help_yellow_alt.vsnd_c": [
+"0062fa3d22",
+23274
+],
+"sounds/vo/yamato/ping/yamato_ping_need_plan.vsnd_c": [
+"0033f4e8f9",
+17944
+],
+"sounds/vo/yamato/ping/yamato_ping_negative_01.vsnd_c": [
+"00c2873119",
+10260
+],
+"sounds/vo/yamato/ping/yamato_ping_nevermind_01.vsnd_c": [
+"001f1f0ecf",
+15673
+],
+"sounds/vo/yamato/ping/yamato_ping_no_teamfight.vsnd_c": [
+"00a45cf8f4",
+29665
+],
+"sounds/vo/yamato/ping/yamato_ping_on_way.vsnd_c": [
+"0020c4c907",
+13667
+],
+"sounds/vo/yamato/ping/yamato_ping_orion_above.vsnd_c": [
+"00dbf9dfa9",
+24508
+],
+"sounds/vo/yamato/ping/yamato_ping_orion_almost_respawn.vsnd_c": [
+"00796d7773",
+28724
+],
+"sounds/vo/yamato/ping/yamato_ping_orion_below.vsnd_c": [
+"004451b505",
+21420
+],
+"sounds/vo/yamato/ping/yamato_ping_orion_check_items.vsnd_c": [
+"00b2526fe9",
+30107
+],
+"sounds/vo/yamato/ping/yamato_ping_orion_dead.vsnd_c": [
+"0010bf4ca4",
+21661
+],
+"sounds/vo/yamato/ping/yamato_ping_orion_low_health.vsnd_c": [
+"0023314fbe",
+25898
+],
+"sounds/vo/yamato/ping/yamato_ping_orion_missing_01.vsnd_c": [
+"009cea55f5",
+21259
+],
+"sounds/vo/yamato/ping/yamato_ping_other_buys_anti_heal.vsnd_c": [
+"00ca633d29",
+21647
+],
+"sounds/vo/yamato/ping/yamato_ping_other_buys_cursed_relic.vsnd_c": [
+"003cf42868",
+25677
+],
+"sounds/vo/yamato/ping/yamato_ping_other_buys_knockdown.vsnd_c": [
+"001b2ed045",
+20892
+],
+"sounds/vo/yamato/ping/yamato_ping_other_buys_metal_skin.vsnd_c": [
+"00dad8011b",
+24731
+],
+"sounds/vo/yamato/ping/yamato_ping_other_buys_refresher.vsnd_c": [
+"00992c7d5a",
+23993
+],
+"sounds/vo/yamato/ping/yamato_ping_other_buys_unstoppable.vsnd_c": [
+"004a2eed19",
+26100
+],
+"sounds/vo/yamato/ping/yamato_ping_over_extend.vsnd_c": [
+"00214742a1",
+21000
+],
+"sounds/vo/yamato/ping/yamato_ping_post_game_01.vsnd_c": [
+"00f3842dc0",
+31063
+],
+"sounds/vo/yamato/ping/yamato_ping_post_game_02.vsnd_c": [
+"00febbf1bf",
+27752
+],
+"sounds/vo/yamato/ping/yamato_ping_post_game_03.vsnd_c": [
+"00fe3a6856",
+31480
+],
+"sounds/vo/yamato/ping/yamato_ping_post_game_04.vsnd_c": [
+"00fb8f10a3",
+26149
+],
+"sounds/vo/yamato/ping/yamato_ping_post_game_05.vsnd_c": [
+"00aec036f2",
+30720
+],
+"sounds/vo/yamato/ping/yamato_ping_post_game_06.vsnd_c": [
+"00390fb7c2",
+22631
+],
+"sounds/vo/yamato/ping/yamato_ping_pre_game_01.vsnd_c": [
+"007e55c7a9",
+49703
+],
+"sounds/vo/yamato/ping/yamato_ping_pre_game_02.vsnd_c": [
+"00f5eb6cdf",
+40949
+],
+"sounds/vo/yamato/ping/yamato_ping_pre_game_03.vsnd_c": [
+"0008aa3fe6",
+41609
+],
+"sounds/vo/yamato/ping/yamato_ping_pre_game_04.vsnd_c": [
+"00e26fc57a",
+54377
+],
+"sounds/vo/yamato/ping/yamato_ping_pre_game_05.vsnd_c": [
+"00f2d8f60d",
+46886
+],
+"sounds/vo/yamato/ping/yamato_ping_pre_game_06.vsnd_c": [
+"00cd2c89fb",
+51386
+],
+"sounds/vo/yamato/ping/yamato_ping_priest_above.vsnd_c": [
+"000d782487",
+23653
+],
+"sounds/vo/yamato/ping/yamato_ping_priest_almost_respawn.vsnd_c": [
+"003942f0ab",
+26591
+],
+"sounds/vo/yamato/ping/yamato_ping_priest_almost_respawn_alt.vsnd_c": [
+"00a102adab",
+27604
+],
+"sounds/vo/yamato/ping/yamato_ping_priest_below.vsnd_c": [
+"0060868b60",
+21425
+],
+"sounds/vo/yamato/ping/yamato_ping_priest_check_items.vsnd_c": [
+"0020af9af6",
+28311
+],
+"sounds/vo/yamato/ping/yamato_ping_priest_dead.vsnd_c": [
+"00a192f606",
+23767
+],
+"sounds/vo/yamato/ping/yamato_ping_priest_low_health.vsnd_c": [
+"00edc5c9db",
+25263
+],
+"sounds/vo/yamato/ping/yamato_ping_priest_missing_01.vsnd_c": [
+"00871af8f1",
+22802
+],
+"sounds/vo/yamato/ping/yamato_ping_protect_urn.vsnd_c": [
+"00f594cc63",
+21745
+],
+"sounds/vo/yamato/ping/yamato_ping_punkgoat_above.vsnd_c": [
+"00284b571e",
+21312
+],
+"sounds/vo/yamato/ping/yamato_ping_punkgoat_almost_respawn.vsnd_c": [
+"001896115b",
+23803
+],
+"sounds/vo/yamato/ping/yamato_ping_punkgoat_below.vsnd_c": [
+"00fcba59c2",
+18763
+],
+"sounds/vo/yamato/ping/yamato_ping_punkgoat_check_items.vsnd_c": [
+"00ddfba6b2",
+26281
+],
+"sounds/vo/yamato/ping/yamato_ping_punkgoat_dead.vsnd_c": [
+"0093847bde",
+19232
+],
+"sounds/vo/yamato/ping/yamato_ping_punkgoat_low_health.vsnd_c": [
+"004aabfeca",
+22586
+],
+"sounds/vo/yamato/ping/yamato_ping_punkgoat_missing_01.vsnd_c": [
+"00e3289927",
+18798
+],
+"sounds/vo/yamato/ping/yamato_ping_push_blue_01.vsnd_c": [
+"008dfe535b",
+18257
+],
+"sounds/vo/yamato/ping/yamato_ping_push_blue_02.vsnd_c": [
+"00b00071a6",
+21984
+],
+"sounds/vo/yamato/ping/yamato_ping_push_green_01.vsnd_c": [
+"007ec05a7e",
+19550
+],
+"sounds/vo/yamato/ping/yamato_ping_push_green_02.vsnd_c": [
+"00de68abc1",
+20837
+],
+"sounds/vo/yamato/ping/yamato_ping_push_yellow_01.vsnd_c": [
+"00b41ff0e7",
+19238
+],
+"sounds/vo/yamato/ping/yamato_ping_push_yellow_02.vsnd_c": [
+"00945bd6f7",
+19657
+],
+"sounds/vo/yamato/ping/yamato_ping_rat_strat.vsnd_c": [
+"00f6d7f7a4",
+18431
+],
+"sounds/vo/yamato/ping/yamato_ping_refresher_almost_ready.vsnd_c": [
+"0088306d33",
+27661
+],
+"sounds/vo/yamato/ping/yamato_ping_refresher_not_ready.vsnd_c": [
+"00a9822cdc",
+26691
+],
+"sounds/vo/yamato/ping/yamato_ping_request_follow.vsnd_c": [
+"009c84f457",
+14758
+],
+"sounds/vo/yamato/ping/yamato_ping_rescue_beam_almost_ready.vsnd_c": [
+"00b06eb715",
+29428
+],
+"sounds/vo/yamato/ping/yamato_ping_rescue_beam_not_ready.vsnd_c": [
+"00fb0dbd09",
+31234
+],
+"sounds/vo/yamato/ping/yamato_ping_retreat_01.vsnd_c": [
+"00d2d146ff",
+13356
+],
+"sounds/vo/yamato/ping/yamato_ping_rupture_almost_ready.vsnd_c": [
+"00bad8e573",
+24675
+],
+"sounds/vo/yamato/ping/yamato_ping_rupture_not_ready.vsnd_c": [
+"00c473277d",
+25521
+],
+"sounds/vo/yamato/ping/yamato_ping_see_astro.vsnd_c": [
+"00c8c93949",
+17404
+],
+"sounds/vo/yamato/ping/yamato_ping_see_atlas_01.vsnd_c": [
+"00d30445a3",
+19106
+],
+"sounds/vo/yamato/ping/yamato_ping_see_bebop_01.vsnd_c": [
+"00a5989cb8",
+16655
+],
+"sounds/vo/yamato/ping/yamato_ping_see_bookworm_01.vsnd_c": [
+"00aa2a7334",
+18381
+],
+"sounds/vo/yamato/ping/yamato_ping_see_chrono.vsnd_c": [
+"00b47edfa5",
+20278
+],
+"sounds/vo/yamato/ping/yamato_ping_see_doorman_01.vsnd_c": [
+"0050851ee2",
+21470
+],
+"sounds/vo/yamato/ping/yamato_ping_see_drifter_01.vsnd_c": [
+"00028dff20",
+19232
+],
+"sounds/vo/yamato/ping/yamato_ping_see_dynamo_01.vsnd_c": [
+"0092813f10",
+17517
+],
+"sounds/vo/yamato/ping/yamato_ping_see_enemy.vsnd_c": [
+"005ba0294c",
+18797
+],
+"sounds/vo/yamato/ping/yamato_ping_see_familiar_01.vsnd_c": [
+"006e8fbb49",
+16677
+],
+"sounds/vo/yamato/ping/yamato_ping_see_fencer_01.vsnd_c": [
+"00a6169259",
+17054
+],
+"sounds/vo/yamato/ping/yamato_ping_see_forge.vsnd_c": [
+"00d7c671df",
+19864
+],
+"sounds/vo/yamato/ping/yamato_ping_see_frank_01.vsnd_c": [
+"009b663813",
+18379
+],
+"sounds/vo/yamato/ping/yamato_ping_see_ghost_01.vsnd_c": [
+"00e199bc44",
+15384
+],
+"sounds/vo/yamato/ping/yamato_ping_see_gigawatt_01.vsnd_c": [
+"008d9aeedd",
+15719
+],
+"sounds/vo/yamato/ping/yamato_ping_see_haze_01.vsnd_c": [
+"0005eaad0e",
+17096
+],
+"sounds/vo/yamato/ping/yamato_ping_see_hornet_01.vsnd_c": [
+"0058104fd5",
+18818
+],
+"sounds/vo/yamato/ping/yamato_ping_see_inferno.vsnd_c": [
+"007da30a31",
+21040
+],
+"sounds/vo/yamato/ping/yamato_ping_see_kelvin_01.vsnd_c": [
+"0031069167",
+16570
+],
+"sounds/vo/yamato/ping/yamato_ping_see_krill_01.vsnd_c": [
+"00ee3a6c71",
+15268
+],
+"sounds/vo/yamato/ping/yamato_ping_see_lash_01.vsnd_c": [
+"00cb20a9cf",
+16349
+],
+"sounds/vo/yamato/ping/yamato_ping_see_magician_01.vsnd_c": [
+"006c31bb97",
+19542
+],
+"sounds/vo/yamato/ping/yamato_ping_see_mirage_01.vsnd_c": [
+"0054036981",
+17419
+],
+"sounds/vo/yamato/ping/yamato_ping_see_nano.vsnd_c": [
+"00f79e60d0",
+17616
+],
+"sounds/vo/yamato/ping/yamato_ping_see_necro_01.vsnd_c": [
+"004b068cfd",
+18699
+],
+"sounds/vo/yamato/ping/yamato_ping_see_orion_01.vsnd_c": [
+"0090cc11d6",
+19750
+],
+"sounds/vo/yamato/ping/yamato_ping_see_priest_01.vsnd_c": [
+"009edaa571",
+19507
+],
+"sounds/vo/yamato/ping/yamato_ping_see_punkgoat_01.vsnd_c": [
+"00ec212734",
+17420
+],
+"sounds/vo/yamato/ping/yamato_ping_see_shiv_01.vsnd_c": [
+"005bd07b16",
+16105
+],
+"sounds/vo/yamato/ping/yamato_ping_see_synth_01.vsnd_c": [
+"00d926d35b",
+16102
+],
+"sounds/vo/yamato/ping/yamato_ping_see_tengu.vsnd_c": [
+"00ecef1baa",
+16552
+],
+"sounds/vo/yamato/ping/yamato_ping_see_unicorn_01.vsnd_c": [
+"00af15595c",
+16406
+],
+"sounds/vo/yamato/ping/yamato_ping_see_vampirebat_01.vsnd_c": [
+"00fd582d9e",
+16670
+],
+"sounds/vo/yamato/ping/yamato_ping_see_viper_01.vsnd_c": [
+"00fd2df17a",
+18380
+],
+"sounds/vo/yamato/ping/yamato_ping_see_viscous_01.vsnd_c": [
+"00b67c9bb3",
+18920
+],
+"sounds/vo/yamato/ping/yamato_ping_see_warden_01.vsnd_c": [
+"000e517754",
+16675
+],
+"sounds/vo/yamato/ping/yamato_ping_see_werewolf_01.vsnd_c": [
+"0009b182a6",
+18375
+],
+"sounds/vo/yamato/ping/yamato_ping_see_wraith_01.vsnd_c": [
+"0044e4f7a1",
+17205
+],
+"sounds/vo/yamato/ping/yamato_ping_see_wrecker_01.vsnd_c": [
+"005c510946",
+17111
+],
+"sounds/vo/yamato/ping/yamato_ping_shiv_above.vsnd_c": [
+"004812b721",
+20979
+],
+"sounds/vo/yamato/ping/yamato_ping_shiv_almost_respawn.vsnd_c": [
+"003788eb34",
+24664
+],
+"sounds/vo/yamato/ping/yamato_ping_shiv_below.vsnd_c": [
+"00fa53615c",
+20125
+],
+"sounds/vo/yamato/ping/yamato_ping_shiv_check_items.vsnd_c": [
+"001c318cb0",
+26911
+],
+"sounds/vo/yamato/ping/yamato_ping_shiv_dead.vsnd_c": [
+"00e064647c",
+20701
+],
+"sounds/vo/yamato/ping/yamato_ping_shiv_low_health.vsnd_c": [
+"00b19b8025",
+22491
+],
+"sounds/vo/yamato/ping/yamato_ping_shiv_missing_01.vsnd_c": [
+"00dbda4bfa",
+19538
+],
+"sounds/vo/yamato/ping/yamato_ping_silence_almost_ready.vsnd_c": [
+"0012731f22",
+30053
+],
+"sounds/vo/yamato/ping/yamato_ping_silence_not_ready.vsnd_c": [
+"004ae2f20b",
+30158
+],
+"sounds/vo/yamato/ping/yamato_ping_sinners.vsnd_c": [
+"0064d7a2c4",
+15984
+],
+"sounds/vo/yamato/ping/yamato_ping_slowing_hex_almost_ready.vsnd_c": [
+"00de7c260e",
+29637
+],
+"sounds/vo/yamato/ping/yamato_ping_slowing_hex_not_ready.vsnd_c": [
+"0085c9abb2",
+34323
+],
+"sounds/vo/yamato/ping/yamato_ping_someone_was_here.vsnd_c": [
+"001e46eefc",
+19296
+],
+"sounds/vo/yamato/ping/yamato_ping_sorry_01.vsnd_c": [
+"0019224c61",
+12232
+],
+"sounds/vo/yamato/ping/yamato_ping_split_push.vsnd_c": [
+"0066b2d0a9",
+22051
+],
+"sounds/vo/yamato/ping/yamato_ping_stay_together.vsnd_c": [
+"00fd6e2cc5",
+17845
+],
+"sounds/vo/yamato/ping/yamato_ping_steal_farm.vsnd_c": [
+"0001683c90",
+23336
+],
+"sounds/vo/yamato/ping/yamato_ping_stim_pack_almost_ready.vsnd_c": [
+"00552edad4",
+27979
+],
+"sounds/vo/yamato/ping/yamato_ping_stim_pack_not_ready.vsnd_c": [
+"00d6a36be3",
+28725
+],
+"sounds/vo/yamato/ping/yamato_ping_stop_urn.vsnd_c": [
+"005291e603",
+16821
+],
+"sounds/vo/yamato/ping/yamato_ping_synth_above.vsnd_c": [
+"00521a37b5",
+20364
+],
+"sounds/vo/yamato/ping/yamato_ping_synth_almost_respawn.vsnd_c": [
+"00c6c65e00",
+25209
+],
+"sounds/vo/yamato/ping/yamato_ping_synth_below.vsnd_c": [
+"0068a7b66d",
+17804
+],
+"sounds/vo/yamato/ping/yamato_ping_synth_check_items.vsnd_c": [
+"0087f2d7ed",
+26580
+],
+"sounds/vo/yamato/ping/yamato_ping_synth_dead.vsnd_c": [
+"0007904313",
+18774
+],
+"sounds/vo/yamato/ping/yamato_ping_synth_low_health.vsnd_c": [
+"00abcd340e",
+21850
+],
+"sounds/vo/yamato/ping/yamato_ping_synth_missing_01.vsnd_c": [
+"00f467fa8d",
+17935
+],
+"sounds/vo/yamato/ping/yamato_ping_take_mid.vsnd_c": [
+"004006b2a6",
+16126
+],
+"sounds/vo/yamato/ping/yamato_ping_tengu_above.vsnd_c": [
+"008bf34ff2",
+19712
+],
+"sounds/vo/yamato/ping/yamato_ping_tengu_almost_respawn.vsnd_c": [
+"000b1479f4",
+23476
+],
+"sounds/vo/yamato/ping/yamato_ping_tengu_below.vsnd_c": [
+"0052baa41c",
+16828
+],
+"sounds/vo/yamato/ping/yamato_ping_tengu_check_items.vsnd_c": [
+"000b4665de",
+26477
+],
+"sounds/vo/yamato/ping/yamato_ping_tengu_dead.vsnd_c": [
+"00d3dbbbc4",
+18576
+],
+"sounds/vo/yamato/ping/yamato_ping_tengu_low_health.vsnd_c": [
+"00a6f0aef7",
+21534
+],
+"sounds/vo/yamato/ping/yamato_ping_tengu_missing_01.vsnd_c": [
+"00ad24f8b7",
+18481
+],
+"sounds/vo/yamato/ping/yamato_ping_thank_you_01.vsnd_c": [
+"007743f88c",
+12721
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_astro.vsnd_c": [
+"008b6dd662",
+25049
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_atlas.vsnd_c": [
+"00c727e2a0",
+26859
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_bebop.vsnd_c": [
+"0052003c82",
+28132
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_bookworm.vsnd_c": [
+"00d95ed309",
+25370
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_chrono.vsnd_c": [
+"003593dbeb",
+27505
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_doorman.vsnd_c": [
+"003f6d5c83",
+25684
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_drifter.vsnd_c": [
+"00d0b42020",
+26659
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_dynamo.vsnd_c": [
+"00b8506643",
+24937
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_familiar.vsnd_c": [
+"005450cf20",
+23865
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_fencer.vsnd_c": [
+"006e4bdbda",
+25259
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_forge.vsnd_c": [
+"002d41ad5b",
+26750
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_frank.vsnd_c": [
+"00422982fa",
+24615
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_ghost.vsnd_c": [
+"00cb0fec9e",
+23238
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_gigawatt.vsnd_c": [
+"0035dba7da",
+25689
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_haze.vsnd_c": [
+"0037f1bec1",
+22823
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_hornet.vsnd_c": [
+"00438774cd",
+27833
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_inferno.vsnd_c": [
+"00ec432162",
+26316
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_kelvin.vsnd_c": [
+"00f250d4ce",
+24404
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_krill.vsnd_c": [
+"009eed2761",
+24931
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_lash.vsnd_c": [
+"00be97ec82",
+25041
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_magician.vsnd_c": [
+"00227061a7",
+25260
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_mirage.vsnd_c": [
+"0060ab961f",
+24835
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_nano.vsnd_c": [
+"0035d7ac9d",
+24948
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_necro.vsnd_c": [
+"002da22973",
+24186
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_orion.vsnd_c": [
+"007f003693",
+27292
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_priest.vsnd_c": [
+"007467e6ca",
+26436
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_punkgoat.vsnd_c": [
+"00f1560319",
+23331
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_shiv.vsnd_c": [
+"00838b905f",
+24312
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_synth.vsnd_c": [
+"0095843b0a",
+22803
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_tengu.vsnd_c": [
+"008c28b724",
+21939
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_unicorn.vsnd_c": [
+"00802627ab",
+25597
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_vampirebat.vsnd_c": [
+"0095602412",
+22167
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_viper.vsnd_c": [
+"003165a412",
+24831
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_viscous.vsnd_c": [
+"009a375c49",
+26435
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_warden.vsnd_c": [
+"000ffe5fda",
+24941
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_werewolf.vsnd_c": [
+"00c73a1fbb",
+28019
+],
+"sounds/vo/yamato/ping/yamato_ping_ult_ready_wraith.vsnd_c": [
+"000ca4fcb7",
+22812
+],
+"sounds/vo/yamato/ping/yamato_ping_unicorn_above.vsnd_c": [
+"000f86de00",
+21208
+],
+"sounds/vo/yamato/ping/yamato_ping_unicorn_almost_respawn.vsnd_c": [
+"0041d4a4cc",
+25376
+],
+"sounds/vo/yamato/ping/yamato_ping_unicorn_below.vsnd_c": [
+"007e86a971",
+20999
+],
+"sounds/vo/yamato/ping/yamato_ping_unicorn_check_items.vsnd_c": [
+"008cd8d038",
+25804
+],
+"sounds/vo/yamato/ping/yamato_ping_unicorn_dead.vsnd_c": [
+"002be983e7",
+19925
+],
+"sounds/vo/yamato/ping/yamato_ping_unicorn_low_health.vsnd_c": [
+"008c251f93",
+24949
+],
+"sounds/vo/yamato/ping/yamato_ping_unicorn_missing_01.vsnd_c": [
+"00f0f252eb",
+21855
+],
+"sounds/vo/yamato/ping/yamato_ping_use_ability1.vsnd_c": [
+"00671fc925",
+25181
+],
+"sounds/vo/yamato/ping/yamato_ping_use_ability2.vsnd_c": [
+"004df56d7e",
+27744
+],
+"sounds/vo/yamato/ping/yamato_ping_use_ability3.vsnd_c": [
+"00e70b129f",
+26997
+],
+"sounds/vo/yamato/ping/yamato_ping_use_ability4_01.vsnd_c": [
+"009f627c3f",
+26241
+],
+"sounds/vo/yamato/ping/yamato_ping_use_ability4_02.vsnd_c": [
+"00f1c8bcd3",
+31464
+],
+"sounds/vo/yamato/ping/yamato_ping_use_ability4_03.vsnd_c": [
+"0004eadfcd",
+31152
+],
+"sounds/vo/yamato/ping/yamato_ping_use_ability4_04.vsnd_c": [
+"00873a932d",
+27658
+],
+"sounds/vo/yamato/ping/yamato_ping_use_ability4_05.vsnd_c": [
+"007f808289",
+26482
+],
+"sounds/vo/yamato/ping/yamato_ping_use_ability4_06.vsnd_c": [
+"00e88d5284",
+21136
+],
+"sounds/vo/yamato/ping/yamato_ping_use_ability4_07.vsnd_c": [
+"00a6b2957a",
+39688
+],
+"sounds/vo/yamato/ping/yamato_ping_use_ability4_08.vsnd_c": [
+"000fc70896",
+23399
+],
+"sounds/vo/yamato/ping/yamato_ping_use_ability4_09.vsnd_c": [
+"0047acec2c",
+43849
+],
+"sounds/vo/yamato/ping/yamato_ping_use_ability4_10.vsnd_c": [
+"00c6fbdbe5",
+31688
+],
+"sounds/vo/yamato/ping/yamato_ping_use_disarm_hex.vsnd_c": [
+"001e656223",
+24825
+],
+"sounds/vo/yamato/ping/yamato_ping_use_focus_lens.vsnd_c": [
+"00ff5ef4af",
+25477
+],
+"sounds/vo/yamato/ping/yamato_ping_use_glitch.vsnd_c": [
+"00ee093a0a",
+29942
+],
+"sounds/vo/yamato/ping/yamato_ping_use_health_nova.vsnd_c": [
+"005d489fe8",
+30179
+],
+"sounds/vo/yamato/ping/yamato_ping_use_item.vsnd_c": [
+"007df029b4",
+22406
+],
+"sounds/vo/yamato/ping/yamato_ping_use_kncokdown.vsnd_c": [
+"007d9016df",
+25953
+],
+"sounds/vo/yamato/ping/yamato_ping_use_refresher.vsnd_c": [
+"00923a347f",
+27658
+],
+"sounds/vo/yamato/ping/yamato_ping_use_rescue_beam.vsnd_c": [
+"0062dc62fa",
+24418
+],
+"sounds/vo/yamato/ping/yamato_ping_use_rupture.vsnd_c": [
+"00a0809b3a",
+24127
+],
+"sounds/vo/yamato/ping/yamato_ping_use_silence.vsnd_c": [
+"0010fe3d3a",
+30258
+],
+"sounds/vo/yamato/ping/yamato_ping_use_slowing_hex.vsnd_c": [
+"0023a1f88f",
+24832
+],
+"sounds/vo/yamato/ping/yamato_ping_use_stim_pack.vsnd_c": [
+"00c8d54916",
+27972
+],
+"sounds/vo/yamato/ping/yamato_ping_use_vortex_web.vsnd_c": [
+"001f3ed6be",
+25803
+],
+"sounds/vo/yamato/ping/yamato_ping_use_warp_stone.vsnd_c": [
+"00193c8298",
+27111
+],
+"sounds/vo/yamato/ping/yamato_ping_vampirebat_above.vsnd_c": [
+"005c55b4dd",
+21335
+],
+"sounds/vo/yamato/ping/yamato_ping_vampirebat_almost_respawn.vsnd_c": [
+"00967e402d",
+24792
+],
+"sounds/vo/yamato/ping/yamato_ping_vampirebat_below.vsnd_c": [
+"00071b7cf4",
+18651
+],
+"sounds/vo/yamato/ping/yamato_ping_vampirebat_check_items.vsnd_c": [
+"00e2738c9b",
+27777
+],
+"sounds/vo/yamato/ping/yamato_ping_vampirebat_dead.vsnd_c": [
+"007989f3b3",
+19861
+],
+"sounds/vo/yamato/ping/yamato_ping_vampirebat_low_health.vsnd_c": [
+"00dc48695f",
+22062
+],
+"sounds/vo/yamato/ping/yamato_ping_vampirebat_missing_01.vsnd_c": [
+"00645cc508",
+19670
+],
+"sounds/vo/yamato/ping/yamato_ping_viper_above.vsnd_c": [
+"008b530281",
+22708
+],
+"sounds/vo/yamato/ping/yamato_ping_viper_almost_respawn.vsnd_c": [
+"006ce32efb",
+26158
+],
+"sounds/vo/yamato/ping/yamato_ping_viper_below.vsnd_c": [
+"00e1c101f3",
+20036
+],
+"sounds/vo/yamato/ping/yamato_ping_viper_check_items.vsnd_c": [
+"00644cd307",
+28183
+],
+"sounds/vo/yamato/ping/yamato_ping_viper_dead.vsnd_c": [
+"00ff6f2f9d",
+20185
+],
+"sounds/vo/yamato/ping/yamato_ping_viper_low_health.vsnd_c": [
+"00a192820a",
+24316
+],
+"sounds/vo/yamato/ping/yamato_ping_viper_missing_01.vsnd_c": [
+"00f2e1278f",
+19548
+],
+"sounds/vo/yamato/ping/yamato_ping_viscous_above.vsnd_c": [
+"005bf7ef99",
+21330
+],
+"sounds/vo/yamato/ping/yamato_ping_viscous_almost_respawn.vsnd_c": [
+"007eff711b",
+26478
+],
+"sounds/vo/yamato/ping/yamato_ping_viscous_below.vsnd_c": [
+"00851020e5",
+19712
+],
+"sounds/vo/yamato/ping/yamato_ping_viscous_check_items.vsnd_c": [
+"0043b22522",
+28599
+],
+"sounds/vo/yamato/ping/yamato_ping_viscous_dead.vsnd_c": [
+"00873a4c10",
+20603
+],
+"sounds/vo/yamato/ping/yamato_ping_viscous_low_health.vsnd_c": [
+"003d99294b",
+22712
+],
+"sounds/vo/yamato/ping/yamato_ping_viscous_missing_01.vsnd_c": [
+"00983e1f6f",
+21167
+],
+"sounds/vo/yamato/ping/yamato_ping_vortex_web_almost_ready.vsnd_c": [
+"002ff5aa24",
+30686
+],
+"sounds/vo/yamato/ping/yamato_ping_vortex_web_not_ready.vsnd_c": [
+"007f295aab",
+29740
+],
+"sounds/vo/yamato/ping/yamato_ping_wait.vsnd_c": [
+"005e66a5fd",
+13242
+],
+"sounds/vo/yamato/ping/yamato_ping_warden_above.vsnd_c": [
+"00d6212e0b",
+23130
+],
+"sounds/vo/yamato/ping/yamato_ping_warden_almost_respawn.vsnd_c": [
+"001ffd7b6c",
+25944
+],
+"sounds/vo/yamato/ping/yamato_ping_warden_below.vsnd_c": [
+"002655fb83",
+20037
+],
+"sounds/vo/yamato/ping/yamato_ping_warden_check_items.vsnd_c": [
+"001cf4bfba",
+27001
+],
+"sounds/vo/yamato/ping/yamato_ping_warden_dead.vsnd_c": [
+"0037aa7424",
+19638
+],
+"sounds/vo/yamato/ping/yamato_ping_warden_low_health.vsnd_c": [
+"0010c5a502",
+22278
+],
+"sounds/vo/yamato/ping/yamato_ping_warden_missing_01.vsnd_c": [
+"001a6fc91a",
+19555
+],
+"sounds/vo/yamato/ping/yamato_ping_warp_stone_almost_ready.vsnd_c": [
+"00ffc9e94f",
+27970
+],
+"sounds/vo/yamato/ping/yamato_ping_warp_stone_not_ready.vsnd_c": [
+"00eeee283b",
+27118
+],
+"sounds/vo/yamato/ping/yamato_ping_watch_out.vsnd_c": [
+"004d74a34a",
+12778
+],
+"sounds/vo/yamato/ping/yamato_ping_welcome.vsnd_c": [
+"0022cac3f6",
+14321
+],
+"sounds/vo/yamato/ping/yamato_ping_werewolf_above.vsnd_c": [
+"00427b90bd",
+24938
+],
+"sounds/vo/yamato/ping/yamato_ping_werewolf_almost_respawn.vsnd_c": [
+"0086028468",
+28723
+],
+"sounds/vo/yamato/ping/yamato_ping_werewolf_below.vsnd_c": [
+"0002f2faf6",
+20786
+],
+"sounds/vo/yamato/ping/yamato_ping_werewolf_check_items.vsnd_c": [
+"00414f5027",
+29589
+],
+"sounds/vo/yamato/ping/yamato_ping_werewolf_dead.vsnd_c": [
+"002abd9906",
+22858
+],
+"sounds/vo/yamato/ping/yamato_ping_werewolf_low_health.vsnd_c": [
+"008f128433",
+24945
+],
+"sounds/vo/yamato/ping/yamato_ping_werewolf_missing_01.vsnd_c": [
+"0071045be0",
+23284
+],
+"sounds/vo/yamato/ping/yamato_ping_with_astro.vsnd_c": [
+"002707946d",
+21125
+],
+"sounds/vo/yamato/ping/yamato_ping_with_atlas.vsnd_c": [
+"00716eaf36",
+22633
+],
+"sounds/vo/yamato/ping/yamato_ping_with_bebop.vsnd_c": [
+"00d829c972",
+20277
+],
+"sounds/vo/yamato/ping/yamato_ping_with_bookworm.vsnd_c": [
+"006e42e3b2",
+22114
+],
+"sounds/vo/yamato/ping/yamato_ping_with_chrono.vsnd_c": [
+"00e1e8ebb5",
+22736
+],
+"sounds/vo/yamato/ping/yamato_ping_with_doorman.vsnd_c": [
+"004166b4c3",
+22962
+],
+"sounds/vo/yamato/ping/yamato_ping_with_drifter.vsnd_c": [
+"00aa3631ce",
+23911
+],
+"sounds/vo/yamato/ping/yamato_ping_with_dynamo.vsnd_c": [
+"00eda26430",
+21769
+],
+"sounds/vo/yamato/ping/yamato_ping_with_familiar.vsnd_c": [
+"00ad993253",
+20489
+],
+"sounds/vo/yamato/ping/yamato_ping_with_fencer.vsnd_c": [
+"007003e5c1",
+21430
+],
+"sounds/vo/yamato/ping/yamato_ping_with_forge.vsnd_c": [
+"00efcd088a",
+23683
+],
+"sounds/vo/yamato/ping/yamato_ping_with_frank.vsnd_c": [
+"008abfec78",
+22633
+],
+"sounds/vo/yamato/ping/yamato_ping_with_ghost.vsnd_c": [
+"000f038e50",
+19735
+],
+"sounds/vo/yamato/ping/yamato_ping_with_gigawatt.vsnd_c": [
+"003b63ab93",
+19870
+],
+"sounds/vo/yamato/ping/yamato_ping_with_haze.vsnd_c": [
+"009291ea36",
+19640
+],
+"sounds/vo/yamato/ping/yamato_ping_with_hornet.vsnd_c": [
+"001a9fd7ac",
+24222
+],
+"sounds/vo/yamato/ping/yamato_ping_with_inferno.vsnd_c": [
+"0071844c8a",
+24124
+],
+"sounds/vo/yamato/ping/yamato_ping_with_kelvin.vsnd_c": [
+"00bb92c843",
+21763
+],
+"sounds/vo/yamato/ping/yamato_ping_with_krill.vsnd_c": [
+"00c2eb97ab",
+19313
+],
+"sounds/vo/yamato/ping/yamato_ping_with_lash.vsnd_c": [
+"00828cfd0a",
+19642
+],
+"sounds/vo/yamato/ping/yamato_ping_with_magician.vsnd_c": [
+"00b7880822",
+22216
+],
+"sounds/vo/yamato/ping/yamato_ping_with_mirage.vsnd_c": [
+"00e7e78fdf",
+21032
+],
+"sounds/vo/yamato/ping/yamato_ping_with_nano.vsnd_c": [
+"008d94a0bc",
+21353
+],
+"sounds/vo/yamato/ping/yamato_ping_with_necro.vsnd_c": [
+"000d8186d6",
+22643
+],
+"sounds/vo/yamato/ping/yamato_ping_with_orion.vsnd_c": [
+"003bff26c5",
+22411
+],
+"sounds/vo/yamato/ping/yamato_ping_with_priest.vsnd_c": [
+"00b7093ebe",
+23801
+],
+"sounds/vo/yamato/ping/yamato_ping_with_punkgoat.vsnd_c": [
+"007a0433cb",
+21882
+],
+"sounds/vo/yamato/ping/yamato_ping_with_shiv.vsnd_c": [
+"0055e65fd9",
+20173
+],
+"sounds/vo/yamato/ping/yamato_ping_with_synth.vsnd_c": [
+"006499d24f",
+19427
+],
+"sounds/vo/yamato/ping/yamato_ping_with_tengu.vsnd_c": [
+"00defa49aa",
+20177
+],
+"sounds/vo/yamato/ping/yamato_ping_with_unicorn.vsnd_c": [
+"000fe3b849",
+20889
+],
+"sounds/vo/yamato/ping/yamato_ping_with_vampirebat.vsnd_c": [
+"006dd7a5f3",
+20823
+],
+"sounds/vo/yamato/ping/yamato_ping_with_viper.vsnd_c": [
+"0099728bb4",
+22632
+],
+"sounds/vo/yamato/ping/yamato_ping_with_viscous.vsnd_c": [
+"00b47c5284",
+21782
+],
+"sounds/vo/yamato/ping/yamato_ping_with_warden.vsnd_c": [
+"002e22b10a",
+21137
+],
+"sounds/vo/yamato/ping/yamato_ping_with_werewolf.vsnd_c": [
+"0012d5ba9d",
+22099
+],
+"sounds/vo/yamato/ping/yamato_ping_with_wraith.vsnd_c": [
+"004f519ddc",
+20486
+],
+"sounds/vo/yamato/ping/yamato_ping_with_wrecker.vsnd_c": [
+"004bfa03ed",
+22299
+],
+"sounds/vo/yamato/ping/yamato_ping_with_you.vsnd_c": [
+"0076327dbb",
+14904
+],
+"sounds/vo/yamato/ping/yamato_ping_wraith_above.vsnd_c": [
+"004aa09d4a",
+20041
+],
+"sounds/vo/yamato/ping/yamato_ping_wraith_almost_respawn.vsnd_c": [
+"006f6b10c7",
+25083
+],
+"sounds/vo/yamato/ping/yamato_ping_wraith_below.vsnd_c": [
+"002f8dda4e",
+17587
+],
+"sounds/vo/yamato/ping/yamato_ping_wraith_check_items.vsnd_c": [
+"00842d1937",
+24779
+],
+"sounds/vo/yamato/ping/yamato_ping_wraith_dead.vsnd_c": [
+"00b9b4fc6f",
+19114
+],
+"sounds/vo/yamato/ping/yamato_ping_wraith_low_health.vsnd_c": [
+"008d573911",
+21847
+],
+"sounds/vo/yamato/ping/yamato_ping_wraith_missing_01.vsnd_c": [
+"00e78f5cc0",
+19133
+],
+"sounds/vo/yamato/ping/yamato_ping_wrecker_almost_respawn.vsnd_c": [
+"00f1391c2f",
+25408
+],
+"sounds/vo/yamato/ping/yamato_ping_wrecker_check_items.vsnd_c": [
+"003592ce76",
+27752
+],
+"sounds/vo/yamato/ping/yamato_ping_wrecker_dead.vsnd_c": [
+"006c7b6a60",
+20392
+],
+"sounds/vo/yamato/ping/yamato_ping_wrecker_missing_01.vsnd_c": [
+"00de13fc29",
+19037
+],
+"sounds/vo/yamato/ping/yamato_ping_yellow_help_01.vsnd_c": [
+"0099e5210e",
+19972
+],
+"sounds/vo/yamato/ping/yamato_ping_yellow_help_02.vsnd_c": [
+"00ac76b44c",
+19867
+],
+"sounds/vo/yamato/yamato_ally_astro_bounce_pad_01.vsnd_c": [
+"008fb5eea8",
+29040
+],
+"sounds/vo/yamato/yamato_ally_astro_bounce_pad_02.vsnd_c": [
+"0024bb9502",
+22321
+],
+"sounds/vo/yamato/yamato_ally_astro_bounce_pad_03.vsnd_c": [
+"009898d789",
+14962
+],
+"sounds/vo/yamato/yamato_ally_astro_bounce_pad_03_alt_01.vsnd_c": [
+"00e60b46c2",
+15818
+],
+"sounds/vo/yamato/yamato_ally_astro_killed_in_lane_01.vsnd_c": [
+"003e9b9a94",
+25194
+],
+"sounds/vo/yamato/yamato_ally_astro_lasso_victim_01.vsnd_c": [
+"00679542d4",
+35969
+],
+"sounds/vo/yamato/yamato_ally_astro_lasso_victim_02.vsnd_c": [
+"006f79c0e5",
+34043
+],
+"sounds/vo/yamato/yamato_ally_astro_lasso_victim_03.vsnd_c": [
+"00fc85e24b",
+32119
+],
+"sounds/vo/yamato/yamato_ally_atlas_big_stun_01.vsnd_c": [
+"001cdf4285",
+23816
+],
+"sounds/vo/yamato/yamato_ally_atlas_big_stun_02.vsnd_c": [
+"00c36212f7",
+30964
+],
+"sounds/vo/yamato/yamato_ally_atlas_big_stun_03.vsnd_c": [
+"008b86dff4",
+29244
+],
+"sounds/vo/yamato/yamato_ally_atlas_killed_in_lane_01.vsnd_c": [
+"00bce0b625",
+26805
+],
+"sounds/vo/yamato/yamato_ally_atlas_unkillable_01.vsnd_c": [
+"00a8caddde",
+41720
+],
+"sounds/vo/yamato/yamato_ally_atlas_unkillable_02.vsnd_c": [
+"00ef63864e",
+37452
+],
+"sounds/vo/yamato/yamato_ally_atlas_unkillable_03.vsnd_c": [
+"0034c6df3c",
+36168
+],
+"sounds/vo/yamato/yamato_ally_bebop_far_hook_01.vsnd_c": [
+"000ea57052",
+22523
+],
+"sounds/vo/yamato/yamato_ally_bebop_far_hook_02.vsnd_c": [
+"00b50ca4e2",
+24668
+],
+"sounds/vo/yamato/yamato_ally_bebop_far_hook_03.vsnd_c": [
+"0063f9cb9a",
+36059
+],
+"sounds/vo/yamato/yamato_ally_bebop_killed_in_lane_01.vsnd_c": [
+"00b79d67a2",
+25208
+],
+"sounds/vo/yamato/yamato_ally_bebop_uppercut_towards_boss_01.vsnd_c": [
+"006fd3ec11",
+36072
+],
+"sounds/vo/yamato/yamato_ally_bebop_uppercut_towards_boss_02.vsnd_c": [
+"008f4659dd",
+47697
+],
+"sounds/vo/yamato/yamato_ally_bebop_uppercut_towards_boss_03.vsnd_c": [
+"0084998aa5",
+30745
+],
+"sounds/vo/yamato/yamato_ally_bookworm_killed_in_lane_01.vsnd_c": [
+"00f57cb179",
+23928
+],
+"sounds/vo/yamato/yamato_ally_chrono_killed_in_lane_01.vsnd_c": [
+"00696d124e",
+27434
+],
+"sounds/vo/yamato/yamato_ally_chrono_swap_to_boss_01.vsnd_c": [
+"00477c94e3",
+27747
+],
+"sounds/vo/yamato/yamato_ally_chrono_swap_to_boss_02.vsnd_c": [
+"00717b24ee",
+34788
+],
+"sounds/vo/yamato/yamato_ally_chrono_swap_to_boss_03.vsnd_c": [
+"00f99ad5e8",
+38618
+],
+"sounds/vo/yamato/yamato_ally_doorman_killed_in_lane_01.vsnd_c": [
+"009a22446b",
+26258
+],
+"sounds/vo/yamato/yamato_ally_drifter_killed_in_lane_01.vsnd_c": [
+"0070bb0c5d",
+25627
+],
+"sounds/vo/yamato/yamato_ally_dynamo_big_blackhole_01.vsnd_c": [
+"001013599c",
+24027
+],
+"sounds/vo/yamato/yamato_ally_dynamo_big_blackhole_02.vsnd_c": [
+"007dab9088",
+26906
+],
+"sounds/vo/yamato/yamato_ally_dynamo_big_blackhole_03.vsnd_c": [
+"001b551d6a",
+27850
+],
+"sounds/vo/yamato/yamato_ally_dynamo_clutch_heal_01.vsnd_c": [
+"0002fdcbee",
+24445
+],
+"sounds/vo/yamato/yamato_ally_dynamo_clutch_heal_02.vsnd_c": [
+"002b400070",
+19971
+],
+"sounds/vo/yamato/yamato_ally_dynamo_clutch_heal_03.vsnd_c": [
+"005bf12b87",
+29138
+],
+"sounds/vo/yamato/yamato_ally_dynamo_killed_in_lane_01.vsnd_c": [
+"00e857ca72",
+24984
+],
+"sounds/vo/yamato/yamato_ally_familiar_killed_in_lane_01.vsnd_c": [
+"00e846fa36",
+23822
+],
+"sounds/vo/yamato/yamato_ally_fencer_killed_in_lane_01.vsnd_c": [
+"0087ede781",
+27663
+],
+"sounds/vo/yamato/yamato_ally_forge_clutch_heal_01.vsnd_c": [
+"00726fb8e5",
+24666
+],
+"sounds/vo/yamato/yamato_ally_forge_clutch_heal_02.vsnd_c": [
+"000f4727ea",
+27648
+],
+"sounds/vo/yamato/yamato_ally_forge_clutch_heal_03.vsnd_c": [
+"002196dd83",
+27535
+],
+"sounds/vo/yamato/yamato_ally_forge_killed_in_lane_01.vsnd_c": [
+"006fbbb21f",
+29043
+],
+"sounds/vo/yamato/yamato_ally_forge_wall_stun_kill_01.vsnd_c": [
+"00e1d2dbc0",
+25520
+],
+"sounds/vo/yamato/yamato_ally_forge_wall_stun_kill_02.vsnd_c": [
+"00d7173d19",
+46091
+],
+"sounds/vo/yamato/yamato_ally_forge_wall_stun_kill_03.vsnd_c": [
+"0047e40480",
+42251
+],
+"sounds/vo/yamato/yamato_ally_frank_killed_in_lane_01.vsnd_c": [
+"0099e5da34",
+23911
+],
+"sounds/vo/yamato/yamato_ally_ghost_killed_in_lane_01.vsnd_c": [
+"00e4202060",
+25397
+],
+"sounds/vo/yamato/yamato_ally_ghost_see_big_swap_01.vsnd_c": [
+"0015316bd2",
+32847
+],
+"sounds/vo/yamato/yamato_ally_ghost_see_big_swap_02.vsnd_c": [
+"0054da7325",
+30215
+],
+"sounds/vo/yamato/yamato_ally_ghost_see_big_swap_03.vsnd_c": [
+"00c7154b77",
+35533
+],
+"sounds/vo/yamato/yamato_ally_gigawatt_killed_in_lane_01.vsnd_c": [
+"00a2a9a12c",
+22641
+],
+"sounds/vo/yamato/yamato_ally_gigawatt_multi_kill_ult_01.vsnd_c": [
+"0071b31d12",
+35640
+],
+"sounds/vo/yamato/yamato_ally_gigawatt_multi_kill_ult_02.vsnd_c": [
+"00bef33b3f",
+24349
+],
+"sounds/vo/yamato/yamato_ally_gigawatt_multi_kill_ult_03.vsnd_c": [
+"008e744b2f",
+43101
+],
+"sounds/vo/yamato/yamato_ally_haze_big_ult_01.vsnd_c": [
+"0098f60ae8",
+15713
+],
+"sounds/vo/yamato/yamato_ally_haze_big_ult_02.vsnd_c": [
+"00b453b75c",
+30999
+],
+"sounds/vo/yamato/yamato_ally_haze_big_ult_03.vsnd_c": [
+"00fbbb11b5",
+55919
+],
+"sounds/vo/yamato/yamato_ally_haze_interrupt_with_finesse_01.vsnd_c": [
+"000a20c44c",
+21065
+],
+"sounds/vo/yamato/yamato_ally_haze_interrupt_with_finesse_02.vsnd_c": [
+"005be309d4",
+32683
+],
+"sounds/vo/yamato/yamato_ally_haze_interrupt_with_finesse_03.vsnd_c": [
+"00c906ff22",
+34907
+],
+"sounds/vo/yamato/yamato_ally_haze_killed_in_lane_01.vsnd_c": [
+"0045a7813e",
+25953
+],
+"sounds/vo/yamato/yamato_ally_hornet_far_snipe_01.vsnd_c": [
+"009faadffa",
+15872
+],
+"sounds/vo/yamato/yamato_ally_hornet_far_snipe_03.vsnd_c": [
+"004538eb1a",
+24506
+],
+"sounds/vo/yamato/yamato_ally_hornet_killed_in_lane_01.vsnd_c": [
+"00855f5cd1",
+28500
+],
+"sounds/vo/yamato/yamato_ally_inferno_burns_down_objective_01.vsnd_c": [
+"00e5a12987",
+47502
+],
+"sounds/vo/yamato/yamato_ally_inferno_burns_down_objective_02.vsnd_c": [
+"003887f6f3",
+39224
+],
+"sounds/vo/yamato/yamato_ally_inferno_burns_down_objective_03.vsnd_c": [
+"0007a766e3",
+25791
+],
+"sounds/vo/yamato/yamato_ally_inferno_killed_in_lane_01.vsnd_c": [
+"00434095f9",
+27971
+],
+"sounds/vo/yamato/yamato_ally_kelvin_clutch_heal_01.vsnd_c": [
+"00659e47a8",
+23536
+],
+"sounds/vo/yamato/yamato_ally_kelvin_clutch_heal_02.vsnd_c": [
+"00be5bfd17",
+31324
+],
+"sounds/vo/yamato/yamato_ally_kelvin_clutch_heal_03.vsnd_c": [
+"00b4690d1d",
+20977
+],
+"sounds/vo/yamato/yamato_ally_kelvin_killed_in_lane_01.vsnd_c": [
+"00c4306e31",
+25601
+],
+"sounds/vo/yamato/yamato_ally_krill_grab_mid_enemy_ult_01.vsnd_c": [
+"00bd040557",
+19938
+],
+"sounds/vo/yamato/yamato_ally_krill_grab_mid_enemy_ult_02.vsnd_c": [
+"00b8d849fc",
+25563
+],
+"sounds/vo/yamato/yamato_ally_krill_killed_in_lane_01.vsnd_c": [
+"00ce9df261",
+22736
+],
+"sounds/vo/yamato/yamato_ally_lash_killed_in_lane_01.vsnd_c": [
+"00e3348956",
+22643
+],
+"sounds/vo/yamato/yamato_ally_lash_see_massive_stomp_01.vsnd_c": [
+"0091e58e79",
+20895
+],
+"sounds/vo/yamato/yamato_ally_lash_see_massive_stomp_02.vsnd_c": [
+"0007a2b596",
+49653
+],
+"sounds/vo/yamato/yamato_ally_lash_see_massive_stomp_03.vsnd_c": [
+"00e5477e83",
+36789
+],
+"sounds/vo/yamato/yamato_ally_magician_killed_in_lane_01.vsnd_c": [
+"006713bb1e",
+24238
+],
+"sounds/vo/yamato/yamato_ally_mirage_killed_in_lane_01.vsnd_c": [
+"0032c20ea1",
+23925
+],
+"sounds/vo/yamato/yamato_ally_nano_killed_in_lane_01.vsnd_c": [
+"00e52011e5",
+24778
+],
+"sounds/vo/yamato/yamato_ally_necro_killed_in_lane_01.vsnd_c": [
+"0006c16761",
+24445
+],
+"sounds/vo/yamato/yamato_ally_orion_far_shot_01.vsnd_c": [
+"00be93212d",
+18432
+],
+"sounds/vo/yamato/yamato_ally_orion_far_shot_02.vsnd_c": [
+"00e897b14f",
+38147
+],
+"sounds/vo/yamato/yamato_ally_orion_far_shot_03.vsnd_c": [
+"00aaac9a1f",
+34091
+],
+"sounds/vo/yamato/yamato_ally_orion_killed_in_lane_01.vsnd_c": [
+"009aa056f1",
+26371
+],
+"sounds/vo/yamato/yamato_ally_orion_missile_stops_ult_01.vsnd_c": [
+"00f6d4aed4",
+18865
+],
+"sounds/vo/yamato/yamato_ally_orion_missile_stops_ult_02.vsnd_c": [
+"009d4d114b",
+23235
+],
+"sounds/vo/yamato/yamato_ally_orion_missile_stops_ult_03.vsnd_c": [
+"00b575767d",
+30258
+],
+"sounds/vo/yamato/yamato_ally_priest_killed_in_lane_01.vsnd_c": [
+"006107d1b9",
+26374
+],
+"sounds/vo/yamato/yamato_ally_punkgoat_killed_in_lane_01.vsnd_c": [
+"00c77ebb05",
+22764
+],
+"sounds/vo/yamato/yamato_ally_shiv_killed_in_lane_01.vsnd_c": [
+"00791d0bbc",
+22649
+],
+"sounds/vo/yamato/yamato_ally_shiv_multikill_01.vsnd_c": [
+"002b80f398",
+24825
+],
+"sounds/vo/yamato/yamato_ally_shiv_multikill_02.vsnd_c": [
+"0003dc2574",
+13834
+],
+"sounds/vo/yamato/yamato_ally_shiv_multikill_03.vsnd_c": [
+"001af4d185",
+25242
+],
+"sounds/vo/yamato/yamato_ally_shiv_unkillable_01.vsnd_c": [
+"007332cf5d",
+33676
+],
+"sounds/vo/yamato/yamato_ally_shiv_unkillable_02.vsnd_c": [
+"00e05466a5",
+30578
+],
+"sounds/vo/yamato/yamato_ally_shiv_unkillable_03.vsnd_c": [
+"005cda21e9",
+33013
+],
+"sounds/vo/yamato/yamato_ally_synth_killed_in_lane_01.vsnd_c": [
+"0038ee8534",
+23496
+],
+"sounds/vo/yamato/yamato_ally_tengu_killed_in_lane_01.vsnd_c": [
+"0051ec567c",
+26790
+],
+"sounds/vo/yamato/yamato_ally_tengu_take_objective_with_teather_01.vsnd_c": [
+"00c01ae262",
+30159
+],
+"sounds/vo/yamato/yamato_ally_tengu_take_objective_with_teather_02.vsnd_c": [
+"007f772e74",
+46043
+],
+"sounds/vo/yamato/yamato_ally_tengu_take_objective_with_teather_03.vsnd_c": [
+"001ab98b2d",
+31127
+],
+"sounds/vo/yamato/yamato_ally_vampirebat_killed_in_lane_01.vsnd_c": [
+"00ee6c0461",
+22107
+],
+"sounds/vo/yamato/yamato_ally_viper_killed_in_lane_01.vsnd_c": [
+"003d767284",
+24988
+],
+"sounds/vo/yamato/yamato_ally_viscous_clutch_cube_01.vsnd_c": [
+"0001ba0abe",
+62228
+],
+"sounds/vo/yamato/yamato_ally_viscous_clutch_cube_02.vsnd_c": [
+"001f48d237",
+23118
+],
+"sounds/vo/yamato/yamato_ally_viscous_clutch_cube_03.vsnd_c": [
+"004ab400b0",
+29849
+],
+"sounds/vo/yamato/yamato_ally_viscous_killed_in_lane_01.vsnd_c": [
+"0005ccb910",
+23484
+],
+"sounds/vo/yamato/yamato_ally_warden_big_ult_01.vsnd_c": [
+"00f8602179",
+34622
+],
+"sounds/vo/yamato/yamato_ally_warden_big_ult_02.vsnd_c": [
+"004a41f6cb",
+34942
+],
+"sounds/vo/yamato/yamato_ally_warden_big_ult_03.vsnd_c": [
+"00b11758e0",
+27584
+],
+"sounds/vo/yamato/yamato_ally_warden_killed_in_lane_01.vsnd_c": [
+"00808c187a",
+22536
+],
+"sounds/vo/yamato/yamato_ally_werewolf_killed_in_lane_01.vsnd_c": [
+"00ed5a2fd0",
+23486
+],
+"sounds/vo/yamato/yamato_ally_wraith_kill_in_lift_02.vsnd_c": [
+"00f76739c1",
+60733
+],
+"sounds/vo/yamato/yamato_ally_wraith_kill_in_lift_03.vsnd_c": [
+"00d05e22b4",
+40693
+],
+"sounds/vo/yamato/yamato_ally_wraith_killed_in_lane_01.vsnd_c": [
+"0041f751ea",
+76240
+],
+"sounds/vo/yamato/yamato_ap_reminder_01.vsnd_c": [
+"00df851c72",
+33279
+],
+"sounds/vo/yamato/yamato_ap_reminder_02.vsnd_c": [
+"00cab89e40",
+32858
+],
+"sounds/vo/yamato/yamato_ap_reminder_03.vsnd_c": [
+"00e261399e",
+31908
+],
+"sounds/vo/yamato/yamato_be_careful_01.vsnd_c": [
+"00d18d6d94",
+23482
+],
+"sounds/vo/yamato/yamato_be_careful_02.vsnd_c": [
+"00cc3308d2",
+29873
+],
+"sounds/vo/yamato/yamato_be_careful_03.vsnd_c": [
+"00874693ad",
+40211
+],
+"sounds/vo/yamato/yamato_close_call_01.vsnd_c": [
+"00aad623dd",
+25286
+],
+"sounds/vo/yamato/yamato_close_call_02.vsnd_c": [
+"0035596846",
+30519
+],
+"sounds/vo/yamato/yamato_close_call_03.vsnd_c": [
+"009cd8f2de",
+45008
+],
+"sounds/vo/yamato/yamato_close_call_04.vsnd_c": [
+"00c89010d6",
+20384
+],
+"sounds/vo/yamato/yamato_close_call_05.vsnd_c": [
+"00516d00d6",
+35847
+],
+"sounds/vo/yamato/yamato_congrats_01.vsnd_c": [
+"004e78a8a3",
+19003
+],
+"sounds/vo/yamato/yamato_congrats_02.vsnd_c": [
+"002498a4e7",
+15798
+],
+"sounds/vo/yamato/yamato_congrats_03.vsnd_c": [
+"00a4643fe2",
+37018
+],
+"sounds/vo/yamato/yamato_congrats_04.vsnd_c": [
+"000a5041f4",
+35301
+],
+"sounds/vo/yamato/yamato_congrats_05.vsnd_c": [
+"0091c85758",
+42220
+],
+"sounds/vo/yamato/yamato_desperation_power1_01.vsnd_c": [
+"00f2227cce",
+21128
+],
+"sounds/vo/yamato/yamato_desperation_power1_02.vsnd_c": [
+"00940b0d08",
+26782
+],
+"sounds/vo/yamato/yamato_desperation_power1_03.vsnd_c": [
+"00c43afc2b",
+30603
+],
+"sounds/vo/yamato/yamato_desperation_power1_04.vsnd_c": [
+"006e90898a",
+22952
+],
+"sounds/vo/yamato/yamato_desperation_power1_05.vsnd_c": [
+"0024da2882",
+29765
+],
+"sounds/vo/yamato/yamato_desperation_power2_01.vsnd_c": [
+"00fc9469fd",
+22303
+],
+"sounds/vo/yamato/yamato_desperation_power2_02.vsnd_c": [
+"003be660d9",
+13463
+],
+"sounds/vo/yamato/yamato_desperation_power2_03.vsnd_c": [
+"0017fff89f",
+29442
+],
+"sounds/vo/yamato/yamato_desperation_power2_04.vsnd_c": [
+"006ca3c985",
+28587
+],
+"sounds/vo/yamato/yamato_desperation_power2_05.vsnd_c": [
+"0064d6c241",
+22205
+],
+"sounds/vo/yamato/yamato_desperation_power3_01.vsnd_c": [
+"0069eaf0cd",
+36807
+],
+"sounds/vo/yamato/yamato_desperation_power3_02.vsnd_c": [
+"00f4d75849",
+29641
+],
+"sounds/vo/yamato/yamato_desperation_power3_03.vsnd_c": [
+"00a8e624b2",
+25396
+],
+"sounds/vo/yamato/yamato_desperation_power3_04.vsnd_c": [
+"004960f4d7",
+23482
+],
+"sounds/vo/yamato/yamato_desperation_power3_05.vsnd_c": [
+"003943da3a",
+31573
+],
+"sounds/vo/yamato/yamato_desperation_power4_01.vsnd_c": [
+"00156f3910",
+32218
+],
+"sounds/vo/yamato/yamato_desperation_power4_02.vsnd_c": [
+"004c45c6e0",
+38697
+],
+"sounds/vo/yamato/yamato_desperation_power4_03.vsnd_c": [
+"003d7cece1",
+27313
+],
+"sounds/vo/yamato/yamato_desperation_power4_04.vsnd_c": [
+"005c528b4e",
+54892
+],
+"sounds/vo/yamato/yamato_desperation_power4_05.vsnd_c": [
+"001f86c73a",
+37755
+],
+"sounds/vo/yamato/yamato_end_streak.vsnd_c": [
+"00ecbd0088",
+40858
+],
+"sounds/vo/yamato/yamato_enemy_astro_bounce_escape_01.vsnd_c": [
+"0008d0f676",
+22844
+],
+"sounds/vo/yamato/yamato_enemy_astro_bounce_escape_02.vsnd_c": [
+"00cd60dd82",
+31920
+],
+"sounds/vo/yamato/yamato_enemy_astro_bounce_escape_03.vsnd_c": [
+"0025af4e4b",
+31489
+],
+"sounds/vo/yamato/yamato_enemy_astro_lassoed_01.vsnd_c": [
+"0051415d21",
+25811
+],
+"sounds/vo/yamato/yamato_enemy_astro_lassoed_02.vsnd_c": [
+"00d4b16a1a",
+19976
+],
+"sounds/vo/yamato/yamato_enemy_astro_lassoed_03.vsnd_c": [
+"00249dedeb",
+24872
+],
+"sounds/vo/yamato/yamato_enemy_atlas_unkillable_01.vsnd_c": [
+"0036cc4523",
+29469
+],
+"sounds/vo/yamato/yamato_enemy_atlas_unkillable_02.vsnd_c": [
+"0058708ad9",
+30653
+],
+"sounds/vo/yamato/yamato_enemy_atlas_unkillable_03.vsnd_c": [
+"0071afd477",
+29037
+],
+"sounds/vo/yamato/yamato_enemy_bebop_hooked_01.vsnd_c": [
+"0067750afa",
+14210
+],
+"sounds/vo/yamato/yamato_enemy_bebop_hooked_02.vsnd_c": [
+"00c4d0c085",
+17956
+],
+"sounds/vo/yamato/yamato_enemy_bebop_hooked_03.vsnd_c": [
+"00eb9df8b5",
+34298
+],
+"sounds/vo/yamato/yamato_enemy_bebop_kill_mid_laser_01.vsnd_c": [
+"00cb4edbe4",
+36283
+],
+"sounds/vo/yamato/yamato_enemy_bebop_kill_mid_laser_02.vsnd_c": [
+"004d8a45b3",
+23269
+],
+"sounds/vo/yamato/yamato_enemy_bebop_kill_mid_laser_03.vsnd_c": [
+"00d952294a",
+40327
+],
+"sounds/vo/yamato/yamato_enemy_chrono_kill_post_swap_01.vsnd_c": [
+"003cb0ca19",
+46921
+],
+"sounds/vo/yamato/yamato_enemy_chrono_kill_post_swap_02.vsnd_c": [
+"00c3d49a86",
+37239
+],
+"sounds/vo/yamato/yamato_enemy_chrono_kill_post_swap_03.vsnd_c": [
+"0075e74c52",
+33515
+],
+"sounds/vo/yamato/yamato_enemy_dynamo_charges_01.vsnd_c": [
+"00d9471db1",
+25526
+],
+"sounds/vo/yamato/yamato_enemy_dynamo_charges_02.vsnd_c": [
+"0020ebc380",
+26903
+],
+"sounds/vo/yamato/yamato_enemy_dynamo_charges_03.vsnd_c": [
+"00769ea8a2",
+29469
+],
+"sounds/vo/yamato/yamato_enemy_forge_destroy_turrets_01.vsnd_c": [
+"004fd7e2a6",
+32014
+],
+"sounds/vo/yamato/yamato_enemy_forge_destroy_turrets_02.vsnd_c": [
+"00d5acf063",
+39809
+],
+"sounds/vo/yamato/yamato_enemy_forge_destroy_turrets_03.vsnd_c": [
+"0010c05ed1",
+36593
+],
+"sounds/vo/yamato/yamato_enemy_gets_rejuv_01.vsnd_c": [
+"007ad3f18b",
+46782
+],
+"sounds/vo/yamato/yamato_enemy_gets_rejuv_02.vsnd_c": [
+"0040520071",
+61737
+],
+"sounds/vo/yamato/yamato_enemy_gets_rejuv_03.vsnd_c": [
+"001df5b264",
+69980
+],
+"sounds/vo/yamato/yamato_enemy_gigawatt_hide_from_ult_01.vsnd_c": [
+"0018c3e0d6",
+24131
+],
+"sounds/vo/yamato/yamato_enemy_gigawatt_hide_from_ult_02.vsnd_c": [
+"000072bf4d",
+16027
+],
+"sounds/vo/yamato/yamato_enemy_gigawatt_hide_from_ult_03.vsnd_c": [
+"007ed367e2",
+21160
+],
+"sounds/vo/yamato/yamato_enemy_haze_kill_when_invisible_01.vsnd_c": [
+"007600453a",
+47009
+],
+"sounds/vo/yamato/yamato_enemy_haze_kill_when_invisible_02.vsnd_c": [
+"0014a4f2cd",
+39851
+],
+"sounds/vo/yamato/yamato_enemy_haze_kill_when_invisible_03.vsnd_c": [
+"00ba9a4898",
+21424
+],
+"sounds/vo/yamato/yamato_enemy_hornet_damaged_by_snipe_01.vsnd_c": [
+"005b4465e1",
+14062
+],
+"sounds/vo/yamato/yamato_enemy_hornet_damaged_by_snipe_02.vsnd_c": [
+"00dfd287a8",
+23661
+],
+"sounds/vo/yamato/yamato_enemy_hornet_damaged_by_snipe_03.vsnd_c": [
+"00ad9184a5",
+24303
+],
+"sounds/vo/yamato/yamato_enemy_hornet_killed_mid_air_01.vsnd_c": [
+"004f81fc36",
+18106
+],
+"sounds/vo/yamato/yamato_enemy_hornet_killed_mid_air_02.vsnd_c": [
+"00320f7803",
+46679
+],
+"sounds/vo/yamato/yamato_enemy_hornet_killed_mid_air_03.vsnd_c": [
+"004b5e1949",
+39324
+],
+"sounds/vo/yamato/yamato_enemy_inferno_killed_mid_ult_01.vsnd_c": [
+"005f8e3c10",
+30494
+],
+"sounds/vo/yamato/yamato_enemy_inferno_killed_mid_ult_02.vsnd_c": [
+"0013da01d4",
+39012
+],
+"sounds/vo/yamato/yamato_enemy_inferno_killed_mid_ult_03.vsnd_c": [
+"00201ec749",
+31129
+],
+"sounds/vo/yamato/yamato_enemy_kelvin_kill_on_ice_path_01.vsnd_c": [
+"0074557ab0",
+36135
+],
+"sounds/vo/yamato/yamato_enemy_kelvin_kill_on_ice_path_02.vsnd_c": [
+"00513211ec",
+42856
+],
+"sounds/vo/yamato/yamato_enemy_kelvin_kill_on_ice_path_03.vsnd_c": [
+"00bcb1beba",
+23992
+],
+"sounds/vo/yamato/yamato_enemy_krill_grabbed_01.vsnd_c": [
+"00870c9ed8",
+23330
+],
+"sounds/vo/yamato/yamato_enemy_krill_grabbed_02.vsnd_c": [
+"00ded4f9be",
+13421
+],
+"sounds/vo/yamato/yamato_enemy_krill_grabbed_03.vsnd_c": [
+"00b03c5446",
+30245
+],
+"sounds/vo/yamato/yamato_enemy_lash_mid_air_kill_01.vsnd_c": [
+"00d13d6d38",
+23114
+],
+"sounds/vo/yamato/yamato_enemy_lash_mid_air_kill_02.vsnd_c": [
+"00133535d5",
+24382
+],
+"sounds/vo/yamato/yamato_enemy_lash_mid_air_kill_03.vsnd_c": [
+"00f1b96daa",
+26513
+],
+"sounds/vo/yamato/yamato_enemy_orion_see_missile_01.vsnd_c": [
+"0035ed7c1d",
+23327
+],
+"sounds/vo/yamato/yamato_enemy_orion_see_missile_02.vsnd_c": [
+"0080242ca5",
+18738
+],
+"sounds/vo/yamato/yamato_enemy_orion_see_missile_03.vsnd_c": [
+"0083f3390f",
+10953
+],
+"sounds/vo/yamato/yamato_enemy_shiv_unkillable_01.vsnd_c": [
+"006de31987",
+26515
+],
+"sounds/vo/yamato/yamato_enemy_shiv_unkillable_01_alt_01.vsnd_c": [
+"00b196f0a7",
+26434
+],
+"sounds/vo/yamato/yamato_enemy_shiv_unkillable_02.vsnd_c": [
+"0054a1b429",
+23646
+],
+"sounds/vo/yamato/yamato_enemy_shiv_unkillable_03.vsnd_c": [
+"00cde8701a",
+18098
+],
+"sounds/vo/yamato/yamato_enemy_tengu_flies_away_01.vsnd_c": [
+"003d858227",
+34428
+],
+"sounds/vo/yamato/yamato_enemy_tengu_flies_away_02.vsnd_c": [
+"0098b80c3b",
+23857
+],
+"sounds/vo/yamato/yamato_enemy_tengu_flies_away_03.vsnd_c": [
+"00db16d9cd",
+44754
+],
+"sounds/vo/yamato/yamato_enemy_warden_see_ult_01.vsnd_c": [
+"00cc89235e",
+23214
+],
+"sounds/vo/yamato/yamato_enemy_warden_see_ult_02.vsnd_c": [
+"00deb91000",
+24707
+],
+"sounds/vo/yamato/yamato_enemy_warden_see_ult_03.vsnd_c": [
+"003dfb0452",
+28968
+],
+"sounds/vo/yamato/yamato_enemy_wraith_lifts_01.vsnd_c": [
+"00921a1b66",
+21851
+],
+"sounds/vo/yamato/yamato_enemy_wraith_lifts_02.vsnd_c": [
+"00041ae683",
+15646
+],
+"sounds/vo/yamato/yamato_enemy_wraith_lifts_03.vsnd_c": [
+"002020a1a9",
+26730
+],
+"sounds/vo/yamato/yamato_hunt_01.vsnd_c": [
+"00f85ca883",
+16119
+],
+"sounds/vo/yamato/yamato_hunt_02.vsnd_c": [
+"00c9cb45ee",
+33708
+],
+"sounds/vo/yamato/yamato_hunt_03.vsnd_c": [
+"007696d92d",
+24537
+],
+"sounds/vo/yamato/yamato_interrupt_01.vsnd_c": [
+"0060d46f26",
+25506
+],
+"sounds/vo/yamato/yamato_interrupt_02.vsnd_c": [
+"006a7e9ed4",
+16137
+],
+"sounds/vo/yamato/yamato_interrupt_03.vsnd_c": [
+"00868dd14a",
+13871
+],
+"sounds/vo/yamato/yamato_interrupt_04.vsnd_c": [
+"004167cd46",
+20273
+],
+"sounds/vo/yamato/yamato_interrupt_05.vsnd_c": [
+"005604fc8a",
+17505
+],
+"sounds/vo/yamato/yamato_kill_anyhero_01.vsnd_c": [
+"00b1319a40",
+21661
+],
+"sounds/vo/yamato/yamato_kill_anyhero_02.vsnd_c": [
+"00001b7b6e",
+19540
+],
+"sounds/vo/yamato/yamato_kill_anyhero_03.vsnd_c": [
+"005a972515",
+19850
+],
+"sounds/vo/yamato/yamato_kill_anyhero_04.vsnd_c": [
+"003656fdb1",
+22106
+],
+"sounds/vo/yamato/yamato_kill_anyhero_05.vsnd_c": [
+"000a48fcd4",
+49372
+],
+"sounds/vo/yamato/yamato_kill_anyhero_06.vsnd_c": [
+"000376449c",
+34981
+],
+"sounds/vo/yamato/yamato_kill_anyhero_07.vsnd_c": [
+"004a047371",
+56483
+],
+"sounds/vo/yamato/yamato_kill_anyhero_08.vsnd_c": [
+"00bb6c4296",
+50645
+],
+"sounds/vo/yamato/yamato_kill_anyhero_09.vsnd_c": [
+"00d825cd81",
+32101
+],
+"sounds/vo/yamato/yamato_kill_anyhero_10.vsnd_c": [
+"00fb15fc9b",
+41601
+],
+"sounds/vo/yamato/yamato_kill_astro_01.vsnd_c": [
+"006ae6d1eb",
+24964
+],
+"sounds/vo/yamato/yamato_kill_astro_02.vsnd_c": [
+"00a6334172",
+42653
+],
+"sounds/vo/yamato/yamato_kill_astro_03.vsnd_c": [
+"00e96c1632",
+38143
+],
+"sounds/vo/yamato/yamato_kill_astro_04.vsnd_c": [
+"0096a6caca",
+34844
+],
+"sounds/vo/yamato/yamato_kill_astro_05.vsnd_c": [
+"00f8341b84",
+55005
+],
+"sounds/vo/yamato/yamato_kill_atlas_01.vsnd_c": [
+"00f876c4c7",
+49784
+],
+"sounds/vo/yamato/yamato_kill_atlas_02.vsnd_c": [
+"00ff3ce696",
+31510
+],
+"sounds/vo/yamato/yamato_kill_atlas_02_alt_01.vsnd_c": [
+"006c192fac",
+33331
+],
+"sounds/vo/yamato/yamato_kill_atlas_03.vsnd_c": [
+"00298b3f80",
+34313
+],
+"sounds/vo/yamato/yamato_kill_atlas_04.vsnd_c": [
+"00e56a8bf1",
+30183
+],
+"sounds/vo/yamato/yamato_kill_atlas_05.vsnd_c": [
+"00780f127c",
+34413
+],
+"sounds/vo/yamato/yamato_kill_bebop_01.vsnd_c": [
+"00c21d7a4d",
+39021
+],
+"sounds/vo/yamato/yamato_kill_bebop_02.vsnd_c": [
+"00dc19c509",
+54233
+],
+"sounds/vo/yamato/yamato_kill_bebop_03.vsnd_c": [
+"00e7677e47",
+40497
+],
+"sounds/vo/yamato/yamato_kill_bebop_04.vsnd_c": [
+"0002fb337d",
+41144
+],
+"sounds/vo/yamato/yamato_kill_bebop_05.vsnd_c": [
+"002be82e1b",
+44027
+],
+"sounds/vo/yamato/yamato_kill_bookworm_01.vsnd_c": [
+"000635bc48",
+49686
+],
+"sounds/vo/yamato/yamato_kill_bookworm_02.vsnd_c": [
+"00fe4ebe0d",
+49702
+],
+"sounds/vo/yamato/yamato_kill_bookworm_03.vsnd_c": [
+"000cae9805",
+25937
+],
+"sounds/vo/yamato/yamato_kill_bookworm_04.vsnd_c": [
+"00a73fb0a8",
+42749
+],
+"sounds/vo/yamato/yamato_kill_bookworm_05.vsnd_c": [
+"008964e565",
+55978
+],
+"sounds/vo/yamato/yamato_kill_chrono_01.vsnd_c": [
+"00f07f2d2b",
+46681
+],
+"sounds/vo/yamato/yamato_kill_chrono_02.vsnd_c": [
+"00b64cd605",
+30403
+],
+"sounds/vo/yamato/yamato_kill_chrono_03.vsnd_c": [
+"00390b86c6",
+45115
+],
+"sounds/vo/yamato/yamato_kill_chrono_04.vsnd_c": [
+"0004368808",
+63755
+],
+"sounds/vo/yamato/yamato_kill_chrono_05.vsnd_c": [
+"00421b704c",
+52964
+],
+"sounds/vo/yamato/yamato_kill_doorman_01.vsnd_c": [
+"00ac6bd6cb",
+45763
+],
+"sounds/vo/yamato/yamato_kill_doorman_02.vsnd_c": [
+"00cb85ab72",
+29983
+],
+"sounds/vo/yamato/yamato_kill_doorman_03.vsnd_c": [
+"008d9a5331",
+44369
+],
+"sounds/vo/yamato/yamato_kill_doorman_04.vsnd_c": [
+"009420cc93",
+26146
+],
+"sounds/vo/yamato/yamato_kill_doorman_05.vsnd_c": [
+"00349df325",
+50550
+],
+"sounds/vo/yamato/yamato_kill_drifter_01.vsnd_c": [
+"0046115e4a",
+33870
+],
+"sounds/vo/yamato/yamato_kill_drifter_02.vsnd_c": [
+"00248e39b6",
+43401
+],
+"sounds/vo/yamato/yamato_kill_drifter_03.vsnd_c": [
+"00277bbde5",
+38191
+],
+"sounds/vo/yamato/yamato_kill_drifter_04.vsnd_c": [
+"00fc03ca43",
+33600
+],
+"sounds/vo/yamato/yamato_kill_drifter_05.vsnd_c": [
+"00698f43d1",
+59678
+],
+"sounds/vo/yamato/yamato_kill_dynamo_01.vsnd_c": [
+"0088f4072c",
+52471
+],
+"sounds/vo/yamato/yamato_kill_dynamo_02.vsnd_c": [
+"001611ef8b",
+65129
+],
+"sounds/vo/yamato/yamato_kill_dynamo_03.vsnd_c": [
+"00b9a035a3",
+59482
+],
+"sounds/vo/yamato/yamato_kill_dynamo_04.vsnd_c": [
+"00599768fe",
+47245
+],
+"sounds/vo/yamato/yamato_kill_dynamo_05.vsnd_c": [
+"00e4e30299",
+45117
+],
+"sounds/vo/yamato/yamato_kill_familiar_01.vsnd_c": [
+"00044a7295",
+19964
+],
+"sounds/vo/yamato/yamato_kill_familiar_02.vsnd_c": [
+"00c5403f99",
+27638
+],
+"sounds/vo/yamato/yamato_kill_familiar_03.vsnd_c": [
+"00c5851783",
+24442
+],
+"sounds/vo/yamato/yamato_kill_familiar_04.vsnd_c": [
+"007c3d0957",
+32414
+],
+"sounds/vo/yamato/yamato_kill_familiar_05.vsnd_c": [
+"000ceca88d",
+22932
+],
+"sounds/vo/yamato/yamato_kill_fencer_01.vsnd_c": [
+"000603bb80",
+49543
+],
+"sounds/vo/yamato/yamato_kill_fencer_02.vsnd_c": [
+"0018c2b129",
+34884
+],
+"sounds/vo/yamato/yamato_kill_fencer_03.vsnd_c": [
+"00bdaecb7d",
+41270
+],
+"sounds/vo/yamato/yamato_kill_fencer_04.vsnd_c": [
+"0052670577",
+33693
+],
+"sounds/vo/yamato/yamato_kill_fencer_05.vsnd_c": [
+"0052d87aca",
+40946
+],
+"sounds/vo/yamato/yamato_kill_forge_01.vsnd_c": [
+"00a2bce3c9",
+41255
+],
+"sounds/vo/yamato/yamato_kill_forge_02.vsnd_c": [
+"0006abf178",
+56270
+],
+"sounds/vo/yamato/yamato_kill_forge_03.vsnd_c": [
+"00ffd3e58a",
+49351
+],
+"sounds/vo/yamato/yamato_kill_forge_04.vsnd_c": [
+"00de72fc61",
+38698
+],
+"sounds/vo/yamato/yamato_kill_forge_05.vsnd_c": [
+"00051a42c2",
+56364
+],
+"sounds/vo/yamato/yamato_kill_frank_01.vsnd_c": [
+"0001fe1518",
+32316
+],
+"sounds/vo/yamato/yamato_kill_frank_02.vsnd_c": [
+"00a5b7b43f",
+34659
+],
+"sounds/vo/yamato/yamato_kill_frank_03.vsnd_c": [
+"0000be9ab7",
+44581
+],
+"sounds/vo/yamato/yamato_kill_frank_04.vsnd_c": [
+"00d00a2b09",
+51605
+],
+"sounds/vo/yamato/yamato_kill_frank_05.vsnd_c": [
+"0030287fdd",
+45961
+],
+"sounds/vo/yamato/yamato_kill_ghost_01.vsnd_c": [
+"003ca0a327",
+34859
+],
+"sounds/vo/yamato/yamato_kill_ghost_02.vsnd_c": [
+"002a504c17",
+63631
+],
+"sounds/vo/yamato/yamato_kill_ghost_03.vsnd_c": [
+"0067cf02cc",
+37293
+],
+"sounds/vo/yamato/yamato_kill_ghost_04.vsnd_c": [
+"00b5b89282",
+43493
+],
+"sounds/vo/yamato/yamato_kill_ghost_05.vsnd_c": [
+"00dfaa53cd",
+28462
+],
+"sounds/vo/yamato/yamato_kill_gigawatt_01.vsnd_c": [
+"0041086697",
+64182
+],
+"sounds/vo/yamato/yamato_kill_gigawatt_02.vsnd_c": [
+"005507a252",
+48080
+],
+"sounds/vo/yamato/yamato_kill_gigawatt_03.vsnd_c": [
+"00359e2b5d",
+34041
+],
+"sounds/vo/yamato/yamato_kill_gigawatt_04.vsnd_c": [
+"00a19b24bb",
+67785
+],
+"sounds/vo/yamato/yamato_kill_gigawatt_05.vsnd_c": [
+"0012916a14",
+48489
+],
+"sounds/vo/yamato/yamato_kill_haze_01.vsnd_c": [
+"003cf1af3e",
+51494
+],
+"sounds/vo/yamato/yamato_kill_haze_02.vsnd_c": [
+"0019ff3c91",
+49038
+],
+"sounds/vo/yamato/yamato_kill_haze_03.vsnd_c": [
+"00f56bd842",
+52535
+],
+"sounds/vo/yamato/yamato_kill_haze_04.vsnd_c": [
+"00009f2b4d",
+39134
+],
+"sounds/vo/yamato/yamato_kill_haze_05.vsnd_c": [
+"006363ee69",
+45202
+],
+"sounds/vo/yamato/yamato_kill_high_networth.vsnd_c": [
+"009c3c3461",
+42116
+],
+"sounds/vo/yamato/yamato_kill_hornet_01.vsnd_c": [
+"003e26e60e",
+26042
+],
+"sounds/vo/yamato/yamato_kill_hornet_02.vsnd_c": [
+"00dd172d4c",
+22612
+],
+"sounds/vo/yamato/yamato_kill_hornet_03.vsnd_c": [
+"00c7a97db3",
+48962
+],
+"sounds/vo/yamato/yamato_kill_hornet_04.vsnd_c": [
+"00015aa9d0",
+35516
+],
+"sounds/vo/yamato/yamato_kill_hornet_05.vsnd_c": [
+"00f7132c39",
+37962
+],
+"sounds/vo/yamato/yamato_kill_inferno_01.vsnd_c": [
+"0057a27d88",
+42343
+],
+"sounds/vo/yamato/yamato_kill_inferno_02.vsnd_c": [
+"005514915c",
+43709
+],
+"sounds/vo/yamato/yamato_kill_inferno_03.vsnd_c": [
+"00ab42e83b",
+51200
+],
+"sounds/vo/yamato/yamato_kill_inferno_04.vsnd_c": [
+"00e7f6eef8",
+53528
+],
+"sounds/vo/yamato/yamato_kill_inferno_05.vsnd_c": [
+"00b1105ed4",
+37312
+],
+"sounds/vo/yamato/yamato_kill_kelvin_01.vsnd_c": [
+"002897eaf1",
+57864
+],
+"sounds/vo/yamato/yamato_kill_kelvin_02.vsnd_c": [
+"00eb9e6ea8",
+38395
+],
+"sounds/vo/yamato/yamato_kill_kelvin_03.vsnd_c": [
+"000cb87a32",
+35628
+],
+"sounds/vo/yamato/yamato_kill_kelvin_04.vsnd_c": [
+"00f0875e89",
+75096
+],
+"sounds/vo/yamato/yamato_kill_kelvin_05.vsnd_c": [
+"00be167d61",
+51501
+],
+"sounds/vo/yamato/yamato_kill_krill_01.vsnd_c": [
+"009328f51f",
+75968
+],
+"sounds/vo/yamato/yamato_kill_krill_02.vsnd_c": [
+"0041025a8a",
+33696
+],
+"sounds/vo/yamato/yamato_kill_krill_03.vsnd_c": [
+"00724888e6",
+16943
+],
+"sounds/vo/yamato/yamato_kill_krill_04.vsnd_c": [
+"00ae953a7b",
+44861
+],
+"sounds/vo/yamato/yamato_kill_krill_05.vsnd_c": [
+"0098e2bd8a",
+37109
+],
+"sounds/vo/yamato/yamato_kill_lash_01.vsnd_c": [
+"0012b226db",
+31033
+],
+"sounds/vo/yamato/yamato_kill_lash_01_alt_01.vsnd_c": [
+"00e5a745ef",
+15700
+],
+"sounds/vo/yamato/yamato_kill_lash_02.vsnd_c": [
+"008844a1cf",
+44674
+],
+"sounds/vo/yamato/yamato_kill_lash_03.vsnd_c": [
+"005af49517",
+45516
+],
+"sounds/vo/yamato/yamato_kill_lash_04.vsnd_c": [
+"00350f2ad2",
+35139
+],
+"sounds/vo/yamato/yamato_kill_lash_05.vsnd_c": [
+"004831d5d0",
+49371
+],
+"sounds/vo/yamato/yamato_kill_magician_01.vsnd_c": [
+"005f96acbd",
+24728
+],
+"sounds/vo/yamato/yamato_kill_magician_02.vsnd_c": [
+"0089417293",
+32388
+],
+"sounds/vo/yamato/yamato_kill_magician_03.vsnd_c": [
+"003267f5ee",
+36350
+],
+"sounds/vo/yamato/yamato_kill_magician_04.vsnd_c": [
+"0040d1c0cc",
+33121
+],
+"sounds/vo/yamato/yamato_kill_magician_05.vsnd_c": [
+"0097cd1c3f",
+46987
+],
+"sounds/vo/yamato/yamato_kill_mirage_01.vsnd_c": [
+"0096d0ec5b",
+40961
+],
+"sounds/vo/yamato/yamato_kill_mirage_02.vsnd_c": [
+"001e667e47",
+36701
+],
+"sounds/vo/yamato/yamato_kill_mirage_03.vsnd_c": [
+"0064319f5f",
+56195
+],
+"sounds/vo/yamato/yamato_kill_mirage_04.vsnd_c": [
+"0093262d59",
+61802
+],
+"sounds/vo/yamato/yamato_kill_mirage_05.vsnd_c": [
+"00afa39563",
+57560
+],
+"sounds/vo/yamato/yamato_kill_nano_01.vsnd_c": [
+"007cc439a8",
+51740
+],
+"sounds/vo/yamato/yamato_kill_nano_02.vsnd_c": [
+"00fa3dc14d",
+42677
+],
+"sounds/vo/yamato/yamato_kill_nano_03.vsnd_c": [
+"001115ebaa",
+28480
+],
+"sounds/vo/yamato/yamato_kill_nano_04.vsnd_c": [
+"008bd6be02",
+54483
+],
+"sounds/vo/yamato/yamato_kill_nano_05.vsnd_c": [
+"00c996aa2d",
+55112
+],
+"sounds/vo/yamato/yamato_kill_necro_01.vsnd_c": [
+"00db5a8e82",
+14202
+],
+"sounds/vo/yamato/yamato_kill_necro_02.vsnd_c": [
+"00ebac0851",
+65034
+],
+"sounds/vo/yamato/yamato_kill_necro_03.vsnd_c": [
+"00d5f89d6b",
+40315
+],
+"sounds/vo/yamato/yamato_kill_necro_04.vsnd_c": [
+"00af8e8eca",
+46816
+],
+"sounds/vo/yamato/yamato_kill_necro_05.vsnd_c": [
+"00e9c7eb03",
+32746
+],
+"sounds/vo/yamato/yamato_kill_orion_01.vsnd_c": [
+"0041bdba66",
+49788
+],
+"sounds/vo/yamato/yamato_kill_orion_02.vsnd_c": [
+"002f7464a4",
+34662
+],
+"sounds/vo/yamato/yamato_kill_orion_03.vsnd_c": [
+"009468a84f",
+43922
+],
+"sounds/vo/yamato/yamato_kill_orion_04.vsnd_c": [
+"00b42e4dfe",
+27630
+],
+"sounds/vo/yamato/yamato_kill_orion_05.vsnd_c": [
+"00acb62ba6",
+33042
+],
+"sounds/vo/yamato/yamato_kill_priest_01.vsnd_c": [
+"00cfff6072",
+36157
+],
+"sounds/vo/yamato/yamato_kill_priest_02.vsnd_c": [
+"00c6a6a2ec",
+24976
+],
+"sounds/vo/yamato/yamato_kill_priest_03.vsnd_c": [
+"00e9340962",
+38303
+],
+"sounds/vo/yamato/yamato_kill_priest_04.vsnd_c": [
+"00f5ab05cb",
+43734
+],
+"sounds/vo/yamato/yamato_kill_priest_05.vsnd_c": [
+"00a49e92b5",
+33258
+],
+"sounds/vo/yamato/yamato_kill_punkgoat_01.vsnd_c": [
+"00ea6163b0",
+33794
+],
+"sounds/vo/yamato/yamato_kill_punkgoat_02.vsnd_c": [
+"00ac3b5870",
+20803
+],
+"sounds/vo/yamato/yamato_kill_punkgoat_03.vsnd_c": [
+"00f6effe95",
+22945
+],
+"sounds/vo/yamato/yamato_kill_punkgoat_04.vsnd_c": [
+"00b5595cbf",
+32510
+],
+"sounds/vo/yamato/yamato_kill_punkgoat_05.vsnd_c": [
+"008993eabc",
+29965
+],
+"sounds/vo/yamato/yamato_kill_shiv_01.vsnd_c": [
+"0078bd8025",
+50201
+],
+"sounds/vo/yamato/yamato_kill_shiv_02.vsnd_c": [
+"00b121c157",
+49362
+],
+"sounds/vo/yamato/yamato_kill_shiv_03.vsnd_c": [
+"00d7dfafa9",
+74022
+],
+"sounds/vo/yamato/yamato_kill_shiv_04.vsnd_c": [
+"00330ec0a0",
+15577
+],
+"sounds/vo/yamato/yamato_kill_shiv_05.vsnd_c": [
+"0082881da9",
+44680
+],
+"sounds/vo/yamato/yamato_kill_synth_01.vsnd_c": [
+"00b0fced66",
+32750
+],
+"sounds/vo/yamato/yamato_kill_synth_02.vsnd_c": [
+"000a14f1e0",
+47551
+],
+"sounds/vo/yamato/yamato_kill_synth_03.vsnd_c": [
+"00737bc6ea",
+38900
+],
+"sounds/vo/yamato/yamato_kill_synth_04.vsnd_c": [
+"009772da37",
+33071
+],
+"sounds/vo/yamato/yamato_kill_synth_05.vsnd_c": [
+"00b2f453b5",
+45189
+],
+"sounds/vo/yamato/yamato_kill_tengu_01.vsnd_c": [
+"0080b34675",
+26762
+],
+"sounds/vo/yamato/yamato_kill_tengu_02.vsnd_c": [
+"0067c53f5c",
+57251
+],
+"sounds/vo/yamato/yamato_kill_tengu_03.vsnd_c": [
+"003d2bc526",
+90578
+],
+"sounds/vo/yamato/yamato_kill_tengu_04.vsnd_c": [
+"002d99caf0",
+90149
+],
+"sounds/vo/yamato/yamato_kill_tengu_05.vsnd_c": [
+"009be464d6",
+48717
+],
+"sounds/vo/yamato/yamato_kill_unicorn_01.vsnd_c": [
+"00b1f3ba58",
+33608
+],
+"sounds/vo/yamato/yamato_kill_unicorn_02.vsnd_c": [
+"004c3d8007",
+54345
+],
+"sounds/vo/yamato/yamato_kill_unicorn_03.vsnd_c": [
+"003781416d",
+29659
+],
+"sounds/vo/yamato/yamato_kill_unicorn_04.vsnd_c": [
+"007b5cbee2",
+18136
+],
+"sounds/vo/yamato/yamato_kill_unicorn_05.vsnd_c": [
+"006cdd3e9b",
+31562
+],
+"sounds/vo/yamato/yamato_kill_vampirebat_01.vsnd_c": [
+"0008f167cd",
+34355
+],
+"sounds/vo/yamato/yamato_kill_vampirebat_02.vsnd_c": [
+"008274dda0",
+32625
+],
+"sounds/vo/yamato/yamato_kill_vampirebat_03.vsnd_c": [
+"00c028596c",
+18462
+],
+"sounds/vo/yamato/yamato_kill_vampirebat_04.vsnd_c": [
+"0035b21216",
+35005
+],
+"sounds/vo/yamato/yamato_kill_vampirebat_05.vsnd_c": [
+"00093e690a",
+38371
+],
+"sounds/vo/yamato/yamato_kill_viper_01.vsnd_c": [
+"00dfa0ea00",
+25169
+],
+"sounds/vo/yamato/yamato_kill_viper_02.vsnd_c": [
+"00d990a362",
+49570
+],
+"sounds/vo/yamato/yamato_kill_viper_03.vsnd_c": [
+"006d305899",
+37852
+],
+"sounds/vo/yamato/yamato_kill_viper_04.vsnd_c": [
+"0040a8dcbc",
+37863
+],
+"sounds/vo/yamato/yamato_kill_viper_05.vsnd_c": [
+"0067096f8a",
+72247
+],
+"sounds/vo/yamato/yamato_kill_viscous_01.vsnd_c": [
+"00a25277b2",
+8641
+],
+"sounds/vo/yamato/yamato_kill_viscous_02.vsnd_c": [
+"002c03bebe",
+36249
+],
+"sounds/vo/yamato/yamato_kill_viscous_03.vsnd_c": [
+"00ff8ff2f9",
+36143
+],
+"sounds/vo/yamato/yamato_kill_viscous_04.vsnd_c": [
+"007e9411c6",
+24114
+],
+"sounds/vo/yamato/yamato_kill_viscous_05.vsnd_c": [
+"00b90145c4",
+25709
+],
+"sounds/vo/yamato/yamato_kill_warden_01.vsnd_c": [
+"0025f3def2",
+48921
+],
+"sounds/vo/yamato/yamato_kill_warden_02.vsnd_c": [
+"004e060ef3",
+41076
+],
+"sounds/vo/yamato/yamato_kill_warden_03.vsnd_c": [
+"00b083d56b",
+41479
+],
+"sounds/vo/yamato/yamato_kill_warden_04.vsnd_c": [
+"00e73f6b47",
+42555
+],
+"sounds/vo/yamato/yamato_kill_warden_05.vsnd_c": [
+"00f116db29",
+29143
+],
+"sounds/vo/yamato/yamato_kill_werewolf_01.vsnd_c": [
+"00219ecd69",
+27105
+],
+"sounds/vo/yamato/yamato_kill_werewolf_02.vsnd_c": [
+"00a6fadae7",
+24865
+],
+"sounds/vo/yamato/yamato_kill_werewolf_03.vsnd_c": [
+"00030dc7e3",
+32640
+],
+"sounds/vo/yamato/yamato_kill_werewolf_04.vsnd_c": [
+"006f337c86",
+28378
+],
+"sounds/vo/yamato/yamato_kill_werewolf_05.vsnd_c": [
+"0027d262f4",
+26122
+],
+"sounds/vo/yamato/yamato_kill_wraith_01.vsnd_c": [
+"00d99ccbd1",
+46484
+],
+"sounds/vo/yamato/yamato_kill_wraith_02.vsnd_c": [
+"00955e39e0",
+27210
+],
+"sounds/vo/yamato/yamato_kill_wraith_03.vsnd_c": [
+"002a01da4d",
+47365
+],
+"sounds/vo/yamato/yamato_kill_wraith_04.vsnd_c": [
+"0013b6abd0",
+65319
+],
+"sounds/vo/yamato/yamato_kill_wraith_05.vsnd_c": [
+"002b3334ef",
+55113
+],
+"sounds/vo/yamato/yamato_kill_wrecker_01.vsnd_c": [
+"009a458a35",
+31561
+],
+"sounds/vo/yamato/yamato_kill_wrecker_02.vsnd_c": [
+"003a897ebe",
+19112
+],
+"sounds/vo/yamato/yamato_kill_wrecker_03.vsnd_c": [
+"00b556afcc",
+39573
+],
+"sounds/vo/yamato/yamato_kill_wrecker_04.vsnd_c": [
+"00e74d91c9",
+34551
+],
+"sounds/vo/yamato/yamato_kill_wrecker_05.vsnd_c": [
+"00a83ad323",
+40951
+],
+"sounds/vo/yamato/yamato_killstreak_high_01.vsnd_c": [
+"00c3134f08",
+43074
+],
+"sounds/vo/yamato/yamato_killstreak_high_02.vsnd_c": [
+"00205a7094",
+46923
+],
+"sounds/vo/yamato/yamato_killstreak_high_03.vsnd_c": [
+"008c475430",
+32958
+],
+"sounds/vo/yamato/yamato_killstreak_mid_01.vsnd_c": [
+"00ee9f9e3c",
+51483
+],
+"sounds/vo/yamato/yamato_killstreak_mid_02.vsnd_c": [
+"003a90d787",
+23370
+],
+"sounds/vo/yamato/yamato_killstreak_mid_03.vsnd_c": [
+"006e0bea38",
+31581
+],
+"sounds/vo/yamato/yamato_killstreak_start_01.vsnd_c": [
+"00d3e03330",
+32775
+],
+"sounds/vo/yamato/yamato_killstreak_start_02.vsnd_c": [
+"00baa25a9c",
+57865
+],
+"sounds/vo/yamato/yamato_killstreak_start_03.vsnd_c": [
+"00711a8bf1",
+57366
+],
+"sounds/vo/yamato/yamato_killstreak_start_04.vsnd_c": [
+"001bcd9995",
+37677
+],
+"sounds/vo/yamato/yamato_killstreak_start_05.vsnd_c": [
+"0013f8ab2e",
+31377
+],
+"sounds/vo/yamato/yamato_last_one_standing_01.vsnd_c": [
+"00a44ee929",
+33710
+],
+"sounds/vo/yamato/yamato_last_one_standing_02.vsnd_c": [
+"00087eb879",
+47322
+],
+"sounds/vo/yamato/yamato_last_one_standing_03.vsnd_c": [
+"00c9fcfe75",
+34332
+],
+"sounds/vo/yamato/yamato_leave_base_01.vsnd_c": [
+"00697cdc35",
+20604
+],
+"sounds/vo/yamato/yamato_leave_base_02.vsnd_c": [
+"00a7150234",
+41803
+],
+"sounds/vo/yamato/yamato_leave_base_03.vsnd_c": [
+"000d3b44fc",
+37870
+],
+"sounds/vo/yamato/yamato_leave_base_04.vsnd_c": [
+"00ab01f05f",
+48297
+],
+"sounds/vo/yamato/yamato_leave_base_05.vsnd_c": [
+"00fd2e0563",
+26039
+],
+"sounds/vo/yamato/yamato_leaving_area_01.vsnd_c": [
+"00c4720c2d",
+23642
+],
+"sounds/vo/yamato/yamato_leaving_area_02.vsnd_c": [
+"0028a8d48a",
+37601
+],
+"sounds/vo/yamato/yamato_leaving_area_03.vsnd_c": [
+"00f9d0e471",
+23318
+],
+"sounds/vo/yamato/yamato_match_start_yamato_astro_convo01_01.vsnd_c": [
+"0038908226",
+57382
+],
+"sounds/vo/yamato/yamato_match_start_yamato_astro_convo01_03.vsnd_c": [
+"00bfc17ccf",
+19761
+],
+"sounds/vo/yamato/yamato_match_start_yamato_astro_convo02_01.vsnd_c": [
+"006eec0a27",
+28617
+],
+"sounds/vo/yamato/yamato_match_start_yamato_astro_convo02_03.vsnd_c": [
+"001f1110cf",
+59673
+],
+"sounds/vo/yamato/yamato_match_start_yamato_astro_convo03_02.vsnd_c": [
+"006f456d9d",
+15693
+],
+"sounds/vo/yamato/yamato_match_start_yamato_astro_convo03_04.vsnd_c": [
+"00e92b2858",
+14339
+],
+"sounds/vo/yamato/yamato_match_start_yamato_atlas_convo01_02.vsnd_c": [
+"00f246c682",
+42232
+],
+"sounds/vo/yamato/yamato_match_start_yamato_atlas_convo02_01.vsnd_c": [
+"006bcefc62",
+28088
+],
+"sounds/vo/yamato/yamato_match_start_yamato_atlas_convo02_03.vsnd_c": [
+"0054f7b22c",
+42458
+],
+"sounds/vo/yamato/yamato_match_start_yamato_atlas_convo03_02.vsnd_c": [
+"007ec8c2be",
+32653
+],
+"sounds/vo/yamato/yamato_match_start_yamato_atlas_convo03_04.vsnd_c": [
+"00b94a8491",
+15382
+],
+"sounds/vo/yamato/yamato_match_start_yamato_bebop_convo01_01.vsnd_c": [
+"00a124362d",
+25515
+],
+"sounds/vo/yamato/yamato_match_start_yamato_bebop_convo01_03.vsnd_c": [
+"0041c5d656",
+43610
+],
+"sounds/vo/yamato/yamato_match_start_yamato_bebop_convo02_01.vsnd_c": [
+"00929307d2",
+40876
+],
+"sounds/vo/yamato/yamato_match_start_yamato_bebop_convo02_03.vsnd_c": [
+"00dd368dd7",
+21129
+],
+"sounds/vo/yamato/yamato_match_start_yamato_bebop_convo03_01.vsnd_c": [
+"0077c58013",
+36482
+],
+"sounds/vo/yamato/yamato_match_start_yamato_bebop_convo03_03.vsnd_c": [
+"00f31108a6",
+28603
+],
+"sounds/vo/yamato/yamato_match_start_yamato_bookworm_convo01_01.vsnd_c": [
+"00e13bd6cb",
+22217
+],
+"sounds/vo/yamato/yamato_match_start_yamato_bookworm_convo01_03.vsnd_c": [
+"008bf1365c",
+23075
+],
+"sounds/vo/yamato/yamato_match_start_yamato_bookworm_convo02_01.vsnd_c": [
+"002eb55712",
+60457
+],
+"sounds/vo/yamato/yamato_match_start_yamato_bookworm_convo02_03.vsnd_c": [
+"00fc929480",
+42480
+],
+"sounds/vo/yamato/yamato_match_start_yamato_bookworm_convo03_02.vsnd_c": [
+"001387b001",
+28057
+],
+"sounds/vo/yamato/yamato_match_start_yamato_bookworm_convo03_04.vsnd_c": [
+"00dccf6b01",
+40541
+],
+"sounds/vo/yamato/yamato_match_start_yamato_bookworm_convo03_06.vsnd_c": [
+"001e975fbf",
+117490
+],
+"sounds/vo/yamato/yamato_match_start_yamato_drifter_convo01_01.vsnd_c": [
+"0094aa16f1",
+44218
+],
+"sounds/vo/yamato/yamato_match_start_yamato_drifter_convo02_01.vsnd_c": [
+"0003e8d6f6",
+19831
+],
+"sounds/vo/yamato/yamato_match_start_yamato_drifter_convo02_03.vsnd_c": [
+"0032008008",
+13428
+],
+"sounds/vo/yamato/yamato_match_start_yamato_drifter_convo02_05.vsnd_c": [
+"00b8865c01",
+12903
+],
+"sounds/vo/yamato/yamato_match_start_yamato_dynamo_convo01_01.vsnd_c": [
+"005f7caec1",
+27122
+],
+"sounds/vo/yamato/yamato_match_start_yamato_dynamo_convo01_03.vsnd_c": [
+"00bd0e40c3",
+33823
+],
+"sounds/vo/yamato/yamato_match_start_yamato_dynamo_convo01_05.vsnd_c": [
+"00af53738f",
+20588
+],
+"sounds/vo/yamato/yamato_match_start_yamato_dynamo_convo02_01.vsnd_c": [
+"0044fc3bde",
+37449
+],
+"sounds/vo/yamato/yamato_match_start_yamato_dynamo_convo02_03.vsnd_c": [
+"00f7cfb90c",
+17400
+],
+"sounds/vo/yamato/yamato_match_start_yamato_dynamo_convo03_02.vsnd_c": [
+"00f3708eb7",
+13260
+],
+"sounds/vo/yamato/yamato_match_start_yamato_dynamo_convo03_04.vsnd_c": [
+"00dd47d2d9",
+14012
+],
+"sounds/vo/yamato/yamato_match_start_yamato_dynamo_convo03_06.vsnd_c": [
+"0092ba8a23",
+9536
+],
+"sounds/vo/yamato/yamato_match_start_yamato_fencer_convo01_01.vsnd_c": [
+"00193a1799",
+32200
+],
+"sounds/vo/yamato/yamato_match_start_yamato_fencer_convo01_03.vsnd_c": [
+"0080c07f0f",
+34104
+],
+"sounds/vo/yamato/yamato_match_start_yamato_fencer_convo02_02.vsnd_c": [
+"007484b300",
+42947
+],
+"sounds/vo/yamato/yamato_match_start_yamato_fencer_convo02_04.vsnd_c": [
+"00c05d06f0",
+38117
+],
+"sounds/vo/yamato/yamato_match_start_yamato_fencer_convo03_02.vsnd_c": [
+"00ef5223d3",
+18341
+],
+"sounds/vo/yamato/yamato_match_start_yamato_fencer_convo03_04.vsnd_c": [
+"0010d8ce6c",
+32475
+],
+"sounds/vo/yamato/yamato_match_start_yamato_forge_convo01_02.vsnd_c": [
+"0091cc5297",
+42570
+],
+"sounds/vo/yamato/yamato_match_start_yamato_forge_convo02_01.vsnd_c": [
+"001e6d8538",
+33294
+],
+"sounds/vo/yamato/yamato_match_start_yamato_forge_convo02_03.vsnd_c": [
+"006b862f5c",
+42672
+],
+"sounds/vo/yamato/yamato_match_start_yamato_forge_convo02_05.vsnd_c": [
+"00b7c4701a",
+41176
+],
+"sounds/vo/yamato/yamato_match_start_yamato_forge_convo03_01.vsnd_c": [
+"001eedc8e6",
+26785
+],
+"sounds/vo/yamato/yamato_match_start_yamato_forge_convo03_03.vsnd_c": [
+"0066314e0a",
+35865
+],
+"sounds/vo/yamato/yamato_match_start_yamato_frank_convo01_01.vsnd_c": [
+"00158f42e2",
+31154
+],
+"sounds/vo/yamato/yamato_match_start_yamato_frank_convo01_03.vsnd_c": [
+"0027df132f",
+27434
+],
+"sounds/vo/yamato/yamato_match_start_yamato_frank_convo01_05.vsnd_c": [
+"005875ea92",
+28175
+],
+"sounds/vo/yamato/yamato_match_start_yamato_frank_convo01_07.vsnd_c": [
+"004a584aa9",
+31260
+],
+"sounds/vo/yamato/yamato_match_start_yamato_frank_convo01_09.vsnd_c": [
+"00ecc990d5",
+34896
+],
+"sounds/vo/yamato/yamato_match_start_yamato_ghost_convo01_02.vsnd_c": [
+"00435b3c61",
+54691
+],
+"sounds/vo/yamato/yamato_match_start_yamato_ghost_convo02_01.vsnd_c": [
+"00b0c5a2e4",
+22111
+],
+"sounds/vo/yamato/yamato_match_start_yamato_ghost_convo02_03.vsnd_c": [
+"0053a910d3",
+22637
+],
+"sounds/vo/yamato/yamato_match_start_yamato_ghost_convo03_01.vsnd_c": [
+"000258747a",
+23694
+],
+"sounds/vo/yamato/yamato_match_start_yamato_ghost_convo03_03.vsnd_c": [
+"004e2fa4fb",
+22844
+],
+"sounds/vo/yamato/yamato_match_start_yamato_gigawatt_convo01_01.vsnd_c": [
+"005d3a1a80",
+25557
+],
+"sounds/vo/yamato/yamato_match_start_yamato_gigawatt_convo01_03.vsnd_c": [
+"00bfde4384",
+31020
+],
+"sounds/vo/yamato/yamato_match_start_yamato_gigawatt_convo02_02.vsnd_c": [
+"0048fd27a2",
+18019
+],
+"sounds/vo/yamato/yamato_match_start_yamato_gigawatt_convo02_04.vsnd_c": [
+"0015cf55e4",
+74592
+],
+"sounds/vo/yamato/yamato_match_start_yamato_haze_convo01_01.vsnd_c": [
+"009730c8a0",
+35746
+],
+"sounds/vo/yamato/yamato_match_start_yamato_haze_convo01_03.vsnd_c": [
+"004dc63f52",
+14529
+],
+"sounds/vo/yamato/yamato_match_start_yamato_haze_convo02_02.vsnd_c": [
+"00b82e0d54",
+28287
+],
+"sounds/vo/yamato/yamato_match_start_yamato_haze_convo03_01.vsnd_c": [
+"008ca4c8aa",
+30094
+],
+"sounds/vo/yamato/yamato_match_start_yamato_haze_convo03_03.vsnd_c": [
+"00de4a33de",
+31602
+],
+"sounds/vo/yamato/yamato_match_start_yamato_inferno_convo01_01.vsnd_c": [
+"00499b61b6",
+38098
+],
+"sounds/vo/yamato/yamato_match_start_yamato_inferno_convo01_03.vsnd_c": [
+"00a8c308db",
+26477
+],
+"sounds/vo/yamato/yamato_match_start_yamato_inferno_convo02_02.vsnd_c": [
+"0003665016",
+58629
+],
+"sounds/vo/yamato/yamato_match_start_yamato_inferno_convo03_02.vsnd_c": [
+"0084010df8",
+55679
+],
+"sounds/vo/yamato/yamato_match_start_yamato_inferno_convo03_04.vsnd_c": [
+"00386cbebd",
+33714
+],
+"sounds/vo/yamato/yamato_match_start_yamato_kelvin_convo01_01.vsnd_c": [
+"00681e3852",
+28614
+],
+"sounds/vo/yamato/yamato_match_start_yamato_kelvin_convo01_03.vsnd_c": [
+"00b026e426",
+26371
+],
+"sounds/vo/yamato/yamato_match_start_yamato_kelvin_convo02_02.vsnd_c": [
+"003b34f357",
+16899
+],
+"sounds/vo/yamato/yamato_match_start_yamato_kelvin_convo02_04.vsnd_c": [
+"00cf66ca97",
+89304
+],
+"sounds/vo/yamato/yamato_match_start_yamato_kelvin_convo03_02.vsnd_c": [
+"005f66e0bc",
+13370
+],
+"sounds/vo/yamato/yamato_match_start_yamato_kelvin_convo03_04.vsnd_c": [
+"003949d227",
+17523
+],
+"sounds/vo/yamato/yamato_match_start_yamato_krill_convo01_01.vsnd_c": [
+"00f0104d6f",
+28179
+],
+"sounds/vo/yamato/yamato_match_start_yamato_krill_convo01_03.vsnd_c": [
+"00e78a9d71",
+26904
+],
+"sounds/vo/yamato/yamato_match_start_yamato_krill_convo01_05.vsnd_c": [
+"005a990feb",
+47725
+],
+"sounds/vo/yamato/yamato_match_start_yamato_krill_convo02_02.vsnd_c": [
+"00bf126594",
+30411
+],
+"sounds/vo/yamato/yamato_match_start_yamato_krill_convo02_04.vsnd_c": [
+"00ea937ad2",
+26163
+],
+"sounds/vo/yamato/yamato_match_start_yamato_krill_convo03_02.vsnd_c": [
+"006eecc016",
+32851
+],
+"sounds/vo/yamato/yamato_match_start_yamato_lash_convo01_02.vsnd_c": [
+"0070863fd5",
+72829
+],
+"sounds/vo/yamato/yamato_match_start_yamato_lash_convo02_01.vsnd_c": [
+"00d3105696",
+33725
+],
+"sounds/vo/yamato/yamato_match_start_yamato_lash_convo02_03.vsnd_c": [
+"00a8a54987",
+32306
+],
+"sounds/vo/yamato/yamato_match_start_yamato_lash_convo03_02.vsnd_c": [
+"009d9e72af",
+29571
+],
+"sounds/vo/yamato/yamato_match_start_yamato_lash_convo03_04.vsnd_c": [
+"0098e060f3",
+40971
+],
+"sounds/vo/yamato/yamato_match_start_yamato_lash_convo03_06.vsnd_c": [
+"0075d73a31",
+15486
+],
+"sounds/vo/yamato/yamato_match_start_yamato_mirage_convo01_01.vsnd_c": [
+"003c9f1777",
+49072
+],
+"sounds/vo/yamato/yamato_match_start_yamato_mirage_convo01_03.vsnd_c": [
+"00fe97bcd3",
+23290
+],
+"sounds/vo/yamato/yamato_match_start_yamato_mirage_convo02_01.vsnd_c": [
+"00ea443615",
+26372
+],
+"sounds/vo/yamato/yamato_match_start_yamato_mirage_convo02_03.vsnd_c": [
+"00071260f2",
+38833
+],
+"sounds/vo/yamato/yamato_match_start_yamato_mirage_convo02_05.vsnd_c": [
+"00968165fd",
+27961
+],
+"sounds/vo/yamato/yamato_match_start_yamato_nano_convo01_02.vsnd_c": [
+"00dbb327b9",
+31043
+],
+"sounds/vo/yamato/yamato_match_start_yamato_nano_convo02_01.vsnd_c": [
+"00e2c39197",
+30294
+],
+"sounds/vo/yamato/yamato_match_start_yamato_nano_convo02_03.vsnd_c": [
+"008cd2646a",
+30092
+],
+"sounds/vo/yamato/yamato_match_start_yamato_nano_convo03_02.vsnd_c": [
+"003410757d",
+28896
+],
+"sounds/vo/yamato/yamato_match_start_yamato_orion_convo01_02.vsnd_c": [
+"00212e5983",
+17953
+],
+"sounds/vo/yamato/yamato_match_start_yamato_orion_convo02_01.vsnd_c": [
+"00bed64a2e",
+18388
+],
+"sounds/vo/yamato/yamato_match_start_yamato_orion_convo02_03.vsnd_c": [
+"00b70f9324",
+26239
+],
+"sounds/vo/yamato/yamato_match_start_yamato_orion_convo03_02.vsnd_c": [
+"00e44153a5",
+20496
+],
+"sounds/vo/yamato/yamato_match_start_yamato_priest_convo01_01.vsnd_c": [
+"00fc249dc1",
+36929
+],
+"sounds/vo/yamato/yamato_match_start_yamato_priest_convo01_03.vsnd_c": [
+"000c7adaa9",
+52051
+],
+"sounds/vo/yamato/yamato_match_start_yamato_priest_convo02_02.vsnd_c": [
+"00257e08b6",
+77567
+],
+"sounds/vo/yamato/yamato_match_start_yamato_priest_convo03_02.vsnd_c": [
+"00356b3929",
+65851
+],
+"sounds/vo/yamato/yamato_match_start_yamato_punkgoat_convo01_01.vsnd_c": [
+"003d5a965d",
+32985
+],
+"sounds/vo/yamato/yamato_match_start_yamato_punkgoat_convo01_03.vsnd_c": [
+"0060133bbb",
+37221
+],
+"sounds/vo/yamato/yamato_match_start_yamato_punkgoat_convo02_02.vsnd_c": [
+"004349f09c",
+20822
+],
+"sounds/vo/yamato/yamato_match_start_yamato_tengu_convo01_01.vsnd_c": [
+"005d06044a",
+34369
+],
+"sounds/vo/yamato/yamato_match_start_yamato_tengu_convo01_03.vsnd_c": [
+"00546774ef",
+50212
+],
+"sounds/vo/yamato/yamato_match_start_yamato_tengu_convo02_01.vsnd_c": [
+"000a395ad7",
+35008
+],
+"sounds/vo/yamato/yamato_match_start_yamato_tengu_convo02_03.vsnd_c": [
+"00684bbafe",
+29140
+],
+"sounds/vo/yamato/yamato_match_start_yamato_tengu_convo02_05.vsnd_c": [
+"00852940ca",
+24441
+],
+"sounds/vo/yamato/yamato_match_start_yamato_tengu_convo03_02.vsnd_c": [
+"0042592d6e",
+104095
+],
+"sounds/vo/yamato/yamato_match_start_yamato_tengu_convo03_04.vsnd_c": [
+"00c4bd88ce",
+13789
+],
+"sounds/vo/yamato/yamato_match_start_yamato_viper_convo01_02.vsnd_c": [
+"00df9aca72",
+46598
+],
+"sounds/vo/yamato/yamato_match_start_yamato_viper_convo02_02.vsnd_c": [
+"00f0f92d6a",
+77608
+],
+"sounds/vo/yamato/yamato_match_start_yamato_viper_convo02_04.vsnd_c": [
+"00104fa8ce",
+26898
+],
+"sounds/vo/yamato/yamato_match_start_yamato_viper_convo03_01.vsnd_c": [
+"006f4bd050",
+34686
+],
+"sounds/vo/yamato/yamato_match_start_yamato_viper_convo03_03.vsnd_c": [
+"002b333451",
+87085
+],
+"sounds/vo/yamato/yamato_match_start_yamato_wraith_convo01_02.vsnd_c": [
+"00b4ee07aa",
+34891
+],
+"sounds/vo/yamato/yamato_match_start_yamato_wraith_convo02_02.vsnd_c": [
+"00c7f82b1d",
+32667
+],
+"sounds/vo/yamato/yamato_match_start_yamato_wraith_convo02_04.vsnd_c": [
+"00d553286f",
+49950
+],
+"sounds/vo/yamato/yamato_match_start_yamato_wraith_convo03_01.vsnd_c": [
+"00411f977d",
+67939
+],
+"sounds/vo/yamato/yamato_match_start_yamato_wraith_convo03_03.vsnd_c": [
+"00a0b534cc",
+91736
+],
+"sounds/vo/yamato/yamato_melee_kill_01.vsnd_c": [
+"00b20b95d1",
+24425
+],
+"sounds/vo/yamato/yamato_melee_kill_02.vsnd_c": [
+"008513b86c",
+20176
+],
+"sounds/vo/yamato/yamato_melee_kill_03.vsnd_c": [
+"004e08cdd9",
+27744
+],
+"sounds/vo/yamato/yamato_melee_kill_04.vsnd_c": [
+"00ab2f3f94",
+36900
+],
+"sounds/vo/yamato/yamato_melee_kill_05.vsnd_c": [
+"00ffe061f4",
+27413
+],
+"sounds/vo/yamato/yamato_near_miss_01.vsnd_c": [
+"00c4be4bb5",
+27420
+],
+"sounds/vo/yamato/yamato_near_miss_02.vsnd_c": [
+"0011268ccb",
+22934
+],
+"sounds/vo/yamato/yamato_near_miss_03.vsnd_c": [
+"0043117d5e",
+15801
+],
+"sounds/vo/yamato/yamato_near_miss_04.vsnd_c": [
+"004788decd",
+25065
+],
+"sounds/vo/yamato/yamato_near_miss_05.vsnd_c": [
+"009bf886d6",
+22620
+],
+"sounds/vo/yamato/yamato_outnumbered_01.vsnd_c": [
+"00f6a2a6f8",
+31051
+],
+"sounds/vo/yamato/yamato_outnumbered_02.vsnd_c": [
+"00176b1087",
+22821
+],
+"sounds/vo/yamato/yamato_outnumbered_03.vsnd_c": [
+"00cd70703d",
+23903
+],
+"sounds/vo/yamato/yamato_parry_01.vsnd_c": [
+"00dfbfc30b",
+9941
+],
+"sounds/vo/yamato/yamato_parry_01_alt_01.vsnd_c": [
+"00b1ee25b3",
+11209
+],
+"sounds/vo/yamato/yamato_parry_02.vsnd_c": [
+"006e74dbd9",
+14948
+],
+"sounds/vo/yamato/yamato_parry_03.vsnd_c": [
+"003736014a",
+19213
+],
+"sounds/vo/yamato/yamato_pick_up_gold_01.vsnd_c": [
+"007a7ab986",
+19534
+],
+"sounds/vo/yamato/yamato_pick_up_gold_02.vsnd_c": [
+"00a1744fc7",
+35307
+],
+"sounds/vo/yamato/yamato_pick_up_gold_03.vsnd_c": [
+"00e2d26746",
+25064
+],
+"sounds/vo/yamato/yamato_pick_up_gold_04.vsnd_c": [
+"001045df42",
+29016
+],
+"sounds/vo/yamato/yamato_pick_up_gold_05.vsnd_c": [
+"00a6e47672",
+42351
+],
+"sounds/vo/yamato/yamato_pick_up_rejuv_01.vsnd_c": [
+"00f884e900",
+29763
+],
+"sounds/vo/yamato/yamato_pick_up_rejuv_02.vsnd_c": [
+"00b0dda86c",
+33705
+],
+"sounds/vo/yamato/yamato_pick_up_rejuv_03.vsnd_c": [
+"00bbe7b85a",
+30939
+],
+"sounds/vo/yamato/yamato_revenge_kill.vsnd_c": [
+"000d476b6a",
+34562
+],
+"sounds/vo/yamato/yamato_see_enemy_metal_skin_01.vsnd_c": [
+"00bc7ae81f",
+25186
+],
+"sounds/vo/yamato/yamato_see_enemy_metal_skin_02.vsnd_c": [
+"0099a5c5d4",
+25192
+],
+"sounds/vo/yamato/yamato_see_enemy_metal_skin_03.vsnd_c": [
+"0038d91a85",
+25398
+],
+"sounds/vo/yamato/yamato_see_money_01.vsnd_c": [
+"00ea91c80c",
+27585
+],
+"sounds/vo/yamato/yamato_see_money_02.vsnd_c": [
+"000507daf8",
+20030
+],
+"sounds/vo/yamato/yamato_see_money_03.vsnd_c": [
+"0084415af0",
+26395
+],
+"sounds/vo/yamato/yamato_select_01.vsnd_c": [
+"0059b40b98",
+20689
+],
+"sounds/vo/yamato/yamato_select_02.vsnd_c": [
+"0032c560f9",
+38599
+],
+"sounds/vo/yamato/yamato_select_03-imported.vsnd_c": [
+"003d3c3c70",
+80801
+],
+"sounds/vo/yamato/yamato_select_03.vsnd_c": [
+"00d2bfe8e7",
+72461
+],
+"sounds/vo/yamato/yamato_select_04.vsnd_c": [
+"00ae4cc808",
+83209
+],
+"sounds/vo/yamato/yamato_select_05.vsnd_c": [
+"009e327532",
+43931
+],
+"sounds/vo/yamato/yamato_select_06.vsnd_c": [
+"002fbdb9df",
+48897
+],
+"sounds/vo/yamato/yamato_select_07.vsnd_c": [
+"00457fd69c",
+37433
+],
+"sounds/vo/yamato/yamato_select_08.vsnd_c": [
+"0010acdd85",
+47235
+],
+"sounds/vo/yamato/yamato_select_09.vsnd_c": [
+"0053115982",
+47638
+],
+"sounds/vo/yamato/yamato_select_10.vsnd_c": [
+"00451444d5",
+67104
+],
+"sounds/vo/yamato/yamato_t1_shop_reminder_01.vsnd_c": [
+"00db739afb",
+19636
+],
+"sounds/vo/yamato/yamato_t1_shop_reminder_02.vsnd_c": [
+"00e17c4401",
+20608
+],
+"sounds/vo/yamato/yamato_t1_shop_reminder_03.vsnd_c": [
+"00cbe782d8",
+24012
+],
+"sounds/vo/yamato/yamato_t2_shop_reminder_01.vsnd_c": [
+"00bf66be6d",
+26477
+],
+"sounds/vo/yamato/yamato_t2_shop_reminder_02.vsnd_c": [
+"001b34f479",
+29036
+],
+"sounds/vo/yamato/yamato_t2_shop_reminder_03.vsnd_c": [
+"00d6c1f9c2",
+29786
+],
+"sounds/vo/yamato/yamato_t3_shop_reminder_01.vsnd_c": [
+"00168aa626",
+34683
+],
+"sounds/vo/yamato/yamato_t3_shop_reminder_02.vsnd_c": [
+"006008c2e2",
+26371
+],
+"sounds/vo/yamato/yamato_t3_shop_reminder_03.vsnd_c": [
+"0069e3b736",
+38955
+],
+"sounds/vo/yamato/yamato_t4_shop_reminder_01.vsnd_c": [
+"002deae429",
+24322
+],
+"sounds/vo/yamato/yamato_t4_shop_reminder_02.vsnd_c": [
+"00de831486",
+28714
+],
+"sounds/vo/yamato/yamato_t4_shop_reminder_03.vsnd_c": [
+"00d9b64b79",
+32425
+],
+"sounds/vo/yamato/yamato_tower_got_denied_01.vsnd_c": [
+"0004aed491",
+40870
+],
+"sounds/vo/yamato/yamato_tower_got_denied_02.vsnd_c": [
+"001ccb3bb3",
+31057
+],
+"sounds/vo/yamato/yamato_tower_got_denied_03.vsnd_c": [
+"009c0c299b",
+40772
+],
+"sounds/vo/yamato/yamato_tower_got_denied_04.vsnd_c": [
+"00b4b30704",
+28296
+],
+"sounds/vo/yamato/yamato_tower_got_denied_05.vsnd_c": [
+"00059b3d61",
+36604
+],
+"sounds/vo/yamato/yamato_unselect_01.vsnd_c": [
+"005de57dd3",
+96736
+],
+"sounds/vo/yamato/yamato_unselect_02.vsnd_c": [
+"00978f15e1",
+30602
+],
+"sounds/vo/yamato/yamato_unselect_03.vsnd_c": [
+"00edf805dc",
+14721
+],
+"sounds/vo/yamato/yamato_unselect_04.vsnd_c": [
+"00aaa9fb99",
+23563
+],
+"sounds/vo/yamato/yamato_unselect_05.vsnd_c": [
+"0028cee3bf",
+45620
+],
+"sounds/vo/yamato/yamato_unselect_06.vsnd_c": [
+"00712bdff3",
+19840
+],
+"sounds/vo/yamato/yamato_unselect_07.vsnd_c": [
+"0076c737ba",
+52814
+],
+"sounds/vo/yamato/yamato_unselect_08.vsnd_c": [
+"001175d1f0",
+48260
+],
+"sounds/vo/yamato/yamato_unselect_09.vsnd_c": [
+"00a0d713e7",
+48560
+],
+"sounds/vo/yamato/yamato_unselect_10.vsnd_c": [
+"00d6eb0268",
+20464
+],
+"sounds/vo/yamato/yamato_upgrade_power1_01.vsnd_c": [
+"00fc5afe70",
+40835
+],
+"sounds/vo/yamato/yamato_upgrade_power1_02.vsnd_c": [
+"006c9b654e",
+36567
+],
+"sounds/vo/yamato/yamato_upgrade_power1_03.vsnd_c": [
+"00139bd366",
+77776
+],
+"sounds/vo/yamato/yamato_upgrade_power1_04.vsnd_c": [
+"00a5947850",
+56937
+],
+"sounds/vo/yamato/yamato_upgrade_power1_05.vsnd_c": [
+"00b6b84a9b",
+56842
+],
+"sounds/vo/yamato/yamato_upgrade_power1_06.vsnd_c": [
+"00a94c3111",
+42622
+],
+"sounds/vo/yamato/yamato_upgrade_power1_07.vsnd_c": [
+"00c4ef137e",
+33710
+],
+"sounds/vo/yamato/yamato_upgrade_power1_08.vsnd_c": [
+"0064ed561a",
+40530
+],
+"sounds/vo/yamato/yamato_upgrade_power1_09.vsnd_c": [
+"00aab322c9",
+35734
+],
+"sounds/vo/yamato/yamato_upgrade_power1_10.vsnd_c": [
+"0037bbdc84",
+52987
+],
+"sounds/vo/yamato/yamato_upgrade_power2_01.vsnd_c": [
+"00dfbcd80c",
+39030
+],
+"sounds/vo/yamato/yamato_upgrade_power2_02.vsnd_c": [
+"00c023ccee",
+41334
+],
+"sounds/vo/yamato/yamato_upgrade_power2_03.vsnd_c": [
+"00cc10cbf8",
+55018
+],
+"sounds/vo/yamato/yamato_upgrade_power2_04.vsnd_c": [
+"004b41ea1d",
+50437
+],
+"sounds/vo/yamato/yamato_upgrade_power2_05.vsnd_c": [
+"00141f1c94",
+47579
+],
+"sounds/vo/yamato/yamato_upgrade_power2_06.vsnd_c": [
+"00783dcb97",
+32974
+],
+"sounds/vo/yamato/yamato_upgrade_power2_07.vsnd_c": [
+"00daa0ea92",
+47341
+],
+"sounds/vo/yamato/yamato_upgrade_power2_08.vsnd_c": [
+"0060ea7dd7",
+43302
+],
+"sounds/vo/yamato/yamato_upgrade_power2_09.vsnd_c": [
+"001bffc694",
+39777
+],
+"sounds/vo/yamato/yamato_upgrade_power2_10.vsnd_c": [
+"00d0227533",
+34242
+],
+"sounds/vo/yamato/yamato_upgrade_power3_01.vsnd_c": [
+"00f331b45e",
+43943
+],
+"sounds/vo/yamato/yamato_upgrade_power3_02.vsnd_c": [
+"004f07799b",
+52983
+],
+"sounds/vo/yamato/yamato_upgrade_power3_03.vsnd_c": [
+"004d74e0d4",
+50501
+],
+"sounds/vo/yamato/yamato_upgrade_power3_04.vsnd_c": [
+"009cffc794",
+26354
+],
+"sounds/vo/yamato/yamato_upgrade_power3_05.vsnd_c": [
+"00fff8367d",
+38816
+],
+"sounds/vo/yamato/yamato_upgrade_power3_06.vsnd_c": [
+"00920a1c88",
+35179
+],
+"sounds/vo/yamato/yamato_upgrade_power3_07.vsnd_c": [
+"009a552969",
+55351
+],
+"sounds/vo/yamato/yamato_upgrade_power3_08.vsnd_c": [
+"00ea43e632",
+31365
+],
+"sounds/vo/yamato/yamato_upgrade_power3_09.vsnd_c": [
+"00bf7604fc",
+54812
+],
+"sounds/vo/yamato/yamato_upgrade_power3_10.vsnd_c": [
+"00f11f9e6d",
+46812
+],
+"sounds/vo/yamato/yamato_upgrade_power4_01.vsnd_c": [
+"00c643f357",
+65032
+],
+"sounds/vo/yamato/yamato_upgrade_power4_02.vsnd_c": [
+"00e6c220a0",
+43192
+],
+"sounds/vo/yamato/yamato_upgrade_power4_03.vsnd_c": [
+"0078005267",
+54269
+],
+"sounds/vo/yamato/yamato_upgrade_power4_04.vsnd_c": [
+"006ed56c3b",
+48631
+],
+"sounds/vo/yamato/yamato_upgrade_power4_05.vsnd_c": [
+"006471bdea",
+44375
+],
+"sounds/vo/yamato/yamato_upgrade_power4_06.vsnd_c": [
+"0066c25840",
+49911
+],
+"sounds/vo/yamato/yamato_upgrade_power4_07.vsnd_c": [
+"00f78a79e1",
+41695
+],
+"sounds/vo/yamato/yamato_upgrade_power4_08.vsnd_c": [
+"0040f8c631",
+39357
+],
+"sounds/vo/yamato/yamato_upgrade_power4_09.vsnd_c": [
+"007d30f840",
+48837
+],
+"sounds/vo/yamato/yamato_upgrade_power4_10.vsnd_c": [
+"003034e01f",
+36913
+],
+"sounds/vo/yamato/yamato_use_ability_refresher_01.vsnd_c": [
+"00df19eb23",
+16880
+],
+"sounds/vo/yamato/yamato_use_ability_refresher_02.vsnd_c": [
+"00fb4e906c",
+26253
+],
+"sounds/vo/yamato/yamato_use_ability_refresher_03.vsnd_c": [
+"00196131c5",
+53008
+],
+"sounds/vo/yamato/yamato_use_colossus_01.vsnd_c": [
+"006d7ecdb8",
+17621
+],
+"sounds/vo/yamato/yamato_use_colossus_02.vsnd_c": [
+"004651cedb",
+30720
+],
+"sounds/vo/yamato/yamato_use_colossus_03.vsnd_c": [
+"0089266284",
+21126
+],
+"sounds/vo/yamato/yamato_use_curse_01.vsnd_c": [
+"004928d7cc",
+15587
+],
+"sounds/vo/yamato/yamato_use_curse_02.vsnd_c": [
+"009f311bd5",
+23698
+],
+"sounds/vo/yamato/yamato_use_curse_03.vsnd_c": [
+"008d9ba8ca",
+25062
+],
+"sounds/vo/yamato/yamato_use_decay_01.vsnd_c": [
+"002e051b04",
+16544
+],
+"sounds/vo/yamato/yamato_use_decay_02.vsnd_c": [
+"0076d935d5",
+25930
+],
+"sounds/vo/yamato/yamato_use_decay_03.vsnd_c": [
+"00535e8719",
+32312
+],
+"sounds/vo/yamato/yamato_use_echo_shard_01.vsnd_c": [
+"00bbfebd4a",
+17942
+],
+"sounds/vo/yamato/yamato_use_echo_shard_02.vsnd_c": [
+"003522b8aa",
+24951
+],
+"sounds/vo/yamato/yamato_use_echo_shard_03.vsnd_c": [
+"00778193c5",
+21033
+],
+"sounds/vo/yamato/yamato_use_ice_blast_01.vsnd_c": [
+"0099de8150",
+16970
+],
+"sounds/vo/yamato/yamato_use_ice_blast_02.vsnd_c": [
+"0000d03882",
+18684
+],
+"sounds/vo/yamato/yamato_use_ice_blast_03.vsnd_c": [
+"00b3e3e921",
+28035
+],
+"sounds/vo/yamato/yamato_use_metal_skin_01.vsnd_c": [
+"00159d0d3f",
+17189
+],
+"sounds/vo/yamato/yamato_use_metal_skin_02.vsnd_c": [
+"001f40c9a8",
+17823
+],
+"sounds/vo/yamato/yamato_use_metal_skin_03.vsnd_c": [
+"009137dc52",
+29118
+],
+"sounds/vo/yamato/yamato_use_phantom_strike_01.vsnd_c": [
+"00a4237fd7",
+21593
+],
+"sounds/vo/yamato/yamato_use_phantom_strike_02.vsnd_c": [
+"00e3256de0",
+23701
+],
+"sounds/vo/yamato/yamato_use_phantom_strike_03.vsnd_c": [
+"00aac81a60",
+16128
+],
+"sounds/vo/yamato/yamato_use_power1_01.vsnd_c": [
+"00995cf99c",
+22500
+],
+"sounds/vo/yamato/yamato_use_power1_01_alt_01.vsnd_c": [
+"009920fc22",
+22308
+],
+"sounds/vo/yamato/yamato_use_power1_02.vsnd_c": [
+"00f18e6f65",
+17497
+],
+"sounds/vo/yamato/yamato_use_power1_03.vsnd_c": [
+"007968730a",
+15782
+],
+"sounds/vo/yamato/yamato_use_power1_04.vsnd_c": [
+"00648862ae",
+20481
+],
+"sounds/vo/yamato/yamato_use_power1_05.vsnd_c": [
+"00c3896790",
+20274
+],
+"sounds/vo/yamato/yamato_use_power1_06.vsnd_c": [
+"00db4f2736",
+21107
+],
+"sounds/vo/yamato/yamato_use_power1_07.vsnd_c": [
+"003f5b5373",
+26774
+],
+"sounds/vo/yamato/yamato_use_power1_08.vsnd_c": [
+"00850568e0",
+30190
+],
+"sounds/vo/yamato/yamato_use_power1_09.vsnd_c": [
+"00c34e2696",
+15573
+],
+"sounds/vo/yamato/yamato_use_power1_10.vsnd_c": [
+"0051aea119",
+20365
+],
+"sounds/vo/yamato/yamato_use_power2_01.vsnd_c": [
+"0021966828",
+18772
+],
+"sounds/vo/yamato/yamato_use_power2_02.vsnd_c": [
+"0032a879d5",
+26329
+],
+"sounds/vo/yamato/yamato_use_power2_03.vsnd_c": [
+"00a2ae003e",
+14071
+],
+"sounds/vo/yamato/yamato_use_power2_04.vsnd_c": [
+"001bbca83f",
+10886
+],
+"sounds/vo/yamato/yamato_use_power2_05.vsnd_c": [
+"0009ec2244",
+23782
+],
+"sounds/vo/yamato/yamato_use_power2_06.vsnd_c": [
+"00bfafbe57",
+23249
+],
+"sounds/vo/yamato/yamato_use_power2_07.vsnd_c": [
+"0036b12f13",
+22723
+],
+"sounds/vo/yamato/yamato_use_power2_08.vsnd_c": [
+"00e2b8d606",
+13864
+],
+"sounds/vo/yamato/yamato_use_power2_09.vsnd_c": [
+"00ad88b155",
+24009
+],
+"sounds/vo/yamato/yamato_use_power2_10.vsnd_c": [
+"00908f2ffc",
+28253
+],
+"sounds/vo/yamato/yamato_use_power3_01.vsnd_c": [
+"00bc3fc0cc",
+27196
+],
+"sounds/vo/yamato/yamato_use_power3_02.vsnd_c": [
+"00b32144f7",
+24735
+],
+"sounds/vo/yamato/yamato_use_power3_03.vsnd_c": [
+"001e9d9c81",
+22290
+],
+"sounds/vo/yamato/yamato_use_power3_04.vsnd_c": [
+"00ff04e703",
+24094
+],
+"sounds/vo/yamato/yamato_use_power3_05.vsnd_c": [
+"00a4e44668",
+27829
+],
+"sounds/vo/yamato/yamato_use_power3_06.vsnd_c": [
+"005a654183",
+26873
+],
+"sounds/vo/yamato/yamato_use_power3_07.vsnd_c": [
+"00ce4576d6",
+23791
+],
+"sounds/vo/yamato/yamato_use_power3_08.vsnd_c": [
+"0071dc7b41",
+30393
+],
+"sounds/vo/yamato/yamato_use_power3_09.vsnd_c": [
+"00788c7d35",
+31339
+],
+"sounds/vo/yamato/yamato_use_power3_10.vsnd_c": [
+"002771614f",
+23470
+],
+"sounds/vo/yamato/yamato_use_power4_01.vsnd_c": [
+"005ff3b4e8",
+43390
+],
+"sounds/vo/yamato/yamato_use_power4_02.vsnd_c": [
+"0010c2bac8",
+36686
+],
+"sounds/vo/yamato/yamato_use_power4_03.vsnd_c": [
+"0079d25411",
+40074
+],
+"sounds/vo/yamato/yamato_use_power4_04.vsnd_c": [
+"00004f234d",
+40300
+],
+"sounds/vo/yamato/yamato_use_power4_05.vsnd_c": [
+"007b329a4d",
+32272
+],
+"sounds/vo/yamato/yamato_use_power4_06.vsnd_c": [
+"00aa6150cb",
+23991
+],
+"sounds/vo/yamato/yamato_use_power4_06_02.vsnd_c": [
+"00ac7c1cb0",
+96830
+],
+"sounds/vo/yamato/yamato_use_power4_07.vsnd_c": [
+"00d48a0609",
+31449
+],
+"sounds/vo/yamato/yamato_use_power4_08.vsnd_c": [
+"00487f7816",
+36023
+],
+"sounds/vo/yamato/yamato_use_power4_09.vsnd_c": [
+"005342434c",
+32953
+],
+"sounds/vo/yamato/yamato_use_power4_10.vsnd_c": [
+"00ba1297c9",
+51052
+],
+"sounds/vo/yamato/yamato_use_shadow_weave_01.vsnd_c": [
+"00b57f5d8a",
+21781
+],
+"sounds/vo/yamato/yamato_use_shadow_weave_02.vsnd_c": [
+"004b8b503c",
+23065
+],
+"sounds/vo/yamato/yamato_use_shadow_weave_03.vsnd_c": [
+"001f8fbf95",
+33178
+],
+"sounds/vo/yamato/yamato_use_silencer_01.vsnd_c": [
+"00d3118cdc",
+24422
+],
+"sounds/vo/yamato/yamato_use_silencer_02.vsnd_c": [
+"0052ca6d0e",
+29643
+],
+"sounds/vo/yamato/yamato_use_silencer_03.vsnd_c": [
+"00379fcf53",
+37218
+],
+"sounds/vo/yamato/yamato_use_tech_purge_01.vsnd_c": [
+"00489b9876",
+13243
+],
+"sounds/vo/yamato/yamato_use_tech_purge_02.vsnd_c": [
+"00271b13ba",
+25816
+],
+"sounds/vo/yamato/yamato_use_tech_purge_03.vsnd_c": [
+"00a5ffa277",
+21337
+],
+"sounds/vo/yamato/yamato_use_unstoppable_01.vsnd_c": [
+"0096cada72",
+23365
+],
+"sounds/vo/yamato/yamato_use_unstoppable_02.vsnd_c": [
+"003ccb9c19",
+32636
+],
+"sounds/vo/yamato/yamato_use_unstoppable_03.vsnd_c": [
+"002351a85a",
+30620
+],
+"sounds/vo/yamato/yamato_use_vampiric_burst_01.vsnd_c": [
+"0078282ef5",
+23709
+],
+"sounds/vo/yamato/yamato_use_vampiric_burst_02.vsnd_c": [
+"004f9fbc04",
+22631
+],
+"sounds/vo/yamato/yamato_use_vampiric_burst_03.vsnd_c": [
+"008a8adb4e",
+38201
+]
+},
+"ows": {
+"panorama/images/items/vitality/warp_stone_psd.vtex_c": [
+"00dc628645",
+55796
+]
+},
+"rkf": {
+"models/heroes_wip/ratking/materials/ratking_ratannia_flag_color_psd_7cb8079f.vtex_c": [
+"008fa63fe6",
+2798372
+],
+"soundevents/hero/ratking.vsndevts_c": [
+"009c757da4",
+19266
+],
+"sounds/abilities/ratking/ratking_charge_cast_jump.vsnd_c": [
+"00da946342",
+79153
+],
+"sounds/abilities/ratking/ratking_charge_explosion_01.vsnd_c": [
+"009408f931",
+405306
+],
+"sounds/abilities/ratking/ratking_charge_travel_lp.vsnd_c": [
+"00cbcac108",
+131887
+]
+},
+"rkp": {
+"models/heroes_wip/ratking/materials/ratking_ratannia_flag_color_psd_7cb8079f.vtex_c": [
+"008fa63fe6",
+2798372
+]
+},
+"sg": {
+"particles/abilities/melee/melee_heavy_activate_charge.vpcf_c": [
+"005e8770e6",
+2038
+],
+"soundevents/player.vsndevts_c": [
+"006210e52c",
+11539
+],
+"soundstacks/soundstack_citadel_hit_confirm.vsndstck_c": [
+"0017877be9",
+3608
+],
+"soundstacks/soundstack_citadel_perspective.vsndstck_c": [
+"00a18f54c1",
+8156
+],
+"soundstacks/soundstacks_citadel_core.vsndstck_c": [
+"0087160033",
+4391
+]
+},
+"tele": {
+"models/props_structures/teleporter_box.vmdl_c": [
+"009951d1df",
+246233
+]
+}
+}
