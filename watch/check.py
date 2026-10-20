@@ -1,4 +1,4 @@
-"""Patch watch for the Wide FOV Slider, Hide Investments, Old Damage Portraits, Shop Notes, Flow State Soundtrack and Old Buffs & Debuffs Deadlock mods.
+"""Patch watch for the Wide FOV Slider, Hide Investments, Old Damage Portraits, Shop Notes, Flow State Soundtrack and Classic Buffs & Debuffs Deadlock mods.
 
 Reads SteamDB's GameTracking-Deadlock copy of the game files and checks everything the mod depends on.
 Writes report.json / report.md; the workflow opens a GitHub issue (which emails the repo owner) when a check fails.
@@ -32,7 +32,7 @@ MODS = {
     'odp': {'name': 'Old Damage Portraits', 'page': 'https://gamebanana.com/mods/724869'},
     'sn': {'name': 'Shop Notes', 'page': 'https://gamebanana.com/mods/725094'},
     'fss': {'name': 'Flow State Soundtrack', 'page': 'https://mixboat.github.io/deadlock-mod-pages/violet-slide-song/'},
-    'obd': {'name': 'Old Buffs & Debuffs', 'page': 'https://gamebanana.com/members/5889014'},
+    'obd': {'name': 'Classic Buffs & Debuffs', 'page': 'https://gamebanana.com/mods/730138'},
 }
 
 
@@ -241,7 +241,7 @@ try:
 except Exception as e:
     check('fss_watch', 'warning', False, 'Flow State Soundtrack checks failed to run', str(e), mod='fss')
 
-# ---------------------------------------------------------------- Old Buffs & Debuffs
+# ---------------------------------------------------------------- Classic Buffs & Debuffs
 # Ships two tiny screen-effect layouts with one script line added, plus two own layouts holding a CitadelStatusEffect. The script
 # makes copies of the stock buff/debuff strip (display_location "healthbar") by the health bar / under the crosshair and fades the
 # stock one; a safety net shows the stock strip again if the copies stay empty.
@@ -251,7 +251,7 @@ try:
         expected = norm(open(os.path.join(HERE, 'expected', name + '.xml'), encoding='utf-8').read())
         check('obd_layout_' + name, 'critical', live == expected,
               'Valve changed %s.xml' % name,
-              'Old Buffs & Debuffs ships its own copy of panorama/layout/%s with one script line added; the old copy now overrides '
+              'Classic Buffs & Debuffs ships its own copy of panorama/layout/%s with one script line added; the old copy now overrides '
               'the new one. Rebuild with build_old_buffs_debuffs.py (it reads the current file from pak01) and re-upload, then '
               'refresh watch/expected/%s.xml.' % (name, name), mod='obd')
     check('obd_strip', 'critical', re.search(r'<CitadelStatusEffect[^>]*under_reticle[^>]*display_location="healthbar"', hud)
@@ -282,7 +282,7 @@ try:
           'Saved setting changed', 'The choices are saved in joy_circle_correct_mode_vehicle (legacy, per user). It is gone or no '
           'longer per user, so the choice resets every launch. Pick another spare per-user setting (STORE).', mod='obd')
 except Exception as e:
-    check('obd_watch', 'warning', False, 'Old Buffs & Debuffs checks failed to run', str(e), mod='obd')
+    check('obd_watch', 'warning', False, 'Classic Buffs & Debuffs checks failed to run', str(e), mod='obd')
 
 failed = [c for c in checks if not c['ok']]
 report = {'build': build, 'failed': failed, 'checks': checks}
