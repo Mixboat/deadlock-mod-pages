@@ -269,7 +269,7 @@ try:
           'split find icons there. Rebuild (the own layouts are made from this file) and check in game.', mod='obd')
     usi = get(P + 'styles/unit_status_icons.css')
     check('obd_debuff_class', 'warning', '.isDebuff' in usi,
-          'Debuff class renamed', '.isDebuff is gone from unit_status_icons.css; Mixed would put every icon on the buff side. '
+          'Debuff class renamed', '.isDebuff is gone from unit_status_icons.css; Debuffs center / Buffs center would treat every icon as a buff. '
           'Update isDebuff() in old_buffs_debuffs.js.', mod='obd')
     hh = get(P + 'styles/hud_health.css')
     check('obd_tilt', 'warning', re.search(r'\.bars_container\s*\{[^}]*rotateZ\(\s*-20deg\s*\)', hh),
