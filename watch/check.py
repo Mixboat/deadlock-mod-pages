@@ -1,4 +1,6 @@
-"""Patch watch for the Wide FOV Slider, Hide Investments, Old Damage Portraits, Shop Notes, Flow State Soundtrack and Classic Buffs & Debuffs Deadlock mods.
+"""Patch watch for all of Mixboat's Deadlock mods: Wide FOV Slider, Hide Investments, Old Damage Portraits, Shop Notes, Flow State Soundtrack,
+Classic Buffs & Debuffs, plus the file-replacing mods (Greninja over Yamato, Rat King Flags, Rat King Pride Flags, Clean Teleporter Wall,
+Shotgun Heavy Melee SFX, Old Warp Stone Icon).
 
 Reads SteamDB's GameTracking-Deadlock copy of the game files and checks everything the mod depends on.
 Writes report.json / report.md; the workflow opens a GitHub issue (which emails the repo owner) when a check fails.
@@ -33,6 +35,12 @@ MODS = {
     'sn': {'name': 'Shop Notes', 'page': 'https://gamebanana.com/mods/725094'},
     'fss': {'name': 'Flow State Soundtrack', 'page': 'https://mixboat.github.io/deadlock-mod-pages/violet-slide-song/'},
     'obd': {'name': 'Classic Buffs & Debuffs', 'page': 'https://gamebanana.com/mods/730138'},
+    'gren': {'name': 'Greninja over Yamato', 'page': 'https://gamebanana.com/mods/722539'},
+    'rkf': {'name': 'Rat King Flags', 'page': 'https://gamebanana.com/mods/723830'},
+    'rkp': {'name': 'Rat King Pride Flags', 'page': 'https://gamebanana.com/mods/723909'},
+    'tele': {'name': 'Clean Teleporter Wall', 'page': 'https://gamebanana.com/mods/725147'},
+    'sg': {'name': 'Shotgun Heavy Melee SFX', 'page': 'https://gamebanana.com/sounds/93185'},
+    'ows': {'name': 'Old Warp Stone Icon (private)', 'page': 'https://gamebanana.com/mods/725098'},
 }
 
 
@@ -283,6 +291,34 @@ try:
           'longer per user, so the choice resets every launch. Pick another spare per-user setting (STORE).', mod='obd')
 except Exception as e:
     check('obd_watch', 'warning', False, 'Classic Buffs & Debuffs checks failed to run', str(e), mod='obd')
+
+# ---------------------------------------------------------------- mods that ship copies of Valve files (models, textures, sounds)
+# expected/override_files.json = every game file each mod replaces, with Valve's CRC/size when the mod was last built. If Valve
+# changes one, the mod's stale copy hides the change (models, sound events, particles can break; textures/sounds only look old).
+REBUILD = {'gren': 'Re-run the Greninja fit/build (sessions/greninja_yamato build_mod.py) against the new Yamato files and re-upload.',
+           'rkf': 'Rebuild the flag VPKs from the new ratking files (flag texture / sound events) and re-upload.',
+           'rkp': 'Rebuild the pride flag VPKs from the new flag texture and re-upload.',
+           'tele': 'Rebuild teleporter_box from the new model and re-upload.',
+           'sg': 'Rebuild the shotgun sound events / sound stacks from the new files and re-upload.',
+           'ows': 'Re-make the warp stone icon at the new size/format and re-upload.'}
+CRITICAL_EXT = ('.vmdl_c', '.vnmgraph_c', '.vnmskel_c', '.vsndevts_c', '.vsndstck_c', '.vpcf_c', '.vxml_c', '.vdata_c', '.vmat_c')
+try:
+    listing = {}
+    for l in get('game/citadel/pak01_dir.txt').splitlines():
+        m = re.match(r'(.+) CRC:(\w+) size:(\d+)$', l)
+        if m: listing[m.group(1)] = [m.group(2), int(m.group(3))]
+    assert len(listing) > 50000, 'pak01 listing looks empty (%d files)' % len(listing)
+    files = json.load(open(os.path.join(HERE, 'expected', 'override_files.json'), encoding='utf-8'))
+    for mod, exp in files.items():
+        gone = sorted(p for p in exp if p not in listing)
+        changed = sorted(p for p in exp if p in listing and listing[p] != exp[p])
+        crit = gone or any(p.endswith(CRITICAL_EXT) for p in changed)
+        check(mod + '_files', 'critical' if crit else 'warning', not (gone or changed),
+              'Valve changed %d of the %d game files it replaces' % (len(gone) + len(changed), len(exp)),
+              ('Removed: %s. ' % ', '.join(gone[:8]) if gone else '') + ('Changed: %s%s. ' % (', '.join(changed[:8]), ' ...' if len(changed) > 8 else '') if changed else '') +
+              REBUILD[mod] + ' Then refresh watch/expected/override_files.json.', mod=mod)
+except Exception as e:
+    check('override_watch', 'warning', False, 'File-replacing mod checks failed to run', str(e), mod='gren')
 
 failed = [c for c in checks if not c['ok']]
 report = {'build': build, 'failed': failed, 'checks': checks}
