@@ -1,3 +1,4 @@
+hero_artist	Violet	heroes/artist_sm.psd	true
 hero_astro	Holliday	heroes/astro_sm.psd	false
 hero_atlas	Abrams	heroes/bull_sm.psd	false
 hero_baba	Baba	heroes/baba_sm.psd	true
@@ -5,6 +6,7 @@ hero_bebop	Bebop	heroes/bebop_sm.psd	false
 hero_bookworm	Paige	heroes/bookworm_sm.psd	false
 hero_chessmaster	Solomon	heroes/chessmaster_sm.psd	false
 hero_chrono	Paradox	heroes/chrono_sm.psd	false
+hero_deadpack	Deadman Danny	heroes/deadpack_sm.psd	false
 hero_doorman	The Doorman	heroes/doorman_sm.psd	false
 hero_drifter	Drifter	heroes/drifter_sm.psd	false
 hero_dynamo	Dynamo	heroes/sumo_sm.psd	false
@@ -25,6 +27,7 @@ hero_magician	Sinclair	heroes/magician_sm.psd	false
 hero_mirage	Mirage	heroes/mirage_sm.psd	false
 hero_nano	Calico	heroes/nano_sm.psd	false
 hero_necro	Graves	heroes/necro_sm.psd	false
+hero_nurse	Nurse Harrow	heroes/nurse_sm.psd	false
 hero_orion	Grey Talon	heroes/archer_sm.psd	false
 hero_priest	Venator	heroes/priest_sm.psd	false
 hero_punkgoat	Billy	heroes/punkgoat_sm.psd	false
