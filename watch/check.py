@@ -1,4 +1,4 @@
-"""Patch watch for the Wide FOV Slider, Hide Investments, Old Damage Portraits, Shop Notes and Flow State Soundtrack Deadlock mods.
+"""Patch watch for the Wide FOV Slider, Hide Investments, Old Damage Portraits, Shop Notes, Flow State Soundtrack and Old Buffs & Debuffs Deadlock mods.
 
 Reads SteamDB's GameTracking-Deadlock copy of the game files and checks everything the mod depends on.
 Writes report.json / report.md; the workflow opens a GitHub issue (which emails the repo owner) when a check fails.
@@ -32,6 +32,7 @@ MODS = {
     'odp': {'name': 'Old Damage Portraits', 'page': 'https://gamebanana.com/mods/724869'},
     'sn': {'name': 'Shop Notes', 'page': 'https://gamebanana.com/mods/725094'},
     'fss': {'name': 'Flow State Soundtrack', 'page': 'https://mixboat.github.io/deadlock-mod-pages/violet-slide-song/'},
+    'obd': {'name': 'Old Buffs & Debuffs', 'page': 'https://gamebanana.com/members/5889014'},
 }
 
 
@@ -239,6 +240,49 @@ try:
           'joy_side_sensitivity changed or is gone', 'The volume slider stores its value in joy_side_sensitivity; pick another spare setting.', mod='fss')
 except Exception as e:
     check('fss_watch', 'warning', False, 'Flow State Soundtrack checks failed to run', str(e), mod='fss')
+
+# ---------------------------------------------------------------- Old Buffs & Debuffs
+# Ships two tiny screen-effect layouts with one script line added, plus two own layouts holding a CitadelStatusEffect. The script
+# makes copies of the stock buff/debuff strip (display_location "healthbar") by the health bar / under the crosshair and fades the
+# stock one; a safety net shows the stock strip again if the copies stay empty.
+try:
+    for name in ('hud_screen_effects_stunned', 'hud_screen_effects_scope'):
+        live = norm(get(P + 'layout/%s.xml' % name))
+        expected = norm(open(os.path.join(HERE, 'expected', name + '.xml'), encoding='utf-8').read())
+        check('obd_layout_' + name, 'critical', live == expected,
+              'Valve changed %s.xml' % name,
+              'Old Buffs & Debuffs ships its own copy of panorama/layout/%s with one script line added; the old copy now overrides '
+              'the new one. Rebuild with build_old_buffs_debuffs.py (it reads the current file from pak01) and re-upload, then '
+              'refresh watch/expected/%s.xml.' % (name, name), mod='obd')
+    check('obd_strip', 'critical', re.search(r'<CitadelStatusEffect[^>]*under_reticle[^>]*display_location="healthbar"', hud)
+          and 'id="gameplay_hud_alive"' in hud and 'id="health_and_abilities_container"' in hud,
+          'Buff/debuff strip changed in hud.xml',
+          'The mod copies the stock CitadelStatusEffect (class under_reticle, display_location "healthbar") in #gameplay_hud_alive and '
+          'adds one in #health_and_abilities_container. Something changed: the safety net should show the stock strip, so players '
+          'see the game default. Check in game and update old_buffs_debuffs.js / the two own layouts in the builder.', mod='obd')
+    hhc = get(P + 'layout/hud_health_container.xml'); se = get(P + 'layout/citadel_status_effect.xml')
+    check('obd_health_block', 'critical', 'id="HealthBarContent"' in hhc,
+          'Health bar block renamed', '#HealthBarContent is gone from hud_health_container.xml; Old/Mixed never place the column '
+          '(the stock strip stays). Update healthContent() in old_buffs_debuffs.js.', mod='obd')
+    check('obd_strip_layout', 'warning', 'id="StatusEffectContainer"' in se and 'CitadelStatusEffect' in se,
+          'Status effect layout changed', 'citadel_status_effect.xml lost #StatusEffectContainer; the column layout and the Mixed '
+          'split find icons there. Rebuild (the own layouts are made from this file) and check in game.', mod='obd')
+    usi = get(P + 'styles/unit_status_icons.css')
+    check('obd_debuff_class', 'warning', '.isDebuff' in usi,
+          'Debuff class renamed', '.isDebuff is gone from unit_status_icons.css; Mixed would put every icon on the buff side. '
+          'Update isDebuff() in old_buffs_debuffs.js.', mod='obd')
+    hh = get(P + 'styles/hud_health.css')
+    check('obd_tilt', 'warning', re.search(r'\.bars_container\s*\{[^}]*rotateZ\(\s*-20deg\s*\)', hh),
+          'Health bar tilt changed', 'The column leans by 20 degrees to follow .bars_container rotateZ(-20deg) in hud_health.css. '
+          'The tilt changed or moved, so "Follow health bar" leans wrong. Update SLANT_TAN.', mod='obd')
+    check('obd_settings', 'warning', 'id="citadel_settings_interface"' in ps,
+          'Interface settings section changed', 'The three rows go at the end of Settings > Game > Interface (#citadel_settings_interface). '
+          'It is gone, so the rows do not appear (the saved choice still applies). Update injectRow.', mod='obd')
+    check('obd_store', 'critical', re.search(r'(?m)^\s*joy_circle_correct_mode_vehicle\s.*per_user', cv),
+          'Saved setting changed', 'The choices are saved in joy_circle_correct_mode_vehicle (legacy, per user). It is gone or no '
+          'longer per user, so the choice resets every launch. Pick another spare per-user setting (STORE).', mod='obd')
+except Exception as e:
+    check('obd_watch', 'warning', False, 'Old Buffs & Debuffs checks failed to run', str(e), mod='obd')
 
 failed = [c for c in checks if not c['ok']]
 report = {'build': build, 'failed': failed, 'checks': checks}
