@@ -274,7 +274,7 @@ try:
     hh = get(P + 'styles/hud_health.css')
     check('obd_tilt', 'warning', re.search(r'\.bars_container\s*\{[^}]*rotateZ\(\s*-20deg\s*\)', hh),
           'Health bar tilt changed', 'The column leans by 20 degrees to follow .bars_container rotateZ(-20deg) in hud_health.css. '
-          'The tilt changed or moved, so "Follow health bar" leans wrong. Update SLANT_TAN.', mod='obd')
+          'The tilt changed or moved, so the column leans wrong. Update SLANT_TAN.', mod='obd')
     check('obd_settings', 'warning', 'id="citadel_settings_interface"' in ps,
           'Interface settings section changed', 'The three rows go at the end of Settings > Game > Interface (#citadel_settings_interface). '
           'It is gone, so the rows do not appear (the saved choice still applies). Update injectRow.', mod='obd')
