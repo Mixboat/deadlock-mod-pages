@@ -1,4 +1,8922 @@
 {
+"fmk": {
+"models/heroes_staging/digger/clips/ability_burrow_in_air_start.vnmclip_c": [
+"00670d0c4b",
+25116
+],
+"models/heroes_staging/digger/clips/ability_burrow_spinning_loop.vnmclip_c": [
+"004a821e2a",
+17500
+],
+"models/heroes_staging/digger/clips/ability_burrow_spinning_start.vnmclip_c": [
+"004766a8bf",
+23144
+],
+"models/heroes_staging/digger/clips/ability_burrow_start.vnmclip_c": [
+"00e26cc1e8",
+20389
+],
+"models/heroes_staging/digger/clips/ability_combo_ground_loop.vnmclip_c": [
+"00d004da8b",
+12101
+],
+"models/heroes_staging/digger/clips/ability_combo_ground_start.vnmclip_c": [
+"00191e8071",
+15904
+],
+"models/heroes_staging/digger/clips/ability_combo_in_air_loop.vnmclip_c": [
+"009a8989a2",
+12662
+],
+"models/heroes_staging/digger/clips/ability_combo_in_air_start.vnmclip_c": [
+"0031e256fa",
+16701
+],
+"models/heroes_staging/digger/clips/ability_throw_sand.vnmclip_c": [
+"0045ef52ad",
+14844
+],
+"models/heroes_staging/digger/clips/aim_item_idle_center.vnmclip+non_additive.vnmclip_c": [
+"00992fad18",
+9982
+],
+"models/heroes_staging/digger/clips/aim_item_idle_center.vnmclip_c": [
+"0078ab834e",
+6827
+],
+"models/heroes_staging/digger/clips/aim_item_idle_high.vnmclip+non_additive.vnmclip_c": [
+"004ceb3732",
+9986
+],
+"models/heroes_staging/digger/clips/aim_item_idle_high.vnmclip_c": [
+"004f552d58",
+6857
+],
+"models/heroes_staging/digger/clips/aim_item_idle_low.vnmclip+non_additive.vnmclip_c": [
+"002b8462ab",
+9985
+],
+"models/heroes_staging/digger/clips/aim_item_idle_low.vnmclip_c": [
+"00ef341efb",
+6841
+],
+"models/heroes_staging/digger/clips/aim_out_of_combat_idle.vnmclip+non_additive.vnmclip_c": [
+"007186ec16",
+16200
+],
+"models/heroes_staging/digger/clips/aim_out_of_combat_idle.vnmclip_c": [
+"0091a4380e",
+14566
+],
+"models/heroes_staging/digger/clips/aim_out_of_combat_idle_high.vnmclip+non_additive.vnmclip_c": [
+"00e7745397",
+16319
+],
+"models/heroes_staging/digger/clips/aim_out_of_combat_idle_high.vnmclip_c": [
+"00b0251ce7",
+14737
+],
+"models/heroes_staging/digger/clips/aim_out_of_combat_idle_low.vnmclip+non_additive.vnmclip_c": [
+"0021209031",
+17741
+],
+"models/heroes_staging/digger/clips/aim_out_of_combat_idle_low.vnmclip_c": [
+"00b70e28b4",
+16074
+],
+"models/heroes_staging/digger/clips/aim_reload_idle_center.vnmclip+non_additive.vnmclip_c": [
+"0002c1380e",
+12799
+],
+"models/heroes_staging/digger/clips/aim_reload_idle_center.vnmclip_c": [
+"003f03b45a",
+11018
+],
+"models/heroes_staging/digger/clips/aim_reload_idle_high.vnmclip+non_additive.vnmclip_c": [
+"00d35aad03",
+12800
+],
+"models/heroes_staging/digger/clips/aim_reload_idle_high.vnmclip_c": [
+"00f8209adb",
+10947
+],
+"models/heroes_staging/digger/clips/aim_reload_idle_low.vnmclip+non_additive.vnmclip_c": [
+"004d208a83",
+14327
+],
+"models/heroes_staging/digger/clips/aim_reload_idle_low.vnmclip_c": [
+"0013b0234b",
+12403
+],
+"models/heroes_staging/digger/clips/aim_weapon_idle_center.vnmclip+non_additive.vnmclip_c": [
+"002fd398d0",
+21112
+],
+"models/heroes_staging/digger/clips/aim_weapon_idle_center.vnmclip_c": [
+"0051040300",
+19661
+],
+"models/heroes_staging/digger/clips/aim_weapon_idle_high.vnmclip+non_additive.vnmclip_c": [
+"0011f330a6",
+20646
+],
+"models/heroes_staging/digger/clips/aim_weapon_idle_high.vnmclip_c": [
+"00c989b71b",
+19227
+],
+"models/heroes_staging/digger/clips/aim_weapon_idle_low.vnmclip+non_additive.vnmclip_c": [
+"001e0d47e0",
+22125
+],
+"models/heroes_staging/digger/clips/aim_weapon_idle_low.vnmclip_c": [
+"00a5e22843",
+20579
+],
+"models/heroes_staging/digger/clips/cast_channeling_end.vnmclip_c": [
+"003e776d25",
+10341
+],
+"models/heroes_staging/digger/clips/cast_channeling_loop.vnmclip_c": [
+"00c453de92",
+9149
+],
+"models/heroes_staging/digger/clips/cast_channeling_start.vnmclip_c": [
+"00a0a1ff67",
+12282
+],
+"models/heroes_staging/digger/clips/cast_end.vnmclip_c": [
+"00f8508c85",
+12266
+],
+"models/heroes_staging/digger/clips/cast_loop.vnmclip_c": [
+"00f4890775",
+6789
+],
+"models/heroes_staging/digger/clips/cast_start.vnmclip_c": [
+"001fd5a684",
+12644
+],
+"models/heroes_staging/digger/clips/corner_lean_crouch.vnmclip+non_additive.vnmclip_c": [
+"00c5bb6a15",
+7143
+],
+"models/heroes_staging/digger/clips/corner_lean_crouch.vnmclip_c": [
+"007d5adacd",
+3349
+],
+"models/heroes_staging/digger/clips/corner_lean_idle.vnmclip+non_additive.vnmclip_c": [
+"00fc78e551",
+7542
+],
+"models/heroes_staging/digger/clips/corner_lean_idle.vnmclip_c": [
+"006be52636",
+3882
+],
+"models/heroes_staging/digger/clips/dash_air_back.vnmclip_c": [
+"00201700e1",
+18850
+],
+"models/heroes_staging/digger/clips/dash_air_forward.vnmclip_c": [
+"0054048cb2",
+22111
+],
+"models/heroes_staging/digger/clips/dash_air_left.vnmclip_c": [
+"00cc8be345",
+20453
+],
+"models/heroes_staging/digger/clips/dash_air_right.vnmclip_c": [
+"00299742da",
+20389
+],
+"models/heroes_staging/digger/clips/dash_ground.vnmclip_c": [
+"000f413356",
+50743
+],
+"models/heroes_staging/digger/clips/in_air_loop_apex.vnmclip_c": [
+"004d84d849",
+16723
+],
+"models/heroes_staging/digger/clips/in_air_loop_down.vnmclip_c": [
+"0024ed3dd5",
+17342
+],
+"models/heroes_staging/digger/clips/item_crouch_run_center.vnmclip_c": [
+"00351fcffc",
+10488
+],
+"models/heroes_staging/digger/clips/item_crouch_run_e.vnmclip_c": [
+"00255a8a08",
+10879
+],
+"models/heroes_staging/digger/clips/item_crouch_run_n.vnmclip_c": [
+"00e1b6d7e8",
+10780
+],
+"models/heroes_staging/digger/clips/item_crouch_run_ne.vnmclip_c": [
+"00e3630c8e",
+10990
+],
+"models/heroes_staging/digger/clips/item_crouch_run_nw.vnmclip_c": [
+"00f1d7cf83",
+10916
+],
+"models/heroes_staging/digger/clips/item_crouch_run_s.vnmclip_c": [
+"000cfcea10",
+10611
+],
+"models/heroes_staging/digger/clips/item_crouch_run_se.vnmclip_c": [
+"00e355411a",
+10734
+],
+"models/heroes_staging/digger/clips/item_crouch_run_sw.vnmclip_c": [
+"0048fca9db",
+10732
+],
+"models/heroes_staging/digger/clips/item_crouch_run_w.vnmclip_c": [
+"000938a407",
+10848
+],
+"models/heroes_staging/digger/clips/item_idle_crouch.vnmclip_c": [
+"00414ca30f",
+39821
+],
+"models/heroes_staging/digger/clips/item_run_center.vnmclip_c": [
+"00397461c3",
+10761
+],
+"models/heroes_staging/digger/clips/item_run_e.vnmclip_c": [
+"00f8671ca9",
+10936
+],
+"models/heroes_staging/digger/clips/item_run_n.vnmclip_c": [
+"00c8bd02c7",
+12866
+],
+"models/heroes_staging/digger/clips/item_run_ne.vnmclip_c": [
+"0092598256",
+10958
+],
+"models/heroes_staging/digger/clips/item_run_nw.vnmclip_c": [
+"00197cc08c",
+10939
+],
+"models/heroes_staging/digger/clips/item_run_s.vnmclip_c": [
+"0043970c1a",
+10961
+],
+"models/heroes_staging/digger/clips/item_run_se.vnmclip_c": [
+"0039e75784",
+10995
+],
+"models/heroes_staging/digger/clips/item_run_sw.vnmclip_c": [
+"007c1e3a07",
+10987
+],
+"models/heroes_staging/digger/clips/item_run_w.vnmclip_c": [
+"005620bf09",
+10952
+],
+"models/heroes_staging/digger/clips/item_stand_idle.vnmclip_c": [
+"007c5e9bb8",
+40030
+],
+"models/heroes_staging/digger/clips/item_throw.vnmclip_c": [
+"0061928df4",
+11442
+],
+"models/heroes_staging/digger/clips/jump_ground.vnmclip_c": [
+"003da0b2f3",
+22025
+],
+"models/heroes_staging/digger/clips/knockdown_in_air_loop.vnmclip_c": [
+"00d6aa95b7",
+15839
+],
+"models/heroes_staging/digger/clips/knockdown_in_air_start.vnmclip_c": [
+"00a5d59c68",
+14257
+],
+"models/heroes_staging/digger/clips/knockdown_large_getup.vnmclip_c": [
+"00b52f3a50",
+21603
+],
+"models/heroes_staging/digger/clips/knockdown_large_loop.vnmclip_c": [
+"004f856846",
+6591
+],
+"models/heroes_staging/digger/clips/knockdown_large_start.vnmclip_c": [
+"00bd1366b0",
+18346
+],
+"models/heroes_staging/digger/clips/knockdown_medium.vnmclip_c": [
+"005760c905",
+6678
+],
+"models/heroes_staging/digger/clips/knockdown_medium_start.vnmclip_c": [
+"0057d869e4",
+16857
+],
+"models/heroes_staging/digger/clips/knockdown_small.vnmclip_c": [
+"004053e8b3",
+16949
+],
+"models/heroes_staging/digger/clips/landing_impact.vnmclip+non_additive.vnmclip_c": [
+"00ee98f704",
+19329
+],
+"models/heroes_staging/digger/clips/landing_impact.vnmclip_c": [
+"00202d5f7d",
+16110
+],
+"models/heroes_staging/digger/clips/lift_loop.vnmclip_c": [
+"008bf97a2d",
+15560
+],
+"models/heroes_staging/digger/clips/loco_lean_back.vnmclip+non_additive.vnmclip_c": [
+"0018021347",
+11356
+],
+"models/heroes_staging/digger/clips/loco_lean_back.vnmclip_c": [
+"005e3997ab",
+7566
+],
+"models/heroes_staging/digger/clips/loco_lean_center.vnmclip+non_additive.vnmclip_c": [
+"00f68e77c7",
+6986
+],
+"models/heroes_staging/digger/clips/loco_lean_center.vnmclip_c": [
+"00553da992",
+2752
+],
+"models/heroes_staging/digger/clips/loco_lean_forward.vnmclip+non_additive.vnmclip_c": [
+"002ecbc390",
+14230
+],
+"models/heroes_staging/digger/clips/loco_lean_forward.vnmclip_c": [
+"009275dd56",
+10472
+],
+"models/heroes_staging/digger/clips/loco_lean_left.vnmclip+non_additive.vnmclip_c": [
+"00a38e8782",
+14353
+],
+"models/heroes_staging/digger/clips/loco_lean_left.vnmclip_c": [
+"009d4a3708",
+10699
+],
+"models/heroes_staging/digger/clips/loco_lean_right.vnmclip+non_additive.vnmclip_c": [
+"009b93ba8f",
+10613
+],
+"models/heroes_staging/digger/clips/loco_lean_right.vnmclip_c": [
+"00aa4f651f",
+6755
+],
+"models/heroes_staging/digger/clips/mantle_128.vnmclip_c": [
+"008f00f8a1",
+25604
+],
+"models/heroes_staging/digger/clips/mantle_32.vnmclip_c": [
+"0011108473",
+21846
+],
+"models/heroes_staging/digger/clips/mantle_64.vnmclip_c": [
+"002067d631",
+21373
+],
+"models/heroes_staging/digger/clips/mantle_96.vnmclip_c": [
+"009abe1cda",
+21560
+],
+"models/heroes_staging/digger/clips/melee_dash.vnmclip_c": [
+"0011804c64",
+13231
+],
+"models/heroes_staging/digger/clips/melee_hit.vnmclip_c": [
+"006ce1abe8",
+25095
+],
+"models/heroes_staging/digger/clips/melee_in_air_dash.vnmclip_c": [
+"0067925c0f",
+13231
+],
+"models/heroes_staging/digger/clips/melee_in_air_hit.vnmclip_c": [
+"00df609db4",
+23551
+],
+"models/heroes_staging/digger/clips/melee_in_air_start.vnmclip_c": [
+"0087ecce01",
+14065
+],
+"models/heroes_staging/digger/clips/melee_quick_1.vnmclip_c": [
+"000725d16d",
+13744
+],
+"models/heroes_staging/digger/clips/melee_quick_2.vnmclip_c": [
+"0073c20d94",
+13224
+],
+"models/heroes_staging/digger/clips/melee_start.vnmclip_c": [
+"002ac4faec",
+14065
+],
+"models/heroes_staging/digger/clips/out_of_combat_run_center.vnmclip_c": [
+"00ecd26cad",
+13072
+],
+"models/heroes_staging/digger/clips/out_of_combat_run_e.vnmclip_c": [
+"008f06ec56",
+13596
+],
+"models/heroes_staging/digger/clips/out_of_combat_run_n.vnmclip_c": [
+"00dca1d7ef",
+14008
+],
+"models/heroes_staging/digger/clips/out_of_combat_run_ne.vnmclip_c": [
+"00ac4ca683",
+13793
+],
+"models/heroes_staging/digger/clips/out_of_combat_run_nw.vnmclip_c": [
+"00595656d9",
+13999
+],
+"models/heroes_staging/digger/clips/out_of_combat_run_s.vnmclip_c": [
+"0018f23d2b",
+12978
+],
+"models/heroes_staging/digger/clips/out_of_combat_run_se.vnmclip_c": [
+"0032f07278",
+12674
+],
+"models/heroes_staging/digger/clips/out_of_combat_run_sw.vnmclip_c": [
+"00b057b725",
+12863
+],
+"models/heroes_staging/digger/clips/out_of_combat_run_w.vnmclip_c": [
+"00142ce659",
+12655
+],
+"models/heroes_staging/digger/clips/out_of_combat_stand_idle.vnmclip_c": [
+"009c490b1c",
+16203
+],
+"models/heroes_staging/digger/clips/parry.vnmclip_c": [
+"0030f91cf6",
+21833
+],
+"models/heroes_staging/digger/clips/parry_success.vnmclip_c": [
+"00a249f546",
+14721
+],
+"models/heroes_staging/digger/clips/reload_quick_stand_idle.vnmclip_c": [
+"0059799c3a",
+11106
+],
+"models/heroes_staging/digger/clips/reload_stand_idle.vnmclip_c": [
+"004cc03591",
+20656
+],
+"models/heroes_staging/digger/clips/rope_climb_down.vnmclip_c": [
+"0035ffa742",
+7097
+],
+"models/heroes_staging/digger/clips/rope_climb_idle.vnmclip_c": [
+"000b4abf6d",
+7606
+],
+"models/heroes_staging/digger/clips/rope_climb_settle.vnmclip_c": [
+"00c69fd248",
+13209
+],
+"models/heroes_staging/digger/clips/rope_climb_up.vnmclip_c": [
+"007a0c1024",
+11578
+],
+"models/heroes_staging/digger/clips/run_to_stop_crouch.vnmclip+non_additive.vnmclip_c": [
+"00b5e054df",
+18498
+],
+"models/heroes_staging/digger/clips/run_to_stop_crouch.vnmclip_c": [
+"003d3846b1",
+15113
+],
+"models/heroes_staging/digger/clips/run_to_stop_stand.vnmclip+non_additive.vnmclip_c": [
+"00b5e054df",
+18498
+],
+"models/heroes_staging/digger/clips/run_to_stop_stand.vnmclip_c": [
+"00d10999f5",
+15097
+],
+"models/heroes_staging/digger/clips/shoot_idle.vnmclip+non_additive.vnmclip_c": [
+"0043a97a72",
+8012
+],
+"models/heroes_staging/digger/clips/shoot_idle.vnmclip_c": [
+"0079386112",
+4151
+],
+"models/heroes_staging/digger/clips/shopping_stand_idle.vnmclip_c": [
+"00ae00db99",
+16174
+],
+"models/heroes_staging/digger/clips/sleep_stand_idle.vnmclip_c": [
+"001f41b5a8",
+29815
+],
+"models/heroes_staging/digger/clips/slide_getup.vnmclip_c": [
+"00df43c22d",
+15698
+],
+"models/heroes_staging/digger/clips/slide_loop.vnmclip_c": [
+"007b92c8aa",
+10541
+],
+"models/heroes_staging/digger/clips/slide_start.vnmclip_c": [
+"0013742f62",
+17905
+],
+"models/heroes_staging/digger/clips/throw.vnmclip_c": [
+"00db4f432e",
+11348
+],
+"models/heroes_staging/digger/clips/turn_crouch_left.vnmclip_c": [
+"00c3ac3947",
+11298
+],
+"models/heroes_staging/digger/clips/turn_crouch_right.vnmclip_c": [
+"0042163c98",
+11443
+],
+"models/heroes_staging/digger/clips/turn_left.vnmclip_c": [
+"003766523e",
+13257
+],
+"models/heroes_staging/digger/clips/turn_right.vnmclip_c": [
+"008982117d",
+12639
+],
+"models/heroes_staging/digger/clips/ui_hero_select.vnmclip_c": [
+"008bab4962",
+7115
+],
+"models/heroes_staging/digger/clips/ui_pose.vnmclip_c": [
+"0067dd460e",
+7173
+],
+"models/heroes_staging/digger/clips/wall_attach_forward.vnmclip_c": [
+"004f1b3408",
+7052
+],
+"models/heroes_staging/digger/clips/wall_attach_left.vnmclip_c": [
+"00565b46aa",
+7169
+],
+"models/heroes_staging/digger/clips/wall_attach_right.vnmclip_c": [
+"00b984bf6b",
+7179
+],
+"models/heroes_staging/digger/clips/weapon_crouch_idle.vnmclip_c": [
+"0059eda7bf",
+17205
+],
+"models/heroes_staging/digger/clips/weapon_crouch_run_center.vnmclip_c": [
+"001f6e427f",
+14067
+],
+"models/heroes_staging/digger/clips/weapon_crouch_run_e.vnmclip_c": [
+"00eaf4b883",
+15037
+],
+"models/heroes_staging/digger/clips/weapon_crouch_run_n.vnmclip_c": [
+"00cfb262cf",
+15055
+],
+"models/heroes_staging/digger/clips/weapon_crouch_run_ne.vnmclip_c": [
+"00c699359a",
+15199
+],
+"models/heroes_staging/digger/clips/weapon_crouch_run_nw.vnmclip_c": [
+"00de69778c",
+15190
+],
+"models/heroes_staging/digger/clips/weapon_crouch_run_s.vnmclip_c": [
+"0093cea689",
+14645
+],
+"models/heroes_staging/digger/clips/weapon_crouch_run_se.vnmclip_c": [
+"00ecf459ef",
+14777
+],
+"models/heroes_staging/digger/clips/weapon_crouch_run_sw.vnmclip_c": [
+"00866515ca",
+14756
+],
+"models/heroes_staging/digger/clips/weapon_crouch_run_w.vnmclip_c": [
+"007dbb473d",
+15008
+],
+"models/heroes_staging/digger/clips/weapon_run_center.vnmclip_c": [
+"00ab56eba3",
+12746
+],
+"models/heroes_staging/digger/clips/weapon_run_e.vnmclip_c": [
+"00ccb2316d",
+13569
+],
+"models/heroes_staging/digger/clips/weapon_run_n.vnmclip_c": [
+"00ef89557c",
+12619
+],
+"models/heroes_staging/digger/clips/weapon_run_ne.vnmclip_c": [
+"008583b623",
+12743
+],
+"models/heroes_staging/digger/clips/weapon_run_nw.vnmclip_c": [
+"0029783cb7",
+12660
+],
+"models/heroes_staging/digger/clips/weapon_run_s.vnmclip_c": [
+"007d02010e",
+12967
+],
+"models/heroes_staging/digger/clips/weapon_run_se.vnmclip_c": [
+"00704d2dae",
+12647
+],
+"models/heroes_staging/digger/clips/weapon_run_sw.vnmclip_c": [
+"001c0efe59",
+12836
+],
+"models/heroes_staging/digger/clips/weapon_run_w.vnmclip_c": [
+"001c3b69fa",
+12628
+],
+"models/heroes_staging/digger/clips/weapon_stand_idle.vnmclip_c": [
+"00f221e768",
+16174
+],
+"models/heroes_staging/digger/clips/zipline_attached_loop.vnmclip_c": [
+"004cc134b2",
+25245
+],
+"models/heroes_staging/digger/clips/zipline_attached_start.vnmclip_c": [
+"001fa21910",
+46837
+],
+"models/heroes_staging/digger/clips/zipline_awaiting_tether.vnmclip_c": [
+"00585ca667",
+39055
+],
+"models/heroes_staging/digger/clips/zipline_awaiting_tether_above.vnmclip_c": [
+"0088ff8e16",
+37821
+],
+"models/heroes_staging/digger/clips/zipline_boosted_loop.vnmclip_c": [
+"0004c4d783",
+27033
+],
+"models/heroes_staging/digger/clips/zipline_latched_loop.vnmclip_c": [
+"00f53eecb6",
+34383
+],
+"models/heroes_staging/digger/clips/zipline_tethered_reeling_loop_above.vnmclip_c": [
+"00ab1cf3e2",
+20000
+],
+"models/heroes_staging/digger/digger.vmdl_c": [
+"000574c812",
+4672596
+],
+"particles/abilities/digger/digger_ult_tgt_debuff.vpcf_c": [
+"000d8f3012",
+1966
+],
+"scripts/abilities.vdata_c": [
+"00dac2c42e",
+560992
+],
+"sounds/abilities/mokrill/a4_combo/mokrill_a4_combo_cast_01.vsnd_c": [
+"00dcc362f6",
+85043
+],
+"sounds/vo/artist/artist_match_start_artist_krill_convo01_02.vsnd_c": [
+"0062f63ab5",
+9573
+],
+"sounds/vo/artist/artist_match_start_artist_krill_convo01_04.vsnd_c": [
+"00bf8001f8",
+61058
+],
+"sounds/vo/artist/artist_match_start_artist_krill_convo01_06.vsnd_c": [
+"00ddcedc90",
+62321
+],
+"sounds/vo/artist/artist_match_start_artist_krill_convo01_08.vsnd_c": [
+"00d4b2138f",
+11513
+],
+"sounds/vo/astro/astro_match_start_astro_krill_convo01_02.vsnd_c": [
+"002e84b617",
+46143
+],
+"sounds/vo/astro/astro_match_start_astro_krill_convo01_04.vsnd_c": [
+"00576c7ebb",
+25325
+],
+"sounds/vo/astro/astro_match_start_astro_krill_convo02_02.vsnd_c": [
+"004df11908",
+48643
+],
+"sounds/vo/astro/astro_match_start_astro_krill_convo02_04.vsnd_c": [
+"00b7bfc3b8",
+19336
+],
+"sounds/vo/astro/astro_match_start_astro_krill_convo03_02.vsnd_c": [
+"0073667364",
+23178
+],
+"sounds/vo/astro/astro_match_start_astro_krill_convo03_04.vsnd_c": [
+"001ce72fc6",
+18691
+],
+"sounds/vo/atlas/atlas_match_start_atlas_krill_convo01_01.vsnd_c": [
+"00222dd27b",
+64949
+],
+"sounds/vo/atlas/atlas_match_start_atlas_krill_convo01_03.vsnd_c": [
+"00bc467b4d",
+20727
+],
+"sounds/vo/atlas/atlas_match_start_atlas_krill_convo02_02.vsnd_c": [
+"0035e50e66",
+63033
+],
+"sounds/vo/atlas/atlas_match_start_atlas_krill_convo02_04.vsnd_c": [
+"006c565a9a",
+58634
+],
+"sounds/vo/atlas/atlas_match_start_atlas_krill_convo03_01.vsnd_c": [
+"00794e1321",
+46425
+],
+"sounds/vo/atlas/atlas_match_start_atlas_krill_convo03_03.vsnd_c": [
+"00c3b777a2",
+39883
+],
+"sounds/vo/bebop/bebop_match_start_bebop_krill_convo01_01.vsnd_c": [
+"00cbb1e076",
+56204
+],
+"sounds/vo/bebop/bebop_match_start_bebop_krill_convo02_02.vsnd_c": [
+"00e66bff9c",
+49490
+],
+"sounds/vo/bebop/bebop_match_start_bebop_krill_convo02_04.vsnd_c": [
+"009b04a0b2",
+54905
+],
+"sounds/vo/bebop/bebop_match_start_bebop_krill_convo03_02.vsnd_c": [
+"0034c72b66",
+37548
+],
+"sounds/vo/bebop/bebop_match_start_bebop_krill_convo03_04.vsnd_c": [
+"005fbf25e6",
+36130
+],
+"sounds/vo/chrono/chrono_match_start_krill_chrono_convo01_01.vsnd_c": [
+"00fd245f14",
+58596
+],
+"sounds/vo/chrono/chrono_match_start_krill_chrono_convo01_03.vsnd_c": [
+"005f1c3ecf",
+18200
+],
+"sounds/vo/chrono/chrono_match_start_krill_chrono_convo01_05.vsnd_c": [
+"00d6aa826a",
+18533
+],
+"sounds/vo/chrono/chrono_match_start_krill_chrono_convo02_01.vsnd_c": [
+"003bc1ee79",
+39850
+],
+"sounds/vo/chrono/chrono_match_start_krill_chrono_convo02_03.vsnd_c": [
+"00d6b88a4c",
+69619
+],
+"sounds/vo/chrono/chrono_match_start_krill_chrono_convo02_05.vsnd_c": [
+"00bc890fd3",
+29412
+],
+"sounds/vo/chrono/chrono_match_start_krill_chrono_convo03_02.vsnd_c": [
+"00f7751905",
+23338
+],
+"sounds/vo/doorman/doorman_match_start_doorman_krill_convo01_02.vsnd_c": [
+"00b87f2b36",
+91829
+],
+"sounds/vo/doorman/doorman_match_start_doorman_krill_convo02_01.vsnd_c": [
+"00615b39f7",
+176810
+],
+"sounds/vo/doorman/doorman_match_start_doorman_krill_convo02_03.vsnd_c": [
+"0055412ca3",
+97275
+],
+"sounds/vo/doorman/doorman_match_start_doorman_krill_convo03_01.vsnd_c": [
+"0017349037",
+177079
+],
+"sounds/vo/doorman/doorman_match_start_doorman_krill_convo03_03.vsnd_c": [
+"009273bbe1",
+40183
+],
+"sounds/vo/doorman/doorman_match_start_doorman_krill_convo03_05.vsnd_c": [
+"00d7963ceb",
+49747
+],
+"sounds/vo/doorman/doorman_match_start_doorman_krill_convo03_07.vsnd_c": [
+"000163da81",
+12686
+],
+"sounds/vo/drifter/drifter_match_start_drifter_krill_convo01_01.vsnd_c": [
+"003bc658a3",
+52423
+],
+"sounds/vo/drifter/drifter_match_start_drifter_krill_convo01_03.vsnd_c": [
+"00a5cc8aff",
+117796
+],
+"sounds/vo/drifter/drifter_match_start_drifter_krill_convo02_01.vsnd_c": [
+"00b15695cf",
+99163
+],
+"sounds/vo/drifter/drifter_match_start_drifter_krill_convo02_03.vsnd_c": [
+"00dc1a2dc8",
+42084
+],
+"sounds/vo/drifter/drifter_match_start_drifter_krill_convo03_02.vsnd_c": [
+"00e322f24f",
+21634
+],
+"sounds/vo/drifter/drifter_match_start_drifter_krill_convo03_04.vsnd_c": [
+"00eb3e3858",
+45819
+],
+"sounds/vo/drifter/drifter_match_start_drifter_krill_convo03_06.vsnd_c": [
+"001efdfd71",
+92254
+],
+"sounds/vo/dynamo/dynamo_match_start_dynamo_krill_convo01_02.vsnd_c": [
+"002201cab1",
+13354
+],
+"sounds/vo/dynamo/dynamo_match_start_dynamo_krill_convo01_04.vsnd_c": [
+"0088340d97",
+22308
+],
+"sounds/vo/dynamo/dynamo_match_start_dynamo_krill_convo01_06.vsnd_c": [
+"003a8aa335",
+45430
+],
+"sounds/vo/dynamo/dynamo_match_start_dynamo_krill_convo02_01.vsnd_c": [
+"00304f23dd",
+98488
+],
+"sounds/vo/dynamo/dynamo_match_start_dynamo_krill_convo02_03.vsnd_c": [
+"00e3f691da",
+47999
+],
+"sounds/vo/dynamo/dynamo_match_start_dynamo_krill_convo03_01.vsnd_c": [
+"00b834f3cf",
+48601
+],
+"sounds/vo/dynamo/dynamo_match_start_dynamo_krill_convo03_03.vsnd_c": [
+"00fd2ad916",
+74300
+],
+"sounds/vo/dynamo/dynamo_match_start_dynamo_krill_convo03_05.vsnd_c": [
+"00fdb5a57e",
+60731
+],
+"sounds/vo/dynamo/dynamo_match_start_dynamo_krill_convo03_07.vsnd_c": [
+"00f747e9e5",
+70759
+],
+"sounds/vo/fencer/fencer_match_start_fencer_krill_convo01_01.vsnd_c": [
+"0003ab43b5",
+32875
+],
+"sounds/vo/fencer/fencer_match_start_fencer_krill_convo01_03.vsnd_c": [
+"00ce6b5299",
+37245
+],
+"sounds/vo/fencer/fencer_match_start_fencer_krill_convo02_02.vsnd_c": [
+"00b405e88b",
+27642
+],
+"sounds/vo/fencer/fencer_match_start_fencer_krill_convo03_02.vsnd_c": [
+"009133b05a",
+25640
+],
+"sounds/vo/fencer/fencer_match_start_fencer_krill_convo03_04.vsnd_c": [
+"00e7a5c7d3",
+19017
+],
+"sounds/vo/forge/forge_match_start_forge_krill_convo01_02.vsnd_c": [
+"00dadd90ed",
+31975
+],
+"sounds/vo/forge/forge_match_start_forge_krill_convo01_04.vsnd_c": [
+"00f4b3c8d7",
+43151
+],
+"sounds/vo/forge/forge_match_start_forge_krill_convo01_06.vsnd_c": [
+"003d8c1b7e",
+10134
+],
+"sounds/vo/forge/forge_match_start_forge_krill_convo02_01.vsnd_c": [
+"00a051a658",
+52530
+],
+"sounds/vo/forge/forge_match_start_forge_krill_convo02_03.vsnd_c": [
+"007c980f21",
+35601
+],
+"sounds/vo/forge/forge_match_start_forge_krill_convo02_05.vsnd_c": [
+"005f2eac5e",
+34322
+],
+"sounds/vo/forge/forge_match_start_forge_krill_convo03_01.vsnd_c": [
+"006bb102bc",
+40302
+],
+"sounds/vo/frank/frank_match_start_frank_krill_convo01_01.vsnd_c": [
+"007fc38c22",
+44549
+],
+"sounds/vo/frank/frank_match_start_frank_krill_convo01_03.vsnd_c": [
+"00228cb254",
+85426
+],
+"sounds/vo/frank/frank_match_start_frank_krill_convo01_05.vsnd_c": [
+"005184fb5f",
+32389
+],
+"sounds/vo/frank/frank_match_start_frank_krill_convo02_02.vsnd_c": [
+"00c7c3f7d1",
+55555
+],
+"sounds/vo/frank/frank_match_start_frank_krill_convo03_01.vsnd_c": [
+"008804de1c",
+21963
+],
+"sounds/vo/frank/frank_match_start_frank_krill_convo03_03.vsnd_c": [
+"00d832e729",
+25189
+],
+"sounds/vo/ghost/ghost_match_start_ghost_krill_convo01_01.vsnd_c": [
+"00af401459",
+53120
+],
+"sounds/vo/ghost/ghost_match_start_ghost_krill_convo01_03.vsnd_c": [
+"00e8cf8484",
+41308
+],
+"sounds/vo/ghost/ghost_match_start_ghost_krill_convo02_02.vsnd_c": [
+"0065e3e656",
+17737
+],
+"sounds/vo/ghost/ghost_match_start_ghost_krill_convo02_04.vsnd_c": [
+"00cd243b05",
+29340
+],
+"sounds/vo/ghost/ghost_match_start_ghost_krill_convo03_02.vsnd_c": [
+"007af8166f",
+34016
+],
+"sounds/vo/ghost/ghost_match_start_ghost_krill_convo03_04.vsnd_c": [
+"00c3284c51",
+18394
+],
+"sounds/vo/gigawatt/gigawatt_match_start_gigawatt_krill_convo01_02.vsnd_c": [
+"000d6d487b",
+25680
+],
+"sounds/vo/gigawatt/gigawatt_match_start_gigawatt_krill_convo01_04.vsnd_c": [
+"002b64f16d",
+30487
+],
+"sounds/vo/gigawatt/gigawatt_match_start_gigawatt_krill_convo02_01.vsnd_c": [
+"009f122321",
+27923
+],
+"sounds/vo/gigawatt/gigawatt_match_start_gigawatt_krill_convo02_03.vsnd_c": [
+"00a6b3fb07",
+91954
+],
+"sounds/vo/gigawatt/gigawatt_match_start_gigawatt_krill_convo02_05.vsnd_c": [
+"00264fea14",
+88016
+],
+"sounds/vo/gigawatt/gigawatt_match_start_gigawatt_krill_convo02_07.vsnd_c": [
+"00793e14d8",
+31991
+],
+"sounds/vo/gigawatt/gigawatt_match_start_gigawatt_krill_convo03_02.vsnd_c": [
+"0085bcf282",
+56546
+],
+"sounds/vo/haze/haze_match_start_haze_krill_convo01_02.vsnd_c": [
+"00e172b721",
+26655
+],
+"sounds/vo/haze/haze_match_start_haze_krill_convo01_04.vsnd_c": [
+"001883ce81",
+44252
+],
+"sounds/vo/haze/haze_match_start_haze_krill_convo02_02.vsnd_c": [
+"0003227256",
+79080
+],
+"sounds/vo/haze/haze_match_start_haze_krill_convo03_02.vsnd_c": [
+"0063f1c3d1",
+49254
+],
+"sounds/vo/haze/haze_match_start_haze_krill_convo03_04.vsnd_c": [
+"00c227c022",
+38597
+],
+"sounds/vo/hornet/hornet_match_start_krill_hornet_convo01_02.vsnd_c": [
+"0058dc88b1",
+16331
+],
+"sounds/vo/inferno/inferno_match_start_inferno_krill_convo01_02.vsnd_c": [
+"00b504f6eb",
+41565
+],
+"sounds/vo/inferno/inferno_match_start_inferno_krill_convo01_04.vsnd_c": [
+"004c42706f",
+60421
+],
+"sounds/vo/inferno/inferno_match_start_inferno_krill_convo02_01.vsnd_c": [
+"00a08aaaca",
+19294
+],
+"sounds/vo/inferno/inferno_match_start_inferno_krill_convo02_03.vsnd_c": [
+"00b0be834c",
+16608
+],
+"sounds/vo/inferno/inferno_match_start_inferno_krill_convo03_02.vsnd_c": [
+"0088c988c9",
+15019
+],
+"sounds/vo/inferno/inferno_match_start_inferno_krill_convo03_04.vsnd_c": [
+"00ab92ccf0",
+84277
+],
+"sounds/vo/inferno/inferno_match_start_inferno_krill_convo03_06.vsnd_c": [
+"003bdc9607",
+26727
+],
+"sounds/vo/kelvin/kelvin_match_start_kelvin_krill_convo01_02.vsnd_c": [
+"001da67227",
+51845
+],
+"sounds/vo/kelvin/kelvin_match_start_kelvin_krill_convo01_04.vsnd_c": [
+"00e80c00b4",
+28075
+],
+"sounds/vo/kelvin/kelvin_match_start_kelvin_krill_convo01_06.vsnd_c": [
+"00ad594ef3",
+76966
+],
+"sounds/vo/kelvin/kelvin_match_start_kelvin_krill_convo02_01.vsnd_c": [
+"0075b87759",
+53433
+],
+"sounds/vo/kelvin/kelvin_match_start_kelvin_krill_convo02_03.vsnd_c": [
+"0083bb2609",
+45378
+],
+"sounds/vo/kelvin/kelvin_match_start_kelvin_krill_convo03_02.vsnd_c": [
+"00c7b4bb26",
+43661
+],
+"sounds/vo/krill/emote/krill_effort_dash_01.vsnd_c": [
+"00a4230764",
+10641
+],
+"sounds/vo/krill/emote/krill_effort_dash_02.vsnd_c": [
+"009f8489b7",
+10314
+],
+"sounds/vo/krill/emote/krill_effort_dash_03.vsnd_c": [
+"00570a7079",
+11054
+],
+"sounds/vo/krill/emote/krill_effort_dash_04.vsnd_c": [
+"003497cdbe",
+11477
+],
+"sounds/vo/krill/emote/krill_effort_dash_05.vsnd_c": [
+"00d0f67ab9",
+10627
+],
+"sounds/vo/krill/emote/krill_effort_dash_06.vsnd_c": [
+"00160d4afe",
+11060
+],
+"sounds/vo/krill/emote/krill_effort_dash_07.vsnd_c": [
+"00d40a1c98",
+11062
+],
+"sounds/vo/krill/emote/krill_effort_dash_08.vsnd_c": [
+"00314cab3b",
+10957
+],
+"sounds/vo/krill/emote/krill_effort_general_01.vsnd_c": [
+"00fc15d56d",
+10656
+],
+"sounds/vo/krill/emote/krill_effort_general_02.vsnd_c": [
+"00bdfd1f20",
+12348
+],
+"sounds/vo/krill/emote/krill_effort_general_03.vsnd_c": [
+"002048d7d4",
+13826
+],
+"sounds/vo/krill/emote/krill_effort_general_04.vsnd_c": [
+"004ca010ff",
+12465
+],
+"sounds/vo/krill/emote/krill_effort_general_05.vsnd_c": [
+"006a09288f",
+12239
+],
+"sounds/vo/krill/emote/krill_effort_general_06.vsnd_c": [
+"0075e3510d",
+13823
+],
+"sounds/vo/krill/emote/krill_effort_general_07.vsnd_c": [
+"009a02cdd4",
+16046
+],
+"sounds/vo/krill/emote/krill_effort_general_08.vsnd_c": [
+"0052e2ca85",
+12344
+],
+"sounds/vo/krill/emote/krill_effort_melee_small_01.vsnd_c": [
+"00e6f5ffdf",
+13091
+],
+"sounds/vo/krill/emote/krill_effort_melee_small_02.vsnd_c": [
+"000cb7482d",
+14572
+],
+"sounds/vo/krill/emote/krill_effort_melee_small_03.vsnd_c": [
+"006a70ac6d",
+14039
+],
+"sounds/vo/krill/emote/krill_effort_melee_small_04.vsnd_c": [
+"009e0e8e2f",
+12453
+],
+"sounds/vo/krill/emote/krill_effort_melee_small_05.vsnd_c": [
+"00f3206527",
+12344
+],
+"sounds/vo/krill/emote/krill_effort_melee_small_06.vsnd_c": [
+"006c9f73fd",
+12467
+],
+"sounds/vo/krill/emote/krill_effort_melee_small_07.vsnd_c": [
+"00db4b25e4",
+12560
+],
+"sounds/vo/krill/emote/krill_effort_melee_small_08.vsnd_c": [
+"00b9eb98eb",
+12346
+],
+"sounds/vo/krill/emote/krill_effort_melee_small_09.vsnd_c": [
+"0094dec140",
+13411
+],
+"sounds/vo/krill/emote/krill_pain_big_01.vsnd_c": [
+"00f3a06081",
+12865
+],
+"sounds/vo/krill/emote/krill_pain_big_02.vsnd_c": [
+"00018618ee",
+15293
+],
+"sounds/vo/krill/emote/krill_pain_big_03.vsnd_c": [
+"0048adee73",
+16994
+],
+"sounds/vo/krill/emote/krill_pain_big_04.vsnd_c": [
+"00773c04f7",
+20162
+],
+"sounds/vo/krill/emote/krill_pain_big_05.vsnd_c": [
+"007b9bc2c9",
+19643
+],
+"sounds/vo/krill/emote/krill_pain_big_06.vsnd_c": [
+"00f5f09d4c",
+21003
+],
+"sounds/vo/krill/emote/krill_pain_big_07.vsnd_c": [
+"0099ed7a27",
+12662
+],
+"sounds/vo/krill/emote/krill_pain_big_08.vsnd_c": [
+"00278e16a6",
+19637
+],
+"sounds/vo/krill/emote/krill_pain_death_01.vsnd_c": [
+"00444e8c84",
+14020
+],
+"sounds/vo/krill/emote/krill_pain_death_02.vsnd_c": [
+"002e5a0082",
+21019
+],
+"sounds/vo/krill/emote/krill_pain_death_03.vsnd_c": [
+"007a887a9f",
+25270
+],
+"sounds/vo/krill/emote/krill_pain_death_04.vsnd_c": [
+"00aca324c3",
+14436
+],
+"sounds/vo/krill/emote/krill_pain_death_05.vsnd_c": [
+"00010b0866",
+22399
+],
+"sounds/vo/krill/emote/krill_pain_death_06.vsnd_c": [
+"0005cc4cbd",
+24108
+],
+"sounds/vo/krill/emote/krill_pain_death_07.vsnd_c": [
+"0021ef4ac4",
+18891
+],
+"sounds/vo/krill/emote/krill_pain_death_08.vsnd_c": [
+"003bc5c129",
+16768
+],
+"sounds/vo/krill/emote/krill_pain_death_09.vsnd_c": [
+"001994de1d",
+22398
+],
+"sounds/vo/krill/emote/krill_pain_small_01.vsnd_c": [
+"00da0bfeae",
+11498
+],
+"sounds/vo/krill/emote/krill_pain_small_02.vsnd_c": [
+"0007ec32e4",
+13708
+],
+"sounds/vo/krill/emote/krill_pain_small_03.vsnd_c": [
+"00ae19863c",
+15609
+],
+"sounds/vo/krill/emote/krill_pain_small_04.vsnd_c": [
+"00b7c6942b",
+15298
+],
+"sounds/vo/krill/emote/krill_pain_small_05.vsnd_c": [
+"0053bf9a4b",
+16684
+],
+"sounds/vo/krill/emote/krill_pain_small_06.vsnd_c": [
+"007ee6639c",
+20277
+],
+"sounds/vo/krill/emote/krill_pain_small_07.vsnd_c": [
+"00badeb8e1",
+18887
+],
+"sounds/vo/krill/emote/krill_pain_small_08.vsnd_c": [
+"005a4552b8",
+10524
+],
+"sounds/vo/krill/emote/krill_pain_small_09.vsnd_c": [
+"00f6259152",
+10625
+],
+"sounds/vo/krill/emote/krill_pain_small_10.vsnd_c": [
+"00f87ec3b5",
+11912
+],
+"sounds/vo/krill/krill_ally_artist_killed_in_lane_01.vsnd_c": [
+"001324d143",
+22918
+],
+"sounds/vo/krill/krill_ally_astro_bounce_pad_01.vsnd_c": [
+"00987e4e97",
+29115
+],
+"sounds/vo/krill/krill_ally_astro_bounce_pad_02.vsnd_c": [
+"0077dc513b",
+27629
+],
+"sounds/vo/krill/krill_ally_astro_bounce_pad_03.vsnd_c": [
+"00302e732e",
+30510
+],
+"sounds/vo/krill/krill_ally_astro_killed_in_lane_01.vsnd_c": [
+"0037581278",
+28049
+],
+"sounds/vo/krill/krill_ally_astro_lasso_victim_01.vsnd_c": [
+"00bc6168d3",
+26278
+],
+"sounds/vo/krill/krill_ally_astro_lasso_victim_02.vsnd_c": [
+"000e0dcbfd",
+25720
+],
+"sounds/vo/krill/krill_ally_astro_lasso_victim_03.vsnd_c": [
+"00cd9ada1b",
+28166
+],
+"sounds/vo/krill/krill_ally_astro_pass_on_zipline_01.vsnd_c": [
+"006fd5b8e0",
+33068
+],
+"sounds/vo/krill/krill_ally_atlas_big_stun_01.vsnd_c": [
+"006cf68944",
+29993
+],
+"sounds/vo/krill/krill_ally_atlas_big_stun_02.vsnd_c": [
+"00e59d1457",
+27942
+],
+"sounds/vo/krill/krill_ally_atlas_big_stun_03.vsnd_c": [
+"00222c9a52",
+29885
+],
+"sounds/vo/krill/krill_ally_atlas_killed_in_lane_01.vsnd_c": [
+"005e77a54b",
+29665
+],
+"sounds/vo/krill/krill_ally_atlas_killed_in_lane_02.vsnd_c": [
+"0012a9c074",
+36067
+],
+"sounds/vo/krill/krill_ally_atlas_pass_on_zipline_01.vsnd_c": [
+"007debe529",
+26358
+],
+"sounds/vo/krill/krill_ally_atlas_unkillable_01.vsnd_c": [
+"000a0b0ddb",
+53526
+],
+"sounds/vo/krill/krill_ally_atlas_unkillable_02.vsnd_c": [
+"005287ec50",
+33400
+],
+"sounds/vo/krill/krill_ally_atlas_unkillable_03.vsnd_c": [
+"00f6537676",
+40196
+],
+"sounds/vo/krill/krill_ally_baba_killed_in_lane_01.vsnd_c": [
+"002bc4154e",
+25569
+],
+"sounds/vo/krill/krill_ally_bebop_far_hook_01.vsnd_c": [
+"0036a12273",
+27627
+],
+"sounds/vo/krill/krill_ally_bebop_far_hook_02.vsnd_c": [
+"003f02dee3",
+26914
+],
+"sounds/vo/krill/krill_ally_bebop_far_hook_03.vsnd_c": [
+"00d5dc015a",
+32212
+],
+"sounds/vo/krill/krill_ally_bebop_killed_in_lane_01.vsnd_c": [
+"005b053b01",
+26146
+],
+"sounds/vo/krill/krill_ally_bebop_pass_on_zipline_01.vsnd_c": [
+"00126d55e7",
+29245
+],
+"sounds/vo/krill/krill_ally_bebop_uppercut_towards_boss_01.vsnd_c": [
+"00dc4e9646",
+39898
+],
+"sounds/vo/krill/krill_ally_bebop_uppercut_towards_boss_02.vsnd_c": [
+"00f2594bb1",
+24348
+],
+"sounds/vo/krill/krill_ally_bebop_uppercut_towards_boss_03.vsnd_c": [
+"00c844ced5",
+41081
+],
+"sounds/vo/krill/krill_ally_bookworm_killed_in_lane_01.vsnd_c": [
+"00d8139c23",
+20933
+],
+"sounds/vo/krill/krill_ally_chessmaster_killed_in_lane_01.vsnd_c": [
+"00d83d325d",
+26967
+],
+"sounds/vo/krill/krill_ally_chrono_killed_in_lane_01.vsnd_c": [
+"00e3777477",
+31152
+],
+"sounds/vo/krill/krill_ally_chrono_killed_in_lane_02.vsnd_c": [
+"00ed620a69",
+35109
+],
+"sounds/vo/krill/krill_ally_chrono_pass_on_zipline_01.vsnd_c": [
+"00c88034d1",
+32215
+],
+"sounds/vo/krill/krill_ally_chrono_swap_to_boss_01.vsnd_c": [
+"00f1dfab6b",
+22740
+],
+"sounds/vo/krill/krill_ally_chrono_swap_to_boss_02.vsnd_c": [
+"0055542b2c",
+42094
+],
+"sounds/vo/krill/krill_ally_chrono_swap_to_boss_03.vsnd_c": [
+"007064176a",
+47463
+],
+"sounds/vo/krill/krill_ally_deadpack_killed_in_lane_01.vsnd_c": [
+"0048409d9f",
+27613
+],
+"sounds/vo/krill/krill_ally_doorman_killed_in_lane_01.vsnd_c": [
+"00a21d517f",
+20302
+],
+"sounds/vo/krill/krill_ally_drifter_killed_in_lane_01.vsnd_c": [
+"0041a391d3",
+21358
+],
+"sounds/vo/krill/krill_ally_dynamo_big_blackhole_01.vsnd_c": [
+"000369a3ec",
+29769
+],
+"sounds/vo/krill/krill_ally_dynamo_big_blackhole_02.vsnd_c": [
+"00cb65a5dc",
+28174
+],
+"sounds/vo/krill/krill_ally_dynamo_big_blackhole_03.vsnd_c": [
+"00ec7ef26e",
+30604
+],
+"sounds/vo/krill/krill_ally_dynamo_clutch_heal_01.vsnd_c": [
+"00a93ee006",
+30204
+],
+"sounds/vo/krill/krill_ally_dynamo_clutch_heal_02.vsnd_c": [
+"00dbf4118d",
+39877
+],
+"sounds/vo/krill/krill_ally_dynamo_clutch_heal_03.vsnd_c": [
+"00f33eb0de",
+31795
+],
+"sounds/vo/krill/krill_ally_dynamo_killed_in_lane_01.vsnd_c": [
+"006514150c",
+27939
+],
+"sounds/vo/krill/krill_ally_dynamo_pass_on_zipline_01.vsnd_c": [
+"003d3ea62b",
+35322
+],
+"sounds/vo/krill/krill_ally_familiar_killed_in_lane_01.vsnd_c": [
+"009af25ad2",
+22961
+],
+"sounds/vo/krill/krill_ally_fencer_killed_in_lane_01.vsnd_c": [
+"00d3ef9647",
+20194
+],
+"sounds/vo/krill/krill_ally_forge_clutch_heal_01.vsnd_c": [
+"005a3b7dd6",
+38200
+],
+"sounds/vo/krill/krill_ally_forge_clutch_heal_02.vsnd_c": [
+"00e201aaa7",
+40228
+],
+"sounds/vo/krill/krill_ally_forge_clutch_heal_03.vsnd_c": [
+"005d63de2d",
+34663
+],
+"sounds/vo/krill/krill_ally_forge_killed_in_lane_01.vsnd_c": [
+"00e0849c52",
+29231
+],
+"sounds/vo/krill/krill_ally_forge_killed_in_lane_02.vsnd_c": [
+"00acc31a8b",
+33698
+],
+"sounds/vo/krill/krill_ally_forge_pass_on_zipline_01.vsnd_c": [
+"00561cd210",
+40854
+],
+"sounds/vo/krill/krill_ally_forge_wall_stun_kill_01.vsnd_c": [
+"006aca099b",
+27313
+],
+"sounds/vo/krill/krill_ally_forge_wall_stun_kill_02.vsnd_c": [
+"00e03a398e",
+26797
+],
+"sounds/vo/krill/krill_ally_forge_wall_stun_kill_03.vsnd_c": [
+"00a2f56af2",
+50125
+],
+"sounds/vo/krill/krill_ally_frank_killed_in_lane_01.vsnd_c": [
+"004d759322",
+19865
+],
+"sounds/vo/krill/krill_ally_geist_killed_in_lane_01.vsnd_c": [
+"00ad11e871",
+33073
+],
+"sounds/vo/krill/krill_ally_ghost_killed_in_lane_01.vsnd_c": [
+"00dd042183",
+27086
+],
+"sounds/vo/krill/krill_ally_ghost_pass_on_zipline_01.vsnd_c": [
+"0042c1546e",
+37982
+],
+"sounds/vo/krill/krill_ally_ghost_see_big_swap_01.vsnd_c": [
+"0012ada037",
+34468
+],
+"sounds/vo/krill/krill_ally_ghost_see_big_swap_02.vsnd_c": [
+"00ba1a57a0",
+36715
+],
+"sounds/vo/krill/krill_ally_ghost_see_big_swap_03.vsnd_c": [
+"00b746f4b2",
+41800
+],
+"sounds/vo/krill/krill_ally_gigawatt_killed_in_lane_01.vsnd_c": [
+"00f1a5abf2",
+26380
+],
+"sounds/vo/krill/krill_ally_gigawatt_multi_kill_ult_01.vsnd_c": [
+"00bc829df1",
+33179
+],
+"sounds/vo/krill/krill_ally_gigawatt_multi_kill_ult_02.vsnd_c": [
+"004b2d8f6c",
+35001
+],
+"sounds/vo/krill/krill_ally_gigawatt_multi_kill_ult_03.vsnd_c": [
+"005f8f8d91",
+38495
+],
+"sounds/vo/krill/krill_ally_gigawatt_pass_on_zipline_01.vsnd_c": [
+"000d20ecd1",
+20413
+],
+"sounds/vo/krill/krill_ally_haze_big_ult_01.vsnd_c": [
+"007e75653b",
+69048
+],
+"sounds/vo/krill/krill_ally_haze_big_ult_02.vsnd_c": [
+"0022918f86",
+51924
+],
+"sounds/vo/krill/krill_ally_haze_big_ult_03.vsnd_c": [
+"003e83c1a7",
+44789
+],
+"sounds/vo/krill/krill_ally_haze_interrupt_with_finesse_01.vsnd_c": [
+"0007385c3f",
+45026
+],
+"sounds/vo/krill/krill_ally_haze_interrupt_with_finesse_02.vsnd_c": [
+"0011da7555",
+42805
+],
+"sounds/vo/krill/krill_ally_haze_interrupt_with_finesse_03.vsnd_c": [
+"00a21ef779",
+33505
+],
+"sounds/vo/krill/krill_ally_haze_killed_in_lane_01.vsnd_c": [
+"0088832964",
+25833
+],
+"sounds/vo/krill/krill_ally_haze_pass_on_zipline_01.vsnd_c": [
+"00dc6f4457",
+27831
+],
+"sounds/vo/krill/krill_ally_hornet_far_snipe_01.vsnd_c": [
+"0097daff00",
+47416
+],
+"sounds/vo/krill/krill_ally_hornet_far_snipe_02.vsnd_c": [
+"00f64a480e",
+58738
+],
+"sounds/vo/krill/krill_ally_hornet_far_snipe_03.vsnd_c": [
+"00e6cfa4a5",
+31054
+],
+"sounds/vo/krill/krill_ally_hornet_killed_in_lane_01.vsnd_c": [
+"00524d340b",
+29673
+],
+"sounds/vo/krill/krill_ally_hornet_pass_on_zipline_01.vsnd_c": [
+"00f75fab45",
+33305
+],
+"sounds/vo/krill/krill_ally_inferno_burns_down_objective_01.vsnd_c": [
+"00fa9c00f7",
+41684
+],
+"sounds/vo/krill/krill_ally_inferno_burns_down_objective_02.vsnd_c": [
+"003b8f5d9b",
+62569
+],
+"sounds/vo/krill/krill_ally_inferno_burns_down_objective_03.vsnd_c": [
+"00b64d2321",
+29033
+],
+"sounds/vo/krill/krill_ally_inferno_killed_in_lane_01.vsnd_c": [
+"004c86f7f9",
+29980
+],
+"sounds/vo/krill/krill_ally_inferno_killed_in_lane_02.vsnd_c": [
+"000a0e712b",
+50668
+],
+"sounds/vo/krill/krill_ally_inferno_pass_on_zipline_01.vsnd_c": [
+"007445fccc",
+42130
+],
+"sounds/vo/krill/krill_ally_kelvin_clutch_heal_01.vsnd_c": [
+"00c16490cd",
+32758
+],
+"sounds/vo/krill/krill_ally_kelvin_clutch_heal_02.vsnd_c": [
+"00bf3aeae6",
+40939
+],
+"sounds/vo/krill/krill_ally_kelvin_clutch_heal_03.vsnd_c": [
+"002effc406",
+37008
+],
+"sounds/vo/krill/krill_ally_kelvin_killed_in_lane_01.vsnd_c": [
+"00ea0a7996",
+26257
+],
+"sounds/vo/krill/krill_ally_kelvin_pass_on_zipline_01.vsnd_c": [
+"0053484a73",
+41599
+],
+"sounds/vo/krill/krill_ally_lash_killed_in_lane_01.vsnd_c": [
+"00206b8287",
+24962
+],
+"sounds/vo/krill/krill_ally_lash_pass_on_zipline_01.vsnd_c": [
+"00e316f408",
+45978
+],
+"sounds/vo/krill/krill_ally_lash_see_massive_stomp_01.vsnd_c": [
+"00b393fe4e",
+52580
+],
+"sounds/vo/krill/krill_ally_lash_see_massive_stomp_02.vsnd_c": [
+"00c8f21098",
+36056
+],
+"sounds/vo/krill/krill_ally_lash_see_massive_stomp_03.vsnd_c": [
+"009d34aeab",
+64043
+],
+"sounds/vo/krill/krill_ally_magician_killed_in_lane_01.vsnd_c": [
+"009167f5fb",
+23507
+],
+"sounds/vo/krill/krill_ally_mirage_killed_in_lane_01.vsnd_c": [
+"009e27572a",
+37661
+],
+"sounds/vo/krill/krill_ally_mirage_pass_on_zipline_01.vsnd_c": [
+"00c5296efc",
+43307
+],
+"sounds/vo/krill/krill_ally_nano_killed_in_lane_01.vsnd_c": [
+"008e36b080",
+34363
+],
+"sounds/vo/krill/krill_ally_nano_pass_on_zipline_01.vsnd_c": [
+"005e48d5c6",
+30522
+],
+"sounds/vo/krill/krill_ally_necro_killed_in_lane_01.vsnd_c": [
+"009254d7b8",
+22427
+],
+"sounds/vo/krill/krill_ally_nurse_killed_in_lane_01.vsnd_c": [
+"003aa1b40c",
+21633
+],
+"sounds/vo/krill/krill_ally_orion_far_shot_01.vsnd_c": [
+"0059300500",
+37217
+],
+"sounds/vo/krill/krill_ally_orion_far_shot_02.vsnd_c": [
+"00ec2cd08c",
+31350
+],
+"sounds/vo/krill/krill_ally_orion_far_shot_03.vsnd_c": [
+"000adbb7fe",
+28923
+],
+"sounds/vo/krill/krill_ally_orion_killed_in_lane_01.vsnd_c": [
+"004f639461",
+32654
+],
+"sounds/vo/krill/krill_ally_orion_missile_stops_ult_01.vsnd_c": [
+"006fd4b672",
+37655
+],
+"sounds/vo/krill/krill_ally_orion_missile_stops_ult_02.vsnd_c": [
+"0046a3f4b7",
+47427
+],
+"sounds/vo/krill/krill_ally_orion_missile_stops_ult_03.vsnd_c": [
+"00b8f548d5",
+35837
+],
+"sounds/vo/krill/krill_ally_orion_pass_on_zipline_01.vsnd_c": [
+"00b237d9b9",
+34880
+],
+"sounds/vo/krill/krill_ally_priest_killed_in_lane_01.vsnd_c": [
+"006f1cad42",
+23604
+],
+"sounds/vo/krill/krill_ally_punkgoat_killed_in_lane_01.vsnd_c": [
+"0061a3b44e",
+19553
+],
+"sounds/vo/krill/krill_ally_ratking_killed_in_lane_01.vsnd_c": [
+"0085eaf269",
+27291
+],
+"sounds/vo/krill/krill_ally_shiv_killed_in_lane_01.vsnd_c": [
+"00c8758100",
+26150
+],
+"sounds/vo/krill/krill_ally_shiv_pass_on_zipline_01.vsnd_c": [
+"00bd598f7c",
+37624
+],
+"sounds/vo/krill/krill_ally_shiv_unkillable_01.vsnd_c": [
+"00b3967543",
+37542
+],
+"sounds/vo/krill/krill_ally_shiv_unkillable_02.vsnd_c": [
+"00f30492ce",
+51933
+],
+"sounds/vo/krill/krill_ally_shiv_unkillable_03.vsnd_c": [
+"001b9d5ff8",
+47119
+],
+"sounds/vo/krill/krill_ally_synth_killed_in_lane_01.vsnd_c": [
+"006f87b2ab",
+26996
+],
+"sounds/vo/krill/krill_ally_synth_killed_in_lane_02.vsnd_c": [
+"0047fd91c9",
+31043
+],
+"sounds/vo/krill/krill_ally_synth_pass_on_zipline_01.vsnd_c": [
+"001af935b8",
+32448
+],
+"sounds/vo/krill/krill_ally_tengu_killed_in_lane_01.vsnd_c": [
+"00f524d28a",
+27965
+],
+"sounds/vo/krill/krill_ally_tengu_pass_on_zipline_01.vsnd_c": [
+"009fea4d00",
+28267
+],
+"sounds/vo/krill/krill_ally_tengu_take_objective_with_teather_01.vsnd_c": [
+"00427feea6",
+33516
+],
+"sounds/vo/krill/krill_ally_tengu_take_objective_with_teather_02.vsnd_c": [
+"00d889a6cd",
+26688
+],
+"sounds/vo/krill/krill_ally_tengu_take_objective_with_teather_03.vsnd_c": [
+"004b05200d",
+46709
+],
+"sounds/vo/krill/krill_ally_unicorn_killed_in_lane_01.vsnd_c": [
+"0021fa638d",
+24993
+],
+"sounds/vo/krill/krill_ally_vampirebat_killed_in_lane_01.vsnd_c": [
+"00f1ee58d5",
+19332
+],
+"sounds/vo/krill/krill_ally_viper_killed_in_lane_01.vsnd_c": [
+"004afcc6e2",
+21023
+],
+"sounds/vo/krill/krill_ally_viscous_clutch_cube_01.vsnd_c": [
+"0087360d15",
+37645
+],
+"sounds/vo/krill/krill_ally_viscous_clutch_cube_02.vsnd_c": [
+"00d398e317",
+44562
+],
+"sounds/vo/krill/krill_ally_viscous_clutch_cube_03.vsnd_c": [
+"00e76a3098",
+65672
+],
+"sounds/vo/krill/krill_ally_viscous_killed_in_lane_01.vsnd_c": [
+"00f9c17660",
+26474
+],
+"sounds/vo/krill/krill_ally_viscous_pass_on_zipline_01.vsnd_c": [
+"00eaea495e",
+39784
+],
+"sounds/vo/krill/krill_ally_warden_big_ult_01.vsnd_c": [
+"0032468bb4",
+38835
+],
+"sounds/vo/krill/krill_ally_warden_big_ult_02.vsnd_c": [
+"00835614f6",
+34551
+],
+"sounds/vo/krill/krill_ally_warden_big_ult_03.vsnd_c": [
+"0066447310",
+48177
+],
+"sounds/vo/krill/krill_ally_warden_killed_in_lane_01.vsnd_c": [
+"00006291bc",
+26046
+],
+"sounds/vo/krill/krill_ally_warden_pass_on_zipline_01.vsnd_c": [
+"00a952295b",
+30842
+],
+"sounds/vo/krill/krill_ally_werewolf_killed_in_lane_01.vsnd_c": [
+"00569c6223",
+22111
+],
+"sounds/vo/krill/krill_ally_wraith_kill_in_lift_01.vsnd_c": [
+"001c60d802",
+35938
+],
+"sounds/vo/krill/krill_ally_wraith_kill_in_lift_02.vsnd_c": [
+"0074ccceb2",
+48830
+],
+"sounds/vo/krill/krill_ally_wraith_kill_in_lift_03.vsnd_c": [
+"0064fe4c60",
+63983
+],
+"sounds/vo/krill/krill_ally_wraith_killed_in_lane_01.vsnd_c": [
+"00b2038764",
+25382
+],
+"sounds/vo/krill/krill_ally_wraith_pass_on_zipline_01.vsnd_c": [
+"0002aa61a1",
+36690
+],
+"sounds/vo/krill/krill_ally_wrecker_killed_in_lane_01.vsnd_c": [
+"00d5a11f29",
+31263
+],
+"sounds/vo/krill/krill_ally_wrecker_pass_on_zipline_01.vsnd_c": [
+"001609dc0e",
+59268
+],
+"sounds/vo/krill/krill_ally_yamato_killed_in_lane_01.vsnd_c": [
+"00ffe7e6f7",
+33405
+],
+"sounds/vo/krill/krill_ally_yamato_kills_with_hook_01.vsnd_c": [
+"00a0293a52",
+36481
+],
+"sounds/vo/krill/krill_ally_yamato_kills_with_hook_02.vsnd_c": [
+"0075b093b0",
+52141
+],
+"sounds/vo/krill/krill_ally_yamato_kills_with_hook_03.vsnd_c": [
+"006979bc34",
+38184
+],
+"sounds/vo/krill/krill_ally_yamato_pass_on_zipline_01.vsnd_c": [
+"00f1d1fc43",
+39346
+],
+"sounds/vo/krill/krill_angry_01.vsnd_c": [
+"00ad98beb0",
+27055
+],
+"sounds/vo/krill/krill_angry_02.vsnd_c": [
+"00e174b027",
+27822
+],
+"sounds/vo/krill/krill_angry_03.vsnd_c": [
+"0073a044d1",
+32925
+],
+"sounds/vo/krill/krill_angry_04.vsnd_c": [
+"008a6ff50d",
+44342
+],
+"sounds/vo/krill/krill_angry_05.vsnd_c": [
+"000b67ccdf",
+39352
+],
+"sounds/vo/krill/krill_angry_06.vsnd_c": [
+"00826379c5",
+46047
+],
+"sounds/vo/krill/krill_angry_07.vsnd_c": [
+"00d037d32e",
+30169
+],
+"sounds/vo/krill/krill_angry_08.vsnd_c": [
+"006eaa0dbd",
+30589
+],
+"sounds/vo/krill/krill_angry_09.vsnd_c": [
+"00817df636",
+36671
+],
+"sounds/vo/krill/krill_angry_10.vsnd_c": [
+"00bbd67e90",
+56910
+],
+"sounds/vo/krill/krill_ap_reminder_01.vsnd_c": [
+"00f9daf5c0",
+37861
+],
+"sounds/vo/krill/krill_ap_reminder_02.vsnd_c": [
+"00dcecef6e",
+43298
+],
+"sounds/vo/krill/krill_ap_reminder_03.vsnd_c": [
+"00efdfc376",
+39022
+],
+"sounds/vo/krill/krill_be_careful_01.vsnd_c": [
+"0098acc7af",
+52652
+],
+"sounds/vo/krill/krill_be_careful_02.vsnd_c": [
+"002874de46",
+55135
+],
+"sounds/vo/krill/krill_be_careful_03.vsnd_c": [
+"00f7151740",
+68208
+],
+"sounds/vo/krill/krill_boost_past_on_zipline_01.vsnd_c": [
+"0096bd83c6",
+37976
+],
+"sounds/vo/krill/krill_boost_past_on_zipline_02.vsnd_c": [
+"009cfea9e5",
+24539
+],
+"sounds/vo/krill/krill_boost_past_on_zipline_03.vsnd_c": [
+"00b41eae89",
+31054
+],
+"sounds/vo/krill/krill_close_call_01.vsnd_c": [
+"00ebd0fd99",
+27616
+],
+"sounds/vo/krill/krill_close_call_02.vsnd_c": [
+"00a514a8ab",
+23883
+],
+"sounds/vo/krill/krill_close_call_03.vsnd_c": [
+"0008625886",
+24526
+],
+"sounds/vo/krill/krill_close_call_04.vsnd_c": [
+"00595a6ae9",
+26223
+],
+"sounds/vo/krill/krill_close_call_05.vsnd_c": [
+"00b5647526",
+36873
+],
+"sounds/vo/krill/krill_concerned_01.vsnd_c": [
+"00b6e32082",
+43855
+],
+"sounds/vo/krill/krill_concerned_02.vsnd_c": [
+"0057b720ad",
+34981
+],
+"sounds/vo/krill/krill_concerned_03.vsnd_c": [
+"00d566da35",
+51049
+],
+"sounds/vo/krill/krill_concerned_04.vsnd_c": [
+"009ac90e6c",
+40406
+],
+"sounds/vo/krill/krill_concerned_05.vsnd_c": [
+"00d75ea6e0",
+38387
+],
+"sounds/vo/krill/krill_concerned_06.vsnd_c": [
+"00194ae04f",
+42101
+],
+"sounds/vo/krill/krill_concerned_07.vsnd_c": [
+"0001fba58c",
+34846
+],
+"sounds/vo/krill/krill_concerned_08.vsnd_c": [
+"005ab06832",
+34758
+],
+"sounds/vo/krill/krill_concerned_09.vsnd_c": [
+"0038e90249",
+32523
+],
+"sounds/vo/krill/krill_concerned_10.vsnd_c": [
+"0084effcfa",
+45721
+],
+"sounds/vo/krill/krill_congrats_01.vsnd_c": [
+"006c0f29b6",
+22913
+],
+"sounds/vo/krill/krill_congrats_02.vsnd_c": [
+"008f7fffd4",
+52213
+],
+"sounds/vo/krill/krill_congrats_03.vsnd_c": [
+"0064f9963f",
+25903
+],
+"sounds/vo/krill/krill_congrats_04.vsnd_c": [
+"0034168e4c",
+29655
+],
+"sounds/vo/krill/krill_congrats_05.vsnd_c": [
+"00c84ef918",
+34005
+],
+"sounds/vo/krill/krill_desperation_power1_01.vsnd_c": [
+"00a58ed23c",
+34761
+],
+"sounds/vo/krill/krill_desperation_power1_02.vsnd_c": [
+"00498185d3",
+30499
+],
+"sounds/vo/krill/krill_desperation_power1_03.vsnd_c": [
+"001d6c42ca",
+40949
+],
+"sounds/vo/krill/krill_desperation_power1_04.vsnd_c": [
+"0047c59db8",
+33281
+],
+"sounds/vo/krill/krill_desperation_power1_05.vsnd_c": [
+"00e6f8c478",
+39138
+],
+"sounds/vo/krill/krill_desperation_power2_01.vsnd_c": [
+"00e9b2b729",
+28816
+],
+"sounds/vo/krill/krill_desperation_power2_02.vsnd_c": [
+"0099fb32c4",
+33283
+],
+"sounds/vo/krill/krill_desperation_power2_03.vsnd_c": [
+"00327f021b",
+25817
+],
+"sounds/vo/krill/krill_desperation_power2_04.vsnd_c": [
+"00c677f9ea",
+26573
+],
+"sounds/vo/krill/krill_desperation_power2_05.vsnd_c": [
+"0050aeff7f",
+26134
+],
+"sounds/vo/krill/krill_desperation_power3_01.vsnd_c": [
+"009256fda3",
+26253
+],
+"sounds/vo/krill/krill_desperation_power3_02.vsnd_c": [
+"00d90288d7",
+36169
+],
+"sounds/vo/krill/krill_desperation_power3_03.vsnd_c": [
+"00cacfcc56",
+22198
+],
+"sounds/vo/krill/krill_desperation_power3_04.vsnd_c": [
+"00392eb3f0",
+31258
+],
+"sounds/vo/krill/krill_desperation_power3_05.vsnd_c": [
+"00e28a7541",
+31784
+],
+"sounds/vo/krill/krill_desperation_power4_01.vsnd_c": [
+"0030a210f1",
+23247
+],
+"sounds/vo/krill/krill_desperation_power4_02.vsnd_c": [
+"0002b49ea3",
+24439
+],
+"sounds/vo/krill/krill_desperation_power4_03.vsnd_c": [
+"002324b8fb",
+18298
+],
+"sounds/vo/krill/krill_desperation_power4_04.vsnd_c": [
+"006d838c3d",
+36069
+],
+"sounds/vo/krill/krill_desperation_power4_05.vsnd_c": [
+"0044b268f1",
+44687
+],
+"sounds/vo/krill/krill_end_streak.vsnd_c": [
+"00fb108fe6",
+36988
+],
+"sounds/vo/krill/krill_enemy_astro_bounce_escape_01.vsnd_c": [
+"00716fd402",
+38182
+],
+"sounds/vo/krill/krill_enemy_astro_bounce_escape_02.vsnd_c": [
+"001c3bf90a",
+49053
+],
+"sounds/vo/krill/krill_enemy_astro_bounce_escape_03.vsnd_c": [
+"00245a7d46",
+34669
+],
+"sounds/vo/krill/krill_enemy_astro_lassoed_01.vsnd_c": [
+"00405b87c1",
+32093
+],
+"sounds/vo/krill/krill_enemy_astro_lassoed_02.vsnd_c": [
+"00694d85ca",
+38616
+],
+"sounds/vo/krill/krill_enemy_astro_lassoed_03.vsnd_c": [
+"00a0c89903",
+35133
+],
+"sounds/vo/krill/krill_enemy_atlas_unkillable_01.vsnd_c": [
+"0034806916",
+42779
+],
+"sounds/vo/krill/krill_enemy_atlas_unkillable_02.vsnd_c": [
+"00c5597c93",
+48353
+],
+"sounds/vo/krill/krill_enemy_atlas_unkillable_03.vsnd_c": [
+"006d60f3f0",
+35518
+],
+"sounds/vo/krill/krill_enemy_bebop_hooked_01.vsnd_c": [
+"001382b217",
+26982
+],
+"sounds/vo/krill/krill_enemy_bebop_hooked_02.vsnd_c": [
+"0082ebc256",
+31787
+],
+"sounds/vo/krill/krill_enemy_bebop_hooked_03.vsnd_c": [
+"000aff8123",
+35499
+],
+"sounds/vo/krill/krill_enemy_bebop_kill_mid_laser_01.vsnd_c": [
+"00c2ab5f84",
+33154
+],
+"sounds/vo/krill/krill_enemy_bebop_kill_mid_laser_02.vsnd_c": [
+"00ed019c20",
+39917
+],
+"sounds/vo/krill/krill_enemy_bebop_kill_mid_laser_03.vsnd_c": [
+"00d1f147cf",
+34168
+],
+"sounds/vo/krill/krill_enemy_chrono_kill_post_swap_01.vsnd_c": [
+"0060587002",
+37549
+],
+"sounds/vo/krill/krill_enemy_chrono_kill_post_swap_02.vsnd_c": [
+"00fdb0884d",
+45874
+],
+"sounds/vo/krill/krill_enemy_chrono_kill_post_swap_03.vsnd_c": [
+"00190996b0",
+54366
+],
+"sounds/vo/krill/krill_enemy_dynamo_charges_01.vsnd_c": [
+"00a8437002",
+33712
+],
+"sounds/vo/krill/krill_enemy_dynamo_charges_02.vsnd_c": [
+"0065bca679",
+30533
+],
+"sounds/vo/krill/krill_enemy_dynamo_charges_03.vsnd_c": [
+"008df74494",
+32559
+],
+"sounds/vo/krill/krill_enemy_forge_destroy_turrets_01.vsnd_c": [
+"000b10313a",
+39258
+],
+"sounds/vo/krill/krill_enemy_forge_destroy_turrets_02.vsnd_c": [
+"0031292584",
+48422
+],
+"sounds/vo/krill/krill_enemy_forge_destroy_turrets_03.vsnd_c": [
+"00403e35ee",
+72333
+],
+"sounds/vo/krill/krill_enemy_gets_rejuv_01.vsnd_c": [
+"000ad7c831",
+29127
+],
+"sounds/vo/krill/krill_enemy_gets_rejuv_02.vsnd_c": [
+"000b4b2fd9",
+33289
+],
+"sounds/vo/krill/krill_enemy_gets_rejuv_03.vsnd_c": [
+"00d0c81b26",
+48430
+],
+"sounds/vo/krill/krill_enemy_ghost_ping_with_swap_01.vsnd_c": [
+"00bdc13820",
+32968
+],
+"sounds/vo/krill/krill_enemy_ghost_ping_with_swap_02.vsnd_c": [
+"001ba88ff0",
+34251
+],
+"sounds/vo/krill/krill_enemy_ghost_ping_with_swap_03.vsnd_c": [
+"00cf789c34",
+45433
+],
+"sounds/vo/krill/krill_enemy_gigawatt_hide_from_ult_01.vsnd_c": [
+"00b38d0fff",
+29023
+],
+"sounds/vo/krill/krill_enemy_gigawatt_hide_from_ult_02.vsnd_c": [
+"002cd3a146",
+25290
+],
+"sounds/vo/krill/krill_enemy_gigawatt_hide_from_ult_03.vsnd_c": [
+"00886f650a",
+33174
+],
+"sounds/vo/krill/krill_enemy_haze_kill_when_invisible_01.vsnd_c": [
+"0015284e87",
+53768
+],
+"sounds/vo/krill/krill_enemy_haze_kill_when_invisible_02.vsnd_c": [
+"0042e11602",
+53022
+],
+"sounds/vo/krill/krill_enemy_haze_kill_when_invisible_03.vsnd_c": [
+"000bc46501",
+35331
+],
+"sounds/vo/krill/krill_enemy_hornet_damaged_by_snipe_01.vsnd_c": [
+"0080ed974c",
+20941
+],
+"sounds/vo/krill/krill_enemy_hornet_damaged_by_snipe_02.vsnd_c": [
+"00a6c17d03",
+32337
+],
+"sounds/vo/krill/krill_enemy_hornet_damaged_by_snipe_03.vsnd_c": [
+"00ab28f2e6",
+26808
+],
+"sounds/vo/krill/krill_enemy_hornet_killed_mid_air_01.vsnd_c": [
+"00a862987e",
+40731
+],
+"sounds/vo/krill/krill_enemy_hornet_killed_mid_air_02.vsnd_c": [
+"006e059821",
+36972
+],
+"sounds/vo/krill/krill_enemy_hornet_killed_mid_air_03.vsnd_c": [
+"00e1fd29e3",
+50974
+],
+"sounds/vo/krill/krill_enemy_inferno_killed_mid_ult_01.vsnd_c": [
+"003146d5dd",
+50861
+],
+"sounds/vo/krill/krill_enemy_inferno_killed_mid_ult_02.vsnd_c": [
+"00c8803734",
+44268
+],
+"sounds/vo/krill/krill_enemy_inferno_killed_mid_ult_03.vsnd_c": [
+"00105f6fc5",
+37455
+],
+"sounds/vo/krill/krill_enemy_kelvin_kill_on_ice_path_01.vsnd_c": [
+"000f6e1b84",
+41097
+],
+"sounds/vo/krill/krill_enemy_kelvin_kill_on_ice_path_02.vsnd_c": [
+"0062be8f9a",
+63677
+],
+"sounds/vo/krill/krill_enemy_kelvin_kill_on_ice_path_03.vsnd_c": [
+"00781c9423",
+25307
+],
+"sounds/vo/krill/krill_enemy_lash_mid_air_kill_01.vsnd_c": [
+"0054f3b92d",
+45745
+],
+"sounds/vo/krill/krill_enemy_lash_mid_air_kill_02.vsnd_c": [
+"00e4c27fdd",
+55097
+],
+"sounds/vo/krill/krill_enemy_lash_mid_air_kill_03.vsnd_c": [
+"00ff8defe0",
+61526
+],
+"sounds/vo/krill/krill_enemy_orion_see_missile_01.vsnd_c": [
+"00925e6e5f",
+31142
+],
+"sounds/vo/krill/krill_enemy_orion_see_missile_02.vsnd_c": [
+"00d92034ef",
+30926
+],
+"sounds/vo/krill/krill_enemy_orion_see_missile_03.vsnd_c": [
+"00c5b7f053",
+23578
+],
+"sounds/vo/krill/krill_enemy_shiv_unkillable_01.vsnd_c": [
+"00779d3082",
+28369
+],
+"sounds/vo/krill/krill_enemy_shiv_unkillable_02.vsnd_c": [
+"0011cd351c",
+34555
+],
+"sounds/vo/krill/krill_enemy_shiv_unkillable_03.vsnd_c": [
+"00d72c5bfb",
+56969
+],
+"sounds/vo/krill/krill_enemy_tengu_flies_away_01.vsnd_c": [
+"004ebad9be",
+37333
+],
+"sounds/vo/krill/krill_enemy_tengu_flies_away_02.vsnd_c": [
+"0061b9b7f7",
+40419
+],
+"sounds/vo/krill/krill_enemy_tengu_flies_away_03.vsnd_c": [
+"0084256ea1",
+43533
+],
+"sounds/vo/krill/krill_enemy_warden_see_ult_01.vsnd_c": [
+"00ff5d7ce7",
+20709
+],
+"sounds/vo/krill/krill_enemy_warden_see_ult_02.vsnd_c": [
+"00a8c67b85",
+24457
+],
+"sounds/vo/krill/krill_enemy_warden_see_ult_03.vsnd_c": [
+"005dc80257",
+22850
+],
+"sounds/vo/krill/krill_enemy_wraith_lifts_01.vsnd_c": [
+"0057ea66e4",
+32640
+],
+"sounds/vo/krill/krill_enemy_wraith_lifts_02.vsnd_c": [
+"00e94e8516",
+29548
+],
+"sounds/vo/krill/krill_enemy_wraith_lifts_03.vsnd_c": [
+"00a2d523c5",
+35185
+],
+"sounds/vo/krill/krill_enemy_yamato_starts_ult_01.vsnd_c": [
+"004c446293",
+33944
+],
+"sounds/vo/krill/krill_enemy_yamato_starts_ult_02.vsnd_c": [
+"001e200ba3",
+25388
+],
+"sounds/vo/krill/krill_enemy_yamato_starts_ult_03.vsnd_c": [
+"0048aa8e17",
+33722
+],
+"sounds/vo/krill/krill_happy_01.vsnd_c": [
+"00ef9d8f5c",
+42620
+],
+"sounds/vo/krill/krill_happy_02.vsnd_c": [
+"00b2846cc6",
+29411
+],
+"sounds/vo/krill/krill_happy_03.vsnd_c": [
+"0047bab63b",
+37216
+],
+"sounds/vo/krill/krill_happy_04.vsnd_c": [
+"007cf44bfd",
+37215
+],
+"sounds/vo/krill/krill_happy_05.vsnd_c": [
+"000041308a",
+34854
+],
+"sounds/vo/krill/krill_happy_06.vsnd_c": [
+"00b28c4b04",
+50208
+],
+"sounds/vo/krill/krill_happy_07.vsnd_c": [
+"0077150c29",
+24753
+],
+"sounds/vo/krill/krill_happy_08.vsnd_c": [
+"00b7dc5d55",
+23879
+],
+"sounds/vo/krill/krill_happy_09.vsnd_c": [
+"00566cc2ac",
+34646
+],
+"sounds/vo/krill/krill_happy_10.vsnd_c": [
+"0021860521",
+21220
+],
+"sounds/vo/krill/krill_hunt_01.vsnd_c": [
+"00a2339bba",
+50813
+],
+"sounds/vo/krill/krill_hunt_02.vsnd_c": [
+"002246b126",
+63618
+],
+"sounds/vo/krill/krill_hunt_03.vsnd_c": [
+"000f9c60c2",
+39251
+],
+"sounds/vo/krill/krill_idol_drop_01.vsnd_c": [
+"0091a9e6b8",
+44131
+],
+"sounds/vo/krill/krill_idol_drop_02.vsnd_c": [
+"0074376a4c",
+34326
+],
+"sounds/vo/krill/krill_idol_drop_03.vsnd_c": [
+"00dac5fb24",
+38930
+],
+"sounds/vo/krill/krill_idol_drop_04.vsnd_c": [
+"0020c43d25",
+59929
+],
+"sounds/vo/krill/krill_idol_drop_05.vsnd_c": [
+"000b0a95bf",
+48187
+],
+"sounds/vo/krill/krill_idol_drop_06.vsnd_c": [
+"0013fc0e69",
+35602
+],
+"sounds/vo/krill/krill_idol_drop_07.vsnd_c": [
+"00c9f6c522",
+50418
+],
+"sounds/vo/krill/krill_idol_drop_08.vsnd_c": [
+"0048690e99",
+47229
+],
+"sounds/vo/krill/krill_idol_drop_09.vsnd_c": [
+"00249b199f",
+46921
+],
+"sounds/vo/krill/krill_idol_drop_10.vsnd_c": [
+"00b8589fce",
+83007
+],
+"sounds/vo/krill/krill_interrupt_01.vsnd_c": [
+"00798e3216",
+29216
+],
+"sounds/vo/krill/krill_interrupt_02.vsnd_c": [
+"007b697752",
+27609
+],
+"sounds/vo/krill/krill_interrupt_03.vsnd_c": [
+"0020874206",
+30288
+],
+"sounds/vo/krill/krill_interrupt_04.vsnd_c": [
+"007fa7f598",
+31353
+],
+"sounds/vo/krill/krill_interrupt_05.vsnd_c": [
+"00c25a4669",
+24009
+],
+"sounds/vo/krill/krill_kill_anyhero_01.vsnd_c": [
+"0083df4419",
+20367
+],
+"sounds/vo/krill/krill_kill_anyhero_02.vsnd_c": [
+"000d901e5a",
+16440
+],
+"sounds/vo/krill/krill_kill_anyhero_03.vsnd_c": [
+"004c238ffd",
+30472
+],
+"sounds/vo/krill/krill_kill_anyhero_04.vsnd_c": [
+"00a9610fa7",
+26336
+],
+"sounds/vo/krill/krill_kill_anyhero_05.vsnd_c": [
+"00feb70972",
+31208
+],
+"sounds/vo/krill/krill_kill_anyhero_06.vsnd_c": [
+"0017fe8fba",
+28027
+],
+"sounds/vo/krill/krill_kill_anyhero_07.vsnd_c": [
+"0014911075",
+25585
+],
+"sounds/vo/krill/krill_kill_anyhero_08.vsnd_c": [
+"0091066bb7",
+37406
+],
+"sounds/vo/krill/krill_kill_anyhero_09.vsnd_c": [
+"00ab4cba3f",
+26752
+],
+"sounds/vo/krill/krill_kill_anyhero_10.vsnd_c": [
+"0054ac71ab",
+32194
+],
+"sounds/vo/krill/krill_kill_astro_01.vsnd_c": [
+"00a9f16c16",
+65036
+],
+"sounds/vo/krill/krill_kill_astro_02.vsnd_c": [
+"00ec69af52",
+41351
+],
+"sounds/vo/krill/krill_kill_astro_03.vsnd_c": [
+"009b179221",
+58827
+],
+"sounds/vo/krill/krill_kill_astro_04.vsnd_c": [
+"00f49a6bab",
+35816
+],
+"sounds/vo/krill/krill_kill_astro_05.vsnd_c": [
+"00a4711370",
+44897
+],
+"sounds/vo/krill/krill_kill_atlas_01.vsnd_c": [
+"00ebef8a94",
+37122
+],
+"sounds/vo/krill/krill_kill_atlas_02.vsnd_c": [
+"0087b1654a",
+44458
+],
+"sounds/vo/krill/krill_kill_atlas_03.vsnd_c": [
+"00470809ef",
+39032
+],
+"sounds/vo/krill/krill_kill_atlas_04.vsnd_c": [
+"0086079a2c",
+55861
+],
+"sounds/vo/krill/krill_kill_atlas_05.vsnd_c": [
+"009a631d3b",
+32739
+],
+"sounds/vo/krill/krill_kill_bebop_01.vsnd_c": [
+"004d14baca",
+46781
+],
+"sounds/vo/krill/krill_kill_bebop_02.vsnd_c": [
+"00975ad8eb",
+32403
+],
+"sounds/vo/krill/krill_kill_bebop_03.vsnd_c": [
+"00db33ab76",
+48700
+],
+"sounds/vo/krill/krill_kill_bebop_04.vsnd_c": [
+"00c640c3d7",
+54678
+],
+"sounds/vo/krill/krill_kill_bebop_05.vsnd_c": [
+"006789a019",
+39020
+],
+"sounds/vo/krill/krill_kill_bookworm_01.vsnd_c": [
+"0099a72d1f",
+52028
+],
+"sounds/vo/krill/krill_kill_bookworm_02.vsnd_c": [
+"00d9d5f3c4",
+90948
+],
+"sounds/vo/krill/krill_kill_bookworm_03.vsnd_c": [
+"0038f63291",
+31260
+],
+"sounds/vo/krill/krill_kill_bookworm_04.vsnd_c": [
+"00358a9507",
+44135
+],
+"sounds/vo/krill/krill_kill_bookworm_05.vsnd_c": [
+"00e68e289f",
+51797
+],
+"sounds/vo/krill/krill_kill_cadence_01.vsnd_c": [
+"0055b2ae8c",
+35071
+],
+"sounds/vo/krill/krill_kill_cadence_02.vsnd_c": [
+"009e04de9b",
+43086
+],
+"sounds/vo/krill/krill_kill_cadence_03.vsnd_c": [
+"0040fb19bb",
+48908
+],
+"sounds/vo/krill/krill_kill_cadence_04.vsnd_c": [
+"0030f57e1c",
+42324
+],
+"sounds/vo/krill/krill_kill_cadence_05.vsnd_c": [
+"004d7a960e",
+56695
+],
+"sounds/vo/krill/krill_kill_cadence_06.vsnd_c": [
+"000d258deb",
+61694
+],
+"sounds/vo/krill/krill_kill_chrono_01.vsnd_c": [
+"000bb13836",
+35318
+],
+"sounds/vo/krill/krill_kill_chrono_02.vsnd_c": [
+"00de263eb9",
+73920
+],
+"sounds/vo/krill/krill_kill_chrono_03.vsnd_c": [
+"002a919aa8",
+54896
+],
+"sounds/vo/krill/krill_kill_chrono_04.vsnd_c": [
+"00cbd98caf",
+54934
+],
+"sounds/vo/krill/krill_kill_chrono_05.vsnd_c": [
+"00efa332a8",
+54257
+],
+"sounds/vo/krill/krill_kill_doorman_01.vsnd_c": [
+"00ab26d02a",
+26469
+],
+"sounds/vo/krill/krill_kill_doorman_02.vsnd_c": [
+"0063d96e5d",
+74914
+],
+"sounds/vo/krill/krill_kill_doorman_03.vsnd_c": [
+"00d1b1cb11",
+57952
+],
+"sounds/vo/krill/krill_kill_doorman_04.vsnd_c": [
+"004e4b4399",
+52957
+],
+"sounds/vo/krill/krill_kill_doorman_05.vsnd_c": [
+"00ca3a0ca8",
+30403
+],
+"sounds/vo/krill/krill_kill_drifter_01.vsnd_c": [
+"002145072d",
+28364
+],
+"sounds/vo/krill/krill_kill_drifter_02.vsnd_c": [
+"0096475fc6",
+44577
+],
+"sounds/vo/krill/krill_kill_drifter_03.vsnd_c": [
+"009aa63c2e",
+32533
+],
+"sounds/vo/krill/krill_kill_drifter_04.vsnd_c": [
+"00a72ea140",
+50282
+],
+"sounds/vo/krill/krill_kill_drifter_05.vsnd_c": [
+"005583da54",
+57475
+],
+"sounds/vo/krill/krill_kill_dynamo_01.vsnd_c": [
+"00c8731340",
+40316
+],
+"sounds/vo/krill/krill_kill_dynamo_02.vsnd_c": [
+"008e6da9c4",
+35505
+],
+"sounds/vo/krill/krill_kill_dynamo_03.vsnd_c": [
+"00cf4deb84",
+24433
+],
+"sounds/vo/krill/krill_kill_dynamo_04.vsnd_c": [
+"00ee49ad1c",
+33909
+],
+"sounds/vo/krill/krill_kill_dynamo_05.vsnd_c": [
+"00d788afa8",
+29003
+],
+"sounds/vo/krill/krill_kill_familiar_01.vsnd_c": [
+"00ced2d1de",
+29432
+],
+"sounds/vo/krill/krill_kill_familiar_02.vsnd_c": [
+"00211d542e",
+26982
+],
+"sounds/vo/krill/krill_kill_familiar_03.vsnd_c": [
+"0088ee2dcd",
+34445
+],
+"sounds/vo/krill/krill_kill_familiar_04.vsnd_c": [
+"003e683889",
+39779
+],
+"sounds/vo/krill/krill_kill_familiar_05.vsnd_c": [
+"00e90611d1",
+49237
+],
+"sounds/vo/krill/krill_kill_fencer_01.vsnd_c": [
+"002d32df4c",
+37444
+],
+"sounds/vo/krill/krill_kill_fencer_02.vsnd_c": [
+"00cd2524e8",
+60338
+],
+"sounds/vo/krill/krill_kill_fencer_03.vsnd_c": [
+"00782125bc",
+56167
+],
+"sounds/vo/krill/krill_kill_fencer_04.vsnd_c": [
+"002e327c5e",
+79165
+],
+"sounds/vo/krill/krill_kill_fencer_05.vsnd_c": [
+"000b991384",
+23905
+],
+"sounds/vo/krill/krill_kill_forge_01.vsnd_c": [
+"0031774955",
+29539
+],
+"sounds/vo/krill/krill_kill_forge_02.vsnd_c": [
+"0001486af7",
+29865
+],
+"sounds/vo/krill/krill_kill_forge_03.vsnd_c": [
+"0040bddcd4",
+65337
+],
+"sounds/vo/krill/krill_kill_forge_04.vsnd_c": [
+"00f719fa00",
+51806
+],
+"sounds/vo/krill/krill_kill_forge_05.vsnd_c": [
+"008928d4a8",
+37523
+],
+"sounds/vo/krill/krill_kill_frank_01.vsnd_c": [
+"00c1dbafe4",
+56507
+],
+"sounds/vo/krill/krill_kill_frank_02.vsnd_c": [
+"0096aafd3a",
+89456
+],
+"sounds/vo/krill/krill_kill_frank_03.vsnd_c": [
+"001756a457",
+66675
+],
+"sounds/vo/krill/krill_kill_frank_04.vsnd_c": [
+"000d8128a2",
+50356
+],
+"sounds/vo/krill/krill_kill_frank_05.vsnd_c": [
+"00a90ae1c2",
+37985
+],
+"sounds/vo/krill/krill_kill_ghost_01.vsnd_c": [
+"004cde2ab4",
+50852
+],
+"sounds/vo/krill/krill_kill_ghost_02.vsnd_c": [
+"00c84f057a",
+38163
+],
+"sounds/vo/krill/krill_kill_ghost_03.vsnd_c": [
+"009546a877",
+66944
+],
+"sounds/vo/krill/krill_kill_ghost_04.vsnd_c": [
+"0064cf27e4",
+42214
+],
+"sounds/vo/krill/krill_kill_ghost_05.vsnd_c": [
+"002e18d904",
+56188
+],
+"sounds/vo/krill/krill_kill_gigawatt_01.vsnd_c": [
+"00c125a90f",
+51724
+],
+"sounds/vo/krill/krill_kill_gigawatt_02.vsnd_c": [
+"0092fc4a77",
+31264
+],
+"sounds/vo/krill/krill_kill_gigawatt_03.vsnd_c": [
+"007f115072",
+33501
+],
+"sounds/vo/krill/krill_kill_gigawatt_04.vsnd_c": [
+"007bd66361",
+43638
+],
+"sounds/vo/krill/krill_kill_gigawatt_05.vsnd_c": [
+"006b4f83d1",
+52472
+],
+"sounds/vo/krill/krill_kill_haze_01.vsnd_c": [
+"0018eaa6da",
+26336
+],
+"sounds/vo/krill/krill_kill_haze_02.vsnd_c": [
+"0042bac56f",
+48287
+],
+"sounds/vo/krill/krill_kill_haze_03.vsnd_c": [
+"001023ba96",
+55954
+],
+"sounds/vo/krill/krill_kill_haze_04.vsnd_c": [
+"00ce127837",
+45712
+],
+"sounds/vo/krill/krill_kill_haze_05.vsnd_c": [
+"00a15801cb",
+95318
+],
+"sounds/vo/krill/krill_kill_high_networth.vsnd_c": [
+"0010271c26",
+50906
+],
+"sounds/vo/krill/krill_kill_hornet_01.vsnd_c": [
+"0099a9413d",
+34884
+],
+"sounds/vo/krill/krill_kill_hornet_02.vsnd_c": [
+"006009c545",
+34011
+],
+"sounds/vo/krill/krill_kill_hornet_03.vsnd_c": [
+"0027ba0962",
+96896
+],
+"sounds/vo/krill/krill_kill_hornet_04.vsnd_c": [
+"000f0cda6e",
+51923
+],
+"sounds/vo/krill/krill_kill_hornet_05.vsnd_c": [
+"00449b8095",
+60669
+],
+"sounds/vo/krill/krill_kill_inferno_01.vsnd_c": [
+"0011f683ee",
+64814
+],
+"sounds/vo/krill/krill_kill_inferno_02.vsnd_c": [
+"0074c67ba6",
+30069
+],
+"sounds/vo/krill/krill_kill_inferno_03.vsnd_c": [
+"00977e2e44",
+48067
+],
+"sounds/vo/krill/krill_kill_inferno_04.vsnd_c": [
+"000a434f00",
+55438
+],
+"sounds/vo/krill/krill_kill_inferno_05.vsnd_c": [
+"00fe3c5bd8",
+32739
+],
+"sounds/vo/krill/krill_kill_kelvin_01.vsnd_c": [
+"007fe80c35",
+36471
+],
+"sounds/vo/krill/krill_kill_kelvin_02.vsnd_c": [
+"00134559f9",
+46270
+],
+"sounds/vo/krill/krill_kill_kelvin_03.vsnd_c": [
+"008128faef",
+24419
+],
+"sounds/vo/krill/krill_kill_kelvin_04.vsnd_c": [
+"00fa670f4d",
+31977
+],
+"sounds/vo/krill/krill_kill_kelvin_05.vsnd_c": [
+"002723dc19",
+37427
+],
+"sounds/vo/krill/krill_kill_lash_01.vsnd_c": [
+"00bde82669",
+56389
+],
+"sounds/vo/krill/krill_kill_lash_02.vsnd_c": [
+"00bc27b906",
+48822
+],
+"sounds/vo/krill/krill_kill_lash_03.vsnd_c": [
+"009b8c288c",
+46746
+],
+"sounds/vo/krill/krill_kill_lash_04.vsnd_c": [
+"00a27b4c4a",
+52210
+],
+"sounds/vo/krill/krill_kill_lash_05.vsnd_c": [
+"004d02dfb8",
+27173
+],
+"sounds/vo/krill/krill_kill_magician_01.vsnd_c": [
+"006e92cda9",
+26670
+],
+"sounds/vo/krill/krill_kill_magician_02.vsnd_c": [
+"00afe68a7e",
+29130
+],
+"sounds/vo/krill/krill_kill_magician_03.vsnd_c": [
+"0022ab8485",
+80552
+],
+"sounds/vo/krill/krill_kill_magician_04.vsnd_c": [
+"00fc00879b",
+46045
+],
+"sounds/vo/krill/krill_kill_magician_05.vsnd_c": [
+"0001b5f68e",
+62297
+],
+"sounds/vo/krill/krill_kill_mirage_01.vsnd_c": [
+"00e2921153",
+48818
+],
+"sounds/vo/krill/krill_kill_mirage_02.vsnd_c": [
+"004b41c64d",
+29754
+],
+"sounds/vo/krill/krill_kill_mirage_03.vsnd_c": [
+"006e83749a",
+43259
+],
+"sounds/vo/krill/krill_kill_mirage_04.vsnd_c": [
+"000466650b",
+32311
+],
+"sounds/vo/krill/krill_kill_mirage_05.vsnd_c": [
+"00b53993b0",
+41278
+],
+"sounds/vo/krill/krill_kill_nano_01.vsnd_c": [
+"0004eac1f6",
+40005
+],
+"sounds/vo/krill/krill_kill_nano_02.vsnd_c": [
+"0001ab582f",
+36145
+],
+"sounds/vo/krill/krill_kill_nano_03.vsnd_c": [
+"00a30b7ef8",
+36790
+],
+"sounds/vo/krill/krill_kill_nano_04.vsnd_c": [
+"00197928d0",
+50429
+],
+"sounds/vo/krill/krill_kill_nano_05.vsnd_c": [
+"005cf31527",
+61692
+],
+"sounds/vo/krill/krill_kill_nano_06.vsnd_c": [
+"000c6504ec",
+87807
+],
+"sounds/vo/krill/krill_kill_necro_01.vsnd_c": [
+"0025ef66c2",
+49652
+],
+"sounds/vo/krill/krill_kill_necro_02.vsnd_c": [
+"0091f1bceb",
+59381
+],
+"sounds/vo/krill/krill_kill_necro_03.vsnd_c": [
+"00e4c9ccd5",
+27404
+],
+"sounds/vo/krill/krill_kill_necro_04.vsnd_c": [
+"004be4fa9a",
+22511
+],
+"sounds/vo/krill/krill_kill_necro_05.vsnd_c": [
+"0036b95ae9",
+54801
+],
+"sounds/vo/krill/krill_kill_orion_01.vsnd_c": [
+"006acfbeb3",
+32729
+],
+"sounds/vo/krill/krill_kill_orion_02.vsnd_c": [
+"0038c911c3",
+39452
+],
+"sounds/vo/krill/krill_kill_orion_03.vsnd_c": [
+"00515d65a9",
+57546
+],
+"sounds/vo/krill/krill_kill_orion_04.vsnd_c": [
+"004d0b97b2",
+41050
+],
+"sounds/vo/krill/krill_kill_orion_05.vsnd_c": [
+"005c649d4c",
+49584
+],
+"sounds/vo/krill/krill_kill_priest_01.vsnd_c": [
+"00826b8a76",
+22942
+],
+"sounds/vo/krill/krill_kill_priest_02.vsnd_c": [
+"004a791696",
+43506
+],
+"sounds/vo/krill/krill_kill_priest_03.vsnd_c": [
+"0041f97bdf",
+38396
+],
+"sounds/vo/krill/krill_kill_priest_04.vsnd_c": [
+"00d61fcdca",
+38700
+],
+"sounds/vo/krill/krill_kill_priest_05.vsnd_c": [
+"004142208d",
+66313
+],
+"sounds/vo/krill/krill_kill_punkgoat_01.vsnd_c": [
+"00c0f18ea7",
+73110
+],
+"sounds/vo/krill/krill_kill_punkgoat_02.vsnd_c": [
+"00ea9ed252",
+75126
+],
+"sounds/vo/krill/krill_kill_punkgoat_03.vsnd_c": [
+"002923943a",
+67789
+],
+"sounds/vo/krill/krill_kill_punkgoat_04.vsnd_c": [
+"00f15e5a55",
+22405
+],
+"sounds/vo/krill/krill_kill_punkgoat_05.vsnd_c": [
+"006b0dac70",
+49135
+],
+"sounds/vo/krill/krill_kill_punkgoat_05_alt_01.vsnd_c": [
+"00f04bb051",
+50979
+],
+"sounds/vo/krill/krill_kill_shiv_01.vsnd_c": [
+"00b72a1c9a",
+26975
+],
+"sounds/vo/krill/krill_kill_shiv_02.vsnd_c": [
+"002f898022",
+55101
+],
+"sounds/vo/krill/krill_kill_shiv_03.vsnd_c": [
+"000a418149",
+51896
+],
+"sounds/vo/krill/krill_kill_shiv_04.vsnd_c": [
+"0092ac8359",
+37206
+],
+"sounds/vo/krill/krill_kill_shiv_05.vsnd_c": [
+"00a2df7c9a",
+25067
+],
+"sounds/vo/krill/krill_kill_synth_01.vsnd_c": [
+"0032dd3108",
+41469
+],
+"sounds/vo/krill/krill_kill_synth_02.vsnd_c": [
+"0083f44ff6",
+55650
+],
+"sounds/vo/krill/krill_kill_synth_03.vsnd_c": [
+"0088ea853d",
+29329
+],
+"sounds/vo/krill/krill_kill_synth_04.vsnd_c": [
+"00e0e11213",
+38396
+],
+"sounds/vo/krill/krill_kill_synth_05.vsnd_c": [
+"003ff941b4",
+28472
+],
+"sounds/vo/krill/krill_kill_synth_06.vsnd_c": [
+"008cbca099",
+62106
+],
+"sounds/vo/krill/krill_kill_synth_07.vsnd_c": [
+"0050a89807",
+46806
+],
+"sounds/vo/krill/krill_kill_synth_08.vsnd_c": [
+"00016c72a4",
+36806
+],
+"sounds/vo/krill/krill_kill_synth_09.vsnd_c": [
+"0089654164",
+48507
+],
+"sounds/vo/krill/krill_kill_synth_10.vsnd_c": [
+"0040acd2a2",
+43611
+],
+"sounds/vo/krill/krill_kill_tengu_01.vsnd_c": [
+"00d6ea4ab8",
+58660
+],
+"sounds/vo/krill/krill_kill_tengu_02.vsnd_c": [
+"00f45a303a",
+45382
+],
+"sounds/vo/krill/krill_kill_tengu_03.vsnd_c": [
+"00f90bcfca",
+32313
+],
+"sounds/vo/krill/krill_kill_tengu_04.vsnd_c": [
+"00aa02b49f",
+80885
+],
+"sounds/vo/krill/krill_kill_tengu_05.vsnd_c": [
+"00f834ed10",
+32739
+],
+"sounds/vo/krill/krill_kill_unicorn_01.vsnd_c": [
+"009e5fcaa2",
+26670
+],
+"sounds/vo/krill/krill_kill_unicorn_02.vsnd_c": [
+"0049da8061",
+48683
+],
+"sounds/vo/krill/krill_kill_unicorn_03.vsnd_c": [
+"000efd7220",
+47347
+],
+"sounds/vo/krill/krill_kill_unicorn_04.vsnd_c": [
+"00afdb6948",
+48896
+],
+"sounds/vo/krill/krill_kill_unicorn_05.vsnd_c": [
+"00fae0e589",
+29546
+],
+"sounds/vo/krill/krill_kill_vampirebat_01.vsnd_c": [
+"005deabfbd",
+23799
+],
+"sounds/vo/krill/krill_kill_vampirebat_02.vsnd_c": [
+"00e2ed3c33",
+34425
+],
+"sounds/vo/krill/krill_kill_vampirebat_03.vsnd_c": [
+"00961a8e3e",
+31260
+],
+"sounds/vo/krill/krill_kill_vampirebat_04.vsnd_c": [
+"00faf09ad9",
+79705
+],
+"sounds/vo/krill/krill_kill_vampirebat_05.vsnd_c": [
+"00031dc9c9",
+34551
+],
+"sounds/vo/krill/krill_kill_viper_01.vsnd_c": [
+"000e9018be",
+70636
+],
+"sounds/vo/krill/krill_kill_viper_02.vsnd_c": [
+"008de1cc75",
+102542
+],
+"sounds/vo/krill/krill_kill_viper_03.vsnd_c": [
+"00cc9efcfb",
+22304
+],
+"sounds/vo/krill/krill_kill_viper_04.vsnd_c": [
+"00765679f3",
+54376
+],
+"sounds/vo/krill/krill_kill_viper_05.vsnd_c": [
+"007e260ace",
+42863
+],
+"sounds/vo/krill/krill_kill_viscous_01.vsnd_c": [
+"009f531f9c",
+47853
+],
+"sounds/vo/krill/krill_kill_viscous_02.vsnd_c": [
+"00dbdc987a",
+45713
+],
+"sounds/vo/krill/krill_kill_viscous_03.vsnd_c": [
+"009ba19d5c",
+54140
+],
+"sounds/vo/krill/krill_kill_viscous_04.vsnd_c": [
+"006d2d741d",
+30385
+],
+"sounds/vo/krill/krill_kill_viscous_05.vsnd_c": [
+"00d6604f4d",
+42324
+],
+"sounds/vo/krill/krill_kill_warden_01.vsnd_c": [
+"004a100573",
+37831
+],
+"sounds/vo/krill/krill_kill_warden_02.vsnd_c": [
+"0094641c18",
+41583
+],
+"sounds/vo/krill/krill_kill_warden_03.vsnd_c": [
+"003fc60065",
+61769
+],
+"sounds/vo/krill/krill_kill_warden_04.vsnd_c": [
+"00cd279b34",
+26116
+],
+"sounds/vo/krill/krill_kill_warden_05.vsnd_c": [
+"0088926ef9",
+24745
+],
+"sounds/vo/krill/krill_kill_werewolf_01.vsnd_c": [
+"0068405b80",
+24545
+],
+"sounds/vo/krill/krill_kill_werewolf_02.vsnd_c": [
+"000950212b",
+34347
+],
+"sounds/vo/krill/krill_kill_werewolf_03.vsnd_c": [
+"00d3993157",
+47645
+],
+"sounds/vo/krill/krill_kill_werewolf_04.vsnd_c": [
+"0052555f76",
+56280
+],
+"sounds/vo/krill/krill_kill_werewolf_05.vsnd_c": [
+"005d208415",
+73150
+],
+"sounds/vo/krill/krill_kill_wraith_01.vsnd_c": [
+"0066621eac",
+39353
+],
+"sounds/vo/krill/krill_kill_wraith_02.vsnd_c": [
+"00f9a786bc",
+23151
+],
+"sounds/vo/krill/krill_kill_wraith_03.vsnd_c": [
+"00178f2fd9",
+64240
+],
+"sounds/vo/krill/krill_kill_wraith_04.vsnd_c": [
+"009c0d04ae",
+42842
+],
+"sounds/vo/krill/krill_kill_wraith_05.vsnd_c": [
+"004cb705e2",
+62885
+],
+"sounds/vo/krill/krill_kill_wrecker_01.vsnd_c": [
+"00c2709bd0",
+36041
+],
+"sounds/vo/krill/krill_kill_wrecker_02.vsnd_c": [
+"00f861badf",
+41151
+],
+"sounds/vo/krill/krill_kill_wrecker_03.vsnd_c": [
+"00ac968815",
+77714
+],
+"sounds/vo/krill/krill_kill_wrecker_04.vsnd_c": [
+"0087826b09",
+41472
+],
+"sounds/vo/krill/krill_kill_wrecker_05.vsnd_c": [
+"002865a4d2",
+31363
+],
+"sounds/vo/krill/krill_kill_yamato_01.vsnd_c": [
+"002bc51741",
+44974
+],
+"sounds/vo/krill/krill_kill_yamato_02.vsnd_c": [
+"00bcb4a66f",
+52125
+],
+"sounds/vo/krill/krill_kill_yamato_03.vsnd_c": [
+"000a7f036c",
+50296
+],
+"sounds/vo/krill/krill_kill_yamato_04.vsnd_c": [
+"005075b131",
+40737
+],
+"sounds/vo/krill/krill_kill_yamato_05.vsnd_c": [
+"0044ef9551",
+25927
+],
+"sounds/vo/krill/krill_killstreak_high_01.vsnd_c": [
+"00294f79b4",
+43935
+],
+"sounds/vo/krill/krill_killstreak_high_02.vsnd_c": [
+"007abe8813",
+46406
+],
+"sounds/vo/krill/krill_killstreak_high_03.vsnd_c": [
+"00e02f399b",
+51788
+],
+"sounds/vo/krill/krill_killstreak_mid_01.vsnd_c": [
+"006f1aaa32",
+41266
+],
+"sounds/vo/krill/krill_killstreak_mid_02.vsnd_c": [
+"005c324130",
+34121
+],
+"sounds/vo/krill/krill_killstreak_mid_03.vsnd_c": [
+"0085badf7b",
+54900
+],
+"sounds/vo/krill/krill_killstreak_start_01.vsnd_c": [
+"00d4acada3",
+48745
+],
+"sounds/vo/krill/krill_killstreak_start_02.vsnd_c": [
+"008c7f9681",
+53949
+],
+"sounds/vo/krill/krill_killstreak_start_03.vsnd_c": [
+"00caf9ea14",
+62271
+],
+"sounds/vo/krill/krill_killstreak_start_04.vsnd_c": [
+"0006f4b29a",
+37002
+],
+"sounds/vo/krill/krill_killstreak_start_05.vsnd_c": [
+"0081e179b6",
+81097
+],
+"sounds/vo/krill/krill_last_one_standing_01.vsnd_c": [
+"004f83562b",
+43941
+],
+"sounds/vo/krill/krill_last_one_standing_02.vsnd_c": [
+"006dd29263",
+59290
+],
+"sounds/vo/krill/krill_last_one_standing_03.vsnd_c": [
+"002aa9a1a1",
+51606
+],
+"sounds/vo/krill/krill_leave_base_01.vsnd_c": [
+"009fd5fc18",
+40720
+],
+"sounds/vo/krill/krill_leave_base_02.vsnd_c": [
+"00cbe4fad6",
+50962
+],
+"sounds/vo/krill/krill_leave_base_03.vsnd_c": [
+"00ed3803e3",
+23551
+],
+"sounds/vo/krill/krill_leave_base_04.vsnd_c": [
+"0053a5e0d9",
+47658
+],
+"sounds/vo/krill/krill_leave_base_05.vsnd_c": [
+"002ad39f8e",
+49977
+],
+"sounds/vo/krill/krill_leaving_area_01.vsnd_c": [
+"00bcf61765",
+34861
+],
+"sounds/vo/krill/krill_leaving_area_02.vsnd_c": [
+"00490eb5da",
+32954
+],
+"sounds/vo/krill/krill_leaving_area_03.vsnd_c": [
+"00bd85a307",
+30278
+],
+"sounds/vo/krill/krill_low_health_warning.vsnd_c": [
+"001c90f22d",
+38307
+],
+"sounds/vo/krill/krill_match_start_astro_krill_convo01_01.vsnd_c": [
+"00255f6f1c",
+49275
+],
+"sounds/vo/krill/krill_match_start_astro_krill_convo01_03.vsnd_c": [
+"00c7f8e020",
+41405
+],
+"sounds/vo/krill/krill_match_start_astro_krill_convo01_05.vsnd_c": [
+"001ad3d696",
+50233
+],
+"sounds/vo/krill/krill_match_start_astro_krill_convo02_01.vsnd_c": [
+"00201e5228",
+153007
+],
+"sounds/vo/krill/krill_match_start_astro_krill_convo02_03.vsnd_c": [
+"005dd1e929",
+71149
+],
+"sounds/vo/krill/krill_match_start_astro_krill_convo03_01.vsnd_c": [
+"0077b49572",
+67909
+],
+"sounds/vo/krill/krill_match_start_astro_krill_convo03_03.vsnd_c": [
+"009bf9a775",
+30994
+],
+"sounds/vo/krill/krill_match_start_atlas_krill_convo01_02.vsnd_c": [
+"008414709b",
+70052
+],
+"sounds/vo/krill/krill_match_start_atlas_krill_convo01_04.vsnd_c": [
+"00433a0625",
+18278
+],
+"sounds/vo/krill/krill_match_start_atlas_krill_convo02_01.vsnd_c": [
+"009245e81e",
+113269
+],
+"sounds/vo/krill/krill_match_start_atlas_krill_convo02_03.vsnd_c": [
+"0053452679",
+35858
+],
+"sounds/vo/krill/krill_match_start_atlas_krill_convo03_02.vsnd_c": [
+"00423775c1",
+86074
+],
+"sounds/vo/krill/krill_match_start_bebop_krill_convo01_02.vsnd_c": [
+"00a2e3e195",
+35741
+],
+"sounds/vo/krill/krill_match_start_bebop_krill_convo02_01.vsnd_c": [
+"00ab0784fc",
+40233
+],
+"sounds/vo/krill/krill_match_start_bebop_krill_convo02_03.vsnd_c": [
+"00205914ab",
+22205
+],
+"sounds/vo/krill/krill_match_start_bebop_krill_convo02_05.vsnd_c": [
+"00b6d37f2f",
+98103
+],
+"sounds/vo/krill/krill_match_start_bebop_krill_convo03_01.vsnd_c": [
+"00fba67c5d",
+38076
+],
+"sounds/vo/krill/krill_match_start_bebop_krill_convo03_03.vsnd_c": [
+"00156a9bed",
+39792
+],
+"sounds/vo/krill/krill_match_start_doorman_krill_convo01_01.vsnd_c": [
+"001daa3a58",
+53690
+],
+"sounds/vo/krill/krill_match_start_doorman_krill_convo01_03.vsnd_c": [
+"00f1dcbc35",
+59121
+],
+"sounds/vo/krill/krill_match_start_doorman_krill_convo02_02.vsnd_c": [
+"005b897281",
+36977
+],
+"sounds/vo/krill/krill_match_start_doorman_krill_convo02_04.vsnd_c": [
+"00c6f94830",
+41991
+],
+"sounds/vo/krill/krill_match_start_doorman_krill_convo03_02.vsnd_c": [
+"00a75a527b",
+66588
+],
+"sounds/vo/krill/krill_match_start_doorman_krill_convo03_04.vsnd_c": [
+"00444439b5",
+41379
+],
+"sounds/vo/krill/krill_match_start_doorman_krill_convo03_06.vsnd_c": [
+"00fda59cdb",
+63361
+],
+"sounds/vo/krill/krill_match_start_drifter_krill_convo01_02.vsnd_c": [
+"001dc9d70c",
+53245
+],
+"sounds/vo/krill/krill_match_start_drifter_krill_convo01_04.vsnd_c": [
+"006661314c",
+51176
+],
+"sounds/vo/krill/krill_match_start_drifter_krill_convo02_02.vsnd_c": [
+"00b65e0444",
+63303
+],
+"sounds/vo/krill/krill_match_start_drifter_krill_convo03_01.vsnd_c": [
+"00b8822266",
+38139
+],
+"sounds/vo/krill/krill_match_start_drifter_krill_convo03_03.vsnd_c": [
+"0060057f63",
+36238
+],
+"sounds/vo/krill/krill_match_start_drifter_krill_convo03_05.vsnd_c": [
+"00840f4398",
+39430
+],
+"sounds/vo/krill/krill_match_start_dynamo_krill_convo01_01.vsnd_c": [
+"002a9cf757",
+45443
+],
+"sounds/vo/krill/krill_match_start_dynamo_krill_convo01_03.vsnd_c": [
+"00b9ce172c",
+109423
+],
+"sounds/vo/krill/krill_match_start_dynamo_krill_convo01_05.vsnd_c": [
+"00229408cc",
+94533
+],
+"sounds/vo/krill/krill_match_start_dynamo_krill_convo01_07.vsnd_c": [
+"004870afee",
+64800
+],
+"sounds/vo/krill/krill_match_start_dynamo_krill_convo02_02.vsnd_c": [
+"0032511c41",
+65027
+],
+"sounds/vo/krill/krill_match_start_dynamo_krill_convo03_02.vsnd_c": [
+"00047ed2aa",
+42867
+],
+"sounds/vo/krill/krill_match_start_dynamo_krill_convo03_04.vsnd_c": [
+"00460b2102",
+72633
+],
+"sounds/vo/krill/krill_match_start_dynamo_krill_convo03_06.vsnd_c": [
+"008f508343",
+90720
+],
+"sounds/vo/krill/krill_match_start_dynamo_krill_convo03_08.vsnd_c": [
+"00e523cd32",
+100294
+],
+"sounds/vo/krill/krill_match_start_familiar_krill_convo01_02.vsnd_c": [
+"00e617b3d3",
+146785
+],
+"sounds/vo/krill/krill_match_start_familiar_krill_convo01_04.vsnd_c": [
+"00b1cbe856",
+55873
+],
+"sounds/vo/krill/krill_match_start_fencer_krill_convo01_02.vsnd_c": [
+"0000ef76c6",
+39682
+],
+"sounds/vo/krill/krill_match_start_fencer_krill_convo01_04.vsnd_c": [
+"00aa54d325",
+42035
+],
+"sounds/vo/krill/krill_match_start_fencer_krill_convo02_01.vsnd_c": [
+"0084b9de05",
+35518
+],
+"sounds/vo/krill/krill_match_start_fencer_krill_convo02_03.vsnd_c": [
+"00bb18d48b",
+58965
+],
+"sounds/vo/krill/krill_match_start_fencer_krill_convo03_01.vsnd_c": [
+"00805d06ab",
+56927
+],
+"sounds/vo/krill/krill_match_start_fencer_krill_convo03_03.vsnd_c": [
+"0048cb6f68",
+22424
+],
+"sounds/vo/krill/krill_match_start_forge_krill_convo01_01.vsnd_c": [
+"00729b1793",
+51893
+],
+"sounds/vo/krill/krill_match_start_forge_krill_convo01_03.vsnd_c": [
+"003270cd63",
+25139
+],
+"sounds/vo/krill/krill_match_start_forge_krill_convo01_05.vsnd_c": [
+"00b5cc7bea",
+31325
+],
+"sounds/vo/krill/krill_match_start_forge_krill_convo02_02.vsnd_c": [
+"0062ccf143",
+79916
+],
+"sounds/vo/krill/krill_match_start_forge_krill_convo02_04.vsnd_c": [
+"0047b95e56",
+17254
+],
+"sounds/vo/krill/krill_match_start_forge_krill_convo02_06.vsnd_c": [
+"00234a07e1",
+47368
+],
+"sounds/vo/krill/krill_match_start_forge_krill_convo03_02.vsnd_c": [
+"00e16d8399",
+18118
+],
+"sounds/vo/krill/krill_match_start_frank_krill_convo01_02.vsnd_c": [
+"00a06f8520",
+66495
+],
+"sounds/vo/krill/krill_match_start_frank_krill_convo01_04.vsnd_c": [
+"0008a5c7f7",
+64126
+],
+"sounds/vo/krill/krill_match_start_frank_krill_convo01_06.vsnd_c": [
+"00a2dd3443",
+33026
+],
+"sounds/vo/krill/krill_match_start_frank_krill_convo02_01.vsnd_c": [
+"005f9a8c6b",
+38893
+],
+"sounds/vo/krill/krill_match_start_frank_krill_convo02_03.vsnd_c": [
+"00d32450d0",
+38479
+],
+"sounds/vo/krill/krill_match_start_frank_krill_convo03_02.vsnd_c": [
+"002bf2686e",
+57116
+],
+"sounds/vo/krill/krill_match_start_ghost_krill_convo01_02.vsnd_c": [
+"0009051166",
+26679
+],
+"sounds/vo/krill/krill_match_start_ghost_krill_convo01_04.vsnd_c": [
+"00fd89e594",
+187248
+],
+"sounds/vo/krill/krill_match_start_ghost_krill_convo02_01.vsnd_c": [
+"004b88ef13",
+62686
+],
+"sounds/vo/krill/krill_match_start_ghost_krill_convo02_03.vsnd_c": [
+"003e429a34",
+47901
+],
+"sounds/vo/krill/krill_match_start_ghost_krill_convo03_01.vsnd_c": [
+"00961a55bb",
+40116
+],
+"sounds/vo/krill/krill_match_start_ghost_krill_convo03_03.vsnd_c": [
+"0031833369",
+163904
+],
+"sounds/vo/krill/krill_match_start_ghost_krill_convo03_05.vsnd_c": [
+"00123d3dcf",
+47932
+],
+"sounds/vo/krill/krill_match_start_gigawatt_krill_convo01_01.vsnd_c": [
+"00b2454177",
+60458
+],
+"sounds/vo/krill/krill_match_start_gigawatt_krill_convo01_03.vsnd_c": [
+"00b94f32f1",
+38633
+],
+"sounds/vo/krill/krill_match_start_gigawatt_krill_convo02_02.vsnd_c": [
+"0018d6c5cf",
+23822
+],
+"sounds/vo/krill/krill_match_start_gigawatt_krill_convo02_04.vsnd_c": [
+"003e62c5ba",
+44597
+],
+"sounds/vo/krill/krill_match_start_gigawatt_krill_convo02_06.vsnd_c": [
+"008670f999",
+70883
+],
+"sounds/vo/krill/krill_match_start_gigawatt_krill_convo03_01.vsnd_c": [
+"00f08f7a2b",
+56590
+],
+"sounds/vo/krill/krill_match_start_haze_krill_convo01_01.vsnd_c": [
+"00c3b83c8a",
+59305
+],
+"sounds/vo/krill/krill_match_start_haze_krill_convo01_03.vsnd_c": [
+"00263bb88f",
+73652
+],
+"sounds/vo/krill/krill_match_start_haze_krill_convo01_05.vsnd_c": [
+"00d4600c2c",
+36501
+],
+"sounds/vo/krill/krill_match_start_haze_krill_convo02_01.vsnd_c": [
+"00352367c6",
+60360
+],
+"sounds/vo/krill/krill_match_start_haze_krill_convo02_03.vsnd_c": [
+"0018cb15e5",
+62783
+],
+"sounds/vo/krill/krill_match_start_haze_krill_convo03_01.vsnd_c": [
+"00c7547ae5",
+46847
+],
+"sounds/vo/krill/krill_match_start_haze_krill_convo03_03.vsnd_c": [
+"003d4ec63d",
+31281
+],
+"sounds/vo/krill/krill_match_start_inferno_krill_convo01_01.vsnd_c": [
+"003ad9ed66",
+51253
+],
+"sounds/vo/krill/krill_match_start_inferno_krill_convo01_03.vsnd_c": [
+"00fe8683a0",
+42890
+],
+"sounds/vo/krill/krill_match_start_inferno_krill_convo02_02.vsnd_c": [
+"008241d754",
+138390
+],
+"sounds/vo/krill/krill_match_start_inferno_krill_convo02_04.vsnd_c": [
+"00e2845ebc",
+131109
+],
+"sounds/vo/krill/krill_match_start_inferno_krill_convo03_01.vsnd_c": [
+"000a622334",
+27976
+],
+"sounds/vo/krill/krill_match_start_inferno_krill_convo03_03.vsnd_c": [
+"00eb537495",
+95853
+],
+"sounds/vo/krill/krill_match_start_inferno_krill_convo03_05.vsnd_c": [
+"0069ad6454",
+59110
+],
+"sounds/vo/krill/krill_match_start_kelvin_krill_convo01_01.vsnd_c": [
+"0017d90112",
+53124
+],
+"sounds/vo/krill/krill_match_start_kelvin_krill_convo01_03.vsnd_c": [
+"00d34517bc",
+93093
+],
+"sounds/vo/krill/krill_match_start_kelvin_krill_convo01_05.vsnd_c": [
+"008b850d65",
+59265
+],
+"sounds/vo/krill/krill_match_start_kelvin_krill_convo02_02.vsnd_c": [
+"001e4f79cb",
+83905
+],
+"sounds/vo/krill/krill_match_start_kelvin_krill_convo03_01.vsnd_c": [
+"001c3a8894",
+69100
+],
+"sounds/vo/krill/krill_match_start_kelvin_krill_convo03_03.vsnd_c": [
+"0030b00762",
+63776
+],
+"sounds/vo/krill/krill_match_start_krill_chrono_convo01_02.vsnd_c": [
+"001527009c",
+24553
+],
+"sounds/vo/krill/krill_match_start_krill_chrono_convo01_04.vsnd_c": [
+"00f6b52516",
+61494
+],
+"sounds/vo/krill/krill_match_start_krill_chrono_convo01_06.vsnd_c": [
+"000e111abd",
+39570
+],
+"sounds/vo/krill/krill_match_start_krill_chrono_convo02_02.vsnd_c": [
+"00ce23c2c8",
+87037
+],
+"sounds/vo/krill/krill_match_start_krill_chrono_convo02_04.vsnd_c": [
+"00cabb6b2a",
+31170
+],
+"sounds/vo/krill/krill_match_start_krill_chrono_convo03_01.vsnd_c": [
+"0018924de0",
+31256
+],
+"sounds/vo/krill/krill_match_start_krill_hornet_convo01_01.vsnd_c": [
+"002528d36d",
+43402
+],
+"sounds/vo/krill/krill_match_start_krill_hornet_convo02_01.vsnd_c": [
+"007d2bd7cf",
+60291
+],
+"sounds/vo/krill/krill_match_start_krill_hornet_convo02_03.vsnd_c": [
+"00b8c7b11c",
+34302
+],
+"sounds/vo/krill/krill_match_start_krill_hornet_convo03_02.vsnd_c": [
+"0044ca0adf",
+84260
+],
+"sounds/vo/krill/krill_match_start_krill_mirage_convo01_02.vsnd_c": [
+"00c55d3cdb",
+54924
+],
+"sounds/vo/krill/krill_match_start_krill_mirage_convo01_04.vsnd_c": [
+"00b54a5cd1",
+54150
+],
+"sounds/vo/krill/krill_match_start_krill_mirage_convo02_02.vsnd_c": [
+"00f5b87b82",
+63329
+],
+"sounds/vo/krill/krill_match_start_krill_mirage_convo02_04.vsnd_c": [
+"002b64738e",
+21553
+],
+"sounds/vo/krill/krill_match_start_krill_mirage_convo03_01.vsnd_c": [
+"004f4aaf7e",
+42771
+],
+"sounds/vo/krill/krill_match_start_krill_mirage_convo03_03.vsnd_c": [
+"00c9ff3597",
+41155
+],
+"sounds/vo/krill/krill_match_start_krill_mirage_convo03_05.vsnd_c": [
+"00cf03683b",
+55539
+],
+"sounds/vo/krill/krill_match_start_krill_mirage_convo03_07.vsnd_c": [
+"00982d8bb7",
+24549
+],
+"sounds/vo/krill/krill_match_start_krill_orion_convo01_01.vsnd_c": [
+"007e4b450b",
+63767
+],
+"sounds/vo/krill/krill_match_start_krill_orion_convo01_03.vsnd_c": [
+"00e9001464",
+25829
+],
+"sounds/vo/krill/krill_match_start_krill_orion_convo02_02.vsnd_c": [
+"00bd1ecea1",
+104940
+],
+"sounds/vo/krill/krill_match_start_krill_orion_convo03_01.vsnd_c": [
+"00926ccd93",
+41173
+],
+"sounds/vo/krill/krill_match_start_krill_orion_convo03_03.vsnd_c": [
+"00467164f3",
+53508
+],
+"sounds/vo/krill/krill_match_start_krill_shiv_convo01_01.vsnd_c": [
+"0049ae780a",
+49367
+],
+"sounds/vo/krill/krill_match_start_krill_shiv_convo01_03.vsnd_c": [
+"00c2972913",
+49691
+],
+"sounds/vo/krill/krill_match_start_krill_shiv_convo02_01.vsnd_c": [
+"001c90e6bc",
+47899
+],
+"sounds/vo/krill/krill_match_start_krill_shiv_convo02_03.vsnd_c": [
+"007146e225",
+39901
+],
+"sounds/vo/krill/krill_match_start_krill_shiv_convo02_05.vsnd_c": [
+"00f2681c3f",
+21587
+],
+"sounds/vo/krill/krill_match_start_krill_shiv_convo03_02.vsnd_c": [
+"00d89a1004",
+59923
+],
+"sounds/vo/krill/krill_match_start_krill_synth_convo01_02.vsnd_c": [
+"00544b9db9",
+37439
+],
+"sounds/vo/krill/krill_match_start_krill_synth_convo01_04.vsnd_c": [
+"00ccfbcae2",
+47647
+],
+"sounds/vo/krill/krill_match_start_krill_synth_convo02_02.vsnd_c": [
+"00bd4672fd",
+44569
+],
+"sounds/vo/krill/krill_match_start_krill_synth_convo02_04.vsnd_c": [
+"00e0b55c63",
+20724
+],
+"sounds/vo/krill/krill_match_start_krill_synth_convo03_01.vsnd_c": [
+"00a9bc50df",
+69342
+],
+"sounds/vo/krill/krill_match_start_krill_viscous_convo01_01.vsnd_c": [
+"00303b8b8f",
+64016
+],
+"sounds/vo/krill/krill_match_start_krill_viscous_convo01_03.vsnd_c": [
+"00819e74a2",
+85164
+],
+"sounds/vo/krill/krill_match_start_krill_wraith_convo01_02.vsnd_c": [
+"006a37be1a",
+56847
+],
+"sounds/vo/krill/krill_match_start_krill_wraith_convo02_02.vsnd_c": [
+"002332dabe",
+63098
+],
+"sounds/vo/krill/krill_match_start_krill_wraith_convo03_01.vsnd_c": [
+"007717e250",
+51529
+],
+"sounds/vo/krill/krill_match_start_krill_wraith_convo03_03.vsnd_c": [
+"00ea8143b3",
+120755
+],
+"sounds/vo/krill/krill_match_start_lash_krill_convo01_02.vsnd_c": [
+"009ea98ac3",
+44407
+],
+"sounds/vo/krill/krill_match_start_lash_krill_convo02_02.vsnd_c": [
+"000dedcacb",
+62538
+],
+"sounds/vo/krill/krill_match_start_lash_krill_convo02_04.vsnd_c": [
+"00aed5b2ae",
+27505
+],
+"sounds/vo/krill/krill_match_start_lash_krill_convo02_06.vsnd_c": [
+"00e939bff0",
+15234
+],
+"sounds/vo/krill/krill_match_start_lash_krill_convo03_01.vsnd_c": [
+"0013fa91c7",
+69520
+],
+"sounds/vo/krill/krill_match_start_lash_krill_convo03_03.vsnd_c": [
+"00ae77f2b9",
+21846
+],
+"sounds/vo/krill/krill_match_start_nano_krill_convo01_02.vsnd_c": [
+"00059df8ca",
+37246
+],
+"sounds/vo/krill/krill_match_start_nano_krill_convo01_04.vsnd_c": [
+"00ed790bdc",
+40215
+],
+"sounds/vo/krill/krill_match_start_nano_krill_convo01_06.vsnd_c": [
+"00e4dc497f",
+20809
+],
+"sounds/vo/krill/krill_match_start_nano_krill_convo02_02.vsnd_c": [
+"00607cd49e",
+62004
+],
+"sounds/vo/krill/krill_match_start_nano_krill_convo02_04.vsnd_c": [
+"0095872b40",
+27867
+],
+"sounds/vo/krill/krill_match_start_nano_krill_convo02_06.vsnd_c": [
+"00df4fe0fb",
+24111
+],
+"sounds/vo/krill/krill_match_start_nano_krill_convo03_01.vsnd_c": [
+"0028da901c",
+44152
+],
+"sounds/vo/krill/krill_match_start_nano_krill_convo03_03.vsnd_c": [
+"0025cd2557",
+75272
+],
+"sounds/vo/krill/krill_match_start_necro_krill_convo01_01.vsnd_c": [
+"00643a9229",
+44796
+],
+"sounds/vo/krill/krill_match_start_necro_krill_convo01_03.vsnd_c": [
+"001cb2312c",
+53449
+],
+"sounds/vo/krill/krill_match_start_necro_krill_convo02_02.vsnd_c": [
+"006ab6460b",
+20464
+],
+"sounds/vo/krill/krill_match_start_necro_krill_convo02_04.vsnd_c": [
+"00fdb72d08",
+28780
+],
+"sounds/vo/krill/krill_match_start_necro_krill_convo03_01.vsnd_c": [
+"00a79f8d75",
+28662
+],
+"sounds/vo/krill/krill_match_start_necro_krill_convo03_03.vsnd_c": [
+"009493afbc",
+25895
+],
+"sounds/vo/krill/krill_match_start_necro_krill_convo03_05.vsnd_c": [
+"00422a5045",
+29950
+],
+"sounds/vo/krill/krill_match_start_priest_krill_convo01_01.vsnd_c": [
+"00aec3df14",
+67444
+],
+"sounds/vo/krill/krill_match_start_priest_krill_convo01_03.vsnd_c": [
+"00a3c4541f",
+83216
+],
+"sounds/vo/krill/krill_match_start_priest_krill_convo02_01.vsnd_c": [
+"006db4814c",
+40393
+],
+"sounds/vo/krill/krill_match_start_priest_krill_convo02_03.vsnd_c": [
+"0052a6cd7c",
+48025
+],
+"sounds/vo/krill/krill_match_start_priest_krill_convo02_05.vsnd_c": [
+"000ee4bce5",
+26102
+],
+"sounds/vo/krill/krill_match_start_priest_krill_convo03_01.vsnd_c": [
+"00e97311cd",
+66316
+],
+"sounds/vo/krill/krill_match_start_tengu_krill_convo01_01.vsnd_c": [
+"0083089e2b",
+61201
+],
+"sounds/vo/krill/krill_match_start_tengu_krill_convo01_03.vsnd_c": [
+"00783e0801",
+31272
+],
+"sounds/vo/krill/krill_match_start_tengu_krill_convo01_05.vsnd_c": [
+"00c973ee4a",
+39467
+],
+"sounds/vo/krill/krill_match_start_tengu_krill_convo02_02.vsnd_c": [
+"00853f9ad7",
+30536
+],
+"sounds/vo/krill/krill_match_start_tengu_krill_convo02_04.vsnd_c": [
+"00934038de",
+52800
+],
+"sounds/vo/krill/krill_match_start_tengu_krill_convo02_06.vsnd_c": [
+"001387b396",
+64218
+],
+"sounds/vo/krill/krill_match_start_tengu_krill_convo03_02.vsnd_c": [
+"009764a188",
+48785
+],
+"sounds/vo/krill/krill_match_start_tengu_krill_convo03_04.vsnd_c": [
+"006d6c6a4d",
+64098
+],
+"sounds/vo/krill/krill_match_start_tengu_krill_convo03_04_02.vsnd_c": [
+"0083a64838",
+65352
+],
+"sounds/vo/krill/krill_match_start_unicorn_krill_convo01_01.vsnd_c": [
+"00e3112a4e",
+52773
+],
+"sounds/vo/krill/krill_match_start_unicorn_krill_convo01_03.vsnd_c": [
+"00eb1acc1e",
+22634
+],
+"sounds/vo/krill/krill_match_start_viper_krill_convo01_02.vsnd_c": [
+"0051abcb0c",
+27483
+],
+"sounds/vo/krill/krill_match_start_viper_krill_convo01_04.vsnd_c": [
+"003c2a0787",
+25146
+],
+"sounds/vo/krill/krill_match_start_viper_krill_convo02_02.vsnd_c": [
+"00c1d25023",
+46125
+],
+"sounds/vo/krill/krill_match_start_viper_krill_convo02_04.vsnd_c": [
+"00879525f0",
+20461
+],
+"sounds/vo/krill/krill_match_start_viper_krill_convo03_02.vsnd_c": [
+"005f407da6",
+62868
+],
+"sounds/vo/krill/krill_match_start_viper_krill_convo03_04.vsnd_c": [
+"0063378952",
+41269
+],
+"sounds/vo/krill/krill_match_start_werewolf_krill_convo01_01.vsnd_c": [
+"00d2219c60",
+46146
+],
+"sounds/vo/krill/krill_match_start_werewolf_krill_convo01_03.vsnd_c": [
+"0054149131",
+48798
+],
+"sounds/vo/krill/krill_match_start_werewolf_krill_convo02_02.vsnd_c": [
+"000460e9ce",
+34749
+],
+"sounds/vo/krill/krill_match_start_werewolf_krill_convo03_02.vsnd_c": [
+"009aac27ed",
+42804
+],
+"sounds/vo/krill/krill_match_start_werewolf_krill_convo03_04.vsnd_c": [
+"00ae103a2d",
+22067
+],
+"sounds/vo/krill/krill_match_start_werewolf_krill_convo03_06.vsnd_c": [
+"00e8c33756",
+41819
+],
+"sounds/vo/krill/krill_match_start_yamato_krill_convo01_02.vsnd_c": [
+"00952047a5",
+78659
+],
+"sounds/vo/krill/krill_match_start_yamato_krill_convo01_04.vsnd_c": [
+"00e7064221",
+50237
+],
+"sounds/vo/krill/krill_match_start_yamato_krill_convo01_06.vsnd_c": [
+"002934d0b9",
+26475
+],
+"sounds/vo/krill/krill_match_start_yamato_krill_convo02_01.vsnd_c": [
+"00596ed2fc",
+35380
+],
+"sounds/vo/krill/krill_match_start_yamato_krill_convo02_03.vsnd_c": [
+"000a6b179d",
+45078
+],
+"sounds/vo/krill/krill_match_start_yamato_krill_convo03_01.vsnd_c": [
+"00ccb611dd",
+134681
+],
+"sounds/vo/krill/krill_melee_kill_01.vsnd_c": [
+"00ed574df4",
+36133
+],
+"sounds/vo/krill/krill_melee_kill_02.vsnd_c": [
+"008672f381",
+45626
+],
+"sounds/vo/krill/krill_melee_kill_03.vsnd_c": [
+"00e9486372",
+38203
+],
+"sounds/vo/krill/krill_melee_kill_04.vsnd_c": [
+"0053b2629c",
+48069
+],
+"sounds/vo/krill/krill_melee_kill_05.vsnd_c": [
+"000ef3047e",
+65241
+],
+"sounds/vo/krill/krill_near_miss_01.vsnd_c": [
+"00bfaad985",
+45422
+],
+"sounds/vo/krill/krill_near_miss_02.vsnd_c": [
+"00e5095eef",
+30170
+],
+"sounds/vo/krill/krill_near_miss_03.vsnd_c": [
+"0004b28042",
+32314
+],
+"sounds/vo/krill/krill_near_miss_04.vsnd_c": [
+"002c9bb108",
+56340
+],
+"sounds/vo/krill/krill_near_miss_05.vsnd_c": [
+"00ed7b75d5",
+28366
+],
+"sounds/vo/krill/krill_outnumbered_01.vsnd_c": [
+"001f8827a3",
+37614
+],
+"sounds/vo/krill/krill_outnumbered_02.vsnd_c": [
+"00b0009d7b",
+55950
+],
+"sounds/vo/krill/krill_outnumbered_03.vsnd_c": [
+"0063ee922f",
+53520
+],
+"sounds/vo/krill/krill_parry_01.vsnd_c": [
+"00964a7915",
+20702
+],
+"sounds/vo/krill/krill_parry_02.vsnd_c": [
+"003e815def",
+41582
+],
+"sounds/vo/krill/krill_parry_03.vsnd_c": [
+"00651d09ea",
+47543
+],
+"sounds/vo/krill/krill_pick_up_gold_01.vsnd_c": [
+"009c2639ca",
+34865
+],
+"sounds/vo/krill/krill_pick_up_gold_02.vsnd_c": [
+"00565d1a95",
+46363
+],
+"sounds/vo/krill/krill_pick_up_gold_03.vsnd_c": [
+"001788162d",
+74797
+],
+"sounds/vo/krill/krill_pick_up_gold_04.vsnd_c": [
+"0064d41d3e",
+37091
+],
+"sounds/vo/krill/krill_pick_up_gold_05.vsnd_c": [
+"002b34ee1b",
+49043
+],
+"sounds/vo/krill/krill_pick_up_rejuv_01.vsnd_c": [
+"001e180286",
+31359
+],
+"sounds/vo/krill/krill_pick_up_rejuv_02.vsnd_c": [
+"00ccc79222",
+31467
+],
+"sounds/vo/krill/krill_pick_up_rejuv_03.vsnd_c": [
+"00b00886d7",
+31249
+],
+"sounds/vo/krill/krill_power2_resurface_01.vsnd_c": [
+"00f5b7e0f2",
+28468
+],
+"sounds/vo/krill/krill_power2_resurface_02.vsnd_c": [
+"000af15b16",
+31356
+],
+"sounds/vo/krill/krill_power2_resurface_03.vsnd_c": [
+"00ad5a92d0",
+37023
+],
+"sounds/vo/krill/krill_power2_resurface_04.vsnd_c": [
+"008daff0f2",
+23250
+],
+"sounds/vo/krill/krill_power2_resurface_05.vsnd_c": [
+"000cd4bc4f",
+31150
+],
+"sounds/vo/krill/krill_power2_resurface_06.vsnd_c": [
+"008a00baff",
+32626
+],
+"sounds/vo/krill/krill_power2_resurface_07.vsnd_c": [
+"003ea0b933",
+36903
+],
+"sounds/vo/krill/krill_power2_resurface_08.vsnd_c": [
+"003f0cfc2c",
+21447
+],
+"sounds/vo/krill/krill_power2_resurface_09.vsnd_c": [
+"0062c2c0eb",
+28367
+],
+"sounds/vo/krill/krill_power2_resurface_10.vsnd_c": [
+"00d4061c3d",
+29334
+],
+"sounds/vo/krill/krill_revenge_kill.vsnd_c": [
+"00cb0f4365",
+49111
+],
+"sounds/vo/krill/krill_sad_01.vsnd_c": [
+"001a2b4f5d",
+30054
+],
+"sounds/vo/krill/krill_sad_02.vsnd_c": [
+"0081f3f09c",
+37088
+],
+"sounds/vo/krill/krill_sad_03.vsnd_c": [
+"0005269de1",
+33800
+],
+"sounds/vo/krill/krill_sad_04.vsnd_c": [
+"00dd894061",
+44431
+],
+"sounds/vo/krill/krill_sad_05.vsnd_c": [
+"0072b070a7",
+25478
+],
+"sounds/vo/krill/krill_sad_06.vsnd_c": [
+"001b820a34",
+45511
+],
+"sounds/vo/krill/krill_sad_07.vsnd_c": [
+"000e6d28fa",
+36316
+],
+"sounds/vo/krill/krill_sad_08.vsnd_c": [
+"0000d09c4a",
+34641
+],
+"sounds/vo/krill/krill_sad_09.vsnd_c": [
+"006c8490e1",
+48611
+],
+"sounds/vo/krill/krill_sad_10.vsnd_c": [
+"00ec30ff13",
+44955
+],
+"sounds/vo/krill/krill_see_enemy_use_metal_skin_01.vsnd_c": [
+"00f4fec874",
+29333
+],
+"sounds/vo/krill/krill_see_enemy_use_metal_skin_02.vsnd_c": [
+"00c8ecc7b8",
+33301
+],
+"sounds/vo/krill/krill_see_enemy_use_metal_skin_03.vsnd_c": [
+"006f4b3e3c",
+27612
+],
+"sounds/vo/krill/krill_see_money_01.vsnd_c": [
+"0040a56e87",
+41691
+],
+"sounds/vo/krill/krill_see_money_02.vsnd_c": [
+"00a42bdd6f",
+63431
+],
+"sounds/vo/krill/krill_see_money_03.vsnd_c": [
+"00f77b82c4",
+46388
+],
+"sounds/vo/krill/krill_select_01.vsnd_c": [
+"00a068fd04",
+58289
+],
+"sounds/vo/krill/krill_select_02.vsnd_c": [
+"0071df1a47",
+87564
+],
+"sounds/vo/krill/krill_select_03.vsnd_c": [
+"009910c8e5",
+61256
+],
+"sounds/vo/krill/krill_select_04.vsnd_c": [
+"006c1d923f",
+42953
+],
+"sounds/vo/krill/krill_select_05.vsnd_c": [
+"00147e1c56",
+44774
+],
+"sounds/vo/krill/krill_select_06.vsnd_c": [
+"005e1451e1",
+60635
+],
+"sounds/vo/krill/krill_select_07.vsnd_c": [
+"00d0b4a364",
+47769
+],
+"sounds/vo/krill/krill_select_08.vsnd_c": [
+"000f1c4ca0",
+104773
+],
+"sounds/vo/krill/krill_select_09.vsnd_c": [
+"0003b0bbb5",
+33569
+],
+"sounds/vo/krill/krill_select_10.vsnd_c": [
+"00fe9bae52",
+43772
+],
+"sounds/vo/krill/krill_t1_shop_reminder_01.vsnd_c": [
+"00bd585a6c",
+31583
+],
+"sounds/vo/krill/krill_t1_shop_reminder_02.vsnd_c": [
+"00d7730df5",
+30939
+],
+"sounds/vo/krill/krill_t1_shop_reminder_03.vsnd_c": [
+"005feb1f97",
+43113
+],
+"sounds/vo/krill/krill_t2_shop_reminder_01.vsnd_c": [
+"00b773326b",
+32748
+],
+"sounds/vo/krill/krill_t2_shop_reminder_02.vsnd_c": [
+"006088f656",
+35198
+],
+"sounds/vo/krill/krill_t2_shop_reminder_03.vsnd_c": [
+"0095f1d9fd",
+51048
+],
+"sounds/vo/krill/krill_t3_shop_reminder_01.vsnd_c": [
+"00fc84e2df",
+47548
+],
+"sounds/vo/krill/krill_t3_shop_reminder_02.vsnd_c": [
+"00cc57ad8f",
+43309
+],
+"sounds/vo/krill/krill_t3_shop_reminder_03.vsnd_c": [
+"00fd5cfe27",
+45765
+],
+"sounds/vo/krill/krill_t4_shop_reminder_01.vsnd_c": [
+"00ee000c30",
+46194
+],
+"sounds/vo/krill/krill_t4_shop_reminder_02.vsnd_c": [
+"00c4085dea",
+39664
+],
+"sounds/vo/krill/krill_t4_shop_reminder_03.vsnd_c": [
+"000ff07be4",
+52037
+],
+"sounds/vo/krill/krill_tower_got_denied_01.vsnd_c": [
+"005fea1bb3",
+47988
+],
+"sounds/vo/krill/krill_tower_got_denied_02.vsnd_c": [
+"0038b1509e",
+56932
+],
+"sounds/vo/krill/krill_tower_got_denied_03.vsnd_c": [
+"0010e051a7",
+52001
+],
+"sounds/vo/krill/krill_tower_got_denied_04.vsnd_c": [
+"000b23cd1b",
+46587
+],
+"sounds/vo/krill/krill_tower_got_denied_05.vsnd_c": [
+"00e35b46ea",
+45186
+],
+"sounds/vo/krill/krill_unselect_01.vsnd_c": [
+"00764d0dbc",
+34311
+],
+"sounds/vo/krill/krill_unselect_02.vsnd_c": [
+"004b6131bf",
+60826
+],
+"sounds/vo/krill/krill_unselect_03.vsnd_c": [
+"0085bf2316",
+49233
+],
+"sounds/vo/krill/krill_unselect_04.vsnd_c": [
+"00ccf40cd9",
+63715
+],
+"sounds/vo/krill/krill_unselect_05.vsnd_c": [
+"008443cf2b",
+47641
+],
+"sounds/vo/krill/krill_unselect_06.vsnd_c": [
+"0059006c18",
+66151
+],
+"sounds/vo/krill/krill_unselect_07.vsnd_c": [
+"00ede33241",
+72882
+],
+"sounds/vo/krill/krill_unselect_08.vsnd_c": [
+"001e0d69da",
+64842
+],
+"sounds/vo/krill/krill_unselect_09.vsnd_c": [
+"009193d0ba",
+52276
+],
+"sounds/vo/krill/krill_unselect_10.vsnd_c": [
+"00f9ccdf72",
+113917
+],
+"sounds/vo/krill/krill_upgrade_power1_01.vsnd_c": [
+"0088894b77",
+39223
+],
+"sounds/vo/krill/krill_upgrade_power1_02.vsnd_c": [
+"00897dad2e",
+38176
+],
+"sounds/vo/krill/krill_upgrade_power1_03.vsnd_c": [
+"0031be9905",
+40842
+],
+"sounds/vo/krill/krill_upgrade_power1_04.vsnd_c": [
+"009f64dc1e",
+36265
+],
+"sounds/vo/krill/krill_upgrade_power1_05.vsnd_c": [
+"00c5e7d535",
+42125
+],
+"sounds/vo/krill/krill_upgrade_power1_06.vsnd_c": [
+"00186b913d",
+42006
+],
+"sounds/vo/krill/krill_upgrade_power1_07.vsnd_c": [
+"00c8fbd1b4",
+44355
+],
+"sounds/vo/krill/krill_upgrade_power1_08.vsnd_c": [
+"00550aa70c",
+60647
+],
+"sounds/vo/krill/krill_upgrade_power1_09.vsnd_c": [
+"00efa038ea",
+41471
+],
+"sounds/vo/krill/krill_upgrade_power1_10.vsnd_c": [
+"0062d2a387",
+68091
+],
+"sounds/vo/krill/krill_upgrade_power2_01.vsnd_c": [
+"00c15742a9",
+39665
+],
+"sounds/vo/krill/krill_upgrade_power2_02.vsnd_c": [
+"00e9d3fe17",
+37230
+],
+"sounds/vo/krill/krill_upgrade_power2_03.vsnd_c": [
+"00015e00c4",
+42771
+],
+"sounds/vo/krill/krill_upgrade_power2_04.vsnd_c": [
+"007cb69d24",
+38688
+],
+"sounds/vo/krill/krill_upgrade_power2_05.vsnd_c": [
+"002d734ca6",
+49659
+],
+"sounds/vo/krill/krill_upgrade_power2_06.vsnd_c": [
+"004788775f",
+31150
+],
+"sounds/vo/krill/krill_upgrade_power2_07.vsnd_c": [
+"007a4c5925",
+49381
+],
+"sounds/vo/krill/krill_upgrade_power2_08.vsnd_c": [
+"0033b1be70",
+41178
+],
+"sounds/vo/krill/krill_upgrade_power2_09.vsnd_c": [
+"00d63bf013",
+47768
+],
+"sounds/vo/krill/krill_upgrade_power2_10.vsnd_c": [
+"000449ebfc",
+44166
+],
+"sounds/vo/krill/krill_upgrade_power3_01.vsnd_c": [
+"00074511d4",
+85797
+],
+"sounds/vo/krill/krill_upgrade_power3_02.vsnd_c": [
+"00cd708b3c",
+75818
+],
+"sounds/vo/krill/krill_upgrade_power3_03.vsnd_c": [
+"004b2c164f",
+41145
+],
+"sounds/vo/krill/krill_upgrade_power3_04.vsnd_c": [
+"00c3a751ba",
+55020
+],
+"sounds/vo/krill/krill_upgrade_power3_05.vsnd_c": [
+"00a2270625",
+56404
+],
+"sounds/vo/krill/krill_upgrade_power3_06.vsnd_c": [
+"009618e284",
+43513
+],
+"sounds/vo/krill/krill_upgrade_power3_07.vsnd_c": [
+"00da69b67f",
+41389
+],
+"sounds/vo/krill/krill_upgrade_power3_08.vsnd_c": [
+"008eb4148c",
+39665
+],
+"sounds/vo/krill/krill_upgrade_power3_09.vsnd_c": [
+"004578b4cb",
+43190
+],
+"sounds/vo/krill/krill_upgrade_power3_10.vsnd_c": [
+"00398c530f",
+46165
+],
+"sounds/vo/krill/krill_upgrade_power4_01.vsnd_c": [
+"00a58f6d42",
+70459
+],
+"sounds/vo/krill/krill_upgrade_power4_02.vsnd_c": [
+"0070687e6a",
+70232
+],
+"sounds/vo/krill/krill_upgrade_power4_03.vsnd_c": [
+"007ccf230b",
+60563
+],
+"sounds/vo/krill/krill_upgrade_power4_04.vsnd_c": [
+"00a029869a",
+112186
+],
+"sounds/vo/krill/krill_upgrade_power4_05.vsnd_c": [
+"0002755b05",
+44903
+],
+"sounds/vo/krill/krill_upgrade_power4_06.vsnd_c": [
+"0012916fb9",
+87943
+],
+"sounds/vo/krill/krill_upgrade_power4_07.vsnd_c": [
+"00968783fb",
+71819
+],
+"sounds/vo/krill/krill_upgrade_power4_08.vsnd_c": [
+"00021ca156",
+39992
+],
+"sounds/vo/krill/krill_upgrade_power4_09.vsnd_c": [
+"00a7937492",
+41457
+],
+"sounds/vo/krill/krill_upgrade_power4_10.vsnd_c": [
+"0056177d68",
+51171
+],
+"sounds/vo/krill/krill_use_ability_refresher_01.vsnd_c": [
+"00558ed3a6",
+24232
+],
+"sounds/vo/krill/krill_use_ability_refresher_02.vsnd_c": [
+"00be22a222",
+37216
+],
+"sounds/vo/krill/krill_use_ability_refresher_03.vsnd_c": [
+"00a0e8c348",
+34338
+],
+"sounds/vo/krill/krill_use_colossus_01.vsnd_c": [
+"00eb70cc8f",
+29004
+],
+"sounds/vo/krill/krill_use_colossus_02.vsnd_c": [
+"00cc22c94f",
+38909
+],
+"sounds/vo/krill/krill_use_colossus_03.vsnd_c": [
+"00d7b3fe6c",
+39867
+],
+"sounds/vo/krill/krill_use_curse_01.vsnd_c": [
+"0053ff3eb4",
+22732
+],
+"sounds/vo/krill/krill_use_curse_02.vsnd_c": [
+"00c5fb5c9b",
+28359
+],
+"sounds/vo/krill/krill_use_curse_03.vsnd_c": [
+"00dc48d74a",
+51482
+],
+"sounds/vo/krill/krill_use_decay_01.vsnd_c": [
+"004a6a137c",
+24216
+],
+"sounds/vo/krill/krill_use_decay_02.vsnd_c": [
+"00ef7e3b98",
+36902
+],
+"sounds/vo/krill/krill_use_decay_03.vsnd_c": [
+"00a0620c04",
+45405
+],
+"sounds/vo/krill/krill_use_echo_shard_01.vsnd_c": [
+"009bd85dc9",
+28286
+],
+"sounds/vo/krill/krill_use_echo_shard_02.vsnd_c": [
+"007fa8719a",
+27932
+],
+"sounds/vo/krill/krill_use_echo_shard_03.vsnd_c": [
+"006993654c",
+34036
+],
+"sounds/vo/krill/krill_use_ice_blast_01.vsnd_c": [
+"00e579ed95",
+24769
+],
+"sounds/vo/krill/krill_use_ice_blast_02.vsnd_c": [
+"00b248b6d4",
+24644
+],
+"sounds/vo/krill/krill_use_ice_blast_03.vsnd_c": [
+"002ae36c46",
+29213
+],
+"sounds/vo/krill/krill_use_metal_skin_01.vsnd_c": [
+"000bd2707e",
+23480
+],
+"sounds/vo/krill/krill_use_metal_skin_02.vsnd_c": [
+"00e828dda4",
+31898
+],
+"sounds/vo/krill/krill_use_metal_skin_03.vsnd_c": [
+"0071ea2047",
+33174
+],
+"sounds/vo/krill/krill_use_phantom_strike_01.vsnd_c": [
+"00e8e27069",
+31252
+],
+"sounds/vo/krill/krill_use_phantom_strike_02.vsnd_c": [
+"00a6738ae0",
+35211
+],
+"sounds/vo/krill/krill_use_phantom_strike_03.vsnd_c": [
+"005e2b03b5",
+41601
+],
+"sounds/vo/krill/krill_use_power1_01.vsnd_c": [
+"008c841831",
+28458
+],
+"sounds/vo/krill/krill_use_power1_02.vsnd_c": [
+"00caed52d3",
+39929
+],
+"sounds/vo/krill/krill_use_power1_03.vsnd_c": [
+"00df0ad736",
+35945
+],
+"sounds/vo/krill/krill_use_power1_04.vsnd_c": [
+"008039b46e",
+31765
+],
+"sounds/vo/krill/krill_use_power1_05.vsnd_c": [
+"009318dfe4",
+39447
+],
+"sounds/vo/krill/krill_use_power1_06.vsnd_c": [
+"0031caff08",
+32520
+],
+"sounds/vo/krill/krill_use_power1_07.vsnd_c": [
+"00c2c6797f",
+32598
+],
+"sounds/vo/krill/krill_use_power1_08.vsnd_c": [
+"002f36665e",
+25477
+],
+"sounds/vo/krill/krill_use_power1_09.vsnd_c": [
+"005a985b1d",
+33995
+],
+"sounds/vo/krill/krill_use_power1_10.vsnd_c": [
+"009199969d",
+33567
+],
+"sounds/vo/krill/krill_use_power2_01.vsnd_c": [
+"0051033024",
+19096
+],
+"sounds/vo/krill/krill_use_power2_02.vsnd_c": [
+"007c8baed7",
+31230
+],
+"sounds/vo/krill/krill_use_power2_03.vsnd_c": [
+"00ef8ea439",
+42487
+],
+"sounds/vo/krill/krill_use_power2_04.vsnd_c": [
+"00fe7f694d",
+27496
+],
+"sounds/vo/krill/krill_use_power2_05.vsnd_c": [
+"00cc4334b4",
+29319
+],
+"sounds/vo/krill/krill_use_power2_06.vsnd_c": [
+"00415306f9",
+29615
+],
+"sounds/vo/krill/krill_use_power2_07.vsnd_c": [
+"00b26cd53c",
+32311
+],
+"sounds/vo/krill/krill_use_power2_08.vsnd_c": [
+"00da8153f0",
+25480
+],
+"sounds/vo/krill/krill_use_power2_09.vsnd_c": [
+"009709c2b4",
+22598
+],
+"sounds/vo/krill/krill_use_power2_10.vsnd_c": [
+"0042b3608c",
+37220
+],
+"sounds/vo/krill/krill_use_power3_01.vsnd_c": [
+"0053090167",
+35284
+],
+"sounds/vo/krill/krill_use_power3_02.vsnd_c": [
+"0067e252b3",
+34222
+],
+"sounds/vo/krill/krill_use_power3_03.vsnd_c": [
+"00af068474",
+17914
+],
+"sounds/vo/krill/krill_use_power3_04.vsnd_c": [
+"0035c69038",
+28673
+],
+"sounds/vo/krill/krill_use_power3_05.vsnd_c": [
+"006e831f1b",
+31337
+],
+"sounds/vo/krill/krill_use_power3_06.vsnd_c": [
+"00a928fe64",
+30606
+],
+"sounds/vo/krill/krill_use_power3_07.vsnd_c": [
+"0042e270bd",
+37605
+],
+"sounds/vo/krill/krill_use_power3_08.vsnd_c": [
+"00fdd2a056",
+34766
+],
+"sounds/vo/krill/krill_use_power3_09.vsnd_c": [
+"00c37e9a92",
+31342
+],
+"sounds/vo/krill/krill_use_power3_10.vsnd_c": [
+"004763fb8f",
+33890
+],
+"sounds/vo/krill/krill_use_power4_01.vsnd_c": [
+"009cf588e4",
+18371
+],
+"sounds/vo/krill/krill_use_power4_02.vsnd_c": [
+"0050f1b719",
+24626
+],
+"sounds/vo/krill/krill_use_power4_03.vsnd_c": [
+"008d128b38",
+32089
+],
+"sounds/vo/krill/krill_use_power4_04.vsnd_c": [
+"00cca65512",
+19937
+],
+"sounds/vo/krill/krill_use_power4_05.vsnd_c": [
+"0018f35e5a",
+28038
+],
+"sounds/vo/krill/krill_use_power4_06.vsnd_c": [
+"00fcb93a3a",
+22725
+],
+"sounds/vo/krill/krill_use_power4_07.vsnd_c": [
+"00d6372c19",
+23125
+],
+"sounds/vo/krill/krill_use_power4_08.vsnd_c": [
+"006870b069",
+30907
+],
+"sounds/vo/krill/krill_use_power4_09.vsnd_c": [
+"002b5a17f8",
+25792
+],
+"sounds/vo/krill/krill_use_power4_10.vsnd_c": [
+"00e7308101",
+40622
+],
+"sounds/vo/krill/krill_use_shadow_weave_01.vsnd_c": [
+"00f132b517",
+31684
+],
+"sounds/vo/krill/krill_use_shadow_weave_02.vsnd_c": [
+"00c29dd592",
+38851
+],
+"sounds/vo/krill/krill_use_shadow_weave_03.vsnd_c": [
+"00d5df03bd",
+43199
+],
+"sounds/vo/krill/krill_use_silencer_01.vsnd_c": [
+"003445b94b",
+33285
+],
+"sounds/vo/krill/krill_use_silencer_02.vsnd_c": [
+"004ca19d33",
+31580
+],
+"sounds/vo/krill/krill_use_silencer_03.vsnd_c": [
+"00825b4927",
+49561
+],
+"sounds/vo/krill/krill_use_tech_purge_01.vsnd_c": [
+"00a213994e",
+18672
+],
+"sounds/vo/krill/krill_use_tech_purge_02.vsnd_c": [
+"0062bf2a7d",
+24013
+],
+"sounds/vo/krill/krill_use_tech_purge_03.vsnd_c": [
+"007e730193",
+39736
+],
+"sounds/vo/krill/krill_use_unstoppable_01.vsnd_c": [
+"0095c823e1",
+39587
+],
+"sounds/vo/krill/krill_use_unstoppable_02.vsnd_c": [
+"004312840f",
+42997
+],
+"sounds/vo/krill/krill_use_unstoppable_03.vsnd_c": [
+"0063b2ebc8",
+48304
+],
+"sounds/vo/krill/krill_use_vampiric_burst_01.vsnd_c": [
+"006f91948f",
+28501
+],
+"sounds/vo/krill/krill_use_vampiric_burst_02.vsnd_c": [
+"00117c35b6",
+26150
+],
+"sounds/vo/krill/krill_use_vampiric_burst_03.vsnd_c": [
+"001fc106e7",
+38286
+],
+"sounds/vo/krill/ping/krill_ping_ability1_almost_ready.vsnd_c": [
+"002d373035",
+29684
+],
+"sounds/vo/krill/ping/krill_ping_ability1_not_ready.vsnd_c": [
+"00f99ae8bf",
+24337
+],
+"sounds/vo/krill/ping/krill_ping_ability2_almost_ready.vsnd_c": [
+"00e8520565",
+25191
+],
+"sounds/vo/krill/ping/krill_ping_ability2_not_ready.vsnd_c": [
+"003d9ee55d",
+23480
+],
+"sounds/vo/krill/ping/krill_ping_ability3_almost_ready.vsnd_c": [
+"00b199616f",
+31067
+],
+"sounds/vo/krill/ping/krill_ping_ability3_not_ready.vsnd_c": [
+"000fee0df0",
+29141
+],
+"sounds/vo/krill/ping/krill_ping_ability4_almost_ready.vsnd_c": [
+"00a9b1ea71",
+33099
+],
+"sounds/vo/krill/ping/krill_ping_ability4_not_ready.vsnd_c": [
+"00153b9cb2",
+23171
+],
+"sounds/vo/krill/ping/krill_ping_affermative_01.vsnd_c": [
+"0093c31f33",
+12067
+],
+"sounds/vo/krill/ping/krill_ping_affermative_03.vsnd_c": [
+"00ea13ba36",
+14634
+],
+"sounds/vo/krill/ping/krill_ping_artist_missing_01.vsnd_c": [
+"00cbdbd866",
+22280
+],
+"sounds/vo/krill/ping/krill_ping_astro_above.vsnd_c": [
+"0022ee24e3",
+20906
+],
+"sounds/vo/krill/ping/krill_ping_astro_almost_respawn.vsnd_c": [
+"0049073549",
+28079
+],
+"sounds/vo/krill/ping/krill_ping_astro_below.vsnd_c": [
+"00f4ed7731",
+22268
+],
+"sounds/vo/krill/ping/krill_ping_astro_check_items.vsnd_c": [
+"0015abb16b",
+27758
+],
+"sounds/vo/krill/ping/krill_ping_astro_dead.vsnd_c": [
+"0054bc2cd7",
+24761
+],
+"sounds/vo/krill/ping/krill_ping_astro_low_health.vsnd_c": [
+"0049abf2d0",
+23973
+],
+"sounds/vo/krill/ping/krill_ping_astro_missing_01.vsnd_c": [
+"00a5e9bca2",
+27236
+],
+"sounds/vo/krill/ping/krill_ping_atlas_above.vsnd_c": [
+"00c5964240",
+19721
+],
+"sounds/vo/krill/ping/krill_ping_atlas_almost_respawn.vsnd_c": [
+"0001141b16",
+27333
+],
+"sounds/vo/krill/ping/krill_ping_atlas_below.vsnd_c": [
+"00e301f4c7",
+20983
+],
+"sounds/vo/krill/ping/krill_ping_atlas_check_items.vsnd_c": [
+"005e9cbc74",
+28285
+],
+"sounds/vo/krill/ping/krill_ping_atlas_dead.vsnd_c": [
+"00644469f4",
+22309
+],
+"sounds/vo/krill/ping/krill_ping_atlas_low_health.vsnd_c": [
+"00cf973433",
+21732
+],
+"sounds/vo/krill/ping/krill_ping_atlas_missing_01.vsnd_c": [
+"0093b6c423",
+23818
+],
+"sounds/vo/krill/ping/krill_ping_attack_artist.vsnd_c": [
+"00cbc59f2a",
+23568
+],
+"sounds/vo/krill/ping/krill_ping_attack_astro.vsnd_c": [
+"0038004068",
+27220
+],
+"sounds/vo/krill/ping/krill_ping_attack_atlas.vsnd_c": [
+"001b83d07b",
+30413
+],
+"sounds/vo/krill/ping/krill_ping_attack_baba.vsnd_c": [
+"00f5cae0eb",
+25793
+],
+"sounds/vo/krill/ping/krill_ping_attack_bebop.vsnd_c": [
+"0023d46d46",
+25206
+],
+"sounds/vo/krill/ping/krill_ping_attack_bookworm.vsnd_c": [
+"00787d31a5",
+23276
+],
+"sounds/vo/krill/ping/krill_ping_attack_chessmaster.vsnd_c": [
+"00e198962b",
+27068
+],
+"sounds/vo/krill/ping/krill_ping_attack_chrono.vsnd_c": [
+"00cf96b263",
+30225
+],
+"sounds/vo/krill/ping/krill_ping_attack_deadpack.vsnd_c": [
+"00176aec51",
+26546
+],
+"sounds/vo/krill/ping/krill_ping_attack_doorman.vsnd_c": [
+"0061a8fe2e",
+25307
+],
+"sounds/vo/krill/ping/krill_ping_attack_drifter.vsnd_c": [
+"00ac526831",
+22852
+],
+"sounds/vo/krill/ping/krill_ping_attack_dynamo.vsnd_c": [
+"00aaa3a333",
+28091
+],
+"sounds/vo/krill/ping/krill_ping_attack_enemy.vsnd_c": [
+"003bbc3bfd",
+28610
+],
+"sounds/vo/krill/ping/krill_ping_attack_enemy_avatar.vsnd_c": [
+"00ed955d43",
+27882
+],
+"sounds/vo/krill/ping/krill_ping_attack_familiar.vsnd_c": [
+"00edea4325",
+26158
+],
+"sounds/vo/krill/ping/krill_ping_attack_fencer.vsnd_c": [
+"00638263e5",
+23341
+],
+"sounds/vo/krill/ping/krill_ping_attack_forge.vsnd_c": [
+"008f36540e",
+28499
+],
+"sounds/vo/krill/ping/krill_ping_attack_frank.vsnd_c": [
+"00268a8121",
+22428
+],
+"sounds/vo/krill/ping/krill_ping_attack_ghost.vsnd_c": [
+"00d79732cd",
+27008
+],
+"sounds/vo/krill/ping/krill_ping_attack_gigawatt.vsnd_c": [
+"0094d734eb",
+25966
+],
+"sounds/vo/krill/ping/krill_ping_attack_haze.vsnd_c": [
+"008192fd78",
+27333
+],
+"sounds/vo/krill/ping/krill_ping_attack_here.vsnd_c": [
+"005bd9d394",
+17691
+],
+"sounds/vo/krill/ping/krill_ping_attack_hornet.vsnd_c": [
+"00b781687d",
+27883
+],
+"sounds/vo/krill/ping/krill_ping_attack_inferno.vsnd_c": [
+"000137a3e4",
+28520
+],
+"sounds/vo/krill/ping/krill_ping_attack_kelvin.vsnd_c": [
+"008482c4c2",
+28296
+],
+"sounds/vo/krill/ping/krill_ping_attack_lash.vsnd_c": [
+"00f22aaea3",
+25943
+],
+"sounds/vo/krill/ping/krill_ping_attack_magician.vsnd_c": [
+"00a6a32b41",
+25934
+],
+"sounds/vo/krill/ping/krill_ping_attack_mirage.vsnd_c": [
+"00116f60c2",
+25858
+],
+"sounds/vo/krill/ping/krill_ping_attack_nano.vsnd_c": [
+"00272731b7",
+28915
+],
+"sounds/vo/krill/ping/krill_ping_attack_necro.vsnd_c": [
+"000e1ce22e",
+24456
+],
+"sounds/vo/krill/ping/krill_ping_attack_nurse.vsnd_c": [
+"00c2258cad",
+22048
+],
+"sounds/vo/krill/ping/krill_ping_attack_orion.vsnd_c": [
+"00dae43ae9",
+29657
+],
+"sounds/vo/krill/ping/krill_ping_attack_priest.vsnd_c": [
+"0012893359",
+24937
+],
+"sounds/vo/krill/ping/krill_ping_attack_punkgoat.vsnd_c": [
+"00d482c4dc",
+23371
+],
+"sounds/vo/krill/ping/krill_ping_attack_ratking.vsnd_c": [
+"0020f18337",
+27289
+],
+"sounds/vo/krill/ping/krill_ping_attack_shiv.vsnd_c": [
+"00cab69a4c",
+27208
+],
+"sounds/vo/krill/ping/krill_ping_attack_synth.vsnd_c": [
+"00807afc5e",
+27210
+],
+"sounds/vo/krill/ping/krill_ping_attack_tengu.vsnd_c": [
+"00b45a05c1",
+27531
+],
+"sounds/vo/krill/ping/krill_ping_attack_unicorn.vsnd_c": [
+"00b5903993",
+23676
+],
+"sounds/vo/krill/ping/krill_ping_attack_vampirebat.vsnd_c": [
+"001cb71c5f",
+23162
+],
+"sounds/vo/krill/ping/krill_ping_attack_viper.vsnd_c": [
+"0017a0bfb0",
+22217
+],
+"sounds/vo/krill/ping/krill_ping_attack_viscous.vsnd_c": [
+"00a063bac1",
+27767
+],
+"sounds/vo/krill/ping/krill_ping_attack_warden.vsnd_c": [
+"00fb2380b7",
+27225
+],
+"sounds/vo/krill/ping/krill_ping_attack_werewolf.vsnd_c": [
+"0096960cfc",
+25833
+],
+"sounds/vo/krill/ping/krill_ping_attack_wraith.vsnd_c": [
+"004a79eb16",
+24675
+],
+"sounds/vo/krill/ping/krill_ping_attack_wrecker.vsnd_c": [
+"00d4e093e0",
+25633
+],
+"sounds/vo/krill/ping/krill_ping_attack_yamato.vsnd_c": [
+"00f86052ca",
+28399
+],
+"sounds/vo/krill/ping/krill_ping_avatar_under_attack.vsnd_c": [
+"0014b08d11",
+24149
+],
+"sounds/vo/krill/ping/krill_ping_baba_missing_01.vsnd_c": [
+"00e6d39111",
+26536
+],
+"sounds/vo/krill/ping/krill_ping_be_back_soon.vsnd_c": [
+"00ef366384",
+16553
+],
+"sounds/vo/krill/ping/krill_ping_bebop_above.vsnd_c": [
+"006b9ef265",
+20568
+],
+"sounds/vo/krill/ping/krill_ping_bebop_almost_respawn.vsnd_c": [
+"008ea82a36",
+27019
+],
+"sounds/vo/krill/ping/krill_ping_bebop_below.vsnd_c": [
+"0077f5dcfe",
+21424
+],
+"sounds/vo/krill/ping/krill_ping_bebop_check_items.vsnd_c": [
+"00aca04283",
+27352
+],
+"sounds/vo/krill/ping/krill_ping_bebop_dead.vsnd_c": [
+"005bc62732",
+23280
+],
+"sounds/vo/krill/ping/krill_ping_bebop_low_health.vsnd_c": [
+"003fe4c797",
+22692
+],
+"sounds/vo/krill/ping/krill_ping_bebop_missing_01.vsnd_c": [
+"000427b422",
+19425
+],
+"sounds/vo/krill/ping/krill_ping_behind_us.vsnd_c": [
+"0047fa4637",
+18002
+],
+"sounds/vo/krill/ping/krill_ping_blue_help_01.vsnd_c": [
+"00244ec09d",
+17618
+],
+"sounds/vo/krill/ping/krill_ping_blue_help_02.vsnd_c": [
+"002d3b65cc",
+21762
+],
+"sounds/vo/krill/ping/krill_ping_bookworm_above.vsnd_c": [
+"00e152ba11",
+18767
+],
+"sounds/vo/krill/ping/krill_ping_bookworm_almost_respawn.vsnd_c": [
+"00488e896a",
+22655
+],
+"sounds/vo/krill/ping/krill_ping_bookworm_below.vsnd_c": [
+"003886d477",
+19286
+],
+"sounds/vo/krill/ping/krill_ping_bookworm_check_items.vsnd_c": [
+"00ea9d72a8",
+26805
+],
+"sounds/vo/krill/ping/krill_ping_bookworm_dead.vsnd_c": [
+"0055ae990e",
+19444
+],
+"sounds/vo/krill/ping/krill_ping_bookworm_low_health.vsnd_c": [
+"00af84aab4",
+19717
+],
+"sounds/vo/krill/ping/krill_ping_bookworm_missing_01.vsnd_c": [
+"00f2cf3b35",
+22417
+],
+"sounds/vo/krill/ping/krill_ping_bridge_buff.vsnd_c": [
+"002ddfc226",
+22176
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_astro.vsnd_c": [
+"00423e35b5",
+27768
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_atlas.vsnd_c": [
+"007dd4acd5",
+26805
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_bebop.vsnd_c": [
+"00ff27fba8",
+25410
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_bookworm.vsnd_c": [
+"00e6ab9d0a",
+25300
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_chrono.vsnd_c": [
+"007b963d4e",
+29971
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_doorman.vsnd_c": [
+"0076d34f7a",
+25620
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_drifter.vsnd_c": [
+"00cfb313c1",
+27540
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_dynamo.vsnd_c": [
+"008c5d1aa8",
+27225
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_familiar.vsnd_c": [
+"007df26690",
+22272
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_fencer.vsnd_c": [
+"0025f73be5",
+25038
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_forge.vsnd_c": [
+"0069ccfcb5",
+28498
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_frank.vsnd_c": [
+"00b8c2b12a",
+23064
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_ghost.vsnd_c": [
+"006200eb64",
+27099
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_gigawatt.vsnd_c": [
+"0088489cf9",
+27836
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_haze.vsnd_c": [
+"0019430a45",
+28932
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_hornet.vsnd_c": [
+"000a6e75e4",
+28415
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_inferno.vsnd_c": [
+"00fd8690aa",
+29762
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_kelvin.vsnd_c": [
+"00670d2ae1",
+27637
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_lash.vsnd_c": [
+"0092446f40",
+27532
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_magician.vsnd_c": [
+"000e6c80ee",
+29678
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_mirage.vsnd_c": [
+"0094de072c",
+29454
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_nano.vsnd_c": [
+"001b713d77",
+26915
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_necro.vsnd_c": [
+"00490210fb",
+27639
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_orion.vsnd_c": [
+"000ec11f77",
+32335
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_priest.vsnd_c": [
+"00770ac564",
+27730
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_punkgoat.vsnd_c": [
+"00a23d804b",
+26246
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_shiv.vsnd_c": [
+"0016242ce9",
+27198
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_synth.vsnd_c": [
+"00df3fd6be",
+28038
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_tengu.vsnd_c": [
+"003070454e",
+25948
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_unicorn.vsnd_c": [
+"000223ee3d",
+24926
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_vampirebat.vsnd_c": [
+"005119bcbf",
+26812
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_viper.vsnd_c": [
+"00c74c9458",
+26796
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_viscous.vsnd_c": [
+"00789f993d",
+23818
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_warden.vsnd_c": [
+"0047c67b78",
+26487
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_werewolf.vsnd_c": [
+"0014322d9d",
+27001
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_wraith.vsnd_c": [
+"00ae117a62",
+25600
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_wrecker.vsnd_c": [
+"009cf6c2c8",
+25321
+],
+"sounds/vo/krill/ping/krill_ping_can_heal_yamato.vsnd_c": [
+"00677ec57e",
+26904
+],
+"sounds/vo/krill/ping/krill_ping_careful_artist_01.vsnd_c": [
+"00b6e2cf77",
+19614
+],
+"sounds/vo/krill/ping/krill_ping_careful_astro_01.vsnd_c": [
+"0023d68e86",
+21787
+],
+"sounds/vo/krill/ping/krill_ping_careful_astro_02.vsnd_c": [
+"009a2f9084",
+23068
+],
+"sounds/vo/krill/ping/krill_ping_careful_astro_03.vsnd_c": [
+"009f646582",
+21782
+],
+"sounds/vo/krill/ping/krill_ping_careful_atlas_01.vsnd_c": [
+"00bf59ff85",
+22946
+],
+"sounds/vo/krill/ping/krill_ping_careful_atlas_02.vsnd_c": [
+"008cbf18e8",
+20086
+],
+"sounds/vo/krill/ping/krill_ping_careful_atlas_03.vsnd_c": [
+"007c239845",
+19770
+],
+"sounds/vo/krill/ping/krill_ping_careful_baba_01.vsnd_c": [
+"00168df406",
+21754
+],
+"sounds/vo/krill/ping/krill_ping_careful_bebop_01.vsnd_c": [
+"001ee58577",
+22408
+],
+"sounds/vo/krill/ping/krill_ping_careful_bebop_02.vsnd_c": [
+"00ce500520",
+20826
+],
+"sounds/vo/krill/ping/krill_ping_careful_bebop_03.vsnd_c": [
+"00a3b7a997",
+20090
+],
+"sounds/vo/krill/ping/krill_ping_careful_bookworm_01.vsnd_c": [
+"003b031bca",
+18692
+],
+"sounds/vo/krill/ping/krill_ping_careful_bookworm_02.vsnd_c": [
+"00f00358bb",
+16584
+],
+"sounds/vo/krill/ping/krill_ping_careful_bookworm_03.vsnd_c": [
+"00ab6777c6",
+18395
+],
+"sounds/vo/krill/ping/krill_ping_careful_chessmaster_01.vsnd_c": [
+"00e869f0ee",
+23656
+],
+"sounds/vo/krill/ping/krill_ping_careful_chrono_01.vsnd_c": [
+"00e83069c8",
+26273
+],
+"sounds/vo/krill/ping/krill_ping_careful_chrono_02.vsnd_c": [
+"00e98a384c",
+22650
+],
+"sounds/vo/krill/ping/krill_ping_careful_chrono_03.vsnd_c": [
+"00e185646b",
+23706
+],
+"sounds/vo/krill/ping/krill_ping_careful_deadpack_01.vsnd_c": [
+"009b6af423",
+21745
+],
+"sounds/vo/krill/ping/krill_ping_careful_doorman_01.vsnd_c": [
+"0054d4810b",
+18710
+],
+"sounds/vo/krill/ping/krill_ping_careful_doorman_02.vsnd_c": [
+"004726d4af",
+18292
+],
+"sounds/vo/krill/ping/krill_ping_careful_doorman_03.vsnd_c": [
+"00922dd9f9",
+18395
+],
+"sounds/vo/krill/ping/krill_ping_careful_drifter_01.vsnd_c": [
+"00f459c8c5",
+17865
+],
+"sounds/vo/krill/ping/krill_ping_careful_drifter_02.vsnd_c": [
+"006e886c38",
+17750
+],
+"sounds/vo/krill/ping/krill_ping_careful_drifter_03.vsnd_c": [
+"007bcd2450",
+18713
+],
+"sounds/vo/krill/ping/krill_ping_careful_dynamo_01.vsnd_c": [
+"00e7a1572d",
+23380
+],
+"sounds/vo/krill/ping/krill_ping_careful_dynamo_02.vsnd_c": [
+"003c11695a",
+27642
+],
+"sounds/vo/krill/ping/krill_ping_careful_dynamo_03.vsnd_c": [
+"00fb9272e0",
+22116
+],
+"sounds/vo/krill/ping/krill_ping_careful_familiar_01.vsnd_c": [
+"006ceb5a09",
+22217
+],
+"sounds/vo/krill/ping/krill_ping_careful_familiar_02.vsnd_c": [
+"003f2cdada",
+16413
+],
+"sounds/vo/krill/ping/krill_ping_careful_familiar_03.vsnd_c": [
+"0087aa2c4d",
+17168
+],
+"sounds/vo/krill/ping/krill_ping_careful_fencer_01.vsnd_c": [
+"00e75e28b5",
+19824
+],
+"sounds/vo/krill/ping/krill_ping_careful_fencer_02.vsnd_c": [
+"009c5ecee0",
+18652
+],
+"sounds/vo/krill/ping/krill_ping_careful_fencer_03.vsnd_c": [
+"005f661730",
+18978
+],
+"sounds/vo/krill/ping/krill_ping_careful_forge_01.vsnd_c": [
+"0074f16f5f",
+23172
+],
+"sounds/vo/krill/ping/krill_ping_careful_forge_02.vsnd_c": [
+"001809fe95",
+21154
+],
+"sounds/vo/krill/ping/krill_ping_careful_forge_03.vsnd_c": [
+"00be04a766",
+21906
+],
+"sounds/vo/krill/ping/krill_ping_careful_frank_01.vsnd_c": [
+"0033e72f88",
+18585
+],
+"sounds/vo/krill/ping/krill_ping_careful_frank_02.vsnd_c": [
+"00e6a85e95",
+16671
+],
+"sounds/vo/krill/ping/krill_ping_careful_frank_03.vsnd_c": [
+"0091df0b73",
+18254
+],
+"sounds/vo/krill/ping/krill_ping_careful_ghost_01.vsnd_c": [
+"004462a942",
+22317
+],
+"sounds/vo/krill/ping/krill_ping_careful_ghost_02.vsnd_c": [
+"003c4c8f93",
+19228
+],
+"sounds/vo/krill/ping/krill_ping_careful_ghost_03.vsnd_c": [
+"00e24c1363",
+20938
+],
+"sounds/vo/krill/ping/krill_ping_careful_gigawatt_01.vsnd_c": [
+"000f4af080",
+20929
+],
+"sounds/vo/krill/ping/krill_ping_careful_gigawatt_02.vsnd_c": [
+"000d652f8a",
+17842
+],
+"sounds/vo/krill/ping/krill_ping_careful_gigawatt_03.vsnd_c": [
+"002b686080",
+20086
+],
+"sounds/vo/krill/ping/krill_ping_careful_haze_01.vsnd_c": [
+"00ea60144a",
+22324
+],
+"sounds/vo/krill/ping/krill_ping_careful_haze_02.vsnd_c": [
+"0032705915",
+20089
+],
+"sounds/vo/krill/ping/krill_ping_careful_haze_03.vsnd_c": [
+"005b6c0a4f",
+20620
+],
+"sounds/vo/krill/ping/krill_ping_careful_hornet_01.vsnd_c": [
+"009235efc8",
+23180
+],
+"sounds/vo/krill/ping/krill_ping_careful_hornet_02.vsnd_c": [
+"00c73b41be",
+20933
+],
+"sounds/vo/krill/ping/krill_ping_careful_hornet_03.vsnd_c": [
+"006e777ff0",
+22224
+],
+"sounds/vo/krill/ping/krill_ping_careful_inferno_01.vsnd_c": [
+"00b4206aa9",
+21894
+],
+"sounds/vo/krill/ping/krill_ping_careful_inferno_02.vsnd_c": [
+"00c21fa31b",
+22006
+],
+"sounds/vo/krill/ping/krill_ping_careful_inferno_03.vsnd_c": [
+"0023ce8fdf",
+21046
+],
+"sounds/vo/krill/ping/krill_ping_careful_kelvin_01.vsnd_c": [
+"00c93bd6d6",
+22107
+],
+"sounds/vo/krill/ping/krill_ping_careful_kelvin_02.vsnd_c": [
+"00ca683ec7",
+20519
+],
+"sounds/vo/krill/ping/krill_ping_careful_kelvin_03.vsnd_c": [
+"009cfdeed6",
+22213
+],
+"sounds/vo/krill/ping/krill_ping_careful_lash_01.vsnd_c": [
+"00fdc51078",
+20932
+],
+"sounds/vo/krill/ping/krill_ping_careful_lash_02.vsnd_c": [
+"00c5282645",
+18919
+],
+"sounds/vo/krill/ping/krill_ping_careful_lash_03.vsnd_c": [
+"00076251aa",
+20620
+],
+"sounds/vo/krill/ping/krill_ping_careful_magician_01.vsnd_c": [
+"003cc04886",
+22965
+],
+"sounds/vo/krill/ping/krill_ping_careful_magician_02.vsnd_c": [
+"0036e42e4e",
+20298
+],
+"sounds/vo/krill/ping/krill_ping_careful_magician_03.vsnd_c": [
+"00a7099b45",
+20092
+],
+"sounds/vo/krill/ping/krill_ping_careful_mirage_01.vsnd_c": [
+"003a9e4040",
+23056
+],
+"sounds/vo/krill/ping/krill_ping_careful_mirage_02.vsnd_c": [
+"00ab577b23",
+20511
+],
+"sounds/vo/krill/ping/krill_ping_careful_mirage_03.vsnd_c": [
+"005480256b",
+21362
+],
+"sounds/vo/krill/ping/krill_ping_careful_nano_01.vsnd_c": [
+"00d2630b71",
+28498
+],
+"sounds/vo/krill/ping/krill_ping_careful_nano_02.vsnd_c": [
+"00a2604d29",
+22092
+],
+"sounds/vo/krill/ping/krill_ping_careful_nano_03.vsnd_c": [
+"0084ec6996",
+22652
+],
+"sounds/vo/krill/ping/krill_ping_careful_necro_01.vsnd_c": [
+"002f3d5e96",
+17309
+],
+"sounds/vo/krill/ping/krill_ping_careful_necro_02.vsnd_c": [
+"00bf92c6be",
+17103
+],
+"sounds/vo/krill/ping/krill_ping_careful_necro_03.vsnd_c": [
+"00e1b14012",
+18812
+],
+"sounds/vo/krill/ping/krill_ping_careful_nurse_01.vsnd_c": [
+"0070e96ae0",
+18105
+],
+"sounds/vo/krill/ping/krill_ping_careful_orion_01.vsnd_c": [
+"009704486a",
+23706
+],
+"sounds/vo/krill/ping/krill_ping_careful_orion_02.vsnd_c": [
+"007bdfc4ae",
+26476
+],
+"sounds/vo/krill/ping/krill_ping_careful_orion_03.vsnd_c": [
+"00e18e1228",
+27331
+],
+"sounds/vo/krill/ping/krill_ping_careful_priest_01.vsnd_c": [
+"0002a7cc82",
+19541
+],
+"sounds/vo/krill/ping/krill_ping_careful_priest_02.vsnd_c": [
+"00daf20d3a",
+19540
+],
+"sounds/vo/krill/ping/krill_ping_careful_priest_03.vsnd_c": [
+"00fce300cc",
+18699
+],
+"sounds/vo/krill/ping/krill_ping_careful_punkgoat_01.vsnd_c": [
+"009622ab9c",
+17744
+],
+"sounds/vo/krill/ping/krill_ping_careful_punkgoat_02.vsnd_c": [
+"00c481a07e",
+17108
+],
+"sounds/vo/krill/ping/krill_ping_careful_punkgoat_03.vsnd_c": [
+"00ce6a5981",
+17107
+],
+"sounds/vo/krill/ping/krill_ping_careful_ratking_01.vsnd_c": [
+"00eeee389c",
+21008
+],
+"sounds/vo/krill/ping/krill_ping_careful_shiv_01.vsnd_c": [
+"004f15cb78",
+21358
+],
+"sounds/vo/krill/ping/krill_ping_careful_shiv_02.vsnd_c": [
+"00f7237e2f",
+18375
+],
+"sounds/vo/krill/ping/krill_ping_careful_shiv_03.vsnd_c": [
+"000ae45d31",
+19227
+],
+"sounds/vo/krill/ping/krill_ping_careful_synth_01.vsnd_c": [
+"0093e612ad",
+23483
+],
+"sounds/vo/krill/ping/krill_ping_careful_synth_02.vsnd_c": [
+"00051556a8",
+18511
+],
+"sounds/vo/krill/ping/krill_ping_careful_synth_03.vsnd_c": [
+"002b680046",
+19775
+],
+"sounds/vo/krill/ping/krill_ping_careful_tengu_01.vsnd_c": [
+"00c642c509",
+19544
+],
+"sounds/vo/krill/ping/krill_ping_careful_tengu_02.vsnd_c": [
+"00ca5f4193",
+18485
+],
+"sounds/vo/krill/ping/krill_ping_careful_tengu_03.vsnd_c": [
+"0049494d72",
+21578
+],
+"sounds/vo/krill/ping/krill_ping_careful_unicorn_01.vsnd_c": [
+"004f36a8fc",
+19399
+],
+"sounds/vo/krill/ping/krill_ping_careful_unicorn_02.vsnd_c": [
+"00504a8372",
+18858
+],
+"sounds/vo/krill/ping/krill_ping_careful_unicorn_03.vsnd_c": [
+"00c505b5b8",
+18768
+],
+"sounds/vo/krill/ping/krill_ping_careful_vampirebat_01.vsnd_c": [
+"006541022e",
+16372
+],
+"sounds/vo/krill/ping/krill_ping_careful_vampirebat_02.vsnd_c": [
+"000fc244ab",
+15412
+],
+"sounds/vo/krill/ping/krill_ping_careful_vampirebat_03.vsnd_c": [
+"0004a0b39c",
+17318
+],
+"sounds/vo/krill/ping/krill_ping_careful_viper_01.vsnd_c": [
+"00174da1cd",
+20392
+],
+"sounds/vo/krill/ping/krill_ping_careful_viper_02.vsnd_c": [
+"008e9de0fa",
+17415
+],
+"sounds/vo/krill/ping/krill_ping_careful_viper_03.vsnd_c": [
+"00bda508a8",
+17941
+],
+"sounds/vo/krill/ping/krill_ping_careful_viscous_01.vsnd_c": [
+"00a3e4292d",
+21576
+],
+"sounds/vo/krill/ping/krill_ping_careful_viscous_02.vsnd_c": [
+"004e283ee1",
+19029
+],
+"sounds/vo/krill/ping/krill_ping_careful_viscous_03.vsnd_c": [
+"0076b67b81",
+19663
+],
+"sounds/vo/krill/ping/krill_ping_careful_warden_01.vsnd_c": [
+"005813aba0",
+20083
+],
+"sounds/vo/krill/ping/krill_ping_careful_warden_02.vsnd_c": [
+"00cc88f47d",
+18698
+],
+"sounds/vo/krill/ping/krill_ping_careful_warden_03.vsnd_c": [
+"003f0ba82a",
+19126
+],
+"sounds/vo/krill/ping/krill_ping_careful_werewolf_01.vsnd_c": [
+"009710fc0c",
+18386
+],
+"sounds/vo/krill/ping/krill_ping_careful_werewolf_02.vsnd_c": [
+"007f8a5a11",
+17313
+],
+"sounds/vo/krill/ping/krill_ping_careful_werewolf_03.vsnd_c": [
+"0063ea6dda",
+18285
+],
+"sounds/vo/krill/ping/krill_ping_careful_wraith_01.vsnd_c": [
+"00135cadbb",
+20508
+],
+"sounds/vo/krill/ping/krill_ping_careful_wraith_02.vsnd_c": [
+"0060a82dca",
+18488
+],
+"sounds/vo/krill/ping/krill_ping_careful_wraith_03.vsnd_c": [
+"00d5f232d3",
+18924
+],
+"sounds/vo/krill/ping/krill_ping_careful_wrecker_01.vsnd_c": [
+"0019de2614",
+19025
+],
+"sounds/vo/krill/ping/krill_ping_careful_wrecker_02.vsnd_c": [
+"00632d771f",
+18276
+],
+"sounds/vo/krill/ping/krill_ping_careful_wrecker_03.vsnd_c": [
+"0082296594",
+19335
+],
+"sounds/vo/krill/ping/krill_ping_careful_yamato_01.vsnd_c": [
+"007256fe54",
+21671
+],
+"sounds/vo/krill/ping/krill_ping_careful_yamato_02.vsnd_c": [
+"00c996eab0",
+20087
+],
+"sounds/vo/krill/ping/krill_ping_careful_yamato_03.vsnd_c": [
+"007ad169f6",
+21884
+],
+"sounds/vo/krill/ping/krill_ping_check_on_astro.vsnd_c": [
+"00eafaa233",
+21317
+],
+"sounds/vo/krill/ping/krill_ping_check_on_atlas.vsnd_c": [
+"007c523b74",
+22054
+],
+"sounds/vo/krill/ping/krill_ping_check_on_bebop.vsnd_c": [
+"00c2f38795",
+19496
+],
+"sounds/vo/krill/ping/krill_ping_check_on_bookworm.vsnd_c": [
+"00d89b1478",
+18007
+],
+"sounds/vo/krill/ping/krill_ping_check_on_chrono.vsnd_c": [
+"007249e473",
+23349
+],
+"sounds/vo/krill/ping/krill_ping_check_on_doorman.vsnd_c": [
+"00d2d1d157",
+20034
+],
+"sounds/vo/krill/ping/krill_ping_check_on_drifter.vsnd_c": [
+"008ccf0f6c",
+19388
+],
+"sounds/vo/krill/ping/krill_ping_check_on_dynamo.vsnd_c": [
+"00006a0b59",
+21735
+],
+"sounds/vo/krill/ping/krill_ping_check_on_familiar.vsnd_c": [
+"00869449db",
+17910
+],
+"sounds/vo/krill/ping/krill_ping_check_on_fencer.vsnd_c": [
+"00ad551827",
+20983
+],
+"sounds/vo/krill/ping/krill_ping_check_on_forge.vsnd_c": [
+"00f8c4bc5c",
+21746
+],
+"sounds/vo/krill/ping/krill_ping_check_on_frank.vsnd_c": [
+"007a1a9c31",
+18018
+],
+"sounds/vo/krill/ping/krill_ping_check_on_ghost.vsnd_c": [
+"006f5451db",
+18447
+],
+"sounds/vo/krill/ping/krill_ping_check_on_gigawatt.vsnd_c": [
+"00538c58bb",
+18749
+],
+"sounds/vo/krill/ping/krill_ping_check_on_haze.vsnd_c": [
+"0078bedbcf",
+18120
+],
+"sounds/vo/krill/ping/krill_ping_check_on_hornet.vsnd_c": [
+"00e231502b",
+21527
+],
+"sounds/vo/krill/ping/krill_ping_check_on_inferno.vsnd_c": [
+"00418e8f49",
+21629
+],
+"sounds/vo/krill/ping/krill_ping_check_on_kelvin.vsnd_c": [
+"006ebcd7e4",
+20769
+],
+"sounds/vo/krill/ping/krill_ping_check_on_lash.vsnd_c": [
+"00ba52fa4a",
+18017
+],
+"sounds/vo/krill/ping/krill_ping_check_on_magician.vsnd_c": [
+"0069d3020a",
+21001
+],
+"sounds/vo/krill/ping/krill_ping_check_on_mirage.vsnd_c": [
+"00f3b1f0be",
+18865
+],
+"sounds/vo/krill/ping/krill_ping_check_on_nano.vsnd_c": [
+"008a588a2b",
+22147
+],
+"sounds/vo/krill/ping/krill_ping_check_on_necro.vsnd_c": [
+"00ad743505",
+18970
+],
+"sounds/vo/krill/ping/krill_ping_check_on_orion.vsnd_c": [
+"004c182f74",
+23121
+],
+"sounds/vo/krill/ping/krill_ping_check_on_priest.vsnd_c": [
+"00502767f6",
+20036
+],
+"sounds/vo/krill/ping/krill_ping_check_on_punkgoat.vsnd_c": [
+"005341134e",
+18226
+],
+"sounds/vo/krill/ping/krill_ping_check_on_shiv.vsnd_c": [
+"00b24fa583",
+17040
+],
+"sounds/vo/krill/ping/krill_ping_check_on_synth.vsnd_c": [
+"00982aaed2",
+18648
+],
+"sounds/vo/krill/ping/krill_ping_check_on_tengu.vsnd_c": [
+"00c8319b52",
+18955
+],
+"sounds/vo/krill/ping/krill_ping_check_on_unicorn.vsnd_c": [
+"00cf7be665",
+20248
+],
+"sounds/vo/krill/ping/krill_ping_check_on_vampirebat.vsnd_c": [
+"006a8b1e14",
+17148
+],
+"sounds/vo/krill/ping/krill_ping_check_on_viper.vsnd_c": [
+"00a1b80967",
+18967
+],
+"sounds/vo/krill/ping/krill_ping_check_on_viscous.vsnd_c": [
+"00df572101",
+19178
+],
+"sounds/vo/krill/ping/krill_ping_check_on_warden.vsnd_c": [
+"00457e4e8f",
+18864
+],
+"sounds/vo/krill/ping/krill_ping_check_on_werewolf.vsnd_c": [
+"00e58c3995",
+19496
+],
+"sounds/vo/krill/ping/krill_ping_check_on_wraith.vsnd_c": [
+"00be45597c",
+18098
+],
+"sounds/vo/krill/ping/krill_ping_check_on_yamato.vsnd_c": [
+"0009b0854e",
+22052
+],
+"sounds/vo/krill/ping/krill_ping_chessmaster_missing_01.vsnd_c": [
+"009626b7a7",
+25254
+],
+"sounds/vo/krill/ping/krill_ping_chrono_above.vsnd_c": [
+"00886859f2",
+23658
+],
+"sounds/vo/krill/ping/krill_ping_chrono_almost_respawn.vsnd_c": [
+"00ecb34d5c",
+29153
+],
+"sounds/vo/krill/ping/krill_ping_chrono_below.vsnd_c": [
+"00b1b726ea",
+24501
+],
+"sounds/vo/krill/ping/krill_ping_chrono_check_items.vsnd_c": [
+"005c403941",
+32657
+],
+"sounds/vo/krill/ping/krill_ping_chrono_dead.vsnd_c": [
+"00956a25ca",
+26469
+],
+"sounds/vo/krill/ping/krill_ping_chrono_low_health.vsnd_c": [
+"002c2b3ca1",
+26524
+],
+"sounds/vo/krill/ping/krill_ping_chrono_missing_01.vsnd_c": [
+"009ecec8e3",
+27323
+],
+"sounds/vo/krill/ping/krill_ping_clear_troopers.vsnd_c": [
+"00a1ec0472",
+29880
+],
+"sounds/vo/krill/ping/krill_ping_danger_area.vsnd_c": [
+"00fc1d06b6",
+25175
+],
+"sounds/vo/krill/ping/krill_ping_deadpack_missing_01.vsnd_c": [
+"0031857430",
+24944
+],
+"sounds/vo/krill/ping/krill_ping_defend_base_01.vsnd_c": [
+"00a5137dbc",
+18909
+],
+"sounds/vo/krill/ping/krill_ping_defend_blue_01.vsnd_c": [
+"00e5efb139",
+18908
+],
+"sounds/vo/krill/ping/krill_ping_defend_blue_02.vsnd_c": [
+"00cdf01152",
+20090
+],
+"sounds/vo/krill/ping/krill_ping_defend_green_01.vsnd_c": [
+"006f06c4f9",
+20729
+],
+"sounds/vo/krill/ping/krill_ping_defend_green_02.vsnd_c": [
+"006bc7eca9",
+20620
+],
+"sounds/vo/krill/ping/krill_ping_defend_here.vsnd_c": [
+"00ca9bb1e9",
+19828
+],
+"sounds/vo/krill/ping/krill_ping_defend_yellow_01.vsnd_c": [
+"008e018b85",
+16785
+],
+"sounds/vo/krill/ping/krill_ping_defend_yellow_02.vsnd_c": [
+"007eed29d7",
+17964
+],
+"sounds/vo/krill/ping/krill_ping_disarm_hex_almost_ready.vsnd_c": [
+"003f2b442b",
+29941
+],
+"sounds/vo/krill/ping/krill_ping_disarm_hex_not_ready.vsnd_c": [
+"00e1218cf2",
+30163
+],
+"sounds/vo/krill/ping/krill_ping_door.vsnd_c": [
+"00f64ddbb7",
+18197
+],
+"sounds/vo/krill/ping/krill_ping_doorman_above.vsnd_c": [
+"002c73a16b",
+21955
+],
+"sounds/vo/krill/ping/krill_ping_doorman_almost_respawn.vsnd_c": [
+"00ad15070f",
+28591
+],
+"sounds/vo/krill/ping/krill_ping_doorman_below.vsnd_c": [
+"0032669b85",
+23020
+],
+"sounds/vo/krill/ping/krill_ping_doorman_check_items.vsnd_c": [
+"00b97c96ce",
+28732
+],
+"sounds/vo/krill/ping/krill_ping_doorman_dead.vsnd_c": [
+"002c0f6353",
+24338
+],
+"sounds/vo/krill/ping/krill_ping_doorman_low_health.vsnd_c": [
+"008dc2c197",
+23438
+],
+"sounds/vo/krill/ping/krill_ping_doorman_missing_01.vsnd_c": [
+"00a78bbce8",
+23920
+],
+"sounds/vo/krill/ping/krill_ping_drifter_above.vsnd_c": [
+"0015ff60fc",
+18754
+],
+"sounds/vo/krill/ping/krill_ping_drifter_almost_respawn.vsnd_c": [
+"0021719b67",
+23814
+],
+"sounds/vo/krill/ping/krill_ping_drifter_below.vsnd_c": [
+"00dd570341",
+18437
+],
+"sounds/vo/krill/ping/krill_ping_drifter_check_items.vsnd_c": [
+"00f48b3ba7",
+27009
+],
+"sounds/vo/krill/ping/krill_ping_drifter_dead.vsnd_c": [
+"0049a625fb",
+20827
+],
+"sounds/vo/krill/ping/krill_ping_drifter_low_health.vsnd_c": [
+"00ac2b827a",
+21954
+],
+"sounds/vo/krill/ping/krill_ping_drifter_missing_01.vsnd_c": [
+"0038699c91",
+21875
+],
+"sounds/vo/krill/ping/krill_ping_dynamo_above.vsnd_c": [
+"008703f507",
+20774
+],
+"sounds/vo/krill/ping/krill_ping_dynamo_almost_respawn.vsnd_c": [
+"008db21da1",
+28825
+],
+"sounds/vo/krill/ping/krill_ping_dynamo_below.vsnd_c": [
+"003bf2c39a",
+21419
+],
+"sounds/vo/krill/ping/krill_ping_dynamo_check_items.vsnd_c": [
+"00bd831210",
+29038
+],
+"sounds/vo/krill/ping/krill_ping_dynamo_dead.vsnd_c": [
+"008cf9a305",
+23471
+],
+"sounds/vo/krill/ping/krill_ping_dynamo_low_health.vsnd_c": [
+"00713da506",
+23542
+],
+"sounds/vo/krill/ping/krill_ping_dynamo_missing_01.vsnd_c": [
+"00d9e5a664",
+21131
+],
+"sounds/vo/krill/ping/krill_ping_enemy_count_all.vsnd_c": [
+"00e816b287",
+20976
+],
+"sounds/vo/krill/ping/krill_ping_enemy_count_big.vsnd_c": [
+"00351962e6",
+18325
+],
+"sounds/vo/krill/ping/krill_ping_enemy_count_small.vsnd_c": [
+"006f9cd915",
+17152
+],
+"sounds/vo/krill/ping/krill_ping_enemy_steals_farm.vsnd_c": [
+"00f7378698",
+21864
+],
+"sounds/vo/krill/ping/krill_ping_enemy_take_mid.vsnd_c": [
+"004b0d0ece",
+26540
+],
+"sounds/vo/krill/ping/krill_ping_familiar_above.vsnd_c": [
+"0032325f88",
+18331
+],
+"sounds/vo/krill/ping/krill_ping_familiar_almost_respawn.vsnd_c": [
+"00abd05afb",
+21534
+],
+"sounds/vo/krill/ping/krill_ping_familiar_below.vsnd_c": [
+"00ed34d488",
+18013
+],
+"sounds/vo/krill/ping/krill_ping_familiar_check_items.vsnd_c": [
+"00524b3bee",
+24831
+],
+"sounds/vo/krill/ping/krill_ping_familiar_dead.vsnd_c": [
+"0017e97606",
+19307
+],
+"sounds/vo/krill/ping/krill_ping_familiar_low_health.vsnd_c": [
+"00aaf51f3b",
+19178
+],
+"sounds/vo/krill/ping/krill_ping_familiar_missing_01.vsnd_c": [
+"00f7936faa",
+26471
+],
+"sounds/vo/krill/ping/krill_ping_farm.vsnd_c": [
+"000fbf93ed",
+21093
+],
+"sounds/vo/krill/ping/krill_ping_fencer_above.vsnd_c": [
+"00b6ed9990",
+21107
+],
+"sounds/vo/krill/ping/krill_ping_fencer_almost_respawn.vsnd_c": [
+"0067aca64a",
+24296
+],
+"sounds/vo/krill/ping/krill_ping_fencer_below.vsnd_c": [
+"0040859d2b",
+21623
+],
+"sounds/vo/krill/ping/krill_ping_fencer_check_items.vsnd_c": [
+"00e31e68ad",
+27167
+],
+"sounds/vo/krill/ping/krill_ping_fencer_dead.vsnd_c": [
+"00ca84155d",
+21742
+],
+"sounds/vo/krill/ping/krill_ping_fencer_low_health.vsnd_c": [
+"00253c255d",
+23127
+],
+"sounds/vo/krill/ping/krill_ping_fencer_missing_01.vsnd_c": [
+"0010dc3683",
+24520
+],
+"sounds/vo/krill/ping/krill_ping_flank.vsnd_c": [
+"002ce855ba",
+22103
+],
+"sounds/vo/krill/ping/krill_ping_flying_hornet.vsnd_c": [
+"0051faee50",
+23125
+],
+"sounds/vo/krill/ping/krill_ping_flying_orion.vsnd_c": [
+"00b012a255",
+23869
+],
+"sounds/vo/krill/ping/krill_ping_flying_tengu.vsnd_c": [
+"00740936f4",
+20347
+],
+"sounds/vo/krill/ping/krill_ping_focus_lens_almost_ready.vsnd_c": [
+"00e73b444f",
+28363
+],
+"sounds/vo/krill/ping/krill_ping_focus_lens_not_ready.vsnd_c": [
+"000acf837e",
+29316
+],
+"sounds/vo/krill/ping/krill_ping_forge_above.vsnd_c": [
+"006821195c",
+23775
+],
+"sounds/vo/krill/ping/krill_ping_forge_almost_respawn.vsnd_c": [
+"00324a7259",
+27230
+],
+"sounds/vo/krill/ping/krill_ping_forge_below.vsnd_c": [
+"006d8bdf7a",
+24406
+],
+"sounds/vo/krill/ping/krill_ping_forge_check_items.vsnd_c": [
+"001e72d184",
+28939
+],
+"sounds/vo/krill/ping/krill_ping_forge_dead.vsnd_c": [
+"00306f8bf4",
+24221
+],
+"sounds/vo/krill/ping/krill_ping_forge_low_health.vsnd_c": [
+"002bf6f9e8",
+26215
+],
+"sounds/vo/krill/ping/krill_ping_forge_missing_01.vsnd_c": [
+"008f01d940",
+25633
+],
+"sounds/vo/krill/ping/krill_ping_frank_above.vsnd_c": [
+"002351563e",
+19392
+],
+"sounds/vo/krill/ping/krill_ping_frank_almost_respawn.vsnd_c": [
+"00a3745ba2",
+23828
+],
+"sounds/vo/krill/ping/krill_ping_frank_below.vsnd_c": [
+"002034a90b",
+18229
+],
+"sounds/vo/krill/ping/krill_ping_frank_check_items.vsnd_c": [
+"005cddd4da",
+25525
+],
+"sounds/vo/krill/ping/krill_ping_frank_dead.vsnd_c": [
+"003b07c68e",
+20197
+],
+"sounds/vo/krill/ping/krill_ping_frank_low_health.vsnd_c": [
+"001ef4a8ce",
+19392
+],
+"sounds/vo/krill/ping/krill_ping_frank_missing_01.vsnd_c": [
+"00bde74d08",
+22004
+],
+"sounds/vo/krill/ping/krill_ping_gank.vsnd_c": [
+"00390fc592",
+24119
+],
+"sounds/vo/krill/ping/krill_ping_general_check_items.vsnd_c": [
+"0095619099",
+22061
+],
+"sounds/vo/krill/ping/krill_ping_ghost_above.vsnd_c": [
+"00dcec9294",
+19297
+],
+"sounds/vo/krill/ping/krill_ping_ghost_almost_respawn.vsnd_c": [
+"0066eec851",
+24357
+],
+"sounds/vo/krill/ping/krill_ping_ghost_below.vsnd_c": [
+"00a0884586",
+20461
+],
+"sounds/vo/krill/ping/krill_ping_ghost_check_items.vsnd_c": [
+"00251c156f",
+28181
+],
+"sounds/vo/krill/ping/krill_ping_ghost_dead.vsnd_c": [
+"00370647f6",
+22524
+],
+"sounds/vo/krill/ping/krill_ping_ghost_low_health.vsnd_c": [
+"00f0b87852",
+21853
+],
+"sounds/vo/krill/ping/krill_ping_ghost_missing_01.vsnd_c": [
+"00320ea1e3",
+25728
+],
+"sounds/vo/krill/ping/krill_ping_gigawatt_above.vsnd_c": [
+"000aba9e18",
+19819
+],
+"sounds/vo/krill/ping/krill_ping_gigawatt_almost_respawn.vsnd_c": [
+"005961e39e",
+26799
+],
+"sounds/vo/krill/ping/krill_ping_gigawatt_below.vsnd_c": [
+"000dac10da",
+20883
+],
+"sounds/vo/krill/ping/krill_ping_gigawatt_check_items.vsnd_c": [
+"00fb57a481",
+29139
+],
+"sounds/vo/krill/ping/krill_ping_gigawatt_dead.vsnd_c": [
+"00417f067b",
+25397
+],
+"sounds/vo/krill/ping/krill_ping_gigawatt_low_health.vsnd_c": [
+"00275dc26b",
+22704
+],
+"sounds/vo/krill/ping/krill_ping_gigawatt_missing_01.vsnd_c": [
+"00212f4859",
+26586
+],
+"sounds/vo/krill/ping/krill_ping_glitch_almost_ready.vsnd_c": [
+"0070d3ea19",
+28885
+],
+"sounds/vo/krill/ping/krill_ping_glitch_not_ready.vsnd_c": [
+"00b2cfef8e",
+31227
+],
+"sounds/vo/krill/ping/krill_ping_going_in.vsnd_c": [
+"001bf1c128",
+14957
+],
+"sounds/vo/krill/ping/krill_ping_going_in_01.vsnd_c": [
+"0067690e12",
+17727
+],
+"sounds/vo/krill/ping/krill_ping_going_shop_01.vsnd_c": [
+"00ae0c8d20",
+16448
+],
+"sounds/vo/krill/ping/krill_ping_going_to_base.vsnd_c": [
+"004751690f",
+18338
+],
+"sounds/vo/krill/ping/krill_ping_going_to_bridge_buff.vsnd_c": [
+"0004053c9a",
+22493
+],
+"sounds/vo/krill/ping/krill_ping_going_to_defend.vsnd_c": [
+"00a7c9c67e",
+19712
+],
+"sounds/vo/krill/ping/krill_ping_going_to_farm.vsnd_c": [
+"0058ca5e15",
+19478
+],
+"sounds/vo/krill/ping/krill_ping_going_to_push.vsnd_c": [
+"00d355a04c",
+18440
+],
+"sounds/vo/krill/ping/krill_ping_going_to_urn.vsnd_c": [
+"0024b0c76c",
+18120
+],
+"sounds/vo/krill/ping/krill_ping_good_game_03.vsnd_c": [
+"00c6065fb6",
+19752
+],
+"sounds/vo/krill/ping/krill_ping_good_job_01.vsnd_c": [
+"0050d3c60b",
+16543
+],
+"sounds/vo/krill/ping/krill_ping_green_help_01.vsnd_c": [
+"00d09468b5",
+19436
+],
+"sounds/vo/krill/ping/krill_ping_green_help_02.vsnd_c": [
+"00f73135e4",
+22634
+],
+"sounds/vo/krill/ping/krill_ping_haze_above.vsnd_c": [
+"007e70c0e3",
+18846
+],
+"sounds/vo/krill/ping/krill_ping_haze_almost_respawn.vsnd_c": [
+"0009eaf8df",
+25965
+],
+"sounds/vo/krill/ping/krill_ping_haze_below.vsnd_c": [
+"003641fdb9",
+20014
+],
+"sounds/vo/krill/ping/krill_ping_haze_check_items.vsnd_c": [
+"00e606a00f",
+28196
+],
+"sounds/vo/krill/ping/krill_ping_haze_dead.vsnd_c": [
+"005adadb64",
+22747
+],
+"sounds/vo/krill/ping/krill_ping_haze_low_health.vsnd_c": [
+"0063abde41",
+22584
+],
+"sounds/vo/krill/ping/krill_ping_haze_missing_01.vsnd_c": [
+"002cff4170",
+19116
+],
+"sounds/vo/krill/ping/krill_ping_headed_blue_01.vsnd_c": [
+"004019d21e",
+18690
+],
+"sounds/vo/krill/ping/krill_ping_headed_blue_02.vsnd_c": [
+"006ad442fa",
+21678
+],
+"sounds/vo/krill/ping/krill_ping_headed_green_01.vsnd_c": [
+"008ae56cfc",
+19338
+],
+"sounds/vo/krill/ping/krill_ping_headed_green_02.vsnd_c": [
+"009d122088",
+21365
+],
+"sounds/vo/krill/ping/krill_ping_headed_yellow_01.vsnd_c": [
+"00bfd27a10",
+17949
+],
+"sounds/vo/krill/ping/krill_ping_headed_yellow_02.vsnd_c": [
+"003a5e7d80",
+19982
+],
+"sounds/vo/krill/ping/krill_ping_heading_here.vsnd_c": [
+"000e3c09ae",
+15957
+],
+"sounds/vo/krill/ping/krill_ping_heal_ready.vsnd_c": [
+"00912f5b22",
+17883
+],
+"sounds/vo/krill/ping/krill_ping_health_nova_almost_ready.vsnd_c": [
+"0059209d4f",
+26957
+],
+"sounds/vo/krill/ping/krill_ping_health_nova_not_ready.vsnd_c": [
+"00a5be8d57",
+27818
+],
+"sounds/vo/krill/ping/krill_ping_help_with_idol.vsnd_c": [
+"00fdcfd013",
+28929
+],
+"sounds/vo/krill/ping/krill_ping_hornet_above.vsnd_c": [
+"006bb696bb",
+22178
+],
+"sounds/vo/krill/ping/krill_ping_hornet_almost_respawn.vsnd_c": [
+"0034809723",
+28412
+],
+"sounds/vo/krill/ping/krill_ping_hornet_below.vsnd_c": [
+"00884e85ec",
+22597
+],
+"sounds/vo/krill/ping/krill_ping_hornet_check_items.vsnd_c": [
+"005d34a0fe",
+34583
+],
+"sounds/vo/krill/ping/krill_ping_hornet_dead.vsnd_c": [
+"004f433935",
+25184
+],
+"sounds/vo/krill/ping/krill_ping_hornet_low_health.vsnd_c": [
+"00a79dce08",
+23557
+],
+"sounds/vo/krill/ping/krill_ping_hornet_missing_01.vsnd_c": [
+"00253398f0",
+27975
+],
+"sounds/vo/krill/ping/krill_ping_ignore_astro.vsnd_c": [
+"0039548669",
+25070
+],
+"sounds/vo/krill/ping/krill_ping_ignore_atlas.vsnd_c": [
+"00dbbfcc64",
+26896
+],
+"sounds/vo/krill/ping/krill_ping_ignore_bebop.vsnd_c": [
+"00e18a2dff",
+24220
+],
+"sounds/vo/krill/ping/krill_ping_ignore_bookworm.vsnd_c": [
+"004fea5b49",
+23919
+],
+"sounds/vo/krill/ping/krill_ping_ignore_chrono.vsnd_c": [
+"0049cf1a18",
+28933
+],
+"sounds/vo/krill/ping/krill_ping_ignore_doorman.vsnd_c": [
+"003e9854ae",
+24984
+],
+"sounds/vo/krill/ping/krill_ping_ignore_drifter.vsnd_c": [
+"004b25d429",
+22634
+],
+"sounds/vo/krill/ping/krill_ping_ignore_dynamo.vsnd_c": [
+"001d6b4edf",
+27644
+],
+"sounds/vo/krill/ping/krill_ping_ignore_familiar.vsnd_c": [
+"0049cf7af8",
+19611
+],
+"sounds/vo/krill/ping/krill_ping_ignore_fencer.vsnd_c": [
+"0089de19d2",
+24083
+],
+"sounds/vo/krill/ping/krill_ping_ignore_forge.vsnd_c": [
+"00384b23cd",
+25624
+],
+"sounds/vo/krill/ping/krill_ping_ignore_frank.vsnd_c": [
+"00b90dff9c",
+21028
+],
+"sounds/vo/krill/ping/krill_ping_ignore_ghost.vsnd_c": [
+"006ab4ca0b",
+25942
+],
+"sounds/vo/krill/ping/krill_ping_ignore_gigawatt.vsnd_c": [
+"00e5775c23",
+24760
+],
+"sounds/vo/krill/ping/krill_ping_ignore_haze.vsnd_c": [
+"00c5d0de63",
+25087
+],
+"sounds/vo/krill/ping/krill_ping_ignore_hornet.vsnd_c": [
+"004c91af71",
+29889
+],
+"sounds/vo/krill/ping/krill_ping_ignore_inferno.vsnd_c": [
+"008ad1146d",
+29041
+],
+"sounds/vo/krill/ping/krill_ping_ignore_kelvin.vsnd_c": [
+"00fd0985aa",
+24133
+],
+"sounds/vo/krill/ping/krill_ping_ignore_lash.vsnd_c": [
+"008c80c71f",
+25199
+],
+"sounds/vo/krill/ping/krill_ping_ignore_magician.vsnd_c": [
+"00e4ecbd11",
+25626
+],
+"sounds/vo/krill/ping/krill_ping_ignore_mirage.vsnd_c": [
+"003b18bf4b",
+26057
+],
+"sounds/vo/krill/ping/krill_ping_ignore_nano.vsnd_c": [
+"0049880eb3",
+26368
+],
+"sounds/vo/krill/ping/krill_ping_ignore_necro.vsnd_c": [
+"001ad69bca",
+23495
+],
+"sounds/vo/krill/ping/krill_ping_ignore_orion.vsnd_c": [
+"0092130c95",
+29871
+],
+"sounds/vo/krill/ping/krill_ping_ignore_priest.vsnd_c": [
+"00fb1b7d7d",
+22737
+],
+"sounds/vo/krill/ping/krill_ping_ignore_punkgoat.vsnd_c": [
+"00e821a1de",
+21782
+],
+"sounds/vo/krill/ping/krill_ping_ignore_shiv.vsnd_c": [
+"00def46936",
+25193
+],
+"sounds/vo/krill/ping/krill_ping_ignore_synth.vsnd_c": [
+"00630d9264",
+24867
+],
+"sounds/vo/krill/ping/krill_ping_ignore_tengu.vsnd_c": [
+"001496ff71",
+23781
+],
+"sounds/vo/krill/ping/krill_ping_ignore_unicorn.vsnd_c": [
+"00a865e760",
+24288
+],
+"sounds/vo/krill/ping/krill_ping_ignore_vampirebat.vsnd_c": [
+"001ba46817",
+20713
+],
+"sounds/vo/krill/ping/krill_ping_ignore_viper.vsnd_c": [
+"0019c46806",
+21680
+],
+"sounds/vo/krill/ping/krill_ping_ignore_viscous.vsnd_c": [
+"0046dc23ae",
+26920
+],
+"sounds/vo/krill/ping/krill_ping_ignore_warden.vsnd_c": [
+"008be84bc8",
+26048
+],
+"sounds/vo/krill/ping/krill_ping_ignore_werewolf.vsnd_c": [
+"00b8a8da02",
+22534
+],
+"sounds/vo/krill/ping/krill_ping_ignore_wraith.vsnd_c": [
+"0031ac4eb4",
+23923
+],
+"sounds/vo/krill/ping/krill_ping_ignore_wrecker.vsnd_c": [
+"00d77fc44f",
+26797
+],
+"sounds/vo/krill/ping/krill_ping_ignore_yamato.vsnd_c": [
+"009fc202b0",
+26904
+],
+"sounds/vo/krill/ping/krill_ping_inferno_above.vsnd_c": [
+"001167706d",
+24829
+],
+"sounds/vo/krill/ping/krill_ping_inferno_almost_respawn.vsnd_c": [
+"00081cb6bb",
+29999
+],
+"sounds/vo/krill/ping/krill_ping_inferno_below.vsnd_c": [
+"00c2590809",
+25155
+],
+"sounds/vo/krill/ping/krill_ping_inferno_check_items.vsnd_c": [
+"00e567b350",
+31597
+],
+"sounds/vo/krill/ping/krill_ping_inferno_dead.vsnd_c": [
+"00295382c8",
+25623
+],
+"sounds/vo/krill/ping/krill_ping_inferno_low_health.vsnd_c": [
+"00b780f73f",
+27707
+],
+"sounds/vo/krill/ping/krill_ping_inferno_missing_01.vsnd_c": [
+"00f8d2e8aa",
+26911
+],
+"sounds/vo/krill/ping/krill_ping_item_almost_ready.vsnd_c": [
+"00a8d30f4a",
+26165
+],
+"sounds/vo/krill/ping/krill_ping_item_not_ready.vsnd_c": [
+"00c296dced",
+27972
+],
+"sounds/vo/krill/ping/krill_ping_item_purchase.vsnd_c": [
+"0094ffd276",
+18435
+],
+"sounds/vo/krill/ping/krill_ping_item_suggestion.vsnd_c": [
+"00787bfbc8",
+22072
+],
+"sounds/vo/krill/ping/krill_ping_jar_call_01.vsnd_c": [
+"0029763575",
+18225
+],
+"sounds/vo/krill/ping/krill_ping_jar_call_02.vsnd_c": [
+"00ad510e7a",
+25401
+],
+"sounds/vo/krill/ping/krill_ping_kelvin_above.vsnd_c": [
+"000423253e",
+19719
+],
+"sounds/vo/krill/ping/krill_ping_kelvin_almost_respawn.vsnd_c": [
+"00015ece6a",
+25314
+],
+"sounds/vo/krill/ping/krill_ping_kelvin_below.vsnd_c": [
+"0026aa27ab",
+21309
+],
+"sounds/vo/krill/ping/krill_ping_kelvin_check_items.vsnd_c": [
+"00b191590f",
+29888
+],
+"sounds/vo/krill/ping/krill_ping_kelvin_dead.vsnd_c": [
+"009ffd2dc6",
+23802
+],
+"sounds/vo/krill/ping/krill_ping_kelvin_low_health.vsnd_c": [
+"00fc6a8799",
+22280
+],
+"sounds/vo/krill/ping/krill_ping_kncokdown_almost_ready.vsnd_c": [
+"0028e2ed1e",
+28405
+],
+"sounds/vo/krill/ping/krill_ping_kncokdown_not_ready.vsnd_c": [
+"008c3d19bb",
+30324
+],
+"sounds/vo/krill/ping/krill_ping_lash_above.vsnd_c": [
+"006e076a56",
+20133
+],
+"sounds/vo/krill/ping/krill_ping_lash_almost_respawn.vsnd_c": [
+"000bf1a608",
+24568
+],
+"sounds/vo/krill/ping/krill_ping_lash_below.vsnd_c": [
+"009bcf5a41",
+20439
+],
+"sounds/vo/krill/ping/krill_ping_lash_check_items.vsnd_c": [
+"00a28f0176",
+26375
+],
+"sounds/vo/krill/ping/krill_ping_lash_dead.vsnd_c": [
+"002c5bbc04",
+22529
+],
+"sounds/vo/krill/ping/krill_ping_lash_low_health.vsnd_c": [
+"0017166eb2",
+21200
+],
+"sounds/vo/krill/ping/krill_ping_lash_missing_01.vsnd_c": [
+"00b3ec5d46",
+24969
+],
+"sounds/vo/krill/ping/krill_ping_leaving.vsnd_c": [
+"00d3946942",
+16502
+],
+"sounds/vo/krill/ping/krill_ping_leaving_area_01.vsnd_c": [
+"0026dd810e",
+34877
+],
+"sounds/vo/krill/ping/krill_ping_leaving_area_02.vsnd_c": [
+"00dff3b4c8",
+32970
+],
+"sounds/vo/krill/ping/krill_ping_leaving_area_03.vsnd_c": [
+"005e1de78e",
+30294
+],
+"sounds/vo/krill/ping/krill_ping_lets_go_blue.vsnd_c": [
+"0000a88171",
+19222
+],
+"sounds/vo/krill/ping/krill_ping_lets_go_blue_alt.vsnd_c": [
+"00a38bfe50",
+25110
+],
+"sounds/vo/krill/ping/krill_ping_lets_go_green.vsnd_c": [
+"00eee4f5af",
+25952
+],
+"sounds/vo/krill/ping/krill_ping_lets_go_green_02.vsnd_c": [
+"005892e573",
+25097
+],
+"sounds/vo/krill/ping/krill_ping_lets_go_green_alt.vsnd_c": [
+"00e3a7ac8a",
+24024
+],
+"sounds/vo/krill/ping/krill_ping_lets_go_yellow.vsnd_c": [
+"003bed6cf6",
+17953
+],
+"sounds/vo/krill/ping/krill_ping_lets_go_yellow_alt.vsnd_c": [
+"006430f62a",
+22540
+],
+"sounds/vo/krill/ping/krill_ping_look_here.vsnd_c": [
+"00b5afe871",
+18543
+],
+"sounds/vo/krill/ping/krill_ping_loose_souls.vsnd_c": [
+"003166ad34",
+21514
+],
+"sounds/vo/krill/ping/krill_ping_magician_above.vsnd_c": [
+"0011ec7d3a",
+22589
+],
+"sounds/vo/krill/ping/krill_ping_magician_almost_respawn.vsnd_c": [
+"00ac8eb8c9",
+25861
+],
+"sounds/vo/krill/ping/krill_ping_magician_below.vsnd_c": [
+"00e1fc421f",
+22591
+],
+"sounds/vo/krill/ping/krill_ping_magician_check_items.vsnd_c": [
+"00805ecec2",
+29477
+],
+"sounds/vo/krill/ping/krill_ping_magician_dead.vsnd_c": [
+"00413795fd",
+22952
+],
+"sounds/vo/krill/ping/krill_ping_magician_low_health.vsnd_c": [
+"00412970cf",
+23653
+],
+"sounds/vo/krill/ping/krill_ping_magician_missing_01.vsnd_c": [
+"0085fc2d77",
+26678
+],
+"sounds/vo/krill/ping/krill_ping_meet_here.vsnd_c": [
+"00114eb2a7",
+22416
+],
+"sounds/vo/krill/ping/krill_ping_mirage_above.vsnd_c": [
+"00e9a7047e",
+20977
+],
+"sounds/vo/krill/ping/krill_ping_mirage_almost_respawn.vsnd_c": [
+"0039c3be8e",
+27227
+],
+"sounds/vo/krill/ping/krill_ping_mirage_below.vsnd_c": [
+"004479de3f",
+21309
+],
+"sounds/vo/krill/ping/krill_ping_mirage_check_items.vsnd_c": [
+"00f2025471",
+33300
+],
+"sounds/vo/krill/ping/krill_ping_mirage_dead.vsnd_c": [
+"002d752c90",
+24537
+],
+"sounds/vo/krill/ping/krill_ping_mirage_low_health.vsnd_c": [
+"00a56aed69",
+24183
+],
+"sounds/vo/krill/ping/krill_ping_mirage_missing_01.vsnd_c": [
+"002e4cdb81",
+27640
+],
+"sounds/vo/krill/ping/krill_ping_missing_blue_01.vsnd_c": [
+"004dfdbc63",
+18266
+],
+"sounds/vo/krill/ping/krill_ping_missing_blue_02.vsnd_c": [
+"006fb4a35b",
+21556
+],
+"sounds/vo/krill/ping/krill_ping_missing_green_01.vsnd_c": [
+"00cf09d96d",
+19991
+],
+"sounds/vo/krill/ping/krill_ping_missing_green_02.vsnd_c": [
+"005e10fe0a",
+19567
+],
+"sounds/vo/krill/ping/krill_ping_missing_yellow_01.vsnd_c": [
+"00b5f6c964",
+16575
+],
+"sounds/vo/krill/ping/krill_ping_missing_yellow_02.vsnd_c": [
+"004a4438f1",
+16899
+],
+"sounds/vo/krill/ping/krill_ping_nano_above.vsnd_c": [
+"00676575b0",
+20760
+],
+"sounds/vo/krill/ping/krill_ping_nano_almost_respawn.vsnd_c": [
+"00aae73aa4",
+27331
+],
+"sounds/vo/krill/ping/krill_ping_nano_below.vsnd_c": [
+"0064801eec",
+21409
+],
+"sounds/vo/krill/ping/krill_ping_nano_check_items.vsnd_c": [
+"0039457239",
+29567
+],
+"sounds/vo/krill/ping/krill_ping_nano_dead.vsnd_c": [
+"00d6fcf3e3",
+22206
+],
+"sounds/vo/krill/ping/krill_ping_nano_low_health.vsnd_c": [
+"002289f722",
+23118
+],
+"sounds/vo/krill/ping/krill_ping_nano_missing_01.vsnd_c": [
+"00d921d75c",
+25720
+],
+"sounds/vo/krill/ping/krill_ping_necro_above.vsnd_c": [
+"000825fa2c",
+19406
+],
+"sounds/vo/krill/ping/krill_ping_necro_almost_respawn.vsnd_c": [
+"003ad8b11a",
+25086
+],
+"sounds/vo/krill/ping/krill_ping_necro_below.vsnd_c": [
+"00fb588633",
+18974
+],
+"sounds/vo/krill/ping/krill_ping_necro_check_items.vsnd_c": [
+"00bb6b0467",
+28492
+],
+"sounds/vo/krill/ping/krill_ping_necro_dead.vsnd_c": [
+"0099d080b2",
+21032
+],
+"sounds/vo/krill/ping/krill_ping_necro_low_health.vsnd_c": [
+"006b25bb2e",
+21526
+],
+"sounds/vo/krill/ping/krill_ping_necro_missing_01.vsnd_c": [
+"00b0b75d80",
+22510
+],
+"sounds/vo/krill/ping/krill_ping_need_cover.vsnd_c": [
+"00f1c6c992",
+13681
+],
+"sounds/vo/krill/ping/krill_ping_need_heal.vsnd_c": [
+"00366897af",
+19698
+],
+"sounds/vo/krill/ping/krill_ping_need_help_blue.vsnd_c": [
+"00a6b2fd22",
+19670
+],
+"sounds/vo/krill/ping/krill_ping_need_help_blue_alt.vsnd_c": [
+"000c5764d8",
+24132
+],
+"sounds/vo/krill/ping/krill_ping_need_help_green.vsnd_c": [
+"00041263a5",
+24026
+],
+"sounds/vo/krill/ping/krill_ping_need_help_green_alt.vsnd_c": [
+"004298f793",
+22967
+],
+"sounds/vo/krill/ping/krill_ping_need_help_yellow.vsnd_c": [
+"001073f6c7",
+19242
+],
+"sounds/vo/krill/ping/krill_ping_need_help_yellow_alt.vsnd_c": [
+"009fcb14ec",
+22224
+],
+"sounds/vo/krill/ping/krill_ping_need_plan.vsnd_c": [
+"006d413ee2",
+17847
+],
+"sounds/vo/krill/ping/krill_ping_negative_01.vsnd_c": [
+"007b604bb0",
+12719
+],
+"sounds/vo/krill/ping/krill_ping_nevermind_01.vsnd_c": [
+"0046e809c2",
+15668
+],
+"sounds/vo/krill/ping/krill_ping_nevermind_02.vsnd_c": [
+"006d5c37c0",
+23265
+],
+"sounds/vo/krill/ping/krill_ping_nevermind_03.vsnd_c": [
+"006ae36603",
+18998
+],
+"sounds/vo/krill/ping/krill_ping_no_teamfight.vsnd_c": [
+"00fadea11e",
+32441
+],
+"sounds/vo/krill/ping/krill_ping_nurse_missing_01.vsnd_c": [
+"00b8adc3b5",
+19718
+],
+"sounds/vo/krill/ping/krill_ping_on_way.vsnd_c": [
+"00ab15d766",
+17075
+],
+"sounds/vo/krill/ping/krill_ping_orion_above.vsnd_c": [
+"00b9c5a0f2",
+22489
+],
+"sounds/vo/krill/ping/krill_ping_orion_almost_respawn.vsnd_c": [
+"0095773f7e",
+31167
+],
+"sounds/vo/krill/ping/krill_ping_orion_below.vsnd_c": [
+"0024c1ef56",
+23981
+],
+"sounds/vo/krill/ping/krill_ping_orion_check_items.vsnd_c": [
+"0074e7d861",
+31928
+],
+"sounds/vo/krill/ping/krill_ping_orion_dead.vsnd_c": [
+"0057d26b66",
+26779
+],
+"sounds/vo/krill/ping/krill_ping_orion_low_health.vsnd_c": [
+"003a5509e8",
+27697
+],
+"sounds/vo/krill/ping/krill_ping_orion_missing_01.vsnd_c": [
+"002bd6f7e6",
+26915
+],
+"sounds/vo/krill/ping/krill_ping_other_buys_anti_heal.vsnd_c": [
+"005bd57561",
+23231
+],
+"sounds/vo/krill/ping/krill_ping_other_buys_cursed_relic.vsnd_c": [
+"0031b3743c",
+23669
+],
+"sounds/vo/krill/ping/krill_ping_other_buys_knockdown.vsnd_c": [
+"00140e51c5",
+21538
+],
+"sounds/vo/krill/ping/krill_ping_other_buys_metal_skin.vsnd_c": [
+"004d106fc9",
+23449
+],
+"sounds/vo/krill/ping/krill_ping_other_buys_refresher.vsnd_c": [
+"00d930da15",
+22054
+],
+"sounds/vo/krill/ping/krill_ping_other_buys_unstoppable.vsnd_c": [
+"0067742645",
+24936
+],
+"sounds/vo/krill/ping/krill_ping_over_extend.vsnd_c": [
+"000c738360",
+26647
+],
+"sounds/vo/krill/ping/krill_ping_post_game_01.vsnd_c": [
+"003e4c73dc",
+42669
+],
+"sounds/vo/krill/ping/krill_ping_post_game_02.vsnd_c": [
+"0085b5b898",
+48735
+],
+"sounds/vo/krill/ping/krill_ping_post_game_03.vsnd_c": [
+"0025b6a14b",
+46818
+],
+"sounds/vo/krill/ping/krill_ping_post_game_04.vsnd_c": [
+"004af466f5",
+67373
+],
+"sounds/vo/krill/ping/krill_ping_post_game_05.vsnd_c": [
+"009d4935c5",
+46812
+],
+"sounds/vo/krill/ping/krill_ping_post_game_06.vsnd_c": [
+"002ff3a4e5",
+60768
+],
+"sounds/vo/krill/ping/krill_ping_pre_game_01.vsnd_c": [
+"005819d3e9",
+55884
+],
+"sounds/vo/krill/ping/krill_ping_pre_game_02.vsnd_c": [
+"0030c27b61",
+65435
+],
+"sounds/vo/krill/ping/krill_ping_pre_game_03.vsnd_c": [
+"00c22ff79d",
+96581
+],
+"sounds/vo/krill/ping/krill_ping_pre_game_04.vsnd_c": [
+"00620141c5",
+79099
+],
+"sounds/vo/krill/ping/krill_ping_pre_game_05.vsnd_c": [
+"00b2fac352",
+99769
+],
+"sounds/vo/krill/ping/krill_ping_pre_game_06.vsnd_c": [
+"00d2f69c19",
+45969
+],
+"sounds/vo/krill/ping/krill_ping_priest_above.vsnd_c": [
+"00001c8d0e",
+24724
+],
+"sounds/vo/krill/ping/krill_ping_priest_almost_respawn.vsnd_c": [
+"005883f695",
+26174
+],
+"sounds/vo/krill/ping/krill_ping_priest_below.vsnd_c": [
+"00b31543a7",
+22500
+],
+"sounds/vo/krill/ping/krill_ping_priest_check_items.vsnd_c": [
+"00129aa192",
+29565
+],
+"sounds/vo/krill/ping/krill_ping_priest_dead.vsnd_c": [
+"00705031c0",
+24334
+],
+"sounds/vo/krill/ping/krill_ping_priest_low_health.vsnd_c": [
+"00d9a08c40",
+24601
+],
+"sounds/vo/krill/ping/krill_ping_priest_missing_01.vsnd_c": [
+"00251994aa",
+26985
+],
+"sounds/vo/krill/ping/krill_ping_protect_urn.vsnd_c": [
+"0012e3cddf",
+24105
+],
+"sounds/vo/krill/ping/krill_ping_punkgoat_above.vsnd_c": [
+"00d32437c7",
+18544
+],
+"sounds/vo/krill/ping/krill_ping_punkgoat_almost_respawn.vsnd_c": [
+"009ab5197c",
+21045
+],
+"sounds/vo/krill/ping/krill_ping_punkgoat_below.vsnd_c": [
+"0089168a08",
+17579
+],
+"sounds/vo/krill/ping/krill_ping_punkgoat_check_items.vsnd_c": [
+"00394d04e7",
+25844
+],
+"sounds/vo/krill/ping/krill_ping_punkgoat_dead.vsnd_c": [
+"00bf216469",
+20718
+],
+"sounds/vo/krill/ping/krill_ping_punkgoat_low_health.vsnd_c": [
+"00449578c5",
+19592
+],
+"sounds/vo/krill/ping/krill_ping_punkgoat_missing_01.vsnd_c": [
+"0052300f5f",
+20614
+],
+"sounds/vo/krill/ping/krill_ping_push_blue_01.vsnd_c": [
+"005d398a14",
+21023
+],
+"sounds/vo/krill/ping/krill_ping_push_blue_02.vsnd_c": [
+"00c22fea48",
+25722
+],
+"sounds/vo/krill/ping/krill_ping_push_green_01.vsnd_c": [
+"0082b671e8",
+23711
+],
+"sounds/vo/krill/ping/krill_ping_push_green_02.vsnd_c": [
+"00e8e991c7",
+25957
+],
+"sounds/vo/krill/ping/krill_ping_push_yellow_01.vsnd_c": [
+"002312d4f3",
+18806
+],
+"sounds/vo/krill/ping/krill_ping_push_yellow_02.vsnd_c": [
+"009d6873ce",
+23381
+],
+"sounds/vo/krill/ping/krill_ping_rat_strat.vsnd_c": [
+"00816abb7f",
+20125
+],
+"sounds/vo/krill/ping/krill_ping_ratking_missing_01.vsnd_c": [
+"007c51d8c0",
+22691
+],
+"sounds/vo/krill/ping/krill_ping_refresher_almost_ready.vsnd_c": [
+"004548840c",
+29038
+],
+"sounds/vo/krill/ping/krill_ping_refresher_not_ready.vsnd_c": [
+"00105041df",
+29149
+],
+"sounds/vo/krill/ping/krill_ping_request_follow.vsnd_c": [
+"003d6dd936",
+15809
+],
+"sounds/vo/krill/ping/krill_ping_rescue_beam_almost_ready.vsnd_c": [
+"00e7e2b9ad",
+27925
+],
+"sounds/vo/krill/ping/krill_ping_rescue_beam_not_ready.vsnd_c": [
+"0090ba1cc4",
+28254
+],
+"sounds/vo/krill/ping/krill_ping_retreat.vsnd_c": [
+"0083ca0622",
+17189
+],
+"sounds/vo/krill/ping/krill_ping_rupture_almost_ready.vsnd_c": [
+"00cb69841f",
+25313
+],
+"sounds/vo/krill/ping/krill_ping_rupture_not_ready.vsnd_c": [
+"0046147e5e",
+27869
+],
+"sounds/vo/krill/ping/krill_ping_see_artist.vsnd_c": [
+"00a33b1160",
+22678
+],
+"sounds/vo/krill/ping/krill_ping_see_astro.vsnd_c": [
+"006ffd1c09",
+26772
+],
+"sounds/vo/krill/ping/krill_ping_see_atlas_01.vsnd_c": [
+"0012008ddc",
+21990
+],
+"sounds/vo/krill/ping/krill_ping_see_atlas_02.vsnd_c": [
+"003f95a872",
+26569
+],
+"sounds/vo/krill/ping/krill_ping_see_baba.vsnd_c": [
+"001dfec9cb",
+25668
+],
+"sounds/vo/krill/ping/krill_ping_see_bebop.vsnd_c": [
+"00ed49dbf1",
+18892
+],
+"sounds/vo/krill/ping/krill_ping_see_bebop_02.vsnd_c": [
+"00b8621702",
+24749
+],
+"sounds/vo/krill/ping/krill_ping_see_bookworm_01.vsnd_c": [
+"00d75f2d24",
+23278
+],
+"sounds/vo/krill/ping/krill_ping_see_chessmaster.vsnd_c": [
+"00cedcaa8a",
+26644
+],
+"sounds/vo/krill/ping/krill_ping_see_chrono.vsnd_c": [
+"0009ddca72",
+27002
+],
+"sounds/vo/krill/ping/krill_ping_see_deadpack.vsnd_c": [
+"000b2d1b2a",
+25793
+],
+"sounds/vo/krill/ping/krill_ping_see_doorman_01.vsnd_c": [
+"00c1e0f164",
+21027
+],
+"sounds/vo/krill/ping/krill_ping_see_drifter_01.vsnd_c": [
+"00d9d503d5",
+20490
+],
+"sounds/vo/krill/ping/krill_ping_see_dynamo.vsnd_c": [
+"0003cc7e71",
+18912
+],
+"sounds/vo/krill/ping/krill_ping_see_dynamo_02.vsnd_c": [
+"00b68d5ab1",
+27416
+],
+"sounds/vo/krill/ping/krill_ping_see_enemy.vsnd_c": [
+"0087ae4227",
+18473
+],
+"sounds/vo/krill/ping/krill_ping_see_familiar_01.vsnd_c": [
+"0056482d98",
+19646
+],
+"sounds/vo/krill/ping/krill_ping_see_fencer_01.vsnd_c": [
+"00235960f9",
+21114
+],
+"sounds/vo/krill/ping/krill_ping_see_forge.vsnd_c": [
+"0053e606c9",
+25927
+],
+"sounds/vo/krill/ping/krill_ping_see_frank_01.vsnd_c": [
+"00f76d10d9",
+19971
+],
+"sounds/vo/krill/ping/krill_ping_see_ghost_01.vsnd_c": [
+"00567835c1",
+24863
+],
+"sounds/vo/krill/ping/krill_ping_see_gigawatt_01.vsnd_c": [
+"00f6cdc1bb",
+23810
+],
+"sounds/vo/krill/ping/krill_ping_see_haze.vsnd_c": [
+"00d30d4ac2",
+17623
+],
+"sounds/vo/krill/ping/krill_ping_see_haze_02.vsnd_c": [
+"00c9df4dd6",
+32533
+],
+"sounds/vo/krill/ping/krill_ping_see_hornet_01.vsnd_c": [
+"001d4b27e4",
+24769
+],
+"sounds/vo/krill/ping/krill_ping_see_hornet_02.vsnd_c": [
+"00c681eb5a",
+31173
+],
+"sounds/vo/krill/ping/krill_ping_see_inferno.vsnd_c": [
+"00bca91f33",
+23266
+],
+"sounds/vo/krill/ping/krill_ping_see_kelvin.vsnd_c": [
+"000d58b9a2",
+18891
+],
+"sounds/vo/krill/ping/krill_ping_see_lash.vsnd_c": [
+"004871b59a",
+18155
+],
+"sounds/vo/krill/ping/krill_ping_see_lash_02.vsnd_c": [
+"00dc582eba",
+41583
+],
+"sounds/vo/krill/ping/krill_ping_see_magician_01.vsnd_c": [
+"00b11dea64",
+21784
+],
+"sounds/vo/krill/ping/krill_ping_see_mirage_01.vsnd_c": [
+"000e381483",
+26242
+],
+"sounds/vo/krill/ping/krill_ping_see_nano.vsnd_c": [
+"00c6b15ff0",
+28580
+],
+"sounds/vo/krill/ping/krill_ping_see_necro_01.vsnd_c": [
+"0072531ae1",
+19867
+],
+"sounds/vo/krill/ping/krill_ping_see_nurse.vsnd_c": [
+"0042230463",
+21505
+],
+"sounds/vo/krill/ping/krill_ping_see_orion_01.vsnd_c": [
+"0013306b9d",
+27420
+],
+"sounds/vo/krill/ping/krill_ping_see_priest_01.vsnd_c": [
+"00fa1cffa1",
+22425
+],
+"sounds/vo/krill/ping/krill_ping_see_punkgoat_01.vsnd_c": [
+"0094ede514",
+18263
+],
+"sounds/vo/krill/ping/krill_ping_see_ratking.vsnd_c": [
+"0072ed0177",
+22791
+],
+"sounds/vo/krill/ping/krill_ping_see_shiv.vsnd_c": [
+"00a79f7923",
+17623
+],
+"sounds/vo/krill/ping/krill_ping_see_synth_01.vsnd_c": [
+"006c0310f0",
+22723
+],
+"sounds/vo/krill/ping/krill_ping_see_synth_02.vsnd_c": [
+"0025b3c34f",
+20391
+],
+"sounds/vo/krill/ping/krill_ping_see_tengu.vsnd_c": [
+"00d9f25daa",
+22309
+],
+"sounds/vo/krill/ping/krill_ping_see_unicorn_01.vsnd_c": [
+"00d452d0f7",
+21111
+],
+"sounds/vo/krill/ping/krill_ping_see_vampirebat_01.vsnd_c": [
+"003bc9ae3f",
+18906
+],
+"sounds/vo/krill/ping/krill_ping_see_viper_01.vsnd_c": [
+"00a19afd6c",
+22105
+],
+"sounds/vo/krill/ping/krill_ping_see_viscous.vsnd_c": [
+"00f71f92dc",
+18785
+],
+"sounds/vo/krill/ping/krill_ping_see_viscous_02.vsnd_c": [
+"0007d28aaf",
+39273
+],
+"sounds/vo/krill/ping/krill_ping_see_warden.vsnd_c": [
+"0042d54d15",
+18472
+],
+"sounds/vo/krill/ping/krill_ping_see_warden_01.vsnd_c": [
+"007561abb6",
+24664
+],
+"sounds/vo/krill/ping/krill_ping_see_werewolf_01.vsnd_c": [
+"0015ed4975",
+19970
+],
+"sounds/vo/krill/ping/krill_ping_see_wraith.vsnd_c": [
+"00ebdd3cd2",
+17302
+],
+"sounds/vo/krill/ping/krill_ping_see_wrecker_01.vsnd_c": [
+"008d405500",
+23802
+],
+"sounds/vo/krill/ping/krill_ping_see_wrecker_02.vsnd_c": [
+"00a3537367",
+47118
+],
+"sounds/vo/krill/ping/krill_ping_see_yamato.vsnd_c": [
+"005fd2031c",
+23899
+],
+"sounds/vo/krill/ping/krill_ping_shiv_above.vsnd_c": [
+"00e3501296",
+18850
+],
+"sounds/vo/krill/ping/krill_ping_shiv_almost_respawn.vsnd_c": [
+"00011b14fb",
+25530
+],
+"sounds/vo/krill/ping/krill_ping_shiv_below.vsnd_c": [
+"00654b0c61",
+19267
+],
+"sounds/vo/krill/ping/krill_ping_shiv_check_items.vsnd_c": [
+"005ec62828",
+30745
+],
+"sounds/vo/krill/ping/krill_ping_shiv_dead.vsnd_c": [
+"0021ff33e4",
+25508
+],
+"sounds/vo/krill/ping/krill_ping_shiv_low_health.vsnd_c": [
+"000bee2607",
+21214
+],
+"sounds/vo/krill/ping/krill_ping_shiv_missing_01.vsnd_c": [
+"002228a00a",
+20279
+],
+"sounds/vo/krill/ping/krill_ping_silence_almost_ready.vsnd_c": [
+"007c90259b",
+28567
+],
+"sounds/vo/krill/ping/krill_ping_silence_not_ready.vsnd_c": [
+"0096131061",
+29504
+],
+"sounds/vo/krill/ping/krill_ping_sinners.vsnd_c": [
+"00354cf73b",
+20445
+],
+"sounds/vo/krill/ping/krill_ping_slowing_hex_almost_ready.vsnd_c": [
+"00d0b9e778",
+28242
+],
+"sounds/vo/krill/ping/krill_ping_slowing_hex_not_ready.vsnd_c": [
+"0032e82ed0",
+30066
+],
+"sounds/vo/krill/ping/krill_ping_someone_was_here.vsnd_c": [
+"0034ff5193",
+23756
+],
+"sounds/vo/krill/ping/krill_ping_sorry_01.vsnd_c": [
+"00d69b15d1",
+13357
+],
+"sounds/vo/krill/ping/krill_ping_split_push.vsnd_c": [
+"00d0bf244a",
+20870
+],
+"sounds/vo/krill/ping/krill_ping_stay_together.vsnd_c": [
+"00b622b545",
+24031
+],
+"sounds/vo/krill/ping/krill_ping_steal_farm.vsnd_c": [
+"0097ceb1d3",
+27810
+],
+"sounds/vo/krill/ping/krill_ping_stim_pack_almost_ready.vsnd_c": [
+"00ed220916",
+28080
+],
+"sounds/vo/krill/ping/krill_ping_stim_pack_not_ready.vsnd_c": [
+"007609a379",
+29345
+],
+"sounds/vo/krill/ping/krill_ping_stop_urn.vsnd_c": [
+"007be86ed0",
+20761
+],
+"sounds/vo/krill/ping/krill_ping_synth_above.vsnd_c": [
+"005aaa0507",
+19082
+],
+"sounds/vo/krill/ping/krill_ping_synth_almost_respawn.vsnd_c": [
+"008f6ebea5",
+25635
+],
+"sounds/vo/krill/ping/krill_ping_synth_below.vsnd_c": [
+"0013d3a17a",
+19390
+],
+"sounds/vo/krill/ping/krill_ping_synth_check_items.vsnd_c": [
+"00fc90a426",
+33297
+],
+"sounds/vo/krill/ping/krill_ping_synth_dead.vsnd_c": [
+"001e8044ff",
+22951
+],
+"sounds/vo/krill/ping/krill_ping_synth_low_health.vsnd_c": [
+"00ec145042",
+20672
+],
+"sounds/vo/krill/ping/krill_ping_synth_missing_01.vsnd_c": [
+"00d7c0eab8",
+22230
+],
+"sounds/vo/krill/ping/krill_ping_take_mid.vsnd_c": [
+"00f48b44dc",
+25790
+],
+"sounds/vo/krill/ping/krill_ping_tengu_above.vsnd_c": [
+"00e6997e7e",
+20039
+],
+"sounds/vo/krill/ping/krill_ping_tengu_almost_respawn.vsnd_c": [
+"00100714bc",
+25313
+],
+"sounds/vo/krill/ping/krill_ping_tengu_below.vsnd_c": [
+"009ab1c2fd",
+19714
+],
+"sounds/vo/krill/ping/krill_ping_tengu_check_items.vsnd_c": [
+"00adf74f90",
+27231
+],
+"sounds/vo/krill/ping/krill_ping_tengu_dead.vsnd_c": [
+"000fbcc745",
+21971
+],
+"sounds/vo/krill/ping/krill_ping_tengu_low_health.vsnd_c": [
+"00264a845e",
+20557
+],
+"sounds/vo/krill/ping/krill_ping_tengu_missing_01.vsnd_c": [
+"005467a426",
+23489
+],
+"sounds/vo/krill/ping/krill_ping_thank_you_01.vsnd_c": [
+"00424ae41b",
+13885
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_astro.vsnd_c": [
+"00dea4e544",
+26965
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_atlas.vsnd_c": [
+"003ec6334e",
+25150
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_bebop.vsnd_c": [
+"00e1d15bb1",
+25135
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_bookworm.vsnd_c": [
+"00917139f9",
+23013
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_chrono.vsnd_c": [
+"00e1d698cf",
+30158
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_doorman.vsnd_c": [
+"00105b6f47",
+26115
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_drifter.vsnd_c": [
+"008d2f2339",
+23229
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_dynamo.vsnd_c": [
+"00ccf85f2a",
+25678
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_familiar.vsnd_c": [
+"00e8b2878b",
+22062
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_fencer.vsnd_c": [
+"006a5843ad",
+25146
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_forge.vsnd_c": [
+"0039978087",
+27602
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_frank.vsnd_c": [
+"002ef657b1",
+23446
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_ghost.vsnd_c": [
+"00d8f9171d",
+24410
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_gigawatt.vsnd_c": [
+"003c5fbe6a",
+24827
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_haze.vsnd_c": [
+"004f5c1da2",
+24494
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_hornet.vsnd_c": [
+"002ab197f6",
+27699
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_inferno.vsnd_c": [
+"009c9234e4",
+28558
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_kelvin.vsnd_c": [
+"00fdc8a31b",
+25256
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_lash.vsnd_c": [
+"00dce62bff",
+24621
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_magician.vsnd_c": [
+"001dc82576",
+28026
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_mirage.vsnd_c": [
+"0062a6ee89",
+26441
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_nano.vsnd_c": [
+"00b3bd4ae9",
+25150
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_necro.vsnd_c": [
+"00a607faba",
+23551
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_orion.vsnd_c": [
+"00046204f7",
+28659
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_priest.vsnd_c": [
+"00696066ad",
+25893
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_punkgoat.vsnd_c": [
+"00e2ecc955",
+22167
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_shiv.vsnd_c": [
+"0016d6ca60",
+23869
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_synth.vsnd_c": [
+"00c873f3c8",
+22694
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_tengu.vsnd_c": [
+"007fa3679a",
+23662
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_unicorn.vsnd_c": [
+"00e01b274f",
+25894
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_vampirebat.vsnd_c": [
+"005a96f065",
+22808
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_viper.vsnd_c": [
+"00cad046f0",
+24949
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_viscous.vsnd_c": [
+"00e7e4ff01",
+25470
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_warden.vsnd_c": [
+"00ba2e372f",
+24620
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_werewolf.vsnd_c": [
+"00141b5874",
+24726
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_wraith.vsnd_c": [
+"008fa03ee4",
+23439
+],
+"sounds/vo/krill/ping/krill_ping_ult_ready_yamato.vsnd_c": [
+"00d7d70e38",
+25472
+],
+"sounds/vo/krill/ping/krill_ping_unicorn_above.vsnd_c": [
+"003174c159",
+22070
+],
+"sounds/vo/krill/ping/krill_ping_unicorn_almost_respawn.vsnd_c": [
+"00d27dbc70",
+23869
+],
+"sounds/vo/krill/ping/krill_ping_unicorn_below.vsnd_c": [
+"00b462c11b",
+23234
+],
+"sounds/vo/krill/ping/krill_ping_unicorn_check_items.vsnd_c": [
+"00c202b137",
+28883
+],
+"sounds/vo/krill/ping/krill_ping_unicorn_dead.vsnd_c": [
+"00b92aba6b",
+22267
+],
+"sounds/vo/krill/ping/krill_ping_unicorn_low_health.vsnd_c": [
+"009d0e18d1",
+23771
+],
+"sounds/vo/krill/ping/krill_ping_unicorn_missing_01.vsnd_c": [
+"00064f2663",
+24077
+],
+"sounds/vo/krill/ping/krill_ping_use_ability1.vsnd_c": [
+"00474a753c",
+23061
+],
+"sounds/vo/krill/ping/krill_ping_use_ability2.vsnd_c": [
+"002244054d",
+20182
+],
+"sounds/vo/krill/ping/krill_ping_use_ability3.vsnd_c": [
+"00d7f7c9a3",
+24641
+],
+"sounds/vo/krill/ping/krill_ping_use_ability4.vsnd_c": [
+"0054c15f53",
+24766
+],
+"sounds/vo/krill/ping/krill_ping_use_ability4_02.vsnd_c": [
+"001905b014",
+40645
+],
+"sounds/vo/krill/ping/krill_ping_use_ability4_03.vsnd_c": [
+"00c07a5029",
+34448
+],
+"sounds/vo/krill/ping/krill_ping_use_ability4_04.vsnd_c": [
+"00dfc1f17f",
+37753
+],
+"sounds/vo/krill/ping/krill_ping_use_ability4_05.vsnd_c": [
+"00c3f54cd2",
+37578
+],
+"sounds/vo/krill/ping/krill_ping_use_ability4_06.vsnd_c": [
+"005eb9c1a5",
+42247
+],
+"sounds/vo/krill/ping/krill_ping_use_ability4_07.vsnd_c": [
+"00b4445953",
+64703
+],
+"sounds/vo/krill/ping/krill_ping_use_ability4_08.vsnd_c": [
+"00af0625cb",
+34581
+],
+"sounds/vo/krill/ping/krill_ping_use_ability4_09.vsnd_c": [
+"004dd6c33e",
+48523
+],
+"sounds/vo/krill/ping/krill_ping_use_ability4_10.vsnd_c": [
+"00e732c04f",
+38741
+],
+"sounds/vo/krill/ping/krill_ping_use_disarm_hex.vsnd_c": [
+"0081c00b4a",
+24508
+],
+"sounds/vo/krill/ping/krill_ping_use_focus_lens.vsnd_c": [
+"000a4d4f55",
+23011
+],
+"sounds/vo/krill/ping/krill_ping_use_glitch.vsnd_c": [
+"000841452f",
+26733
+],
+"sounds/vo/krill/ping/krill_ping_use_health_nova.vsnd_c": [
+"0031abf64b",
+24935
+],
+"sounds/vo/krill/ping/krill_ping_use_item.vsnd_c": [
+"006c0860cf",
+26674
+],
+"sounds/vo/krill/ping/krill_ping_use_kncokdown.vsnd_c": [
+"00414c57d6",
+27540
+],
+"sounds/vo/krill/ping/krill_ping_use_refresher.vsnd_c": [
+"007b9c3c4d",
+26590
+],
+"sounds/vo/krill/ping/krill_ping_use_rescue_beam.vsnd_c": [
+"00e15dd900",
+23014
+],
+"sounds/vo/krill/ping/krill_ping_use_rupture.vsnd_c": [
+"003be8c98c",
+27652
+],
+"sounds/vo/krill/ping/krill_ping_use_silence.vsnd_c": [
+"000ed70e57",
+27265
+],
+"sounds/vo/krill/ping/krill_ping_use_slowing_hex.vsnd_c": [
+"00ccbb7637",
+22915
+],
+"sounds/vo/krill/ping/krill_ping_use_stim_pack.vsnd_c": [
+"001e713b4d",
+29361
+],
+"sounds/vo/krill/ping/krill_ping_use_vortex_web.vsnd_c": [
+"00b4cc0829",
+22813
+],
+"sounds/vo/krill/ping/krill_ping_use_warp_stone.vsnd_c": [
+"00a01589ff",
+32659
+],
+"sounds/vo/krill/ping/krill_ping_vampirebat_above.vsnd_c": [
+"00b2f29df1",
+18124
+],
+"sounds/vo/krill/ping/krill_ping_vampirebat_almost_respawn.vsnd_c": [
+"00454e0fa2",
+23186
+],
+"sounds/vo/krill/ping/krill_ping_vampirebat_below.vsnd_c": [
+"001f22a8be",
+17057
+],
+"sounds/vo/krill/ping/krill_ping_vampirebat_check_items.vsnd_c": [
+"005aefd541",
+22876
+],
+"sounds/vo/krill/ping/krill_ping_vampirebat_dead.vsnd_c": [
+"00f72a4170",
+21135
+],
+"sounds/vo/krill/ping/krill_ping_vampirebat_low_health.vsnd_c": [
+"0001f5f8fc",
+19932
+],
+"sounds/vo/krill/ping/krill_ping_vampirebat_missing_01.vsnd_c": [
+"0085c43939",
+20815
+],
+"sounds/vo/krill/ping/krill_ping_viper_above.vsnd_c": [
+"0042346e74",
+18873
+],
+"sounds/vo/krill/ping/krill_ping_viper_almost_respawn.vsnd_c": [
+"0064167f99",
+24364
+],
+"sounds/vo/krill/ping/krill_ping_viper_below.vsnd_c": [
+"00430b91a5",
+19292
+],
+"sounds/vo/krill/ping/krill_ping_viper_check_items.vsnd_c": [
+"002ea2c46d",
+27651
+],
+"sounds/vo/krill/ping/krill_ping_viper_dead.vsnd_c": [
+"000b1b5482",
+21240
+],
+"sounds/vo/krill/ping/krill_ping_viper_low_health.vsnd_c": [
+"00d8b53910",
+22272
+],
+"sounds/vo/krill/ping/krill_ping_viper_missing_01.vsnd_c": [
+"00c6c9b782",
+24671
+],
+"sounds/vo/krill/ping/krill_ping_viscous_above.vsnd_c": [
+"007b17144b",
+21007
+],
+"sounds/vo/krill/ping/krill_ping_viscous_almost_respawn.vsnd_c": [
+"00d95dde96",
+27333
+],
+"sounds/vo/krill/ping/krill_ping_viscous_below.vsnd_c": [
+"0032f782f0",
+21528
+],
+"sounds/vo/krill/ping/krill_ping_viscous_check_items.vsnd_c": [
+"0096c42142",
+31073
+],
+"sounds/vo/krill/ping/krill_ping_viscous_dead.vsnd_c": [
+"00fbda6b39",
+25722
+],
+"sounds/vo/krill/ping/krill_ping_viscous_low_health.vsnd_c": [
+"0073029bc6",
+21847
+],
+"sounds/vo/krill/ping/krill_ping_viscous_missing_01.vsnd_c": [
+"0026230450",
+21781
+],
+"sounds/vo/krill/ping/krill_ping_vortex_web_almost_ready.vsnd_c": [
+"007eaf62a0",
+28131
+],
+"sounds/vo/krill/ping/krill_ping_vortex_web_not_ready.vsnd_c": [
+"003ab6f7a6",
+29425
+],
+"sounds/vo/krill/ping/krill_ping_wait.vsnd_c": [
+"00e4b2f79b",
+13359
+],
+"sounds/vo/krill/ping/krill_ping_warden_above.vsnd_c": [
+"0018e85975",
+20051
+],
+"sounds/vo/krill/ping/krill_ping_warden_almost_respawn.vsnd_c": [
+"00e02b7207",
+27231
+],
+"sounds/vo/krill/ping/krill_ping_warden_below.vsnd_c": [
+"00a9e89672",
+19188
+],
+"sounds/vo/krill/ping/krill_ping_warden_check_items.vsnd_c": [
+"009e9ae67d",
+32027
+],
+"sounds/vo/krill/ping/krill_ping_warden_dead.vsnd_c": [
+"003db9118f",
+23700
+],
+"sounds/vo/krill/ping/krill_ping_warden_low_health.vsnd_c": [
+"0021b37da0",
+20774
+],
+"sounds/vo/krill/ping/krill_ping_warden_missing_01.vsnd_c": [
+"0044eb8e23",
+23904
+],
+"sounds/vo/krill/ping/krill_ping_warp_stone_almost_ready.vsnd_c": [
+"00a466b76c",
+30109
+],
+"sounds/vo/krill/ping/krill_ping_warp_stone_not_ready.vsnd_c": [
+"00ba855a34",
+29258
+],
+"sounds/vo/krill/ping/krill_ping_watch_out.vsnd_c": [
+"004d2dfe49",
+16835
+],
+"sounds/vo/krill/ping/krill_ping_welcome.vsnd_c": [
+"003ce2794f",
+21663
+],
+"sounds/vo/krill/ping/krill_ping_werewolf_above.vsnd_c": [
+"00c58c29c3",
+21097
+],
+"sounds/vo/krill/ping/krill_ping_werewolf_almost_respawn.vsnd_c": [
+"0096ad7abb",
+24246
+],
+"sounds/vo/krill/ping/krill_ping_werewolf_below.vsnd_c": [
+"00f1079719",
+19618
+],
+"sounds/vo/krill/ping/krill_ping_werewolf_check_items.vsnd_c": [
+"00adb678b4",
+27230
+],
+"sounds/vo/krill/ping/krill_ping_werewolf_dead.vsnd_c": [
+"00d2962d55",
+22326
+],
+"sounds/vo/krill/ping/krill_ping_werewolf_low_health.vsnd_c": [
+"004d90e723",
+23232
+],
+"sounds/vo/krill/ping/krill_ping_werewolf_missing_01.vsnd_c": [
+"005cf3d54b",
+23076
+],
+"sounds/vo/krill/ping/krill_ping_with_astro.vsnd_c": [
+"0040d70f5f",
+24545
+],
+"sounds/vo/krill/ping/krill_ping_with_atlas.vsnd_c": [
+"002d709a96",
+21447
+],
+"sounds/vo/krill/ping/krill_ping_with_bebop.vsnd_c": [
+"00e974dfe3",
+20708
+],
+"sounds/vo/krill/ping/krill_ping_with_bookworm.vsnd_c": [
+"0054fec97b",
+19968
+],
+"sounds/vo/krill/ping/krill_ping_with_chrono.vsnd_c": [
+"00bdc380ec",
+24971
+],
+"sounds/vo/krill/ping/krill_ping_with_doorman.vsnd_c": [
+"0069f2372c",
+19121
+],
+"sounds/vo/krill/ping/krill_ping_with_drifter.vsnd_c": [
+"00bf234873",
+20609
+],
+"sounds/vo/krill/ping/krill_ping_with_dynamo.vsnd_c": [
+"0091b0a2e2",
+22412
+],
+"sounds/vo/krill/ping/krill_ping_with_familiar.vsnd_c": [
+"008508b523",
+18123
+],
+"sounds/vo/krill/ping/krill_ping_with_fencer.vsnd_c": [
+"0026698c84",
+20243
+],
+"sounds/vo/krill/ping/krill_ping_with_forge.vsnd_c": [
+"008b04e457",
+25300
+],
+"sounds/vo/krill/ping/krill_ping_with_frank.vsnd_c": [
+"00d7d6f594",
+19331
+],
+"sounds/vo/krill/ping/krill_ping_with_ghost.vsnd_c": [
+"00638cb440",
+21453
+],
+"sounds/vo/krill/ping/krill_ping_with_gigawatt.vsnd_c": [
+"002f089417",
+19874
+],
+"sounds/vo/krill/ping/krill_ping_with_haze.vsnd_c": [
+"0001de082a",
+21870
+],
+"sounds/vo/krill/ping/krill_ping_with_hornet.vsnd_c": [
+"00488cc443",
+22953
+],
+"sounds/vo/krill/ping/krill_ping_with_inferno.vsnd_c": [
+"007199dad3",
+22526
+],
+"sounds/vo/krill/ping/krill_ping_with_kelvin.vsnd_c": [
+"000438443f",
+22409
+],
+"sounds/vo/krill/ping/krill_ping_with_lash.vsnd_c": [
+"002dc70638",
+23582
+],
+"sounds/vo/krill/ping/krill_ping_with_magician.vsnd_c": [
+"0001d285bc",
+21135
+],
+"sounds/vo/krill/ping/krill_ping_with_mirage.vsnd_c": [
+"00a50ab4f0",
+22943
+],
+"sounds/vo/krill/ping/krill_ping_with_nano.vsnd_c": [
+"008944c82b",
+23261
+],
+"sounds/vo/krill/ping/krill_ping_with_necro.vsnd_c": [
+"00b2ae74ce",
+19552
+],
+"sounds/vo/krill/ping/krill_ping_with_orion.vsnd_c": [
+"00842bbdb7",
+23699
+],
+"sounds/vo/krill/ping/krill_ping_with_priest.vsnd_c": [
+"00ed2dfba9",
+20298
+],
+"sounds/vo/krill/ping/krill_ping_with_punkgoat.vsnd_c": [
+"003a74effe",
+18276
+],
+"sounds/vo/krill/ping/krill_ping_with_shiv.vsnd_c": [
+"006d7b716f",
+20078
+],
+"sounds/vo/krill/ping/krill_ping_with_synth.vsnd_c": [
+"0067208258",
+20911
+],
+"sounds/vo/krill/ping/krill_ping_with_tengu.vsnd_c": [
+"00255f2276",
+21134
+],
+"sounds/vo/krill/ping/krill_ping_with_unicorn.vsnd_c": [
+"00ce05e1bf",
+20254
+],
+"sounds/vo/krill/ping/krill_ping_with_vampirebat.vsnd_c": [
+"00c2f4ce30",
+19007
+],
+"sounds/vo/krill/ping/krill_ping_with_viper.vsnd_c": [
+"007bbe247e",
+19119
+],
+"sounds/vo/krill/ping/krill_ping_with_viscous.vsnd_c": [
+"00c5e72b58",
+22306
+],
+"sounds/vo/krill/ping/krill_ping_with_warden.vsnd_c": [
+"00755a884c",
+20920
+],
+"sounds/vo/krill/ping/krill_ping_with_werewolf.vsnd_c": [
+"00e78652ad",
+19023
+],
+"sounds/vo/krill/ping/krill_ping_with_wraith.vsnd_c": [
+"00f23ba2c9",
+21666
+],
+"sounds/vo/krill/ping/krill_ping_with_wrecker.vsnd_c": [
+"006e222ec0",
+20280
+],
+"sounds/vo/krill/ping/krill_ping_with_yamato.vsnd_c": [
+"0071d547b3",
+22725
+],
+"sounds/vo/krill/ping/krill_ping_with_you.vsnd_c": [
+"005eb49e34",
+16073
+],
+"sounds/vo/krill/ping/krill_ping_wraith_above.vsnd_c": [
+"00253f7f0b",
+18865
+],
+"sounds/vo/krill/ping/krill_ping_wraith_almost_respawn.vsnd_c": [
+"00dc7f9604",
+25426
+],
+"sounds/vo/krill/ping/krill_ping_wraith_below.vsnd_c": [
+"00636a68c9",
+18758
+],
+"sounds/vo/krill/ping/krill_ping_wraith_check_items.vsnd_c": [
+"009370f8c8",
+27329
+],
+"sounds/vo/krill/ping/krill_ping_wraith_dead.vsnd_c": [
+"00a687c5da",
+22825
+],
+"sounds/vo/krill/ping/krill_ping_wraith_low_health.vsnd_c": [
+"00867d279b",
+20670
+],
+"sounds/vo/krill/ping/krill_ping_wraith_missing_01.vsnd_c": [
+"00dfa00a11",
+20401
+],
+"sounds/vo/krill/ping/krill_ping_wrecker_almost_respawn.vsnd_c": [
+"00db2402a2",
+25851
+],
+"sounds/vo/krill/ping/krill_ping_wrecker_check_items.vsnd_c": [
+"00f3b956c1",
+31055
+],
+"sounds/vo/krill/ping/krill_ping_wrecker_dead.vsnd_c": [
+"009d18e9db",
+25070
+],
+"sounds/vo/krill/ping/krill_ping_wrecker_missing_01.vsnd_c": [
+"000a471608",
+23610
+],
+"sounds/vo/krill/ping/krill_ping_yamato_above.vsnd_c": [
+"00faea6a33",
+20364
+],
+"sounds/vo/krill/ping/krill_ping_yamato_almost_respawn.vsnd_c": [
+"0036e78454",
+29035
+],
+"sounds/vo/krill/ping/krill_ping_yamato_below.vsnd_c": [
+"00bb51b851",
+21093
+],
+"sounds/vo/krill/ping/krill_ping_yamato_check_items.vsnd_c": [
+"00c96f61c8",
+31817
+],
+"sounds/vo/krill/ping/krill_ping_yamato_dead.vsnd_c": [
+"009e03f20a",
+25826
+],
+"sounds/vo/krill/ping/krill_ping_yamato_low_health.vsnd_c": [
+"0071735835",
+23439
+],
+"sounds/vo/krill/ping/krill_ping_yamato_missing_01.vsnd_c": [
+"00d11a6c4d",
+24668
+],
+"sounds/vo/krill/ping/krill_ping_yellow_help_01.vsnd_c": [
+"008bce6bf6",
+18384
+],
+"sounds/vo/krill/ping/krill_ping_yellow_help_02.vsnd_c": [
+"00f2f0d1d8",
+22120
+],
+"sounds/vo/mirage/mirage_match_start_krill_mirage_convo01_01.vsnd_c": [
+"00360fe087",
+38359
+],
+"sounds/vo/mirage/mirage_match_start_krill_mirage_convo01_03.vsnd_c": [
+"00c5a01007",
+38780
+],
+"sounds/vo/mirage/mirage_match_start_krill_mirage_convo02_01.vsnd_c": [
+"00edc3de5a",
+84805
+],
+"sounds/vo/mirage/mirage_match_start_krill_mirage_convo02_03.vsnd_c": [
+"008b416277",
+128974
+],
+"sounds/vo/mirage/mirage_match_start_krill_mirage_convo02_05.vsnd_c": [
+"003a7fd480",
+27911
+],
+"sounds/vo/mirage/mirage_match_start_krill_mirage_convo03_02.vsnd_c": [
+"0014441f4a",
+15652
+],
+"sounds/vo/mirage/mirage_match_start_krill_mirage_convo03_04.vsnd_c": [
+"00ae2c6408",
+82554
+],
+"sounds/vo/mirage/mirage_match_start_krill_mirage_convo03_06.vsnd_c": [
+"00c62f01e7",
+31534
+],
+"sounds/vo/nano/nano_match_start_nano_krill_convo01_01.vsnd_c": [
+"00e6297cc6",
+22759
+],
+"sounds/vo/nano/nano_match_start_nano_krill_convo01_03.vsnd_c": [
+"008bd75082",
+32074
+],
+"sounds/vo/nano/nano_match_start_nano_krill_convo01_05.vsnd_c": [
+"007785ffff",
+42312
+],
+"sounds/vo/nano/nano_match_start_nano_krill_convo02_01.vsnd_c": [
+"009a53abfe",
+28896
+],
+"sounds/vo/nano/nano_match_start_nano_krill_convo02_03.vsnd_c": [
+"001d2b5cd8",
+34644
+],
+"sounds/vo/nano/nano_match_start_nano_krill_convo02_05.vsnd_c": [
+"00a3ccd3b5",
+15130
+],
+"sounds/vo/nano/nano_match_start_nano_krill_convo03_02.vsnd_c": [
+"00ca23181b",
+42843
+],
+"sounds/vo/necro/necro_match_start_necro_krill_convo01_02.vsnd_c": [
+"00948d4168",
+16957
+],
+"sounds/vo/necro/necro_match_start_necro_krill_convo02_01.vsnd_c": [
+"00a7a12122",
+18733
+],
+"sounds/vo/necro/necro_match_start_necro_krill_convo02_03.vsnd_c": [
+"00a4be9cfc",
+31975
+],
+"sounds/vo/necro/necro_match_start_necro_krill_convo03_02.vsnd_c": [
+"008d0565c3",
+21116
+],
+"sounds/vo/necro/necro_match_start_necro_krill_convo03_04.vsnd_c": [
+"00caa0b778",
+61383
+],
+"sounds/vo/necro/necro_match_start_necro_krill_convo03_06.vsnd_c": [
+"0032e844b8",
+17333
+],
+"sounds/vo/orion/orion_match_start_krill_orion_convo01_02.vsnd_c": [
+"005f38021d",
+13685
+],
+"sounds/vo/orion/orion_match_start_krill_orion_convo02_01.vsnd_c": [
+"00bf877888",
+50296
+],
+"sounds/vo/orion/orion_match_start_krill_orion_convo03_02.vsnd_c": [
+"00b9963314",
+14962
+],
+"sounds/vo/orion/orion_match_start_krill_orion_convo03_04.vsnd_c": [
+"0094225e7a",
+13261
+],
+"sounds/vo/priest/priest_match_start_priest_krill_convo01_02.vsnd_c": [
+"00bb1e5e2e",
+69603
+],
+"sounds/vo/priest/priest_match_start_priest_krill_convo01_04.vsnd_c": [
+"001782aaa3",
+39145
+],
+"sounds/vo/priest/priest_match_start_priest_krill_convo02_02.vsnd_c": [
+"007e459258",
+22428
+],
+"sounds/vo/priest/priest_match_start_priest_krill_convo02_04.vsnd_c": [
+"00f3da2a9a",
+36422
+],
+"sounds/vo/priest/priest_match_start_priest_krill_convo03_02.vsnd_c": [
+"00ec74089c",
+47791
+],
+"sounds/vo/shiv/shiv_match_start_krill_shiv_convo01_02.vsnd_c": [
+"009c15cf79",
+27923
+],
+"sounds/vo/shiv/shiv_match_start_krill_shiv_convo01_04.vsnd_c": [
+"00b19f0818",
+27720
+],
+"sounds/vo/shiv/shiv_match_start_krill_shiv_convo02_02.vsnd_c": [
+"00e2848db0",
+107366
+],
+"sounds/vo/shiv/shiv_match_start_krill_shiv_convo02_04.vsnd_c": [
+"0001e05c29",
+28874
+],
+"sounds/vo/shiv/shiv_match_start_krill_shiv_convo02_06.vsnd_c": [
+"002392823f",
+16423
+],
+"sounds/vo/shiv/shiv_match_start_krill_shiv_convo03_01.vsnd_c": [
+"00a644026a",
+36783
+],
+"sounds/vo/shiv/shiv_match_start_krill_shiv_convo03_03.vsnd_c": [
+"007e3a4a04",
+83938
+],
+"sounds/vo/synth/synth_match_start_krill_synth_convo01_01.vsnd_c": [
+"00e7348810",
+24934
+],
+"sounds/vo/synth/synth_match_start_krill_synth_convo01_03.vsnd_c": [
+"00e1a94a28",
+26120
+],
+"sounds/vo/synth/synth_match_start_krill_synth_convo02_01.vsnd_c": [
+"00e82bf4ae",
+33747
+],
+"sounds/vo/synth/synth_match_start_krill_synth_convo02_03.vsnd_c": [
+"00e475ea14",
+20560
+],
+"sounds/vo/synth/synth_match_start_krill_synth_convo03_02.vsnd_c": [
+"003b3f9a82",
+44495
+],
+"sounds/vo/tengu/tengu_match_start_tengu_krill_convo01_02.vsnd_c": [
+"007ee08c86",
+17313
+],
+"sounds/vo/tengu/tengu_match_start_tengu_krill_convo01_04.vsnd_c": [
+"00d513696e",
+25098
+],
+"sounds/vo/tengu/tengu_match_start_tengu_krill_convo02_01.vsnd_c": [
+"000e88301d",
+27554
+],
+"sounds/vo/tengu/tengu_match_start_tengu_krill_convo02_03.vsnd_c": [
+"006ce2cb96",
+32634
+],
+"sounds/vo/tengu/tengu_match_start_tengu_krill_convo02_05.vsnd_c": [
+"0004bb34a3",
+35335
+],
+"sounds/vo/tengu/tengu_match_start_tengu_krill_convo03_01.vsnd_c": [
+"00173455ae",
+28445
+],
+"sounds/vo/tengu/tengu_match_start_tengu_krill_convo03_03.vsnd_c": [
+"0007c7c335",
+37140
+],
+"sounds/vo/viper/viper_match_start_viper_krill_convo01_01.vsnd_c": [
+"00ded68129",
+56038
+],
+"sounds/vo/viper/viper_match_start_viper_krill_convo01_03.vsnd_c": [
+"00532e273e",
+54852
+],
+"sounds/vo/viper/viper_match_start_viper_krill_convo01_05.vsnd_c": [
+"00fbb39c3b",
+15791
+],
+"sounds/vo/viper/viper_match_start_viper_krill_convo02_01.vsnd_c": [
+"000c9454a2",
+82272
+],
+"sounds/vo/viper/viper_match_start_viper_krill_convo02_03.vsnd_c": [
+"00af5001fc",
+80088
+],
+"sounds/vo/viper/viper_match_start_viper_krill_convo02_05.vsnd_c": [
+"00ff63cf5e",
+48595
+],
+"sounds/vo/viper/viper_match_start_viper_krill_convo03_01.vsnd_c": [
+"001e7eb349",
+44549
+],
+"sounds/vo/viper/viper_match_start_viper_krill_convo03_03.vsnd_c": [
+"00b0977c6a",
+71821
+],
+"sounds/vo/viper/viper_match_start_viper_krill_convo03_05.vsnd_c": [
+"00cfae40f7",
+41362
+],
+"sounds/vo/viscous/viscous_match_start_krill_viscous_convo01_02.vsnd_c": [
+"00e3656392",
+63527
+],
+"sounds/vo/werewolf/werewolf_match_start_werewolf_krill_convo01_02.vsnd_c": [
+"00567c64e4",
+33146
+],
+"sounds/vo/werewolf/werewolf_match_start_werewolf_krill_convo01_04.vsnd_c": [
+"004aaeef1d",
+32175
+],
+"sounds/vo/werewolf/werewolf_match_start_werewolf_krill_convo02_01.vsnd_c": [
+"003e6a0a68",
+77348
+],
+"sounds/vo/werewolf/werewolf_match_start_werewolf_krill_convo02_03.vsnd_c": [
+"00e42fda2e",
+12887
+],
+"sounds/vo/werewolf/werewolf_match_start_werewolf_krill_convo03_01.vsnd_c": [
+"001b528ce9",
+41987
+],
+"sounds/vo/werewolf/werewolf_match_start_werewolf_krill_convo03_03.vsnd_c": [
+"00d4764aac",
+25468
+],
+"sounds/vo/werewolf/werewolf_match_start_werewolf_krill_convo03_05.vsnd_c": [
+"0010672abd",
+21845
+],
+"sounds/vo/wraith/wraith_match_start_krill_wraith_convo01_01.vsnd_c": [
+"00cefd06d3",
+24893
+],
+"sounds/vo/wraith/wraith_match_start_krill_wraith_convo01_03.vsnd_c": [
+"00c93861b9",
+95193
+],
+"sounds/vo/wraith/wraith_match_start_krill_wraith_convo02_01.vsnd_c": [
+"00ba202ea5",
+62278
+],
+"sounds/vo/wraith/wraith_match_start_krill_wraith_convo02_03.vsnd_c": [
+"00c291f021",
+34035
+],
+"sounds/vo/wraith/wraith_match_start_krill_wraith_convo03_02.vsnd_c": [
+"00708787d2",
+37041
+],
+"sounds/vo/wraith/wraith_match_start_krill_wraith_convo03_04.vsnd_c": [
+"00bada770c",
+47607
+],
+"sounds/vo/yamato/yamato_match_start_yamato_krill_convo01_01.vsnd_c": [
+"00f0104d6f",
+28179
+],
+"sounds/vo/yamato/yamato_match_start_yamato_krill_convo01_03.vsnd_c": [
+"00e78a9d71",
+26904
+],
+"sounds/vo/yamato/yamato_match_start_yamato_krill_convo01_05.vsnd_c": [
+"005a990feb",
+47725
+],
+"sounds/vo/yamato/yamato_match_start_yamato_krill_convo02_02.vsnd_c": [
+"00bf126594",
+30411
+],
+"sounds/vo/yamato/yamato_match_start_yamato_krill_convo02_04.vsnd_c": [
+"00ea937ad2",
+26163
+],
+"sounds/vo/yamato/yamato_match_start_yamato_krill_convo03_02.vsnd_c": [
+"006eecc016",
+32851
+]
+},
 "gren": {
 "materials/particle/abilities/yamato/yamato_grapple_rope_cable.vmat_c": [
 "001741e043",
