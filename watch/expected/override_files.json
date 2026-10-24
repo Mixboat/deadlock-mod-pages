@@ -688,9 +688,9 @@
 "000574c812",
 4672596
 ],
-"particles/abilities/digger/digger_ult_tgt_debuff.vpcf_c": [
-"000d8f3012",
-1966
+"particles/modifiers/stunned.vpcf_c": [
+"002bc85c5c",
+3288
 ],
 "scripts/abilities.vdata_c": [
 "00dac2c42e",
