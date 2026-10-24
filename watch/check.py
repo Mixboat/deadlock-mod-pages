@@ -41,6 +41,7 @@ MODS = {
     'tele': {'name': 'Clean Teleporter Wall', 'page': 'https://gamebanana.com/mods/725147'},
     'sg': {'name': 'Shotgun Heavy Melee SFX', 'page': 'https://gamebanana.com/sounds/93185'},
     'ows': {'name': 'Old Warp Stone Icon (private)', 'page': 'https://gamebanana.com/mods/725098'},
+    'fmk': {'name': 'Floigan Bros over Mo & Krill (private)', 'page': 'https://gamebanana.com/requests/95966'},
 }
 
 
@@ -300,7 +301,8 @@ REBUILD = {'gren': 'Re-run the Greninja fit/build (sessions/greninja_yamato buil
            'rkp': 'Rebuild the pride flag VPKs from the new flag texture and re-upload.',
            'tele': 'Rebuild teleporter_box from the new model and re-upload.',
            'sg': 'Rebuild the shotgun sound events / sound stacks from the new files and re-upload.',
-           'ows': 'Re-make the warp stone icon at the new size/format and re-upload.'}
+           'ows': 'Re-make the warp stone icon at the new size/format and re-upload.',
+           'fmk': 'Ask Claude to rebuild Floigan Mo Krill: python work/vdata.py (abilities.vdata changes on most patches), re-convert the clips if Mo & Krill animations changed, then build_mod.py and reinstall pak17.'}
 CRITICAL_EXT = ('.vmdl_c', '.vnmgraph_c', '.vnmskel_c', '.vsndevts_c', '.vsndstck_c', '.vpcf_c', '.vxml_c', '.vdata_c', '.vmat_c')
 try:
     listing = {}
