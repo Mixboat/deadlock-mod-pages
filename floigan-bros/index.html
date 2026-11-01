@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -10,14 +10,16 @@
 <meta property="og:image" content="img/cover.jpg">
 <style>
   :root {
-    --bg: #17191d; --panel: #22252b; --panel2: #2a2e35; --line: #353a42;
-    --text: #e3e5e8; --muted: #9aa1ab; --accent: #ffc72c; --accent-dark: #d9a400; --link: #7cc4ff;
+    /* Floigan Bros.: denim blues (the brothers' overalls), shirt yellow and the logo's orange and red */
+    --bg: #0d2440; --panel: #143459; --panel2: #1b4373; --line: #275b93;
+    --text: #fbf4e2; --muted: #b8cbe4; --accent: #ffc52e; --accent-dark: #f39a1b; --link: #ffd879;
+    --top: #091a30; --well: #0f2b4c; --note: #2a3550; --red: #d7372b;
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.55 "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
   a { color: var(--link); text-decoration: none; }
   a:hover { text-decoration: underline; }
-  .topbar { background: #101215; border-bottom: 3px solid var(--accent); }
+  .topbar { background: var(--top); border-bottom: 4px solid var(--accent-dark); box-shadow: 0 3px 0 var(--red); }
   .topbar .wrap { display: flex; align-items: center; gap: 14px; height: 52px; }
   .brand { font-weight: 800; letter-spacing: .5px; color: var(--accent); font-size: 18px; }
   .brand span { color: var(--text); font-weight: 600; }
@@ -32,7 +34,7 @@
   .grid { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 18px; align-items: start; padding-bottom: 40px; }
   @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
   .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 4px; }
-  .panel > h2 { margin: 0; padding: 10px 14px; font-size: 14px; text-transform: uppercase; letter-spacing: .8px; color: var(--accent); background: var(--panel2); border-bottom: 1px solid var(--line); border-radius: 4px 4px 0 0; }
+  .panel > h2 { margin: 0; padding: 10px 14px; font-size: 14px; text-transform: uppercase; letter-spacing: .8px; color: var(--accent); text-shadow: 1px 1px 0 var(--red); background: var(--panel2); border-bottom: 1px solid var(--line); border-radius: 4px 4px 0 0; }
   .panel .body { padding: 14px 16px; }
   .panel + .panel { margin-top: 18px; }
   .stage { position: relative; background: #000; aspect-ratio: 16 / 9; border-radius: 4px 4px 0 0; overflow: hidden; }
@@ -52,14 +54,14 @@
   .desc ul, .desc ol { margin: 6px 0; padding-left: 22px; }
   .desc li { margin: 3px 0; }
   .logo { display: block; max-width: 420px; width: 100%; margin: 4px auto 14px; }
-  code { background: #15171a; border: 1px solid var(--line); padding: 1px 5px; border-radius: 3px; font-size: 13px; }
-  .note { background: #2d2a1f; border-left: 3px solid var(--accent); padding: 8px 12px; margin: 10px 0; color: #e8dfc4; font-size: 14px; }
-  .file { border: 1px solid var(--line); border-radius: 4px; padding: 12px; background: #1d2025; }
+  code { background: var(--well); border: 1px solid var(--line); padding: 1px 5px; border-radius: 3px; font-size: 13px; }
+  .note { background: var(--note); border-left: 3px solid var(--accent-dark); padding: 8px 12px; margin: 10px 0; color: var(--text); font-size: 14px; }
+  .file { border: 1px solid var(--line); border-radius: 4px; padding: 12px; background: var(--well); }
   .file + .file { margin-top: 10px; }
   .file .name { font-weight: 600; word-break: break-all; }
   .file .meta { color: var(--muted); font-size: 12px; margin: 2px 0 8px; }
   .file .what { font-size: 13px; color: var(--muted); margin-bottom: 10px; }
-  .dl { display: block; text-align: center; background: var(--accent); color: #1a1a1a; font-weight: 700; padding: 9px; border-radius: 3px; }
+  .dl { display: block; text-align: center; background: linear-gradient(var(--accent), var(--accent-dark)); color: #3a1600; border: 2px solid var(--red); font-weight: 700; padding: 9px; border-radius: 3px; }
   .dl:hover { background: var(--accent-dark); text-decoration: none; }
   .kv { display: grid; grid-template-columns: 110px 1fr; gap: 6px 10px; font-size: 14px; }
   .kv dt { color: var(--muted); }
