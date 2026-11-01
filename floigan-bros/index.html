@@ -10,16 +10,16 @@
 <meta property="og:image" content="img/cover.jpg">
 <style>
   :root {
-    /* yellow on black (Moigle's shirt yellow) with blue highlights (the brothers' overalls) */
-    --bg: #0b0b0b; --panel: #161616; --panel2: #1f1f1f; --line: #2e2e2e;
-    --text: #f5f2e8; --muted: #b5b0a2; --accent: #ffc52e; --accent-dark: #e6a800; --link: #ffd54d;
-    --top: #000000; --well: #101010; --note: #0f1a2b; --red: #ffc52e; --blue: #2f8ff0; --blue-dark: #1b5fae;
+    /* Floigan Bros.: denim-blue panels (the brothers' overalls), shirt yellow and the logo's orange and red, on a black page */
+    --bg: #000000; --panel: #143459; --panel2: #1b4373; --line: #275b93;
+    --text: #fbf4e2; --muted: #b8cbe4; --accent: #ffc52e; --accent-dark: #f39a1b; --link: #ffd879;
+    --top: #091a30; --well: #0f2b4c; --note: #2a3550; --red: #d7372b;
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.55 "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
   a { color: var(--link); text-decoration: none; }
-  a:hover { color: var(--blue); text-decoration: underline; }
-  .topbar { background: var(--top); border-bottom: 4px solid var(--accent); box-shadow: 0 3px 0 var(--blue); }
+  a:hover { text-decoration: underline; }
+  .topbar { background: var(--top); border-bottom: 4px solid var(--accent-dark); }
   .topbar .wrap { display: flex; align-items: center; gap: 14px; height: 52px; }
   .brand { font-weight: 800; letter-spacing: .5px; color: var(--accent); font-size: 18px; }
   .brand span { color: var(--text); font-weight: 600; }
@@ -33,8 +33,8 @@
   .tag { background: var(--panel2); border: 1px solid var(--line); color: var(--muted); font-size: 12px; padding: 3px 9px; border-radius: 3px; }
   .grid { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 18px; align-items: start; padding-bottom: 40px; }
   @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
-  .panel { background: var(--panel); border: 1px solid var(--line); border-top: 2px solid var(--accent); border-radius: 4px; }
-  .panel > h2 { margin: 0; padding: 10px 14px; font-size: 14px; text-transform: uppercase; letter-spacing: .8px; color: var(--accent);  background: var(--panel2); border-bottom: 2px solid var(--blue); border-radius: 4px 4px 0 0; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 4px; }
+  .panel > h2 { margin: 0; padding: 10px 14px; font-size: 14px; text-transform: uppercase; letter-spacing: .8px; color: var(--accent);  background: var(--panel2); border-bottom: 1px solid var(--line); border-radius: 4px 4px 0 0; }
   .panel .body { padding: 14px 16px; }
   .panel + .panel { margin-top: 18px; }
   .stage { position: relative; background: #000; aspect-ratio: 16 / 9; border-radius: 4px 4px 0 0; overflow: hidden; }
@@ -43,25 +43,25 @@
   .stage img[hidden], .stage iframe[hidden] { display: none; }
   .thumbs img[data-yt] { position: relative; }
   .stage button { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,.55); color: #fff; border: 0; width: 40px; height: 56px; font-size: 26px; cursor: pointer; }
-  .stage button:hover { background: var(--blue-dark); }
+  .stage button:hover { background: rgba(0,0,0,.8); }
   .stage .prev { left: 0; } .stage .next { right: 0; }
   .caption { padding: 8px 14px; color: var(--muted); font-size: 13px; border-bottom: 1px solid var(--line); }
   .thumbs { display: flex; gap: 8px; padding: 10px 14px; overflow-x: auto; }
   .thumbs img { width: 120px; height: 68px; object-fit: cover; border: 2px solid transparent; border-radius: 3px; cursor: pointer; opacity: .7; }
-  .thumbs img.on { border-color: var(--blue); opacity: 1; }
+  .thumbs img.on { border-color: var(--accent); opacity: 1; }
   .desc h3 { color: var(--accent); margin: 18px 0 6px; font-size: 17px; }
   .desc h3:first-child { margin-top: 0; }
   .desc ul, .desc ol { margin: 6px 0; padding-left: 22px; }
   .desc li { margin: 3px 0; }
   .logo { display: block; max-width: 420px; width: 100%; margin: 4px auto 14px; }
   code { background: var(--well); border: 1px solid var(--line); padding: 1px 5px; border-radius: 3px; font-size: 13px; }
-  .note { background: var(--note); border-left: 3px solid var(--blue); padding: 8px 12px; margin: 10px 0; color: var(--text); font-size: 14px; }
+  .note { background: var(--note); border-left: 3px solid var(--accent-dark); padding: 8px 12px; margin: 10px 0; color: var(--text); font-size: 14px; }
   .file { border: 1px solid var(--line); border-radius: 4px; padding: 12px; background: var(--well); }
   .file + .file { margin-top: 10px; }
   .file .name { font-weight: 600; word-break: break-all; }
   .file .meta { color: var(--muted); font-size: 12px; margin: 2px 0 8px; }
   .file .what { font-size: 13px; color: var(--muted); margin-bottom: 10px; }
-  .dl { display: block; text-align: center; background: linear-gradient(var(--accent), var(--accent-dark)); color: #111; border: 2px solid var(--blue); font-weight: 700; padding: 9px; border-radius: 3px; }
+  .dl { display: block; text-align: center; background: linear-gradient(var(--accent), var(--accent-dark)); color: #111; border: 2px solid var(--accent-dark); font-weight: 700; padding: 9px; border-radius: 3px; }
   .dl:hover { background: var(--accent-dark); text-decoration: none; }
   .kv { display: grid; grid-template-columns: 110px 1fr; gap: 6px 10px; font-size: 14px; }
   .kv dt { color: var(--muted); }
