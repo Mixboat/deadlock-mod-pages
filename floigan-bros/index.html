@@ -37,6 +37,9 @@
   .panel + .panel { margin-top: 18px; }
   .stage { position: relative; background: #000; aspect-ratio: 16 / 9; border-radius: 4px 4px 0 0; overflow: hidden; }
   .stage img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .stage iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .stage img[hidden], .stage iframe[hidden] { display: none; }
+  .thumbs img[data-yt] { position: relative; }
   .stage button { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,.55); color: #fff; border: 0; width: 40px; height: 56px; font-size: 26px; cursor: pointer; }
   .stage button:hover { background: rgba(0,0,0,.8); }
   .stage .prev { left: 0; } .stage .next { right: 0; }
@@ -85,11 +88,13 @@
       <section class="panel">
         <div class="stage">
           <img id="big" src="img/cover.jpg" alt="Floigan Bros. in Deadlock">
+          <iframe id="vid" title="Floigan Bros. in Deadlock - Mo &amp; Krill Mod" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen hidden></iframe>
           <button class="prev" aria-label="Previous image">&lsaquo;</button>
           <button class="next" aria-label="Next image">&rsaquo;</button>
         </div>
         <div class="caption" id="cap">Hoigle and Moigle in Deadlock</div>
         <div class="thumbs" id="thumbs">
+          <img src="https://img.youtube.com/vi/0TJcZ1HkejY/hqdefault.jpg" data-yt="0TJcZ1HkejY" data-cap="Showcase video" alt="">
           <img src="img/cover.jpg" data-cap="Hoigle and Moigle in Deadlock" alt="">
           <img src="img/shot1.jpg" data-cap="In game: Moigle runs, Hoigle rides on his back" alt="">
           <img src="img/shot2.jpg" data-cap="In game" alt="">
@@ -168,10 +173,19 @@
 <script>
 (function () {
   var thumbs = Array.prototype.slice.call(document.querySelectorAll('#thumbs img'));
-  var big = document.getElementById('big'), cap = document.getElementById('cap'), i = 0;
+  var big = document.getElementById('big'), vid = document.getElementById('vid'), cap = document.getElementById('cap'), i = 0;
   function show(n) {
     i = (n + thumbs.length) % thumbs.length;
-    big.src = thumbs[i].src; cap.textContent = thumbs[i].dataset.cap;
+    var yt = thumbs[i].dataset.yt;
+    if (yt) {
+      var src = 'https://www.youtube-nocookie.com/embed/' + yt + '?rel=0';
+      if (vid.getAttribute('src') !== src) vid.setAttribute('src', src);
+      vid.hidden = false; big.hidden = true;
+    } else {
+      vid.removeAttribute('src'); vid.hidden = true; big.hidden = false;
+      big.src = thumbs[i].src;
+    }
+    cap.textContent = thumbs[i].dataset.cap;
     thumbs.forEach(function (t, k) { t.classList.toggle('on', k === i); });
   }
   thumbs.forEach(function (t, k) { t.addEventListener('click', function () { show(k); }); });
