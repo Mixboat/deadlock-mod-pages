@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Floigan Bros. (Mo &amp; Krill Replacement) | Deadlock Mod</title>
+<meta name="description" content="Hoigle and Moigle from Floigan Bros. replace Mo &amp; Krill in Deadlock, with their own voices, art and sounds.">
+<meta property="og:title" content="Floigan Bros. (Mo &amp; Krill Replacement)">
+<meta property="og:description" content="Hoigle and Moigle from Floigan Bros. replace Mo &amp; Krill in Deadlock.">
+<meta property="og:image" content="img/cover.jpg">
+<style>
+  :root {
+    --bg: #17191d; --panel: #22252b; --panel2: #2a2e35; --line: #353a42;
+    --text: #e3e5e8; --muted: #9aa1ab; --accent: #ffc72c; --accent-dark: #d9a400; --link: #7cc4ff;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.55 "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .topbar { background: #101215; border-bottom: 3px solid var(--accent); }
+  .topbar .wrap { display: flex; align-items: center; gap: 14px; height: 52px; }
+  .brand { font-weight: 800; letter-spacing: .5px; color: var(--accent); font-size: 18px; }
+  .brand span { color: var(--text); font-weight: 600; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+  .crumbs { color: var(--muted); font-size: 13px; padding: 14px 0 4px; }
+  .crumbs b { color: var(--text); font-weight: 600; }
+  .head { display: flex; gap: 16px; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; padding: 6px 0 14px; }
+  h1 { margin: 0; font-size: 28px; line-height: 1.2; }
+  .sub { color: var(--muted); margin-top: 4px; }
+  .tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tag { background: var(--panel2); border: 1px solid var(--line); color: var(--muted); font-size: 12px; padding: 3px 9px; border-radius: 3px; }
+  .grid { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 18px; align-items: start; padding-bottom: 40px; }
+  @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 4px; }
+  .panel > h2 { margin: 0; padding: 10px 14px; font-size: 14px; text-transform: uppercase; letter-spacing: .8px; color: var(--accent); background: var(--panel2); border-bottom: 1px solid var(--line); border-radius: 4px 4px 0 0; }
+  .panel .body { padding: 14px 16px; }
+  .panel + .panel { margin-top: 18px; }
+  .stage { position: relative; background: #000; aspect-ratio: 16 / 9; border-radius: 4px 4px 0 0; overflow: hidden; }
+  .stage img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .stage button { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,.55); color: #fff; border: 0; width: 40px; height: 56px; font-size: 26px; cursor: pointer; }
+  .stage button:hover { background: rgba(0,0,0,.8); }
+  .stage .prev { left: 0; } .stage .next { right: 0; }
+  .caption { padding: 8px 14px; color: var(--muted); font-size: 13px; border-bottom: 1px solid var(--line); }
+  .thumbs { display: flex; gap: 8px; padding: 10px 14px; overflow-x: auto; }
+  .thumbs img { width: 120px; height: 68px; object-fit: cover; border: 2px solid transparent; border-radius: 3px; cursor: pointer; opacity: .7; }
+  .thumbs img.on { border-color: var(--accent); opacity: 1; }
+  .desc h3 { color: var(--accent); margin: 18px 0 6px; font-size: 17px; }
+  .desc h3:first-child { margin-top: 0; }
+  .desc ul, .desc ol { margin: 6px 0; padding-left: 22px; }
+  .desc li { margin: 3px 0; }
+  .logo { display: block; max-width: 420px; width: 100%; margin: 4px auto 14px; }
+  code { background: #15171a; border: 1px solid var(--line); padding: 1px 5px; border-radius: 3px; font-size: 13px; }
+  .note { background: #2d2a1f; border-left: 3px solid var(--accent); padding: 8px 12px; margin: 10px 0; color: #e8dfc4; font-size: 14px; }
+  .file { border: 1px solid var(--line); border-radius: 4px; padding: 12px; background: #1d2025; }
+  .file + .file { margin-top: 10px; }
+  .file .name { font-weight: 600; word-break: break-all; }
+  .file .meta { color: var(--muted); font-size: 12px; margin: 2px 0 8px; }
+  .file .what { font-size: 13px; color: var(--muted); margin-bottom: 10px; }
+  .dl { display: block; text-align: center; background: var(--accent); color: #1a1a1a; font-weight: 700; padding: 9px; border-radius: 3px; }
+  .dl:hover { background: var(--accent-dark); text-decoration: none; }
+  .kv { display: grid; grid-template-columns: 110px 1fr; gap: 6px 10px; font-size: 14px; }
+  .kv dt { color: var(--muted); }
+  .kv dd { margin: 0; }
+  .credits h4 { margin: 10px 0 4px; font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: .6px; }
+  .credits h4:first-child { margin-top: 0; }
+  .credits p { margin: 0 0 2px; }
+  footer { color: var(--muted); font-size: 12px; text-align: center; padding: 18px 0 28px; border-top: 1px solid var(--line); }
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap"><div class="brand">MIXBOAT <span>Deadlock Mods</span></div></div></div>
+
+<div class="wrap">
+  <div class="crumbs">Deadlock &rsaquo; Mods &rsaquo; Skins &rsaquo; <b>Mo &amp; Krill</b></div>
+  <div class="head">
+    <div>
+      <h1>Floigan Bros. (Mo &amp; Krill Replacement)</h1>
+      <div class="sub">Hoigle and Moigle from Floigan Bros. replace Mo &amp; Krill, with their own voices, art and sounds.</div>
+    </div>
+    <div class="tags"><span class="tag">Skin</span><span class="tag">Mo &amp; Krill</span><span class="tag">Voice</span><span class="tag">UI</span><span class="tag">Port</span></div>
+  </div>
+
+  <div class="grid">
+    <main>
+      <section class="panel">
+        <div class="stage">
+          <img id="big" src="img/cover.jpg" alt="Floigan Bros. in Deadlock">
+          <button class="prev" aria-label="Previous image">&lsaquo;</button>
+          <button class="next" aria-label="Next image">&rsaquo;</button>
+        </div>
+        <div class="caption" id="cap">Hoigle and Moigle in Deadlock</div>
+        <div class="thumbs" id="thumbs">
+          <img src="img/cover.jpg" data-cap="Hoigle and Moigle in Deadlock" alt="">
+          <img src="img/shot1.jpg" data-cap="In game: Moigle runs, Hoigle rides on his back" alt="">
+          <img src="img/shot2.jpg" data-cap="In game" alt="">
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Description</h2>
+        <div class="body desc">
+          <img class="logo" src="img/logo.png" alt="FLOIGAN BROS.">
+          <p>Hoigle and Moigle from the Dreamcast game <b>Floigan Bros.</b> (2001), fully replacing Mo &amp; Krill.</p>
+
+          <h3>Models</h3>
+          <ul>
+            <li>Moigle replaces Mo, and Hoigle rides on his back in Krill's place</li>
+            <li>Ripped from the original game: the brothers' models and textures from the Dreamcast disc</li>
+            <li>Hoigle keeps Krill's gun</li>
+          </ul>
+
+          <h3>Abilities (new names and icons)</h3>
+          <ol>
+            <li>Taunt!</li>
+            <li>Hide and Seek</li>
+            <li>Smoke Toss</li>
+            <li>Tag!</li>
+          </ol>
+          <p><b>Dizzy birds:</b> in the main version, every stun shows Moigle's dizzy birds over the stunned hero instead of the stun stars.</p>
+
+          <h3>Voice and sounds</h3>
+          <ul>
+            <li>The brothers' own voice lines from the game, picked for every voice event</li>
+            <li>Original Floigan Bros. sound effects on Taunt! and Hide and Seek</li>
+          </ul>
+
+          <h3>Menus</h3>
+          <ul>
+            <li>FLOIGAN BROS. name logo in the style of the game's cover</li>
+            <li>New hero portraits, hero-grid tile and hero-select pose</li>
+            <li>Hero tags: Dynamic Duo / Mastermind / Muscle</li>
+            <li>All text says Hoigle and Moigle</li>
+          </ul>
+
+          <h3>Install</h3>
+          <p>Add the VPK with your mod manager, or copy it into <code>Deadlock/game/citadel/addons/</code> as a free <code>pakXX_dir.vpk</code>.</p>
+          <p>Client-side only: you see the Floigan Bros., other players still see Mo &amp; Krill.</p>
+          <div class="note">It ships the full English hero text file, so it can clash with other mods that change hero text. After a game patch the text files may need an update.</div>
+        </div>
+      </section>
+    </main>
+
+    <aside>
+      <section class="panel">
+        <h2>Files</h2>
+        <div class="body">
+          <div class="file">
+            <div class="name">floigan_bros.zip</div>
+            <div class="meta">60 MB &middot; 2026-10-28</div>
+            <div class="what">Everything, including the dizzy birds on stuns.</div>
+            <a class="dl" href="https://github.com/Mixboat/deadlock-mod-pages/releases/download/floigan-bros-v10/floigan_bros.zip">Download</a>
+          </div>
+          <div class="file">
+            <div class="name">floigan_bros_no_stun.zip</div>
+            <div class="meta">58 MB &middot; 2026-10-28</div>
+            <div class="what">The same without the stun change. Use this one if you run another mod that changes the stun effect or the ability data.</div>
+            <a class="dl" href="https://github.com/Mixboat/deadlock-mod-pages/releases/download/floigan-bros-v10/floigan_bros_no_stun.zip">Download</a>
+          </div>
+        </div>
+      </section>
+
+    </aside>
+  </div>
+</div>
+
+<footer>Fan-made mod. Not affiliated with Valve or Sega. Floigan Bros. &copy; Sega.</footer>
+
+<script>
+(function () {
+  var thumbs = Array.prototype.slice.call(document.querySelectorAll('#thumbs img'));
+  var big = document.getElementById('big'), cap = document.getElementById('cap'), i = 0;
+  function show(n) {
+    i = (n + thumbs.length) % thumbs.length;
+    big.src = thumbs[i].src; cap.textContent = thumbs[i].dataset.cap;
+    thumbs.forEach(function (t, k) { t.classList.toggle('on', k === i); });
+  }
+  thumbs.forEach(function (t, k) { t.addEventListener('click', function () { show(k); }); });
+  document.querySelector('.prev').addEventListener('click', function () { show(i - 1); });
+  document.querySelector('.next').addEventListener('click', function () { show(i + 1); });
+  show(0);
+})();
+</script>
+</body>
+</html>
