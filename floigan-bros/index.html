@@ -178,7 +178,7 @@
     i = (n + thumbs.length) % thumbs.length;
     var yt = thumbs[i].dataset.yt;
     if (yt) {
-      var src = 'https://www.youtube-nocookie.com/embed/' + yt + '?rel=0';
+      var src = 'https://www.youtube-nocookie.com/embed/' + yt + '?rel=0&autoplay=1&mute=1&playsinline=1';   // browsers only autoplay muted video
       if (vid.getAttribute('src') !== src) vid.setAttribute('src', src);
       vid.hidden = false; big.hidden = true;
     } else {
