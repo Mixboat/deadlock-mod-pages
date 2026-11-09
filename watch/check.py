@@ -255,7 +255,8 @@ except Exception as e:
 # makes copies of the stock buff/debuff strip (display_location "healthbar") by the health bar / under the crosshair and fades the
 # stock one; a safety net shows the stock strip again if the copies stay empty.
 try:
-    for name in ('hud_screen_effects_stunned', 'hud_screen_effects_scope'):
+    # v1.1+: hooks hud_screen_effects_scope + hud_movement_speed (hud_screen_effects_stunned now belongs to Shop Notes 2.0)
+    for name in ('hud_movement_speed', 'hud_screen_effects_scope'):
         live = norm(get(P + 'layout/%s.xml' % name))
         expected = norm(open(os.path.join(HERE, 'expected', name + '.xml'), encoding='utf-8').read())
         check('obd_layout_' + name, 'critical', live == expected,
@@ -270,6 +271,24 @@ try:
           'adds one in #health_and_abilities_container. Something changed: the safety net should show the stock strip, so players '
           'see the game default. Check in game and update old_buffs_debuffs.js / the two own layouts in the builder.', mod='obd')
     hhc = get(P + 'layout/hud_health_container.xml'); se = get(P + 'layout/citadel_status_effect.xml')
+    # v1.2+: ships citadel_status_effect itself (max_modifiers 40 on the root lifts the 4-icon cap). A stale copy overrides
+    # Valve's new one for EVERY status strip (also the icons over enemies' heads), so any change is critical.
+    expected = norm(open(os.path.join(HERE, 'expected', 'citadel_status_effect.xml'), encoding='utf-8').read())
+    check('obd_layout_citadel_status_effect', 'critical', norm(se) == expected,
+          'Valve changed citadel_status_effect.xml',
+          'Classic Buffs & Debuffs v1.2+ ships its own copy of panorama/layout/citadel_status_effect (the stock file plus '
+          'max_modifiers="40" on the root). The old copy now overrides the new one for every buff/debuff strip, so icons can look '
+          'wrong or vanish. Rebuild with build_old_buffs_debuffs.py (it reads the current file from pak01), re-upload, then refresh '
+          'watch/expected/citadel_status_effect.xml.', mod='obd')
+    # The 4-icon cap is a Valve bug: CitadelStatusEffect reads only the FIRST of display_location / max_modifiers. If hud.xml
+    # stops listing display_location before max_modifiers (or drops max_modifiers), Valve may have fixed or changed it.
+    strip = re.search(r'<CitadelStatusEffect[^>]*under_reticle[^>]*>', hud)
+    st = strip.group(0) if strip else ''
+    check('obd_cap_bug', 'warning', st.find('display_location=') >= 0 and st.find('max_modifiers=') > st.find('display_location='),
+          'Stock strip attributes changed (4-icon cap fix may be obsolete)',
+          'The mod lifts the 4-icon cap because the game applies only the first of display_location / max_modifiers and hud.xml '
+          'lists display_location first. That order changed (now: %s). Check in game whether the stock strip still stops at 4; '
+          'if Valve fixed it, the citadel_status_effect copy can be dropped from the mod.' % (st or 'strip not found'), mod='obd')
     check('obd_health_block', 'critical', 'id="HealthBarContent"' in hhc,
           'Health bar block renamed', '#HealthBarContent is gone from hud_health_container.xml; Old/Mixed never place the column '
           '(the stock strip stays). Update healthContent() in old_buffs_debuffs.js.', mod='obd')
