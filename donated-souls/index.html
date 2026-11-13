@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'">
+<title>DSOULS_INIT</title>
+</head>
+<body>
+<!-- Donated Souls (Deadlock mod) totals storage.
+     The mod loads this page in a hidden in-game browser panel and keeps its match totals in this page's localStorage,
+     on your own PC. Requests arrive in the URL fragment as JSON, answers go out through the page title.
+     Nothing is sent anywhere and nothing is loaded from other sites. -->
+<script>
+(function () {
+    'use strict';
+    if (window.top !== window.self) return;
+    var KEY = 'donated_souls.v1', MAX = 6000, VERSION = 1;
+    // the saved text is the mod's own compact JSON: digits, brackets, commas and a few lower case keys only
+    var SAFE = /^[\[\]{}0-9,:."a-z\-]*$/;
+    function get() { try { return localStorage.getItem(KEY) || ''; } catch (e) { return ''; } }
+    function reply(n, obj) { document.title = 'DSOULS:' + n + ':' + JSON.stringify(obj); }
+    function handle() {
+        var h = location.hash.slice(1);
+        if (!h) { reply(0, { ready: 1, v: VERSION, d: get() }); return; }
+        var m;
+        try { m = JSON.parse(decodeURIComponent(h)); } catch (e) { return; }
+        if (!m || typeof m !== 'object') return;
+        var n = String(Math.floor(Number(m.n) || 0));
+        if (typeof m.set === 'string') {
+            if (m.set.length > MAX || !SAFE.test(m.set)) { reply(n, { error: 'bad data' }); return; }
+            try { JSON.parse(m.set || 'null'); localStorage.setItem(KEY, m.set); }
+            catch (e) { reply(n, { error: String(e && e.message || e) }); return; }
+        }
+        reply(n, { ok: 1, len: get().length });
+    }
+    window.addEventListener('hashchange', handle);
+    handle();
+})();
+</script>
+</body>
+</html>
